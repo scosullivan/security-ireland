@@ -22,8 +22,8 @@ const config: Config = {
         stone: "#9A9A8A",
       },
       fontFamily: {
-        serif: ["Georgia", "Times New Roman", "serif"],
-        sans: ["Calibri", "Helvetica Neue", "Arial", "sans-serif"],
+        serif: ["Lora", "Georgia", "Times New Roman", "serif"],
+        sans: ["Inter", "Helvetica Neue", "Arial", "sans-serif"],
         mono: ["JetBrains Mono", "monospace"],
       },
       letterSpacing: {

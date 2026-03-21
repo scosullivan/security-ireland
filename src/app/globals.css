@@ -13,8 +13,8 @@
   --color-graphite: #4A4A4A;
   --color-stone: #9A9A8A;
 
-  --font-serif: Georgia, "Times New Roman", serif;
-  --font-sans: Calibri, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Lora", serif;
+  --font-sans: "Inter", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 }
 
@@ -118,20 +118,61 @@ body {
 
 /* Ireland SVG animation */
 @keyframes draw {
-  from { stroke-dashoffset: 2000; }
+  from { stroke-dashoffset: 2400; }
   to { stroke-dashoffset: 0; }
 }
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 .scrawl {
-  stroke-dasharray: 2000;
-  animation: draw 3s ease-out forwards;
+  stroke-dasharray: 2400;
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-.s0 { stroke: var(--color-terracotta); stroke-width: 1.0; opacity: 0.12; animation-delay: 0s; }
-.s1 { stroke: var(--color-copper); stroke-width: 0.9; opacity: 0.15; animation-delay: 0.15s; }
-.s2 { stroke: var(--color-sage); stroke-width: 0.8; opacity: 0.2; animation-delay: 0.3s; }
-.s3 { stroke: var(--color-fern); stroke-width: 0.7; opacity: 0.3; animation-delay: 0.45s; }
-.s4 { stroke: var(--color-forest); stroke-width: 0.8; opacity: 0.45; animation-delay: 0.6s; }
-.s5 { stroke: var(--color-forest); stroke-width: 0.9; opacity: 0.55; animation-delay: 0.75s; }
-.s6 { stroke: var(--color-forest); stroke-width: 1.0; opacity: 0.7; animation-delay: 0.9s; }
+.s0 { stroke: var(--color-fern); stroke-width: 3.5; stroke-opacity: 0.08; animation: draw 2.8s ease-out forwards; animation-delay: 0.5s; }
+.s1 { stroke: var(--color-fern); stroke-width: 2.5; stroke-opacity: 0.12; animation: draw 2.5s ease-out forwards; animation-delay: 0.8s; }
+.s2 { stroke: var(--color-fern); stroke-width: 4.0; stroke-opacity: 0.06; animation: draw 3.2s ease-out forwards; animation-delay: 1.0s; }
+.s3 { stroke: var(--color-fern); stroke-width: 2.0; stroke-opacity: 0.18; animation: draw 2.2s ease-out forwards; animation-delay: 1.3s; }
+.s4 { stroke: var(--color-fern); stroke-width: 3.0; stroke-opacity: 0.10; animation: draw 2.6s ease-out forwards; animation-delay: 1.7s; }
+.s5 { stroke: var(--color-forest); stroke-width: 1.5; stroke-opacity: 0.25; animation: draw 2.0s ease-out forwards; animation-delay: 2.0s; }
+.s6 { stroke: var(--color-forest); stroke-width: 1.2; stroke-opacity: 0.35; animation: draw 1.8s ease-out forwards; animation-delay: 2.5s; }
+
+/* Pause animations until anim-go class is applied */
+.ireland-svg .scrawl {
+  animation-play-state: paused;
+}
+.ireland-svg.anim-go .scrawl {
+  animation-play-state: running;
+}
+.ireland-svg.anim-go .dot {
+  animation: fade-in 0.8s ease-out forwards;
+}
+.ireland-svg.anim-go .dot-label {
+  animation: fade-in 0.6s ease-out forwards;
+}
+
+/* City dots */
+.dot {
+  fill: var(--color-terracotta);
+  opacity: 0;
+}
+.dot-dublin { animation-delay: 3.5s; }
+.dot-cork { animation-delay: 3.7s; }
+.dot-galway { animation-delay: 3.9s; }
+.dot-belfast { animation-delay: 4.1s; }
+
+/* City labels */
+.dot-label {
+  font-family: var(--font-mono);
+  font-size: 7.5px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  fill: var(--color-stone);
+  opacity: 0;
+}
+.dot-label-dublin { animation-delay: 3.7s; }
+.dot-label-cork { animation-delay: 3.9s; }
+.dot-label-galway { animation-delay: 4.1s; }
+.dot-label-belfast { animation-delay: 4.3s; }

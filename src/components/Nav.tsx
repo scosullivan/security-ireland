@@ -11,7 +11,7 @@ export default function Nav() {
       className="sticky top-0 z-50 bg-cream border-b border-rule"
       style={{ borderColor: 'var(--color-rule)' }}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div className="max-w-6xl mx-auto px-12 py-7">
         <div className="flex items-center justify-between">
           {/* Left side - Logo */}
           <Link href="/" className="flex items-center gap-3">
@@ -31,11 +31,10 @@ export default function Nav() {
             {/* Logo text */}
             <div className="flex flex-col leading-tight">
               <span
-                className="text-sm font-serif font-normal"
-                style={{ fontFamily: 'var(--font-serif)', color: 'var(--color-forest)' }}
+                style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', fontWeight: 700, color: 'var(--color-forest)' }}
               >
                 Security{' '}
-                <span style={{ fontStyle: 'italic', color: 'var(--color-fern)' }}>
+                <span style={{ fontStyle: 'italic', fontWeight: 700, color: 'var(--color-fern)' }}>
                   Ireland
                 </span>
               </span>
@@ -64,39 +63,47 @@ export default function Nav() {
 
           {/* Right side - Navigation links - desktop */}
           <div
-            className="hidden md:flex gap-6"
+            className="hidden md:flex gap-6 items-center"
             style={{
               fontFamily: 'var(--font-mono)',
               fontSize: '11px',
-              letterSpacing: '1.5px',
+              letterSpacing: '0.5px',
               textTransform: 'uppercase',
             }}
           >
             <Link
               href="/analysis"
-              style={{ color: 'var(--color-terracotta)' }}
-              className="hover:opacity-75 transition-opacity"
+              style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }}
+              className="hover:text-ink"
+              onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'}
+              onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}
             >
               Analysis
             </Link>
             <Link
               href="/eu-presidency"
-              style={{ color: 'var(--color-terracotta)' }}
-              className="hover:opacity-75 transition-opacity"
+              style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }}
+              className="hover:text-ink"
+              onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'}
+              onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}
             >
               EU Presidency
             </Link>
             <Link
               href="/topics"
-              style={{ color: 'var(--color-terracotta)' }}
-              className="hover:opacity-75 transition-opacity"
+              style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }}
+              className="hover:text-ink"
+              onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'}
+              onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}
             >
               Topics
             </Link>
             <Link
               href="/about"
-              style={{ color: 'var(--color-terracotta)' }}
-              className="hover:opacity-75 transition-opacity"
+              style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }}
+              className="hover:text-ink"
+              onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'}
+              onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}
             >
               About
             </Link>

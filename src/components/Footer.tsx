@@ -10,20 +10,21 @@ export default function Footer() {
         color: 'var(--color-ink)',
       }}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-12">
         <div className="flex flex-col md:flex-row md:justify-between items-start gap-8 mb-8">
           {/* Left side - tagline */}
           <div className="flex-1">
             <p
               style={{
                 fontFamily: 'var(--font-serif)',
-                fontSize: '1.125rem',
-                lineHeight: '1.6',
-                color: 'var(--color-graphite)',
+                fontSize: '14px',
+                fontStyle: 'italic',
+                lineHeight: 1.6,
+                color: 'var(--color-stone)',
               }}
             >
               Independent analysis for a changing{' '}
-              <span style={{ fontStyle: 'italic', color: 'var(--color-fern)' }}>
+              <span style={{ color: 'var(--color-fern)' }}>
                 Ireland.
               </span>
             </p>
@@ -34,8 +35,8 @@ export default function Footer() {
             className="flex gap-6"
             style={{
               fontFamily: 'var(--font-mono)',
-              fontSize: '11px',
-              letterSpacing: '1.5px',
+              fontSize: '10px',
+              letterSpacing: '1px',
               textTransform: 'uppercase',
             }}
           >

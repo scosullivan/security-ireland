@@ -12,29 +12,29 @@ export default async function Home() {
   return (
     <div className="bg-cream">
       {/* Hero Section */}
-      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+      <section className="max-w-6xl mx-auto px-12 py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column */}
           <div>
-            <h1 className="text-4xl sm:text-5xl font-serif font-bold text-ink leading-tight mb-6">
+            <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: '44px', fontWeight: 400, lineHeight: 1.4, color: 'var(--color-ink)', marginBottom: '24px' }}>
               Independent analysis for a{' '}
-              <span className="italic text-fern">changing Ireland</span>
+              <span style={{ fontStyle: 'italic', color: 'var(--color-fern)' }}>changing Ireland</span>
             </h1>
-            <p className="text-lg text-graphite font-sans leading-relaxed mb-8">
+            <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, marginBottom: '32px' }}>
               We provide rigorous, independent analysis of security and defence policy.
               At a time of unprecedented change in Ireland's strategic environment, we help
               policymakers, media, and citizens understand the challenges and opportunities ahead.
             </p>
-            <div className="flex gap-4 flex-wrap">
+            <div className="flex gap-8 flex-wrap items-center">
               <Link
                 href="#newsletter"
-                className="text-terracotta font-sans font-bold hover:text-copper transition-colors"
+                style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', textTransform: 'uppercase', letterSpacing: '1.5px', color: 'var(--color-terracotta)', borderBottom: `2px solid var(--color-terracotta)`, paddingBottom: '4px', textDecoration: 'none' }}
               >
                 Subscribe →
               </Link>
               <Link
                 href="/analysis"
-                className="px-6 py-3 border-2 border-ink text-ink font-sans font-bold hover:bg-ink hover:text-cream transition-colors"
+                style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', fontStyle: 'italic', color: 'var(--color-stone)', textDecoration: 'none' }}
               >
                 Read our latest
               </Link>
@@ -50,17 +50,17 @@ export default async function Home() {
 
       {/* Featured Section */}
       {featuredPost && (
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 border-t border-terracotta">
-          <div className="label-caps mb-8">Featured</div>
+        <section style={{ borderTop: '1.5px solid var(--color-terracotta)' }} className="max-w-6xl mx-auto px-12 py-24">
+          <div style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', letterSpacing: '3px', textTransform: 'uppercase', color: 'var(--color-terracotta)', marginBottom: '32px' }}>Featured</div>
           <article className="max-w-3xl">
             <span className="type-pip">{featuredPost.type}</span>
-            <h2 className="text-3xl sm:text-4xl font-serif font-bold text-ink my-6">
+            <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: '26px', fontWeight: 400, color: 'var(--color-ink)', marginTop: '24px', marginBottom: '24px' }}>
               {featuredPost.title}
             </h2>
-            <p className="text-lg text-graphite font-sans leading-relaxed mb-6">
+            <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.75, marginBottom: '24px' }}>
               {featuredPost.excerpt}
             </p>
-            <div className="flex items-center gap-4 text-stone font-mono text-sm">
+            <div style={{ display: 'flex', gap: '16px', alignItems: 'center', color: 'var(--color-stone)', fontFamily: 'var(--font-mono)', fontSize: '11px' }}>
               <span>{featuredPost.author}</span>
               <span>·</span>
               <span>{featuredPost.date}</span>

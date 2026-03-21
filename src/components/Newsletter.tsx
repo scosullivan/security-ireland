@@ -46,21 +46,21 @@ export default function Newsletter() {
         <h2
           style={{
             fontFamily: 'var(--font-serif)',
-            fontSize: '2rem',
+            fontSize: '20px',
             fontWeight: '400',
             color: 'var(--color-ink)',
-            marginBottom: '1rem',
+            marginBottom: '16px',
           }}
         >
           Stay informed
         </h2>
         <p
           style={{
-            fontFamily: 'var(--font-sans)',
-            fontSize: '1.0625rem',
+            fontFamily: 'var(--font-serif)',
+            fontSize: '14px',
             color: 'var(--color-graphite)',
-            marginBottom: '1.5rem',
-            lineHeight: '1.75',
+            marginBottom: '24px',
+            lineHeight: 1.75,
           }}
         >
           Independent analysis on Irish and European security, delivered to your inbox.
@@ -103,36 +103,51 @@ export default function Newsletter() {
               disabled={loading}
               style={{
                 flex: 1,
-                padding: '0.75rem 1rem',
-                fontFamily: 'var(--font-sans)',
-                border: '1px solid var(--color-rule)',
-                backgroundColor: 'white',
+                padding: '12px 0',
+                fontFamily: 'var(--font-serif)',
+                fontSize: '14px',
+                backgroundColor: 'transparent',
+                borderTop: 'none',
+                borderLeft: 'none',
+                borderRight: 'none',
+                borderBottom: '1px solid var(--color-rule)',
                 color: 'var(--color-ink)',
                 outline: 'none',
                 transition: 'border-color 0.2s',
               }}
-              className="focus:border-terracotta"
               onFocus={(e) => {
-                e.currentTarget.style.borderColor = 'var(--color-terracotta)';
+                e.currentTarget.style.borderBottomColor = 'var(--color-terracotta)';
               }}
               onBlur={(e) => {
-                e.currentTarget.style.borderColor = 'var(--color-rule)';
+                e.currentTarget.style.borderBottomColor = 'var(--color-rule)';
               }}
             />
             <button
               type="submit"
               disabled={loading}
               style={{
-                padding: '0.75rem 1.5rem',
-                backgroundColor: 'var(--color-terracotta)',
-                color: 'var(--color-cream)',
-                fontFamily: 'var(--font-sans)',
+                padding: '8px 0',
+                backgroundColor: 'transparent',
+                border: '1px solid var(--color-ink)',
+                color: 'var(--color-ink)',
+                fontFamily: 'var(--font-mono)',
+                fontSize: '11px',
                 fontWeight: 'bold',
+                letterSpacing: '1.5px',
+                textTransform: 'uppercase',
                 cursor: loading ? 'not-allowed' : 'pointer',
                 opacity: loading ? 0.7 : 1,
-                transition: 'background-color 0.2s',
+                transition: 'all 0.2s',
+                minWidth: '120px',
               }}
-              className="hover:bg-copper"
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = 'var(--color-ink)';
+                e.currentTarget.style.color = 'var(--color-cream)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = 'transparent';
+                e.currentTarget.style.color = 'var(--color-ink)';
+              }}
             >
               {loading ? 'Subscribing...' : 'Subscribe'}
             </button>
