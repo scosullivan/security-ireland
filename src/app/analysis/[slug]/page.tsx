@@ -12,6 +12,15 @@ export async function generateStaticParams() {
   }));
 }
 
+function formatDate(dateStr: string): string {
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('en-GB', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  });
+}
+
 export default async function PublicationPage({
   params,
 }: PublicationPageProps) {
@@ -44,20 +53,50 @@ export default async function PublicationPage({
         <span className="label-accent">{post.type}</span>
 
         {/* Title */}
-        <h1 className="text-4xl sm:text-5xl font-serif font-bold text-ink my-6">
+        <h1
+          style={{
+            fontFamily: 'var(--font-serif)',
+            fontSize: 'clamp(2rem, 5vw, 2.75rem)',
+            fontWeight: 400,
+            lineHeight: 1.2,
+            color: 'var(--color-ink)',
+            marginTop: '24px',
+            marginBottom: '24px',
+          }}
+        >
           {post.title}
         </h1>
 
         {/* Excerpt */}
-        <p className="text-xl text-graphite font-sans italic leading-relaxed mb-6">
+        <p
+          style={{
+            fontFamily: 'var(--font-serif)',
+            fontSize: '1.125rem',
+            fontStyle: 'italic',
+            lineHeight: 1.75,
+            color: 'var(--color-graphite)',
+            marginBottom: '24px',
+          }}
+        >
           {post.excerpt}
         </p>
 
         {/* Meta */}
-        <div className="flex flex-wrap items-center gap-4 text-stone font-mono text-sm mb-8">
+        <div
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            alignItems: 'center',
+            gap: '16px',
+            fontFamily: 'var(--font-mono)',
+            fontSize: '12px',
+            color: 'var(--color-stone)',
+            marginBottom: '32px',
+          }}
+        >
           <span>{post.author}</span>
           <span>·</span>
-          <span>{post.date}</span>
+          <span>{formatDate(post.date)}</span>
           {post.readTime && (
             <>
               <span>·</span>
@@ -68,6 +107,45 @@ export default async function PublicationPage({
 
         {/* Divider */}
         <hr className="rule-accent mb-12" />
+
+        {/* Key Findings (if present) */}
+        {post.keyFindings && post.keyFindings.length > 0 && (
+          <div
+            style={{
+              borderLeft: '3px solid var(--color-terracotta)',
+              padding: '24px 28px',
+              marginBottom: '48px',
+              backgroundColor: 'var(--color-cream)',
+            }}
+          >
+            <div
+              style={{
+                fontFamily: 'var(--font-mono)',
+                fontSize: '10px',
+                letterSpacing: '3px',
+                textTransform: 'uppercase',
+                color: 'var(--color-terracotta)',
+                marginBottom: '16px',
+              }}
+            >
+              Key Findings
+            </div>
+            <ul
+              style={{
+                listStyleType: 'disc',
+                paddingLeft: '20px',
+                fontFamily: 'var(--font-sans)',
+                fontSize: '1rem',
+                lineHeight: 1.75,
+                color: 'var(--color-ink)',
+              }}
+            >
+              {post.keyFindings.map((finding: string, i: number) => (
+                <li key={i} style={{ marginBottom: '8px' }}>{finding}</li>
+              ))}
+            </ul>
+          </div>
+        )}
 
         {/* Content */}
         {post.html && (
