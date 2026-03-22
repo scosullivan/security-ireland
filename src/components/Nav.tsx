@@ -68,7 +68,6 @@ export default function Nav() {
               fontFamily: 'var(--font-mono)',
               fontSize: '11px',
               letterSpacing: '0.5px',
-              textTransform: 'uppercase',
             }}
           >
             <Link
@@ -125,7 +124,6 @@ export default function Nav() {
               fontFamily: 'var(--font-mono)',
               fontSize: '11px',
               letterSpacing: '1.5px',
-              textTransform: 'uppercase',
             }}
           >
             <div>
