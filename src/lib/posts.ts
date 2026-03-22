@@ -16,6 +16,7 @@ export interface Post {
   readTime: string;
   featured: boolean;
   tags: string[];
+  keyFindings?: string[];
   content?: string;
   html?: string;
 }
@@ -49,6 +50,7 @@ function getPostData(slug: string): Post | null {
       readTime: data.readTime || '',
       featured: data.featured || false,
       tags: data.tags || [],
+      keyFindings: data.keyFindings || [],
       content,
     };
   } catch (error) {
@@ -65,7 +67,6 @@ export async function getAllPosts(): Promise<Post[]> {
     })
     .filter((post) => post !== null) as Post[];
 
-  // Sort by date descending
   return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
