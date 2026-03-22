@@ -1,14 +1,26 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { Post } from '@/lib/posts';
-import PublicationCard from '@/components/PublicationCard';
 
 interface AnalysisFilterProps {
   posts: Post[];
 }
 
-const TYPES = ['All', 'Research Paper', 'Policy Brief', 'Explainer', 'Data Sheet'];
+const TYPES = [
+  { label: 'All', value: 'All' },
+  { label: 'Research Papers', value: 'Research Paper' },
+  { label: 'Policy Briefs', value: 'Policy Brief' },
+  { label: 'Explainers', value: 'Explainer' },
+  { label: 'Working Papers', value: 'Working Paper' },
+  { label: 'Data Sheets', value: 'Data Sheet' },
+];
+
+function formatShortDate(dateStr: string): string {
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('en-GB', { month: 'short', year: 'numeric' });
+}
 
 export default function AnalysisFilter({ posts }: AnalysisFilterProps) {
   const [selectedType, setSelectedType] = useState('All');
@@ -20,32 +32,43 @@ export default function AnalysisFilter({ posts }: AnalysisFilterProps) {
 
   return (
     <>
-      {/* Filters */}
-      <div className="mb-12 flex flex-wrap gap-3">
+      {/* Filter row */}
+      <div className="filter-row">
         {TYPES.map((type) => (
           <button
-            key={type}
-            onClick={() => setSelectedType(type)}
-            className={`px-4 py-2 font-mono text-sm uppercase tracking-wider transition-colors ${
-              selectedType === type
-                ? 'bg-terracotta text-cream'
-                : 'border border-rule text-stone hover:border-terracotta'
-            }`}
+            key={type.value}
+            onClick={() => setSelectedType(type.value)}
+            className={`filter-item ${selectedType === type.value ? 'active' : ''}`}
           >
-            {type}
+            {type.label}
           </button>
         ))}
       </div>
 
-      {/* Posts List */}
+      {/* Publication list */}
       {filteredPosts.length > 0 ? (
-        <div className="max-w-3xl">
+        <div>
           {filteredPosts.map((post) => (
-            <PublicationCard key={post.slug} post={post} />
+            <Link
+              key={post.slug}
+              href={`/analysis/${post.slug}`}
+              className="pub-list-item"
+            >
+              <span className="type-pip-inline">{post.type}</span>
+              <h3>{post.title}</h3>
+              <span className="date">{formatShortDate(post.date)}</span>
+            </Link>
           ))}
         </div>
       ) : (
-        <p className="text-graphite font-sans">
+        <p
+          style={{
+            fontFamily: 'var(--font-serif)',
+            fontSize: '15px',
+            color: 'var(--color-graphite)',
+            padding: '48px 0',
+          }}
+        >
           No publications found for this category.
         </p>
       )}
