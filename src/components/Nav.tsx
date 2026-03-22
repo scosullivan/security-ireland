@@ -12,10 +12,9 @@ export default function Nav() {
       style={{ borderColor: 'var(--color-rule)' }}
     >
       <div className="max-w-6xl mx-auto px-12 py-7">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-start gap-12">
           {/* Left side - Logo */}
           <Link href="/" className="flex items-center gap-3">
-            {/* Ireland SVG outline */}
             <svg
               viewBox="0 0 300 420"
               className="w-6 h-8"
@@ -28,7 +27,6 @@ export default function Nav() {
                 strokeWidth="0.8"
               />
             </svg>
-            {/* Logo text */}
             <div className="flex flex-col leading-tight">
               <span
                 style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', fontWeight: 700, color: 'var(--color-forest)' }}
@@ -41,27 +39,16 @@ export default function Nav() {
             </div>
           </Link>
 
-          {/* Hamburger menu button - mobile only */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="md:hidden flex flex-col gap-1.5 h-8 w-8 items-center justify-center"
             aria-label="Toggle menu"
           >
-            <div
-              className="w-6 h-0.5 transition-all"
-              style={{ backgroundColor: 'var(--color-forest)' }}
-            />
-            <div
-              className="w-6 h-0.5 transition-all"
-              style={{ backgroundColor: 'var(--color-forest)' }}
-            />
-            <div
-              className="w-6 h-0.5 transition-all"
-              style={{ backgroundColor: 'var(--color-forest)' }}
-            />
+            <div className="w-6 h-0.5 transition-all" style={{ backgroundColor: 'var(--color-forest)' }} />
+            <div className="w-6 h-0.5 transition-all" style={{ backgroundColor: 'var(--color-forest)' }} />
+            <div className="w-6 h-0.5 transition-all" style={{ backgroundColor: 'var(--color-forest)' }} />
           </button>
 
-          {/* Right side - Navigation links - desktop */}
           <div
             className="hidden md:flex gap-6 items-center"
             style={{
@@ -70,107 +57,24 @@ export default function Nav() {
               letterSpacing: '0.5px',
             }}
           >
-            <Link
-              href="/analysis"
-              style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }}
-              className="hover:text-ink"
-              onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'}
-              onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}
-            >
-              Analysis
-            </Link>
-            <Link
-              href="/eu-presidency"
-              style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }}
-              className="hover:text-ink"
-              onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'}
-              onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}
-            >
-              EU Presidency
-            </Link>
-            <Link
-              href="/topics"
-              style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }}
-              className="hover:text-ink"
-              onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'}
-              onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}
-            >
-              Topics
-            </Link>
-            <Link
-              href="/about"
-              style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }}
-              className="hover:text-ink"
-              onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'}
-              onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}
-            >
-              About
-            </Link>
-            <Link
-              href="#subscribe"
-              style={{ color: 'var(--color-terracotta)' }}
-              className="hover:opacity-75 transition-opacity"
-            >
-              Subscribe
-            </Link>
+            <Link href="/analysis" style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }} className="hover:text-ink" onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}>Analysis</Link>
+            <Link href="/eu-presidency" style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }} className="hover:text-ink" onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}>EU Presidency</Link>
+            <Link href="/topics" style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }} className="hover:text-ink" onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}>Topics</Link>
+            <Link href="/about" style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }} className="hover:text-ink" onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}>About</Link>
+            <Link href="#subscribe" style={{ color: 'var(--color-terracotta)' }} className="hover:opacity-75 transition-opacity">Subscribe</Link>
           </div>
         </div>
 
-        {/* Mobile menu */}
         {mobileMenuOpen && (
           <div
             className="md:hidden mt-4 pb-4 space-y-3 border-t border-rule pt-4"
-            style={{
-              fontFamily: 'var(--font-mono)',
-              fontSize: '11px',
-              letterSpacing: '1.5px',
-            }}
+            style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', letterSpacing: '1.5px' }}
           >
-            <div>
-              <Link
-                href="/analysis"
-                style={{ color: 'var(--color-terracotta)' }}
-                className="block hover:opacity-75 transition-opacity"
-              >
-                Analysis
-              </Link>
-            </div>
-            <div>
-              <Link
-                href="/eu-presidency"
-                style={{ color: 'var(--color-terracotta)' }}
-                className="block hover:opacity-75 transition-opacity"
-              >
-                EU Presidency
-              </Link>
-            </div>
-            <div>
-              <Link
-                href="/topics"
-                style={{ color: 'var(--color-terracotta)' }}
-                className="block hover:opacity-75 transition-opacity"
-              >
-                Topics
-              </Link>
-            </div>
-            <div>
-              <Link
-                href="/about"
-                style={{ color: 'var(--color-terracotta)' }}
-                className="block hover:opacity-75 transition-opacity"
-              >
-                About
-              </Link>
-            </div>
-            <div>
-              <Link
-                href="#subscribe"
-                style={{ color: 'var(--color-terracotta)' }}
-                className="block hover:opacity-75 transition-opacity"
-              >
-                Subscribe
-              </Link>
-            </div>
+            <div><Link href="/analysis" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">Analysis</Link></div>
+            <div><Link href="/eu-presidency" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">EU Presidency</Link></div>
+            <div><Link href="/topics" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">Topics</Link></div>
+            <div><Link href="/about" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">About</Link></div>
+            <div><Link href="#subscribe" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">Subscribe</Link></div>
           </div>
         )}
       </div>
