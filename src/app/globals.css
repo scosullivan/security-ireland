@@ -280,6 +280,7 @@ body {
 }
 .scrawl {
   stroke-dasharray: 2400;
+  stroke-dashoffset: 2400;
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
