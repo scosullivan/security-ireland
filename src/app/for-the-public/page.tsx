@@ -217,6 +217,26 @@ export default function ForThePublic() {
           <p style={p}>
             The rate of implementation has slowed, not accelerated. The early completions were the easier ones: policy changes, governance reforms, organisational adjustments. The remaining recommendations increasingly involve first-generation capability acquisition — systems the Defence Forces have never built or operated — through a procurement system that has no experience delivering them.
           </p>
+
+          {/* Capability Gap Chart */}
+          <div style={{ marginTop: '24px' }}>
+            <div style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', letterSpacing: '1.5px', textTransform: 'uppercase', color: 'var(--color-terracotta)', marginBottom: '8px' }}>
+              The Capability Gap
+            </div>
+            <p style={{ fontFamily: 'var(--font-serif)', fontSize: '13px', color: 'var(--color-graphite)', lineHeight: 1.5, marginBottom: '16px', maxWidth: '540px' }}>
+              Estimated capability readiness across seven domains. LOA 1 = current. LOA 2 = government target by 2028. LOA 3 = minimum self-defence.
+            </p>
+            <CapabilityGapChart data={[
+              { domain: 'Primary radar', current: 0, target: 50, selfDefence: 90 },
+              { domain: 'Air defence', current: 0, target: 20, selfDefence: 90 },
+              { domain: 'Naval armament', current: 5, target: 40, selfDefence: 90 },
+              { domain: 'Anti-submarine', current: 0, target: 20, selfDefence: 80 },
+              { domain: 'Intelligence', current: 20, target: 50, selfDefence: 90 },
+              { domain: 'Cyber defence', current: 30, target: 60, selfDefence: 90 },
+              { domain: 'Personnel', current: 50, target: 70, selfDefence: 90 },
+            ]} />
+            <p style={note}>Source: Commission on the Defence Forces (2022), Security Ireland estimates.</p>
+          </div>
         </Expandable>
       </section>
 
