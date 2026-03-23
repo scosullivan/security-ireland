@@ -100,7 +100,7 @@ export default async function PublicationPage({ params }: { params: Promise<{ sl
           <div className="author-avatar" />
           <div>
             <div className="author-name">{post.author}</div>
-            <div className="author-role">Security Ireland</div>
+            <div className="author-role">Independent analysis on Irish and European security.</div>
           </div>
         </div>
       </article>
