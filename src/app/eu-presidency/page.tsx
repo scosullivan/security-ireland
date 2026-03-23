@@ -3,6 +3,7 @@ import { getPostsByTopic } from '@/lib/posts';
 import PublicationCard from '@/components/PublicationCard';
 import Newsletter from '@/components/Newsletter';
 import { HBarChart, DonutChart, Timeline } from '@/components/Charts';
+import PresidencyCountdown from '@/components/PresidencyCountdown';
 
 export const metadata = {
   title: 'EU Presidency 2026 — Security Ireland',
@@ -25,6 +26,11 @@ export default async function EUPresidency() {
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '580px', marginBottom: '20px' }}>
           From July to December 2026, Ireland holds the rotating Presidency of the Council of the European Union. This is not ceremonial. Ireland will set agendas, chair working groups, and broker compromises on the EU&apos;s defence and security architecture — at the moment Europe is rewriting it.
         </p>
+      </section>
+
+      {/* Countdown Timer */}
+      <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 24px' }}>
+        <PresidencyCountdown />
       </section>
 
       {/* Key Numbers — bold, colourful, readable */}
@@ -145,7 +151,7 @@ export default async function EUPresidency() {
               title: 'Presidency Desk Primer',
               subtitle: 'The Overarching Strategy',
               body: 'The strategic primer for Ireland\u2019s EU Council Presidency. Defines the three-domain thesis, maps the four EU instruments in play, categorises the dossiers Ireland must lead versus shape versus facilitate, and sets out the cost of passive chairing. Start here.',
-              pdf: '/pdfs/Presidency_Desk_Primer.pdf',
+              slug: 'presidency-desk-primer',
               accent: 'var(--color-ink)',
             },
             {
@@ -153,7 +159,7 @@ export default async function EUPresidency() {
               title: 'ReArm Europe',
               subtitle: 'What Ireland Should Lock In',
               body: 'The SAFE facility (\u20ac150 billion), EDIP (\u20ac1.5 billion), and the next MFF defence chapter will determine which kinds of defence contribution qualify for European support. If the rules reward only large-scale military procurement, Ireland is excluded. If they recognise domain-specific contribution, Ireland\u2019s geographic assets become fundable.',
-              pdf: '/pdfs/ReArm_Europe.pdf',
+              slug: 'rearm-europe',
               accent: 'var(--color-terracotta)',
             },
             {
@@ -161,7 +167,7 @@ export default async function EUPresidency() {
               title: 'PESCO Strategic Review',
               subtitle: 'What Ireland Should Lock In',
               body: 'The strategic review is rewriting PESCO\u2019s binding commitments, how compliance is assessed, and how PESCO connects to EU funding. Ireland\u2019s 7 projects \u2014 all targeting maritime, subsea, cyber, and logistics \u2014 are the institutional evidence of its contribution. The revised framework either formalises Ireland\u2019s model or penalises it.',
-              pdf: '/pdfs/PESCO_Strategic_Review.pdf',
+              slug: 'pesco-strategic-review',
               accent: 'var(--color-terracotta)',
             },
             {
@@ -169,7 +175,7 @@ export default async function EUPresidency() {
               title: 'Maritime Surveillance Cooperation',
               subtitle: 'Locking In the Atlantic',
               body: 'Ireland joined CISE in April 2025. The EUMSS progress report falls due during the Presidency. The EU Cable Action Plan commits \u20ac1 billion for submarine cable security. Ireland, as the Atlantic terminus of the transatlantic cable network, should be leading the Atlantic basin response \u2014 not consuming data others provide.',
-              pdf: '/pdfs/Maritime_Surveillance_Cooperation.pdf',
+              slug: 'maritime-surveillance',
               accent: 'var(--color-fern)',
             },
             {
@@ -177,15 +183,17 @@ export default async function EUPresidency() {
               title: 'Hybrid Threats & Cyber Defence',
               subtitle: 'Ireland as EU Cyber Node',
               body: 'On 16 March 2026, the Council approved conclusions on countering hybrid threats. Ireland will chair implementation from July. Four frameworks are being shaped: the EU Hybrid Toolbox, the Cyber Diplomacy Toolbox, the Cybersecurity Crisis Blueprint, and NIS2 implementation. Ireland\u2019s tech-sector concentration means EU cyber resilience runs through Dublin.',
-              pdf: '/pdfs/Hybrid_Threats_and_Cyber_Defence.pdf',
+              slug: 'hybrid-threats-cyber-defence',
               accent: 'var(--color-fern)',
             },
           ].map((item) => (
-            <div key={item.num} style={{
+            <Link key={item.num} href={`/eu-presidency/briefs/${item.slug}`} style={{ textDecoration: 'none' }}>
+            <div style={{
               padding: '28px 24px',
               border: item.num === '00' ? '2px solid var(--color-ink)' : '1px solid var(--color-rule)',
               backgroundColor: item.num === '00' ? 'var(--color-cream)' : 'var(--color-parchment)',
               borderRadius: '2px',
+              transition: 'border-color 0.15s',
             }}>
               <div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start' }}>
                 <div style={{ fontFamily: 'var(--font-mono)', fontSize: '13px', color: item.accent, flexShrink: 0, paddingTop: '3px', fontWeight: 700 }}>
@@ -201,10 +209,7 @@ export default async function EUPresidency() {
                   <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-graphite)', lineHeight: 1.65, maxWidth: '520px', margin: '0 0 16px' }}>
                     {item.body}
                   </p>
-                  <a
-                    href={item.pdf}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <span
                     style={{
                       display: 'inline-flex',
                       alignItems: 'center',
@@ -219,11 +224,12 @@ export default async function EUPresidency() {
                       paddingBottom: '1px',
                     }}
                   >
-                    Download brief (PDF) {'\u2192'}
-                  </a>
+                    Read brief {'\u2192'}
+                  </span>
                 </div>
               </div>
             </div>
+            </Link>
           ))}
         </div>
 
