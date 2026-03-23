@@ -3,6 +3,7 @@ import { getPostBySlug, getAllPosts, getRelatedPosts } from '@/lib/posts';
 import { notFound } from 'next/navigation';
 import PublicationCard from '@/components/PublicationCard';
 import Newsletter from '@/components/Newsletter';
+import BriefVisualizations from '@/components/BriefVisualizations';
 
 export async function generateStaticParams() {
   const posts = await getAllPosts();
@@ -66,6 +67,9 @@ export default async function PublicationPage({ params }: { params: Promise<{ sl
             </ul>
           </div>
         )}
+
+        {/* Brief-specific visualizations */}
+        <BriefVisualizations slug={slug} />
 
         {/* Body */}
         {post.html && (
