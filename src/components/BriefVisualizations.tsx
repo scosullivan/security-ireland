@@ -114,13 +114,40 @@ function PrimerViz() {
 
 /* ============================
    BRIEF 01 — ReArm Europe
-   Funding instruments comparison
+   Funding instruments: what they are + does Ireland qualify?
    ============================ */
 function ReArmViz() {
   const instruments = [
-    { name: 'SAFE', amount: '€150bn', type: 'Loans', desc: 'Sovereign borrowing via EU bonds', width: 100, color: 'var(--color-terracotta)' },
-    { name: 'EDIP', amount: '€1.5bn', type: 'Grants', desc: 'Joint procurement incentives', width: 28, color: 'var(--color-fern)' },
-    { name: 'MFF Defence', amount: 'TBD', type: 'Budget', desc: 'Next EU budget framework post-2027', width: 60, color: 'var(--color-copper)' },
+    {
+      name: 'SAFE',
+      amount: '€150bn',
+      type: 'Loans',
+      desc: 'Sovereign borrowing via EU bonds for defence investment',
+      irelandNow: 'Unclear',
+      irelandIf: 'Yes — if domain-specific capability counts',
+      nowColor: 'var(--color-copper)',
+      color: 'var(--color-terracotta)',
+    },
+    {
+      name: 'EDIP',
+      amount: '€1.5bn',
+      type: 'Grants',
+      desc: 'Joint procurement incentives for cross-border defence projects',
+      irelandNow: 'Marginal',
+      irelandIf: 'Yes — maritime & cyber procurement qualifies',
+      nowColor: 'var(--color-copper)',
+      color: 'var(--color-fern)',
+    },
+    {
+      name: 'MFF Defence Chapter',
+      amount: 'TBD',
+      type: 'EU Budget',
+      desc: 'Next multi-annual financial framework, post-2027',
+      irelandNow: 'Not yet written',
+      irelandIf: 'Yes — if maritime/subsea/cyber are named as priority domains',
+      nowColor: 'var(--color-stone)',
+      color: 'var(--color-copper)',
+    },
   ];
 
   return (
@@ -129,34 +156,50 @@ function ReArmViz() {
         Three instruments, one window
       </div>
 
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', marginBottom: '28px' }}>
+      {/* Instrument cards */}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginBottom: '28px' }}>
         {instruments.map((inst, i) => (
-          <div key={i}>
+          <div key={i} style={{
+            padding: '20px 24px',
+            backgroundColor: 'var(--color-parchment)',
+            borderLeft: `4px solid ${inst.color}`,
+            borderRadius: '2px',
+          }}>
+            {/* Header row */}
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '6px' }}>
               <div style={{ display: 'flex', alignItems: 'baseline', gap: '10px' }}>
-                <span style={{ fontFamily: 'var(--font-mono)', fontSize: '12px', fontWeight: 700, color: inst.color, letterSpacing: '0.5px' }}>
+                <span style={{ fontFamily: 'var(--font-mono)', fontSize: '13px', fontWeight: 700, color: inst.color }}>
                   {inst.name}
                 </span>
                 <span style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', color: 'var(--color-stone)', textTransform: 'uppercase', letterSpacing: '1px' }}>
                   {inst.type}
                 </span>
               </div>
-              <span style={{ fontFamily: 'var(--font-serif)', fontSize: '20px', fontWeight: 700, color: inst.color }}>
+              <span style={{ fontFamily: 'var(--font-serif)', fontSize: '22px', fontWeight: 700, color: inst.color }}>
                 {inst.amount}
               </span>
             </div>
-            <div style={{ height: '12px', backgroundColor: 'var(--color-parchment)', borderRadius: '2px', overflow: 'hidden' }}>
-              <div style={{
-                height: '100%',
-                width: `${inst.width}%`,
-                backgroundColor: inst.color,
-                borderRadius: '2px',
-                transition: 'width 1s ease-out',
-              }} />
-            </div>
-            <p style={{ fontFamily: 'var(--font-serif)', fontSize: '12px', color: 'var(--color-graphite)', marginTop: '4px' }}>
+
+            {/* Description */}
+            <p style={{ fontFamily: 'var(--font-serif)', fontSize: '13px', color: 'var(--color-graphite)', margin: '0 0 12px', lineHeight: 1.5 }}>
               {inst.desc}
             </p>
+
+            {/* Ireland status — two rows */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: inst.nowColor, flexShrink: 0 }} />
+                <span style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: 'var(--color-graphite)' }}>
+                  <strong>Ireland now:</strong> {inst.irelandNow}
+                </span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: 'var(--color-fern)', flexShrink: 0 }} />
+                <span style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: 'var(--color-graphite)' }}>
+                  <strong>If rules are rewritten:</strong> {inst.irelandIf}
+                </span>
+              </div>
+            </div>
           </div>
         ))}
       </div>
