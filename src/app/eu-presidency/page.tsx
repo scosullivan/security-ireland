@@ -159,7 +159,7 @@ export default async function EUPresidency() {
               title: 'ReArm Europe',
               subtitle: 'What Ireland Should Lock In',
               body: 'The SAFE facility (\u20ac150 billion), EDIP (\u20ac1.5 billion), and the next MFF defence chapter will determine which kinds of defence contribution qualify for European support. If the rules reward only large-scale military procurement, Ireland is excluded. If they recognise domain-specific contribution, Ireland\u2019s geographic assets become fundable.',
-              slug: 'rearm-europe',
+              slug: 'rearm-europe-brief',
               accent: 'var(--color-terracotta)',
             },
             {
@@ -167,7 +167,7 @@ export default async function EUPresidency() {
               title: 'PESCO Strategic Review',
               subtitle: 'What Ireland Should Lock In',
               body: 'The strategic review is rewriting PESCO\u2019s binding commitments, how compliance is assessed, and how PESCO connects to EU funding. Ireland\u2019s 7 projects \u2014 all targeting maritime, subsea, cyber, and logistics \u2014 are the institutional evidence of its contribution. The revised framework either formalises Ireland\u2019s model or penalises it.',
-              slug: 'pesco-strategic-review',
+              slug: 'pesco-strategic-review-brief',
               accent: 'var(--color-terracotta)',
             },
             {
@@ -175,7 +175,7 @@ export default async function EUPresidency() {
               title: 'Maritime Surveillance Cooperation',
               subtitle: 'Locking In the Atlantic',
               body: 'Ireland joined CISE in April 2025. The EUMSS progress report falls due during the Presidency. The EU Cable Action Plan commits \u20ac1 billion for submarine cable security. Ireland, as the Atlantic terminus of the transatlantic cable network, should be leading the Atlantic basin response \u2014 not consuming data others provide.',
-              slug: 'maritime-surveillance',
+              slug: 'maritime-surveillance-cooperation-brief',
               accent: 'var(--color-fern)',
             },
             {
@@ -183,11 +183,11 @@ export default async function EUPresidency() {
               title: 'Hybrid Threats & Cyber Defence',
               subtitle: 'Ireland as EU Cyber Node',
               body: 'On 16 March 2026, the Council approved conclusions on countering hybrid threats. Ireland will chair implementation from July. Four frameworks are being shaped: the EU Hybrid Toolbox, the Cyber Diplomacy Toolbox, the Cybersecurity Crisis Blueprint, and NIS2 implementation. Ireland\u2019s tech-sector concentration means EU cyber resilience runs through Dublin.',
-              slug: 'hybrid-threats-cyber-defence',
+              slug: 'hybrid-threats-cyber-defence-brief',
               accent: 'var(--color-fern)',
             },
           ].map((item) => (
-            <Link key={item.num} href={`/eu-presidency/briefs/${item.slug}`} style={{ textDecoration: 'none' }}>
+            <Link key={item.num} href={`/publications/${item.slug}`} style={{ textDecoration: 'none' }}>
             <div style={{
               padding: '28px 24px',
               border: item.num === '00' ? '2px solid var(--color-ink)' : '1px solid var(--color-rule)',
