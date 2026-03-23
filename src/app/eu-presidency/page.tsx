@@ -6,7 +6,7 @@ import { HBarChart, DonutChart, Timeline } from '@/components/Charts';
 
 export const metadata = {
   title: 'EU Presidency 2026 — Security Ireland',
-  description: 'Ireland\'s EU Council Presidency is a six-month window to lock in a permanent European security role — or leave it as a vulnerability others must cover.',
+  description: 'Ireland\'s EU Council Presidency is a six-month window to lock in a permanent European security role.',
 };
 
 export default async function EUPresidency() {
@@ -25,25 +25,28 @@ export default async function EUPresidency() {
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '580px', marginBottom: '20px' }}>
           From July to December 2026, Ireland holds the rotating Presidency of the Council of the European Union. This is not ceremonial. Ireland will set agendas, chair working groups, and broker compromises on the EU&apos;s defence and security architecture — at the moment Europe is rewriting it.
         </p>
-        <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '580px', marginBottom: '40px' }}>
-          Security Ireland&apos;s thesis is that the Presidency is a six-month window to establish Ireland as a permanent, credible contributor to European security — in the domains where its geography and economic position are irreplaceable. After December 2026, the frameworks are set and the political attention moves elsewhere.
-        </p>
       </section>
 
-      {/* Key Numbers */}
+      {/* Key Numbers — bold, colourful, readable */}
       <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '16px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: '16px' }}>
           {[
-            { value: '6 months', label: 'The window: July\u2013December 2026' },
-            { value: '3 domains', label: 'Maritime \u00b7 Subsea \u00b7 Cyber' },
-            { value: '\u20ac800bn', label: 'ReArm Europe target by 2030' },
-            { value: '4 briefs', label: 'Presidency Desk series' },
+            { value: '6 months', label: 'July\u2013December 2026', color: 'var(--color-terracotta)' },
+            { value: '3 domains', label: 'Maritime \u00b7 Subsea \u00b7 Cyber', color: 'var(--color-forest)' },
+            { value: '\u20ac800bn', label: 'ReArm Europe target', color: 'var(--color-terracotta)' },
+            { value: '5 briefs', label: 'Presidency Desk series', color: 'var(--color-forest)' },
           ].map((s, i) => (
-            <div key={i} style={{ padding: '20px 16px', border: '1px solid var(--color-rule)', backgroundColor: 'var(--color-parchment)', textAlign: 'center' }}>
-              <div style={{ fontFamily: 'var(--font-serif)', fontSize: '24px', fontWeight: 700, color: 'var(--color-forest)', marginBottom: '6px' }}>
+            <div key={i} style={{
+              padding: '24px 20px',
+              backgroundColor: 'white',
+              border: '2px solid ' + s.color,
+              borderRadius: '4px',
+              textAlign: 'center',
+            }}>
+              <div style={{ fontFamily: 'var(--font-serif)', fontSize: '26px', fontWeight: 700, color: s.color, marginBottom: '8px' }}>
                 {s.value}
               </div>
-              <div style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', letterSpacing: '0.5px', color: 'var(--color-stone)', lineHeight: 1.4 }}>
+              <div style={{ fontFamily: 'var(--font-serif)', fontSize: '13px', color: 'var(--color-ink)', lineHeight: 1.4 }}>
                 {s.label}
               </div>
             </div>
@@ -51,71 +54,107 @@ export default async function EUPresidency() {
         </div>
       </section>
 
-      {/* === THE THESIS === */}
+      {/* === THE STRATEGY === */}
       <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
         <hr className="rule-accent" />
         <div className="label-caps" style={{ margin: '32px 0 8px' }}>The Strategy Thesis</div>
-        <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: '22px', fontWeight: 400, color: 'var(--color-ink)', marginBottom: '8px' }}>
+        <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: '22px', fontWeight: 400, color: 'var(--color-ink)', marginBottom: '12px' }}>
           Lead where geography is irreplaceable
         </h2>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '580px', marginBottom: '20px' }}>
-          Ireland cannot compete with France on fighter jets or Germany on tanks. It does not need to. Ireland occupies three positions no other EU member state can replicate: 880,000 km{'\u00b2'} of Atlantic EEZ covering critical shipping lanes; the western terminus of the transatlantic subsea cable network carrying over 90% of EU–US data traffic; and the European headquarters of most major American technology companies, making it a critical node in EU cyber resilience.
+          Ireland cannot compete with France on fighter jets or Germany on tanks, but it does not need to. Ireland occupies three positions no other EU member state can replicate: 880,000 km{'\u00b2'} of Atlantic EEZ covering critical shipping lanes; the western terminus of the transatlantic subsea cable network carrying over 90% of EU{'\u2013'}US data traffic; and the European headquarters of most major American technology companies, making it a critical node in EU cyber resilience.
         </p>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '580px', marginBottom: '20px' }}>
-          The strategic objective is to lock in Ireland&apos;s role as a permanent contributor to European security in these three domains — maritime surveillance, subsea infrastructure protection, and cyber resilience — so that when the Presidency ends, the institutional architecture recognises Ireland&apos;s contribution regardless of which government holds office in Dublin.
+          The strategic objective is to lock in Ireland&apos;s role as a permanent contributor to European security in these three domains — so that when the Presidency ends, the institutional architecture recognises Ireland&apos;s contribution regardless of which government holds office in Dublin.
         </p>
-        <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '580px', marginBottom: '28px' }}>
+        <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '580px', marginBottom: '32px' }}>
           This is not altruism. A permanent role means Ireland is no longer vulnerable to the free-rider accusation. It means EU funding instruments recognise Ireland&apos;s contribution. It means bilateral and EU partners have institutional reasons to cooperate with Ireland beyond the goodwill of any single government.
         </p>
 
-        {/* Three domains callout */}
-        <div style={{ display: 'grid', gap: '16px', marginBottom: '32px' }}>
+        {/* Three numbered domains — bold and clear */}
+        <div style={{ display: 'grid', gap: '0' }}>
           {[
             {
-              domain: 'Maritime surveillance',
+              num: '1',
+              domain: 'Maritime Surveillance',
               desc: '880,000 km\u00b2 of Atlantic EEZ. Nine naval vessels. No primary radar. No subsea monitoring. The largest unmonitored maritime domain in Europe — and the one through which Atlantic shipping and submarine traffic passes.',
+              color: 'var(--color-forest)',
             },
             {
-              domain: 'Subsea infrastructure',
+              num: '2',
+              domain: 'Subsea Infrastructure',
               desc: 'Over 20 major subsea cables make landfall on Irish shores, carrying the vast majority of transatlantic data traffic. The Celtic Interconnector to France arrives by 2027. The Far North Fiber linking Ireland to Alaska, Japan, and Norway is planned for 2026.',
+              color: 'var(--color-terracotta)',
             },
             {
-              domain: 'Cyber resilience',
+              num: '3',
+              domain: 'Cyber Resilience',
               desc: 'Nine of ten top US tech firms have their EU headquarters in Ireland. A successful cyber attack on Irish-hosted systems affects data integrity across the entire Union. The 2021 HSE ransomware attack demonstrated the vulnerability.',
+              color: 'var(--color-forest)',
             },
           ].map((item, i) => (
-            <div key={i} style={{ padding: '20px 24px', backgroundColor: 'var(--color-parchment)', borderLeft: '3px solid var(--color-fern)', borderRadius: '2px' }}>
-              <div style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', letterSpacing: '1px', textTransform: 'uppercase', color: 'var(--color-forest)', marginBottom: '6px' }}>
-                {item.domain}
+            <div key={i} style={{
+              display: 'flex',
+              gap: '20px',
+              alignItems: 'flex-start',
+              padding: '28px 24px',
+              backgroundColor: 'white',
+              borderLeft: '4px solid ' + item.color,
+              borderBottom: i < 2 ? '1px solid var(--color-rule)' : 'none',
+            }}>
+              <div style={{
+                fontFamily: 'var(--font-serif)',
+                fontSize: '32px',
+                fontWeight: 700,
+                color: item.color,
+                lineHeight: 1,
+                flexShrink: 0,
+                width: '36px',
+              }}>
+                {item.num}
               </div>
-              <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-graphite)', lineHeight: 1.65, margin: 0, maxWidth: '520px' }}>
-                {item.desc}
-              </p>
+              <div>
+                <div style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', letterSpacing: '1.5px', textTransform: 'uppercase', color: item.color, marginBottom: '8px', fontWeight: 600 }}>
+                  {item.domain}
+                </div>
+                <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-ink)', lineHeight: 1.65, margin: 0, maxWidth: '520px' }}>
+                  {item.desc}
+                </p>
+              </div>
             </div>
           ))}
         </div>
       </section>
 
-      {/* === THE PRESIDENCY DESK === */}
+      {/* === PRESIDENCY DESK SERIES === */}
       <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
         <hr className="rule-accent" />
         <div className="label-caps" style={{ margin: '32px 0 8px' }}>Presidency Desk Series</div>
         <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: '22px', fontWeight: 400, color: 'var(--color-ink)', marginBottom: '8px' }}>
-          Four briefs. Four EU instruments. One strategy.
+          Five briefs. Four EU instruments. One strategy.
         </h2>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '580px', marginBottom: '32px' }}>
-          Each brief targets a different EU instrument being shaped during Ireland&apos;s term. Together, they form a single integrated strategy: ensure the rules being written now recognise Ireland&apos;s geographic and economic contribution as a permanent feature of European security.
+          Each brief targets a different dimension of the EU architecture being shaped during Ireland&apos;s term. Together, they form a single integrated strategy: ensure the rules being written now recognise Ireland&apos;s geographic and economic contribution as a permanent feature of European security.
         </p>
 
-        {/* Brief cards with download links */}
+        {/* Brief cards */}
         <div style={{ display: 'grid', gap: '20px', marginBottom: '40px' }}>
           {[
+            {
+              num: '00',
+              title: 'Presidency Desk Primer',
+              subtitle: 'The Overarching Strategy',
+              body: 'The strategic primer for Ireland\u2019s EU Council Presidency. Defines the three-domain thesis, maps the four EU instruments in play, categorises the dossiers Ireland must lead versus shape versus facilitate, and sets out the cost of passive chairing. Start here.',
+              pdf: '/pdfs/Presidency_Desk_Primer.pdf',
+              accent: 'var(--color-ink)',
+            },
             {
               num: '01',
               title: 'ReArm Europe',
               subtitle: 'What Ireland Should Lock In',
               body: 'The SAFE facility (\u20ac150 billion), EDIP (\u20ac1.5 billion), and the next MFF defence chapter will determine which kinds of defence contribution qualify for European support. If the rules reward only large-scale military procurement, Ireland is excluded. If they recognise domain-specific contribution, Ireland\u2019s geographic assets become fundable.',
               pdf: '/pdfs/ReArm_Europe.pdf',
+              accent: 'var(--color-terracotta)',
             },
             {
               num: '02',
@@ -123,6 +162,7 @@ export default async function EUPresidency() {
               subtitle: 'What Ireland Should Lock In',
               body: 'The strategic review is rewriting PESCO\u2019s binding commitments, how compliance is assessed, and how PESCO connects to EU funding. Ireland\u2019s 7 projects \u2014 all targeting maritime, subsea, cyber, and logistics \u2014 are the institutional evidence of its contribution. The revised framework either formalises Ireland\u2019s model or penalises it.',
               pdf: '/pdfs/PESCO_Strategic_Review.pdf',
+              accent: 'var(--color-terracotta)',
             },
             {
               num: '03',
@@ -130,6 +170,7 @@ export default async function EUPresidency() {
               subtitle: 'Locking In the Atlantic',
               body: 'Ireland joined CISE in April 2025. The EUMSS progress report falls due during the Presidency. The EU Cable Action Plan commits \u20ac1 billion for submarine cable security. Ireland, as the Atlantic terminus of the transatlantic cable network, should be leading the Atlantic basin response \u2014 not consuming data others provide.',
               pdf: '/pdfs/Maritime_Surveillance_Cooperation.pdf',
+              accent: 'var(--color-fern)',
             },
             {
               num: '04',
@@ -137,11 +178,17 @@ export default async function EUPresidency() {
               subtitle: 'Ireland as EU Cyber Node',
               body: 'On 16 March 2026, the Council approved conclusions on countering hybrid threats. Ireland will chair implementation from July. Four frameworks are being shaped: the EU Hybrid Toolbox, the Cyber Diplomacy Toolbox, the Cybersecurity Crisis Blueprint, and NIS2 implementation. Ireland\u2019s tech-sector concentration means EU cyber resilience runs through Dublin.',
               pdf: '/pdfs/Hybrid_Threats_and_Cyber_Defence.pdf',
+              accent: 'var(--color-fern)',
             },
           ].map((item) => (
-            <div key={item.num} style={{ padding: '28px 24px', border: '1px solid var(--color-rule)', backgroundColor: 'white', borderRadius: '2px' }}>
+            <div key={item.num} style={{
+              padding: '28px 24px',
+              border: item.num === '00' ? '2px solid var(--color-ink)' : '1px solid var(--color-rule)',
+              backgroundColor: item.num === '00' ? 'var(--color-parchment)' : 'white',
+              borderRadius: '2px',
+            }}>
               <div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start' }}>
-                <div style={{ fontFamily: 'var(--font-mono)', fontSize: '13px', color: 'var(--color-terracotta)', flexShrink: 0, paddingTop: '3px' }}>
+                <div style={{ fontFamily: 'var(--font-mono)', fontSize: '13px', color: item.accent, flexShrink: 0, paddingTop: '3px', fontWeight: 700 }}>
                   {item.num}
                 </div>
                 <div style={{ flex: 1 }}>
@@ -166,9 +213,9 @@ export default async function EUPresidency() {
                       fontSize: '11px',
                       letterSpacing: '1px',
                       textTransform: 'uppercase',
-                      color: 'var(--color-terracotta)',
+                      color: item.accent,
                       textDecoration: 'none',
-                      borderBottom: '1px solid var(--color-terracotta)',
+                      borderBottom: '1px solid ' + item.accent,
                       paddingBottom: '1px',
                     }}
                   >
@@ -183,12 +230,12 @@ export default async function EUPresidency() {
         {/* Interlocking strategy note */}
         <div style={{ padding: '24px', backgroundColor: 'rgba(61,107,79,0.06)', borderLeft: '3px solid var(--color-forest)', borderRadius: '2px' }}>
           <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-ink)', lineHeight: 1.65, margin: 0, maxWidth: '560px' }}>
-            The four briefs interlock as a single strategy. PESCO provides the institutional framework. ReArm Europe provides the funding. Maritime surveillance and cyber defence are the domains where Ireland contributes. Remove any one and the others lose coherence. The briefs are a set.
+            The five briefs interlock as a single strategy. PESCO provides the institutional framework. ReArm Europe provides the funding. Maritime surveillance and cyber defence are the domains where Ireland contributes. The Primer maps how they connect. Remove any one and the others lose coherence.
           </p>
         </div>
       </section>
 
-      {/* === THE DATA === */}
+      {/* === THE DATA — single chart section === */}
       <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
         <hr className="rule-accent" />
         <div className="label-caps" style={{ margin: '32px 0 8px' }}>The Credibility Question</div>
@@ -199,48 +246,31 @@ export default async function EUPresidency() {
           Ireland spends 0.2% of GDP on defence — the lowest in the EU. When 25 member states are being asked to raise spending toward 3% of GDP, the country holding the gavel faces obvious questions. Ireland&apos;s answer must be demonstrated, not declared: it contributes where its geography is irreplaceable.
         </p>
 
-        {/* Defence spending comparison */}
+        {/* Defence spending — ACTUAL percentages */}
         <div style={{ marginBottom: '16px' }}>
           <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '17px', fontWeight: 400, color: 'var(--color-ink)', marginBottom: '8px' }}>
             Defence spending as % of GDP, 2025
           </h3>
           <HBarChart data={[
-            { label: 'Greece', value: 78 },
-            { label: 'Poland', value: 76 },
-            { label: 'Estonia', value: 58 },
-            { label: 'France', value: 42 },
-            { label: 'EU average', value: 36 },
-            { label: 'Germany', value: 34 },
-            { label: 'Spain', value: 24 },
-            { label: 'Austria', value: 16 },
-            { label: 'Ireland', value: 4 },
+            { label: 'Greece', value: 3.9 },
+            { label: 'Poland', value: 3.8 },
+            { label: 'Estonia', value: 2.9 },
+            { label: 'France', value: 2.1 },
+            { label: 'EU average', value: 1.8 },
+            { label: 'Germany', value: 1.7 },
+            { label: 'Spain', value: 1.2 },
+            { label: 'Austria', value: 0.8 },
+            { label: 'Ireland', value: 0.2 },
           ]} />
           <p style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', color: 'var(--color-stone)', marginTop: '12px' }}>
-            Values indexed to 5% scale (e.g. Greece 3.9%, Ireland 0.2%). Source: NATO, SIPRI, national estimates 2025.
-          </p>
-        </div>
-
-        {/* Surveillance coverage */}
-        <div style={{ marginTop: '40px', marginBottom: '16px' }}>
-          <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '17px', fontWeight: 400, color: 'var(--color-ink)', marginBottom: '8px' }}>
-            Ireland&apos;s EEZ surveillance coverage by domain
-          </h3>
-          <HBarChart data={[
-            { label: 'Surface (AIS / radar)', value: 62 },
-            { label: 'Aerial (Maritime patrol)', value: 34 },
-            { label: 'Cyber / signals', value: 18 },
-            { label: 'Subsurface (sonar)', value: 0 },
-            { label: 'Subsea infrastructure', value: 0 },
-          ]} />
-          <p style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', color: 'var(--color-stone)', marginTop: '12px' }}>
-            Persistent coverage of 880,000 km² EEZ. Source: Security Ireland estimates, Defence Forces capability reports 2025.
+            Source: NATO, SIPRI, national estimates 2025.
           </p>
         </div>
 
         {/* Capability callout */}
         <div style={{ padding: '24px', backgroundColor: 'rgba(181,86,62,0.06)', borderLeft: '3px solid var(--color-terracotta)', borderRadius: '2px', marginTop: '32px' }}>
           <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-ink)', lineHeight: 1.65, marginBottom: '12px', maxWidth: '560px' }}>
-            Ireland enters the Presidency with zero primary radar, zero air defence, and zero anti-submarine capability. The NCSC remains under-resourced with a fragmented intelligence architecture unique in Europe. The gap between current capacity and credible contribution is the subject of the Commission on the Defence Forces report.
+            Ireland enters the Presidency with zero primary radar, zero air defence, and zero anti-submarine capability. The gap between current capacity and credible contribution is the subject of the Commission on the Defence Forces report.
           </p>
           <Link
             href="/for-policymakers"
@@ -256,7 +286,7 @@ export default async function EUPresidency() {
             PESCO participation
           </h3>
           <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-graphite)', lineHeight: 1.65, marginBottom: '20px', maxWidth: '480px' }}>
-            Ireland participates in 7 of 68 active PESCO projects — all concentrated in maritime, cyber, and logistics. This is the institutional evidence of Ireland&apos;s contribution. The strategic review will determine whether this domain-specific model is recognised as a strategy or assessed as a limitation.
+            Ireland participates in 7 of 68 active PESCO projects — all concentrated in maritime, cyber, and logistics. The strategic review will determine whether this domain-specific model is recognised as a strategy or assessed as a limitation.
           </p>
           <DonutChart
             label="7/68"
@@ -268,7 +298,7 @@ export default async function EUPresidency() {
         </div>
       </section>
 
-      {/* === WHAT HAPPENS IF IRELAND DOESN'T ACT === */}
+      {/* === COST OF PASSIVE CHAIRING === */}
       <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
         <hr className="rule-accent" />
         <div className="label-caps" style={{ margin: '32px 0 8px' }}>The Cost of Passive Chairing</div>
