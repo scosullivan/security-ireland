@@ -38,7 +38,7 @@ export default async function EUPresidency() {
           ].map((s, i) => (
             <div key={i} style={{
               padding: '24px 20px',
-              backgroundColor: 'white',
+              backgroundColor: 'var(--color-parchment)',
               border: '2px solid ' + s.color,
               borderRadius: '4px',
               textAlign: 'center',
@@ -98,7 +98,7 @@ export default async function EUPresidency() {
               gap: '20px',
               alignItems: 'flex-start',
               padding: '28px 24px',
-              backgroundColor: 'white',
+              backgroundColor: 'var(--color-parchment)',
               borderLeft: '4px solid ' + item.color,
               borderBottom: i < 2 ? '1px solid var(--color-rule)' : 'none',
             }}>
@@ -184,7 +184,7 @@ export default async function EUPresidency() {
             <div key={item.num} style={{
               padding: '28px 24px',
               border: item.num === '00' ? '2px solid var(--color-ink)' : '1px solid var(--color-rule)',
-              backgroundColor: item.num === '00' ? 'var(--color-parchment)' : 'white',
+              backgroundColor: item.num === '00' ? 'var(--color-cream)' : 'var(--color-parchment)',
               borderRadius: '2px',
             }}>
               <div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start' }}>
