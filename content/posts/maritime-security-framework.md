@@ -2,7 +2,7 @@
 title: "Ireland's Maritime Security Framework in a Changing Strategic Environment"
 type: "Research Paper"
 date: "2026-03-20"
-author: "Dr. Sarah O'Brien"
+author: "Security Ireland"
 excerpt: "This paper examines Ireland's maritime security capabilities and strategic positioning in European waters, considering recent geopolitical shifts and emerging security challenges."
 readTime: "18 min read"
 featured: true

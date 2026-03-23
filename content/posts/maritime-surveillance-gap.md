@@ -2,7 +2,7 @@
 title: "Ireland's Maritime Surveillance Gap: Capabilities and Options"
 type: "Policy Brief"
 date: "2026-03-18"
-author: "Dr. Sarah Campbell"
+author: "Security Ireland"
 excerpt: "Ireland's maritime exclusive economic zone extends to 900,000 square kilometres, yet surveillance capabilities remain inadequate. This policy brief examines current gaps and presents evidence-based options for addressing this strategic vulnerability."
 readTime: "6 min read"
 featured: false

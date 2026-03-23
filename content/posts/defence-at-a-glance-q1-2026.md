@@ -2,7 +2,7 @@
 title: "Irish Defence at a Glance: Q1 2026 Data Sheet"
 type: "Data Sheet"
 date: "2026-03-12"
-author: "Research Team"
+author: "Security Ireland"
 excerpt: "Key statistics on Irish defence spending, personnel, and capability development in the first quarter of 2026. This data sheet provides quick reference figures for analysis and policy discussion."
 readTime: "3 min read"
 featured: false

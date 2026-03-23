@@ -2,7 +2,7 @@
 title: "PESCO Explained: What is the Permanent Structured Cooperation and Why Does It Matter for Ireland?"
 type: "Explainer"
 date: "2026-03-15"
-author: "Emma Fitzgerald"
+author: "Security Ireland"
 excerpt: "As Ireland deepen its participation in European defence cooperation through PESCO, public understanding of this complex initiative remains limited. This explainer demystifies PESCO and examines its implications for Irish security policy."
 readTime: "5 min read"
 featured: false

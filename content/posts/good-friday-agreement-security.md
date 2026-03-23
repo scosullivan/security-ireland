@@ -2,7 +2,7 @@
 title: "The Good Friday Agreement and Ireland's Evolving Security Architecture"
 type: "Research Paper"
 date: "2026-03-21"
-author: "Dr. Michael O'Sullivan"
+author: "Security Ireland"
 excerpt: "Twenty-eight years after the Good Friday Agreement, Ireland's security landscape has fundamentally transformed. This paper examines how the GFA's security provisions are being adapted to meet 21st-century challenges, from hybrid threats to NATO cooperation."
 readTime: "8 min read"
 featured: true
