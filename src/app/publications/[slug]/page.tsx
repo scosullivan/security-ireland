@@ -50,9 +50,9 @@ export default async function PublicationPage({ params }: { params: Promise<{ sl
           {post.excerpt}
         </p>
 
-        {/* Author + date */}
+        {/* Date + read time */}
         <div style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', color: 'var(--color-stone)', marginBottom: '32px' }}>
-          {post.author} \u00b7 {dateStr} \u00b7 {post.readTime}
+          {dateStr} · {post.readTime}
         </div>
 
         {/* Key findings */}
@@ -75,7 +75,10 @@ export default async function PublicationPage({ params }: { params: Promise<{ sl
         {/* Pub actions */}
         <div className="pub-actions">
           {post.pdfUrl && (
-            <a href={post.pdfUrl} className="action-link primary" download>Download PDF</a>
+            <>
+              <a href={post.pdfUrl} className="action-link primary" target="_blank" rel="noopener noreferrer">Read full paper →</a>
+              <a href={post.pdfUrl} className="action-link" download>Download PDF</a>
+            </>
           )}
           <a
             href={`https://twitter.com/intent/tweet?url=${encodeURIComponent('https://securityireland.ie/publications/' + post.slug)}&text=${encodeURIComponent(post.title)}`}
@@ -97,7 +100,6 @@ export default async function PublicationPage({ params }: { params: Promise<{ sl
 
         {/* Author block */}
         <div className="author-block">
-          <div className="author-avatar" />
           <div>
             <div className="author-name">{post.author}</div>
             <div className="author-role">Independent analysis on Irish and European security.</div>
