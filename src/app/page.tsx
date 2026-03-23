@@ -20,8 +20,8 @@ export default async function Home() {
   return (
     <div className="bg-cream">
       {/* Hero Section */}
-      <section className="max-w-6xl mx-auto px-12 py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <section style={{ maxWidth: '1152px', margin: '0 auto', padding: '96px 48px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '48px', alignItems: 'center' }}>
           {/* Left Column */}
           <div>
             <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: '44px', fontWeight: 400, lineHeight: 1.2, color: 'var(--color-ink)', marginBottom: '20px', letterSpacing: '-0.5px' }}>
@@ -50,7 +50,7 @@ export default async function Home() {
           </div>
 
           {/* Right Column - IrelandSVG */}
-          <div className="h-96 sm:h-full">
+          <div style={{ minHeight: '400px' }}>
             <IrelandSVG />
           </div>
         </div>
