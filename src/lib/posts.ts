@@ -16,6 +16,9 @@ export interface Post {
   readTime: string;
   featured: boolean;
   tags: string[];
+  audiences: string[];
+  topics: string[];
+  pdfUrl?: string;
   keyFindings?: string[];
   content?: string;
   html?: string;
@@ -50,6 +53,9 @@ function getPostData(slug: string): Post | null {
       readTime: data.readTime || '',
       featured: data.featured || false,
       tags: data.tags || [],
+      audiences: data.audiences || ['public'],
+      topics: data.topics || data.tags || [],
+      pdfUrl: data.pdfUrl || '',
       keyFindings: data.keyFindings || [],
       content,
     };
@@ -96,4 +102,25 @@ export async function getFeaturedPost(): Promise<Post | null> {
 export async function getPostsByType(type: string): Promise<Post[]> {
   const posts = await getAllPosts();
   return posts.filter((post) => post.type === type);
+}
+
+export async function getPostsByAudience(audience: string): Promise<Post[]> {
+  const posts = await getAllPosts();
+  return posts.filter((post) => post.audiences.includes(audience));
+}
+
+export async function getPostsByTopic(topic: string): Promise<Post[]> {
+  const posts = await getAllPosts();
+  return posts.filter((post) => post.topics.includes(topic));
+}
+
+export async function getRelatedPosts(currentSlug: string, limit = 3): Promise<Post[]> {
+  const current = getPostData(currentSlug);
+  if (!current) return [];
+
+  const posts = await getAllPosts();
+  return posts
+    .filter((p) => p.slug !== currentSlug)
+    .filter((p) => p.topics.some((t) => current.topics.includes(t)))
+    .slice(0, limit);
 }
