@@ -71,15 +71,13 @@ export default async function EUPresidency() {
             Defence spending as % of GDP, 2025
           </h3>
           <HBarChart data={[
-            { label: 'Greece', value: 78 },
-            { label: 'Poland', value: 76 },
-            { label: 'Estonia', value: 58 },
-            { label: 'France', value: 42 },
-            { label: 'EU average', value: 36 },
-            { label: 'Germany', value: 34 },
-            { label: 'Spain', value: 24 },
-            { label: 'Austria', value: 16 },
-            { label: 'Ireland', value: 4 },
+           value: 2    →  value: 0.2
+value: 8    →  value: 0.8
+value: 11   →  value: 1.1
+value: 18   →  value: 1.8
+value: 20   →  value: 2.0
+value: 41   →  value: 4.1
+value: 38   →  value: 3.8
           ]} />
           <p style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', color: 'var(--color-stone)', marginTop: '12px' }}>
             Values indexed to 5% scale (e.g. Greece 3.9%, Ireland 0.2%). Source: NATO, SIPRI, national estimates 2025.
