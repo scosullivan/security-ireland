@@ -7,6 +7,8 @@ excerpt: "Key statistics on Irish defence spending, personnel, and capability de
 readTime: "3 min read"
 featured: false
 tags: ["defence", "statistics", "data", "budget"]
+audiences: ["investors", "media", "policymakers"]
+topics: ["defence-capability", "defence-transformation"]
 ---
 
 ## Defence Budget and Spending

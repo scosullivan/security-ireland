@@ -7,6 +7,8 @@ excerpt: "Ireland's maritime exclusive economic zone extends to 900,000 square k
 readTime: "6 min read"
 featured: false
 tags: ["maritime", "defence", "capabilities", "surveillance"]
+audiences: ["policymakers", "media"]
+topics: ["maritime-security", "defence-capability", "eu-presidency"]
 ---
 
 ## The Strategic Challenge

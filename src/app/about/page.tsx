@@ -166,7 +166,7 @@ export default function AboutPage() {
           {/* Team member placeholders */}
           {[
             { name: '[Director Name]', role: 'Director', bio: 'Founding director of Security Ireland. Background in security policy research and public engagement.' },
-            { name: '[Research Lead]', role: 'Research Fellow', bio: 'Leads long-form research on EU defence integration and Ireland\u2019s evolving security architecture.' },
+            { name: '[Research Lead]', role: 'Research Fellow', bio: 'Leads long-form research on EU defence integration and Ireland’s evolving security architecture.' },
             { name: '[Policy Lead]', role: 'Policy Analyst', bio: 'Focuses on translating research findings into actionable policy recommendations.' },
             { name: '[Communications]', role: 'Head of Communications', bio: 'Manages editorial output, media engagement, and the Security Ireland newsletter.' },
           ].map((member, i) => (

@@ -7,6 +7,8 @@ excerpt: "This paper examines Ireland's maritime security capabilities and strat
 readTime: "18 min read"
 featured: true
 tags: ["maritime", "defence", "EU"]
+audiences: ["policymakers", "investors"]
+topics: ["maritime-security", "uk-ireland", "defence-capability"]
 ---
 
 ## Introduction

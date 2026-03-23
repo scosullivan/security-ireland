@@ -7,6 +7,8 @@ excerpt: "Twenty-eight years after the Good Friday Agreement, Ireland's security
 readTime: "8 min read"
 featured: true
 tags: ["gfa", "defence", "eu-presidency", "security-architecture"]
+audiences: ["public", "policymakers"]
+topics: ["uk-ireland", "european-defence"]
 ---
 
 ## The Foundation of Modern Irish Security

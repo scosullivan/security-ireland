@@ -7,6 +7,8 @@ excerpt: "Analysis of key defence and security objectives for Ireland's upcoming
 readTime: "12 min read"
 featured: false
 tags: ["EU", "defence", "presidency"]
+audiences: ["policymakers", "investors", "media"]
+topics: ["eu-presidency", "european-defence", "defence-transformation"]
 ---
 
 ## Overview

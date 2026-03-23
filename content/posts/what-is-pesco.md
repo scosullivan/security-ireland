@@ -7,6 +7,8 @@ excerpt: "As Ireland deepen its participation in European defence cooperation th
 readTime: "5 min read"
 featured: false
 tags: ["pesco", "eu-presidency", "defence", "cooperation"]
+audiences: ["public", "policymakers"]
+topics: ["pesco", "european-defence", "eu-presidency"]
 ---
 
 ## What is PESCO?
