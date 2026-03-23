@@ -33,16 +33,16 @@ export default async function ForPolicymakers() {
             Ireland remains the lowest spender in the EU at 0.2% — less than half the next-lowest member state.
           </p>
           <VBarChart data={[
-            { label: 'Ireland', value: 2, color: 'var(--color-terracotta)' },
-            { label: 'Austria', value: 8, color: 'var(--color-sage)' },
-            { label: 'Belgium', value: 11, color: 'var(--color-sage)' },
-            { label: 'Denmark', value: 18, color: 'var(--color-fern)' },
-            { label: 'France', value: 20, color: 'var(--color-fern)' },
-            { label: 'Poland', value: 41, color: 'var(--color-forest)' },
-            { label: 'Greece', value: 38, color: 'var(--color-forest)' },
+            { label: 'Ireland', value: 0.2, color: 'var(--color-terracotta)' },
+            { label: 'Austria', value: 0.8, color: 'var(--color-sage)' },
+            { label: 'Belgium', value: 1.1, color: 'var(--color-sage)' },
+            { label: 'Denmark', value: 1.8, color: 'var(--color-fern)' },
+            { label: 'France', value: 2.0, color: 'var(--color-fern)' },
+            { label: 'Poland', value: 4.1, color: 'var(--color-forest)' },
+            { label: 'Greece', value: 3.8, color: 'var(--color-forest)' },
           ]} height={160} />
           <p style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', color: 'var(--color-stone)', marginTop: '8px' }}>
-            Scale: 10 = 1.0% GDP. Source: SIPRI, 2025
+            Source: SIPRI, 2025
           </p>
         </div>
 
