@@ -252,23 +252,46 @@ export default async function EUPresidency() {
           Ireland spends 0.2% of GDP on defence — the lowest in the EU. When 25 member states are being asked to raise spending toward 3% of GDP, the country holding the gavel faces obvious questions. Ireland&apos;s answer must be demonstrated, not declared: it contributes where its geography is irreplaceable.
         </p>
 
-        {/* Defence spending — ACTUAL percentages */}
+        {/* Defence spending — compact horizontal bar chart */}
         <div style={{ marginBottom: '16px' }}>
-          <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '17px', fontWeight: 400, color: 'var(--color-ink)', marginBottom: '8px' }}>
+          <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '17px', fontWeight: 400, color: 'var(--color-ink)', marginBottom: '14px' }}>
             Defence spending as % of GDP, 2025
           </h3>
-          <HBarChart data={[
-            { label: 'Greece', value: 3.9 },
-            { label: 'Poland', value: 3.8 },
-            { label: 'Estonia', value: 2.9 },
-            { label: 'France', value: 2.1 },
-            { label: 'EU average', value: 1.8 },
-            { label: 'Germany', value: 1.7 },
-            { label: 'Spain', value: 1.2 },
-            { label: 'Austria', value: 0.8 },
-            { label: 'Ireland', value: 0.2 },
-          ]} />
-          <p style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', color: 'var(--color-stone)', marginTop: '12px' }}>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+            {[
+              { label: 'Greece', value: 3.9 },
+              { label: 'Poland', value: 3.8 },
+              { label: 'Estonia', value: 2.9 },
+              { label: 'France', value: 2.1 },
+              { label: 'EU avg', value: 1.8 },
+              { label: 'Germany', value: 1.7 },
+              { label: 'Spain', value: 1.2 },
+              { label: 'Austria', value: 0.8 },
+              { label: 'Ireland', value: 0.2 },
+            ].map((d, i) => {
+              const isIreland = d.label === 'Ireland';
+              const isAvg = d.label === 'EU avg';
+              return (
+                <div key={i} style={{
+                  flex: '1 1 calc(33.333% - 4px)',
+                  minWidth: '140px',
+                  padding: '10px 14px',
+                  backgroundColor: isIreland ? 'color-mix(in srgb, var(--color-terracotta) 8%, transparent)' : 'var(--color-parchment)',
+                  border: isIreland ? '2px solid var(--color-terracotta)' : isAvg ? '1px dashed var(--color-rule)' : '1px solid var(--color-rule)',
+                  borderRadius: '3px',
+                }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '6px' }}>
+                    <span style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: isIreland ? 'var(--color-terracotta)' : 'var(--color-graphite)', fontWeight: isIreland ? 700 : 400 }}>{d.label}</span>
+                    <span style={{ fontFamily: 'var(--font-mono)', fontSize: '12px', fontWeight: 700, color: isIreland ? 'var(--color-terracotta)' : 'var(--color-forest)' }}>{d.value}%</span>
+                  </div>
+                  <div style={{ height: '4px', backgroundColor: 'var(--color-rule)', borderRadius: '2px', overflow: 'hidden' }}>
+                    <div style={{ height: '100%', width: `${(d.value / 4.0) * 100}%`, backgroundColor: isIreland ? 'var(--color-terracotta)' : 'var(--color-fern)', borderRadius: '2px' }} />
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          <p style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', color: 'var(--color-stone)', marginTop: '10px' }}>
             Source: NATO, SIPRI, national estimates 2025.
           </p>
         </div>
