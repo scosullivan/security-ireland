@@ -51,7 +51,7 @@ function Stats({ items }: { items: { value: string; label: string; color?: strin
   return (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '10px', marginBottom: '20px' }}>
       {items.map((s, i) => (
-        <div key={i} style={{ padding: '16px 14px', backgroundColor: 'var(--color-parchment)', border: `2px solid ${s.color || 'var(--color-forest)'}`, borderRadius: '3px', textAlign: 'center' }}>
+        <div key={i} style={{ padding: '16px 14px', backgroundColor: 'var(--color-parchment)', borderTop: `3px solid ${s.color || 'var(--color-terracotta)'}`, border: '1px solid var(--color-rule)', borderRadius: '3px', textAlign: 'center' }}>
           <div style={{ fontFamily: 'var(--font-serif)', fontSize: '20px', fontWeight: 700, color: s.color || 'var(--color-forest)', marginBottom: '3px' }}>{s.value}</div>
           <div style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', color: 'var(--color-graphite)', lineHeight: 1.3 }}>{s.label}</div>
         </div>
@@ -510,9 +510,14 @@ export default function ForInvestors() {
             </p>
           </Callout>
 
-          <Link href="/publications/europes-defence-problem-isnt-spending" style={readMore}>
-            Read more: Europe&apos;s Defence Problem Isn&apos;t Spending &rarr;
-          </Link>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '16px' }}>
+            <Link href="/publications/ireland-defence-spending" style={readMore}>
+              Ireland&apos;s Defence &amp; Security Spending &rarr;
+            </Link>
+            <Link href="/publications/defence-financing-explained" style={readMore}>
+              European Defence Financing Explained &rarr;
+            </Link>
+          </div>
         </Expandable>
 
         {/* ── 9. EDF for Startups ── */}
