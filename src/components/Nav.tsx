@@ -58,6 +58,7 @@ export default function Nav() {
               letterSpacing: '0.5px',
             }}
           >
+            <Link href="/european-defence" style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}>European Defence</Link>
             <Link href="/eu-presidency" style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}>EU Presidency 2026</Link>
             <Link href="/for-policymakers" style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}>For Policymakers</Link>
             <Link href="/for-the-public" style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}>For the Public</Link>
@@ -73,6 +74,7 @@ export default function Nav() {
             className="md:hidden mt-4 pb-4 space-y-3 border-t border-rule pt-4"
             style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', letterSpacing: '1.5px' }}
           >
+            <div><Link href="/european-defence" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">European Defence</Link></div>
             <div><Link href="/eu-presidency" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">EU Presidency 2026</Link></div>
             <div><Link href="/for-policymakers" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">For Policymakers</Link></div>
             <div><Link href="/for-the-public" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">For the Public</Link></div>
