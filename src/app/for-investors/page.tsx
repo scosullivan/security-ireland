@@ -310,6 +310,10 @@ export default function ForInvestors() {
               <strong>One structural disadvantage:</strong>{' '}Ireland&apos;s defence tech sector is pre-institutional. The firms exist, the technology is often world-class, but the infrastructure investors take for granted &mdash; security clearances, export controls, facility accreditation &mdash; is either absent or being built. This is both the risk and the opportunity.
             </p>
           </Callout>
+
+          <Link href="/publications/building-institutional-infrastructure" style={readMore}>
+            Building the Institutional Infrastructure &rarr;
+          </Link>
         </Expandable>
 
         {/* ── 5. Domestic Procurement ── */}
@@ -347,6 +351,10 @@ export default function ForInvestors() {
               <strong>The constraint: no industrial participation policy.</strong>{' '}Without a requirement for international primes to partner with Irish SMEs, the &euro;2.5 billion pipeline flows to foreign firms with no structured return. With one, every major procurement creates supply chain positions for Irish firms. The domestic pipeline is the launchpad, not the destination.
             </p>
           </Callout>
+
+          <Link href="/publications/ireland-defence-spending" style={readMore}>
+            Ireland&apos;s Defence &amp; Security Spending &rarr;
+          </Link>
         </Expandable>
 
         {/* ── 6. Five Sectors ── */}
