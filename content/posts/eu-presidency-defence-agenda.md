@@ -2,13 +2,12 @@
 title: "Ireland's EU Presidency: Defence and Security Priorities"
 type: "Policy Brief"
 date: "2026-03-15"
-author: "Security Ireland"
+author: "Dr. James Kelly"
 excerpt: "Analysis of key defence and security objectives for Ireland's upcoming EU presidency, focusing on strategic autonomy, industrial cooperation, and burden-sharing frameworks."
 readTime: "12 min read"
 featured: false
 tags: ["EU", "defence", "presidency"]
-audiences: ["policymakers", "investors", "media"]
-topics: ["eu-presidency", "european-defence", "defence-transformation"]
+pdfUrl: "/pdfs/Presidency_Desk_Primer.pdf"
 ---
 
 ## Overview

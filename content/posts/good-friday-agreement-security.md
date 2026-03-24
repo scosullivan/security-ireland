@@ -1,17 +1,20 @@
 ---
 title: "The Good Friday Agreement and Ireland's Evolving Security Architecture"
 type: "Research Paper"
-date: "2026-03-21"
-author: "Security Ireland"
-excerpt: "Twenty-eight years after the Good Friday Agreement, Ireland's security landscape has fundamentally transformed. This paper examines how the GFA's security provisions are being adapted to meet 21st-century challenges, from hybrid threats to NATO cooperation."
-readTime: "8 min read"
+date: "2026-03-20"
+author: "Dr. [Author Name]"
+excerpt: "How the Belfast Agreement's security provisions have been reshaped by Brexit, EU defence integration, and emerging hybrid threats — and what comes next."
+readTime: "28 min read"
 featured: true
 tags: ["gfa", "defence", "eu-presidency", "security-architecture"]
-audiences: ["public", "policymakers"]
-topics: ["uk-ireland", "european-defence"]
+keyFindings:
+  - "Ireland's security commitments under EU frameworks have expanded significantly since 1998, but institutional capacity has not kept pace."
+  - "The bilateral UK-Ireland security relationship has three critical gaps following Brexit."
+  - "Ireland's defence expenditure at 0.2% of GDP is the lowest in the EU."
+  - "The 2026 EU Presidency creates a window to reshape Ireland's security positioning."
 ---
 
-## The Foundation of Modern Irish Security
+## Introduction
 
 The Good Friday Agreement of 1998 represented a watershed moment in Irish security policy. By ending over two decades of conflict on the island, it created the conditions for Ireland to reimagine its role in European security. What was once a framework designed to manage internal conflict has become the foundation upon which modern Irish security architecture rests.
 
