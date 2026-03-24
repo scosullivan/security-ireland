@@ -145,23 +145,42 @@ export default function ForThePublic() {
             Ireland spends approximately 0.2% of its GDP on defence — the lowest proportion in the European Union. In raw numbers, Budget 2026 allocated a record €1.5 billion to defence. The government has committed a capital budget of €1.7 billion over 2026–2030.
           </p>
 
-          <HBarChart data={[
-            { label: 'Poland', value: 4.1 },
-            { label: 'Greece', value: 3.6 },
-            { label: 'Estonia', value: 3.4 },
-            { label: 'Finland', value: 2.4 },
-            { label: 'UK', value: 2.3 },
-            { label: 'France', value: 2.1 },
-            { label: 'Germany', value: 2.1 },
-            { label: 'Netherlands', value: 2.1 },
-            { label: 'Italy', value: 1.5 },
-            { label: 'Spain', value: 1.3 },
-            { label: 'Belgium', value: 1.1 },
-            { label: 'Austria', value: 0.8 },
-            { label: 'Switzerland', value: 0.7 },
-            { label: 'Malta', value: 0.4 },
-            { label: 'Ireland', value: 0.2 },
-          ]} />
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginBottom: '4px' }}>
+            {[
+              { label: 'Poland', value: 4.1 },
+              { label: 'Greece', value: 3.6 },
+              { label: 'Estonia', value: 3.4 },
+              { label: 'Finland', value: 2.4 },
+              { label: 'UK', value: 2.3 },
+              { label: 'France', value: 2.1 },
+              { label: 'Germany', value: 2.1 },
+              { label: 'Netherlands', value: 2.1 },
+              { label: 'Italy', value: 1.5 },
+              { label: 'Spain', value: 1.3 },
+              { label: 'Austria', value: 0.8 },
+              { label: 'Ireland', value: 0.2 },
+            ].map((d, i) => {
+              const isIreland = d.label === 'Ireland';
+              return (
+                <div key={i} style={{
+                  flex: '1 1 calc(33.333% - 4px)',
+                  minWidth: '140px',
+                  padding: '10px 14px',
+                  backgroundColor: isIreland ? 'color-mix(in srgb, var(--color-terracotta) 8%, transparent)' : 'var(--color-parchment)',
+                  border: isIreland ? '2px solid var(--color-terracotta)' : '1px solid var(--color-rule)',
+                  borderRadius: '3px',
+                }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '6px' }}>
+                    <span style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: isIreland ? 'var(--color-terracotta)' : 'var(--color-graphite)', fontWeight: isIreland ? 700 : 400 }}>{d.label}</span>
+                    <span style={{ fontFamily: 'var(--font-mono)', fontSize: '12px', fontWeight: 700, color: isIreland ? 'var(--color-terracotta)' : 'var(--color-forest)' }}>{d.value}%</span>
+                  </div>
+                  <div style={{ height: '4px', backgroundColor: 'var(--color-rule)', borderRadius: '2px', overflow: 'hidden' }}>
+                    <div style={{ height: '100%', width: `${(d.value / 4.5) * 100}%`, backgroundColor: isIreland ? 'var(--color-terracotta)' : 'var(--color-fern)', borderRadius: '2px' }} />
+                  </div>
+                </div>
+              );
+            })}
+          </div>
           <p style={note}>Source: NATO, SIPRI, national estimates 2025. Defence spending as % of GDP.</p>
 
           <div style={{ marginTop: '24px' }}>
