@@ -49,7 +49,7 @@ function Stats({ items }: { items: { value: string; label: string; color?: strin
   return (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '10px', marginBottom: '20px' }}>
       {items.map((s, i) => (
-        <div key={i} style={{ padding: '16px 14px', backgroundColor: 'var(--color-parchment)', border: `2px solid ${s.color || 'var(--color-forest)'}`, borderRadius: '3px', textAlign: 'center' }}>
+        <div key={i} style={{ padding: '16px 14px', backgroundColor: 'var(--color-parchment)', borderTop: `3px solid ${s.color || 'var(--color-terracotta)'}`, border: '1px solid var(--color-rule)', borderRadius: '3px', textAlign: 'center' }}>
           <div style={{ fontFamily: 'var(--font-serif)', fontSize: '20px', fontWeight: 700, color: s.color || 'var(--color-forest)', marginBottom: '3px' }}>{s.value}</div>
           <div style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', color: 'var(--color-graphite)', lineHeight: 1.3 }}>{s.label}</div>
         </div>
@@ -228,9 +228,9 @@ export default function EuropeanDefence() {
             <div style={{ overflowX: 'auto' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', fontFamily: 'var(--font-serif)', fontSize: '13px' }}>
                 <thead>
-                  <tr style={{ borderBottom: '2px solid var(--color-forest)' }}>
-                    <th style={{ textAlign: 'left', padding: '10px 14px', fontFamily: 'var(--font-mono)', fontSize: '9px', letterSpacing: '0.5px', textTransform: 'uppercase', color: 'var(--color-forest)', fontWeight: 700 }}>Investment</th>
-                    <th style={{ textAlign: 'left', padding: '10px 14px', fontFamily: 'var(--font-mono)', fontSize: '9px', letterSpacing: '0.5px', textTransform: 'uppercase', color: 'var(--color-forest)', fontWeight: 700 }}>What it means</th>
+                  <tr style={{ backgroundColor: 'var(--color-forest)' }}>
+                    <th style={{ textAlign: 'left', padding: '10px 14px', fontFamily: 'var(--font-mono)', fontSize: '9px', letterSpacing: '0.5px', textTransform: 'uppercase', color: '#FFFFFF', fontWeight: 700 }}>Investment</th>
+                    <th style={{ textAlign: 'left', padding: '10px 14px', fontFamily: 'var(--font-mono)', fontSize: '9px', letterSpacing: '0.5px', textTransform: 'uppercase', color: '#FFFFFF', fontWeight: 700 }}>What it means</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -276,18 +276,18 @@ export default function EuropeanDefence() {
           </p>
 
           <PubCard
-            title="How Do You Pay for Rearmament?"
+            title="Ireland's Defence & Security Spending"
             type="Research Paper"
             status="Complete"
-            desc="Europe's defence financing operates through five principal mechanisms, each with different scales, constraints, and expiry dates. The national escape clause — by far the largest — expires in 2028. The financing architecture, not the money itself, is the binding constraint."
-            forthcoming
+            desc="Where the money comes from, where it goes, and why the constraint isn't budget. Ireland's defence funding flows through five distinct channels. €42 billion surplus means fiscal space is not the constraint — institutional bandwidth is."
+            slug="ireland-defence-spending"
           />
           <PubCard
-            title="How Defence Financing Actually Works"
-            type="Research Paper"
+            title="European Defence Financing Explained"
+            type="Explainer"
             status="Complete"
-            desc="Traces the full chain from constitutional authorisation through bond issuance through capital markets absorption to procurement pipeline. Explains why the plumbing determines the pace of rearmament and why defence finance reshapes sovereign risk perception across European capital markets."
-            forthcoming
+            desc="How the €800 billion is raised, where it flows, and why procurement — not financing — is the true bottleneck. Traces the full chain from constitutional authorisation through bond issuance to procurement pipeline."
+            slug="defence-financing-explained"
           />
 
           {/* Five financing mechanisms table */}
@@ -296,9 +296,9 @@ export default function EuropeanDefence() {
             <div style={{ overflowX: 'auto' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', fontFamily: 'var(--font-serif)', fontSize: '12px', minWidth: '600px' }}>
                 <thead>
-                  <tr style={{ borderBottom: '2px solid var(--color-forest)' }}>
+                  <tr style={{ backgroundColor: 'var(--color-forest)' }}>
                     {['Mechanism', 'Scale', 'Duration', 'Key constraint'].map((h) => (
-                      <th key={h} style={{ textAlign: 'left', padding: '10px 12px', fontFamily: 'var(--font-mono)', fontSize: '8px', letterSpacing: '0.5px', textTransform: 'uppercase', color: 'var(--color-forest)', fontWeight: 700 }}>{h}</th>
+                      <th key={h} style={{ textAlign: 'left', padding: '10px 12px', fontFamily: 'var(--font-mono)', fontSize: '8px', letterSpacing: '0.5px', textTransform: 'uppercase', color: '#FFFFFF', fontWeight: 700 }}>{h}</th>
                     ))}
                   </tr>
                 </thead>
