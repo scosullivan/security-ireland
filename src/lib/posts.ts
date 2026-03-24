@@ -101,3 +101,21 @@ export async function getPostsByType(type: string): Promise<Post[]> {
   return posts.filter((post) => post.type === type);
 }
  
+export async function getRelatedPosts(currentSlug: string, limit = 3): Promise<Post[]> {
+  const posts = await getAllPosts();
+  const current = posts.find((p) => p.slug === currentSlug);
+  if (!current) return posts.filter((p) => p.slug !== currentSlug).slice(0, limit);
+ 
+  // Score by shared tags, then same type, then recency
+  const scored = posts
+    .filter((p) => p.slug !== currentSlug)
+    .map((p) => {
+      const sharedTags = p.tags.filter((t) => current.tags.includes(t)).length;
+      const sameType = p.type === current.type ? 1 : 0;
+      return { post: p, score: sharedTags * 2 + sameType };
+    })
+    .sort((a, b) => b.score - a.score || new Date(b.post.date).getTime() - new Date(a.post.date).getTime());
+ 
+  return scored.slice(0, limit).map((s) => s.post);
+}
+ 
