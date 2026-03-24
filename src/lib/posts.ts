@@ -9,15 +9,17 @@ import remarkHtml from 'remark-html';
 export interface Post {
   slug: string;
   title: string;
-  type: 'Research Paper' | 'Policy Brief' | 'Explainer' | 'Data Sheet' | 'Policy Framework';
+  type: 'Research Paper' | 'Policy Brief' | 'Explainer' | 'Data Sheet';
   date: string;
   author: string;
   excerpt: string;
   readTime: string;
   featured: boolean;
   tags: string[];
-  keyFindings?: string[];
+  audiences: string[];
+  topics: string[];
   pdfUrl?: string;
+  keyFindings?: string[];
   content?: string;
   html?: string;
 }
@@ -51,8 +53,10 @@ function getPostData(slug: string): Post | null {
       readTime: data.readTime || '',
       featured: data.featured || false,
       tags: data.tags || [],
+      audiences: data.audiences || ['public'],
+      topics: data.topics || data.tags || [],
+      pdfUrl: data.pdfUrl || '',
       keyFindings: data.keyFindings || [],
-      pdfUrl: data.pdfUrl || undefined,
       content,
     };
   } catch (error) {
@@ -69,7 +73,6 @@ export async function getAllPosts(): Promise<Post[]> {
     })
     .filter((post) => post !== null) as Post[];
  
-  // Sort by date descending
   return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
  
@@ -101,21 +104,24 @@ export async function getPostsByType(type: string): Promise<Post[]> {
   return posts.filter((post) => post.type === type);
 }
  
-export async function getRelatedPosts(currentSlug: string, limit = 3): Promise<Post[]> {
+export async function getPostsByAudience(audience: string): Promise<Post[]> {
   const posts = await getAllPosts();
-  const current = posts.find((p) => p.slug === currentSlug);
-  if (!current) return posts.filter((p) => p.slug !== currentSlug).slice(0, limit);
+  return posts.filter((post) => post.audiences.includes(audience));
+}
  
-  // Score by shared tags, then same type, then recency
-  const scored = posts
+export async function getPostsByTopic(topic: string): Promise<Post[]> {
+  const posts = await getAllPosts();
+  return posts.filter((post) => post.topics.includes(topic));
+}
+ 
+export async function getRelatedPosts(currentSlug: string, limit = 3): Promise<Post[]> {
+  const current = getPostData(currentSlug);
+  if (!current) return [];
+ 
+  const posts = await getAllPosts();
+  return posts
     .filter((p) => p.slug !== currentSlug)
-    .map((p) => {
-      const sharedTags = p.tags.filter((t) => current.tags.includes(t)).length;
-      const sameType = p.type === current.type ? 1 : 0;
-      return { post: p, score: sharedTags * 2 + sameType };
-    })
-    .sort((a, b) => b.score - a.score || new Date(b.post.date).getTime() - new Date(a.post.date).getTime());
- 
-  return scored.slice(0, limit).map((s) => s.post);
+    .filter((p) => p.topics.some((t) => current.topics.includes(t)))
+    .slice(0, limit);
 }
  
