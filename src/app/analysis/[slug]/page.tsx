@@ -107,27 +107,11 @@ export default async function PublicationPage({
 
         {/* PDF Download Button — prominent, before the divider */}
         {post.pdfUrl && (
-          <div style={{ marginBottom: '32px' }}>
+          <div className="mb-8">
             <a
               href={post.pdfUrl}
               download
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '10px',
-                padding: '14px 28px',
-                backgroundColor: 'var(--color-forest)',
-                color: '#FFFFFF',
-                fontFamily: 'var(--font-sans)',
-                fontSize: '0.95rem',
-                fontWeight: 600,
-                letterSpacing: '0.02em',
-                borderRadius: '6px',
-                textDecoration: 'none',
-                transition: 'background-color 0.2s ease',
-              }}
-              onMouseOver={(e) => (e.currentTarget.style.backgroundColor = '#3D6B4F')}
-              onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '#1B3326')}
+              className="inline-flex items-center gap-2.5 px-7 py-3.5 bg-forest text-white font-sans font-semibold text-[0.95rem] tracking-wide rounded-md no-underline transition-colors duration-200 hover:bg-fern"
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
@@ -194,25 +178,11 @@ export default async function PublicationPage({
 
         {/* Repeat PDF download at bottom for convenience */}
         {post.pdfUrl && (
-          <div style={{ marginBottom: '24px' }}>
+          <div className="mb-6">
             <a
               href={post.pdfUrl}
               download
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '8px',
-                padding: '10px 20px',
-                border: '1.5px solid var(--color-forest)',
-                color: 'var(--color-forest)',
-                fontFamily: 'var(--font-sans)',
-                fontSize: '0.875rem',
-                fontWeight: 600,
-                borderRadius: '6px',
-                textDecoration: 'none',
-                backgroundColor: 'transparent',
-                transition: 'all 0.2s ease',
-              }}
+              className="inline-flex items-center gap-2 px-5 py-2.5 border-[1.5px] border-forest text-forest font-sans text-sm font-semibold rounded-md no-underline bg-transparent transition-colors duration-200 hover:bg-forest hover:text-white"
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
