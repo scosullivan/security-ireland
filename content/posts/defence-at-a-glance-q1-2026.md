@@ -28,8 +28,8 @@ Ireland's total defence budget for 2026 stands at €1.24 billion, representing 
 | Category | Amount | Share |
 |---|---|---|
 | Personnel costs | €719m | 58% |
-| Equipment & maintenance | €347m | 28% |
-| Operations & infrastructure | €174m | 14% |
+| Equipment &amp; maintenance | €347m | 28% |
+| Operations &amp; infrastructure | €174m | 14% |
 | **Total** | **€1,240m** | **100%** |
 
 *Source: Department of Defence, Revised Estimates 2026.*
