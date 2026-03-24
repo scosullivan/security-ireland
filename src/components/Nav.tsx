@@ -1,10 +1,22 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useState } from 'react';
+
+const navLinks = [
+  { href: '/european-defence', label: 'European Defence' },
+  { href: '/eu-presidency', label: 'EU Presidency 2026' },
+  { href: '/for-policymakers', label: 'For Policymakers' },
+  { href: '/for-the-public', label: 'For the Public' },
+  { href: '/for-investors', label: 'For Investors' },
+  { href: '/for-media', label: 'For Media' },
+  { href: '/about', label: 'About' },
+];
 
 export default function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <nav
@@ -58,13 +70,24 @@ export default function Nav() {
               letterSpacing: '0.5px',
             }}
           >
-            <Link href="/european-defence" style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}>European Defence</Link>
-            <Link href="/eu-presidency" style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}>EU Presidency 2026</Link>
-            <Link href="/for-policymakers" style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}>For Policymakers</Link>
-            <Link href="/for-the-public" style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}>For the Public</Link>
-            <Link href="/for-investors" style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}>For Investors</Link>
-            <Link href="/for-media" style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}>For Media</Link>
-            <Link href="/about" style={{ color: 'var(--color-stone)', transition: 'color 0.2s' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-ink)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-stone)'}>About</Link>
+            {navLinks.map((link) => {
+              const isActive = pathname === link.href || pathname.startsWith(link.href + '/');
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  style={{
+                    color: isActive ? 'var(--color-terracotta)' : 'var(--color-stone)',
+                    fontWeight: isActive ? 600 : 400,
+                    transition: 'color 0.2s',
+                  }}
+                  onMouseOver={(e) => { if (!isActive) e.currentTarget.style.color = 'var(--color-ink)'; }}
+                  onMouseOut={(e) => { if (!isActive) e.currentTarget.style.color = 'var(--color-stone)'; }}
+                >
+                  {link.label}
+                </Link>
+              );
+            })}
             <Link href="#subscribe" style={{ color: 'var(--color-terracotta)' }} className="hover:opacity-75 transition-opacity">Subscribe</Link>
           </div>
         </div>
@@ -74,13 +97,23 @@ export default function Nav() {
             className="md:hidden mt-4 pb-4 space-y-3 border-t border-rule pt-4"
             style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', letterSpacing: '1.5px' }}
           >
-            <div><Link href="/european-defence" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">European Defence</Link></div>
-            <div><Link href="/eu-presidency" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">EU Presidency 2026</Link></div>
-            <div><Link href="/for-policymakers" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">For Policymakers</Link></div>
-            <div><Link href="/for-the-public" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">For the Public</Link></div>
-            <div><Link href="/for-investors" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">For Investors</Link></div>
-            <div><Link href="/for-media" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">For Media</Link></div>
-            <div><Link href="/about" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">About</Link></div>
+            {navLinks.map((link) => {
+              const isActive = pathname === link.href || pathname.startsWith(link.href + '/');
+              return (
+                <div key={link.href}>
+                  <Link
+                    href={link.href}
+                    style={{
+                      color: isActive ? 'var(--color-terracotta)' : 'var(--color-stone)',
+                      fontWeight: isActive ? 600 : 400,
+                    }}
+                    className="block hover:opacity-75 transition-opacity"
+                  >
+                    {link.label}
+                  </Link>
+                </div>
+              );
+            })}
             <div><Link href="#subscribe" style={{ color: 'var(--color-terracotta)' }} className="block hover:opacity-75 transition-opacity">Subscribe</Link></div>
           </div>
         )}
