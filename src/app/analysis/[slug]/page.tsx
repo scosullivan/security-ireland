@@ -91,7 +91,7 @@ export default async function PublicationPage({
             fontFamily: 'var(--font-mono)',
             fontSize: '12px',
             color: 'var(--color-stone)',
-            marginBottom: '32px',
+            marginBottom: '24px',
           }}
         >
           <span>{post.author}</span>
@@ -105,32 +105,38 @@ export default async function PublicationPage({
           )}
         </div>
 
-        {/* PDF Download */}
+        {/* PDF Download Button — prominent, before the divider */}
         {post.pdfUrl && (
-          <a
-            href={post.pdfUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '8px',
-              padding: '10px 20px',
-              backgroundColor: 'var(--color-forest)',
-              color: '#FFFFFF',
-              fontFamily: 'var(--font-mono)',
-              fontSize: '12px',
-              letterSpacing: '1px',
-              textTransform: 'uppercase',
-              textDecoration: 'none',
-              borderRadius: '3px',
-              marginBottom: '32px',
-              transition: 'opacity 0.2s',
-            }}
-            className="hover:opacity-85"
-          >
-            Download PDF ↓
-          </a>
+          <div style={{ marginBottom: '32px' }}>
+            <a
+              href={post.pdfUrl}
+              download
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '10px',
+                padding: '14px 28px',
+                backgroundColor: 'var(--color-forest)',
+                color: '#FFFFFF',
+                fontFamily: 'var(--font-sans)',
+                fontSize: '0.95rem',
+                fontWeight: 600,
+                letterSpacing: '0.02em',
+                borderRadius: '6px',
+                textDecoration: 'none',
+                transition: 'background-color 0.2s ease',
+              }}
+              onMouseOver={(e) => (e.currentTarget.style.backgroundColor = '#3D6B4F')}
+              onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '#1B3326')}
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Download PDF
+            </a>
+          </div>
         )}
 
         {/* Divider */}
@@ -183,15 +189,47 @@ export default async function PublicationPage({
           />
         )}
 
-        {/* Back Link */}
-        <div className="border-t border-rule pt-8">
-          <Link
-            href="/analysis"
-            className="text-terracotta font-sans font-bold hover:text-copper transition-colors"
-          >
-            ← Back to Analysis
-          </Link>
-        </div>
+        {/* Bottom divider and back link — clean */}
+        <hr className="rule-accent mt-12 mb-8" />
+
+        {/* Repeat PDF download at bottom for convenience */}
+        {post.pdfUrl && (
+          <div style={{ marginBottom: '24px' }}>
+            <a
+              href={post.pdfUrl}
+              download
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '10px 20px',
+                border: '1.5px solid var(--color-forest)',
+                color: 'var(--color-forest)',
+                fontFamily: 'var(--font-sans)',
+                fontSize: '0.875rem',
+                fontWeight: 600,
+                borderRadius: '6px',
+                textDecoration: 'none',
+                backgroundColor: 'transparent',
+                transition: 'all 0.2s ease',
+              }}
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Download PDF
+            </a>
+          </div>
+        )}
+
+        <Link
+          href="/analysis"
+          className="text-terracotta font-sans font-bold hover:text-copper transition-colors"
+        >
+          ← Back to Analysis
+        </Link>
       </article>
     </div>
   );
