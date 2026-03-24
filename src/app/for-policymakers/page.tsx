@@ -307,22 +307,31 @@ export default function ForPolicymakers() {
         </p>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
-          <ForthcomingCard
+          <PubCard
+            title="Building the Institutional Infrastructure"
+            type="Policy Framework · Complete"
+            desc="The foundational architecture Ireland needs before capability investment can convert to operational capacity. Maps the institutional prerequisites across procurement, workforce, and governance that the Commission on Defence Forces identified but that remain unbuilt."
+            href="/publications/building-institutional-infrastructure"
+            status="complete"
+          />
+          <PubCard
             title="Ireland&rsquo;s Defence Industrial Architecture"
-            type="Policy Framework · Forthcoming"
+            type="Policy Framework · Complete"
             desc="Can Ireland develop a defence industrial base? The government is removing restrictions on Enterprise Ireland&rsquo;s dual-use engagement. This paper analyses what institutional prerequisites are missing and what bounded role Irish industry can play within European defence production."
-            coming="Coming Q4 2026"
+            href="/publications/defence-industrial-architecture"
+            status="complete"
+          />
+          <PubCard
+            title="The LOA Transition Architecture"
+            type="Policy Framework · Complete"
+            desc="What institutional transformation — not just spending — is required to move from LOA 1 to LOA 2? Fifty-four of 130 Commission on Defence Forces recommendations completed in four years. The rate is slowing."
+            href="/publications/loa-transition-architecture"
+            status="complete"
           />
           <ForthcomingCard
             title="Intelligence Architecture Reform"
             type="Policy Framework · Forthcoming"
             desc="Ireland&rsquo;s intelligence architecture — split between military (J2/IMIS), police (Garda CSB), and cyber (NCSC) — is unique in Europe. Every comparable state has unified intelligence. This paper examines what a unified national intelligence structure would look like."
-            coming="Coming 2027"
-          />
-          <ForthcomingCard
-            title="The LOA Transition Architecture"
-            type="Policy Framework · Forthcoming"
-            desc="What institutional transformation — not just spending — is required to move from LOA 1 to LOA 2? Fifty-four of 130 Commission on Defence Forces recommendations completed in four years. The rate is slowing."
             coming="Coming 2027"
           />
         </div>
