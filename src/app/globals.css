@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+ 
 @theme inline {
   --color-forest: #1B3326;
   --color-fern: #3D6B4F;
@@ -12,12 +12,12 @@
   --color-ink: #1A1A1A;
   --color-graphite: #4A4A4A;
   --color-stone: #9A9A8A;
-
+ 
   --font-serif: "Lora", serif;
   --font-sans: "Inter", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 }
-
+ 
 /* Base */
 html { scroll-behavior: smooth; }
 body {
@@ -27,7 +27,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+ 
 /* Label utility */
 .label-caps {
   font-family: var(--font-mono);
@@ -43,7 +43,7 @@ body {
   text-transform: uppercase;
   color: var(--color-terracotta);
 }
-
+ 
 /* Terracotta rule */
 .rule-accent {
   border: none;
@@ -53,8 +53,8 @@ body {
   border: none;
   border-top: 1px solid var(--color-rule);
 }
-
-/* Type pip badges (used in featured block, pub header) */
+ 
+/* Type pip badges */
 .type-pip {
   font-family: var(--font-mono);
   font-size: 10px;
@@ -66,84 +66,16 @@ body {
   border-radius: 2px;
   white-space: nowrap;
 }
-
-/* Pub list items — compact inline rows */
-.pub-list-item {
-  padding: 24px 0;
-  border-bottom: 1px solid var(--color-rule);
-  display: flex;
-  gap: 20px;
-  align-items: baseline;
-  cursor: pointer;
-  transition: background 0.1s;
-  text-decoration: none;
-}
-.pub-list-item:hover {
-  margin: 0 -20px;
-  padding: 24px 20px;
-  background: rgba(237,231,219,0.5);
-}
-.pub-list-item .type-pip-inline {
-  font-family: var(--font-mono);
-  font-size: 9px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--color-stone);
-  white-space: nowrap;
-  min-width: 100px;
-  flex-shrink: 0;
-}
-.pub-list-item h3 {
-  font-family: var(--font-serif);
-  font-size: 17px;
-  font-weight: 600;
-  color: var(--color-ink);
-  line-height: 1.35;
-  flex: 1;
-}
-.pub-list-item .date {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  color: var(--color-stone);
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-
-/* Filter row */
-.filter-row {
-  display: flex;
-  gap: 16px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid var(--color-rule);
-  flex-wrap: wrap;
-}
-.filter-item {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: 0.5px;
-  color: var(--color-stone);
-  cursor: pointer;
-  padding-bottom: 2px;
-  border: none;
-  background: none;
-  border-bottom: 1px solid transparent;
-  transition: all 0.2s;
-}
-.filter-item:hover {
-  color: var(--color-ink);
-}
-.filter-item.active {
-  color: var(--color-ink);
-  border-bottom-color: var(--color-terracotta);
-}
-
-/* Article prose — matches wireframe: Lora serif for body text */
+ 
+/* Article prose */
 .prose-si h2 {
   font-family: var(--font-serif);
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: 400;
   color: var(--color-ink);
-  margin: 36px 0 14px;
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.15rem;
+  border-bottom: 1.5px solid var(--color-terracotta);
 }
 .prose-si h3 {
   font-family: var(--font-serif);
@@ -153,29 +85,24 @@ body {
   margin: 2rem 0 0.75rem;
 }
 .prose-si p {
-  font-family: var(--font-serif);
-  font-size: 16px;
-  line-height: 1.85;
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.75;
   color: var(--color-graphite);
-  margin-bottom: 20px;
-  max-width: 640px;
+  margin-bottom: 1.25rem;
 }
 .prose-si blockquote {
-  font-family: var(--font-serif);
-  font-size: 19px;
+  border-left: 3px solid var(--color-terracotta);
+  padding: 1rem 1.5rem;
+  background: var(--color-parchment);
+  margin: 1.5rem 0;
   font-style: italic;
-  color: var(--color-ink);
-  border-left: 2px solid var(--color-terracotta);
-  padding: 4px 0 4px 24px;
-  margin: 32px 0;
-  max-width: 520px;
-  line-height: 1.55;
-  background: none;
+  color: var(--color-graphite);
 }
 .prose-si ul, .prose-si ol {
-  font-family: var(--font-serif);
-  font-size: 16px;
-  line-height: 1.85;
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.75;
   color: var(--color-graphite);
   margin-bottom: 1.25rem;
   padding-left: 1.5rem;
@@ -188,87 +115,7 @@ body {
 .prose-si a:hover {
   color: var(--color-copper);
 }
-
-/* Key findings */
-.key-findings {
-  margin: 32px 0;
-  padding: 20px 0 20px 24px;
-  border-left: 2px solid var(--color-terracotta);
-}
-.key-findings .kf-title {
-  font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: var(--color-terracotta);
-  margin-bottom: 12px;
-}
-.key-findings li {
-  font-family: var(--font-serif);
-  font-size: 14px;
-  color: var(--color-ink);
-  line-height: 1.65;
-  margin-bottom: 8px;
-  margin-left: 16px;
-}
-
-/* Pub actions */
-.pub-actions {
-  padding: 28px 0;
-  border-top: 1.5px solid var(--color-terracotta);
-  display: flex;
-  gap: 28px;
-  align-items: baseline;
-  flex-wrap: wrap;
-}
-.action-link {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--color-ink);
-  text-decoration: none;
-  padding-bottom: 2px;
-  border-bottom: 1px solid var(--color-rule);
-  transition: all 0.2s;
-}
-.action-link:hover {
-  border-color: var(--color-ink);
-}
-.action-link.primary {
-  color: var(--color-terracotta);
-  border-color: var(--color-terracotta);
-}
-
-/* Author block */
-.author-block {
-  padding: 28px 0;
-  border-top: 1px solid var(--color-rule);
-  display: flex;
-  gap: 14px;
-  align-items: flex-start;
-}
-.author-avatar {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background: var(--color-parchment);
-  flex-shrink: 0;
-}
-.author-name {
-  font-family: var(--font-serif);
-  font-weight: 600;
-  font-size: 15px;
-  color: var(--color-ink);
-  margin-bottom: 2px;
-}
-.author-role {
-  font-family: var(--font-serif);
-  font-size: 13px;
-  color: var(--color-stone);
-  font-style: italic;
-}
-
+ 
 /* Ireland SVG animation */
 @keyframes draw {
   from { stroke-dashoffset: 2400; }
@@ -280,7 +127,6 @@ body {
 }
 .scrawl {
   stroke-dasharray: 2400;
-  stroke-dashoffset: 2400;
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -292,18 +138,21 @@ body {
 .s4 { stroke: var(--color-fern); stroke-width: 3.0; stroke-opacity: 0.10; animation: draw 2.6s ease-out forwards; animation-delay: 1.7s; }
 .s5 { stroke: var(--color-forest); stroke-width: 1.5; stroke-opacity: 0.25; animation: draw 2.0s ease-out forwards; animation-delay: 2.0s; }
 .s6 { stroke: var(--color-forest); stroke-width: 1.2; stroke-opacity: 0.35; animation: draw 1.8s ease-out forwards; animation-delay: 2.5s; }
-
-/* SVG animations run on load */
+ 
+/* Pause animations until anim-go class is applied */
 .ireland-svg .scrawl {
+  animation-play-state: paused;
+}
+.ireland-svg.anim-go .scrawl {
   animation-play-state: running;
 }
-.ireland-svg .dot {
+.ireland-svg.anim-go .dot {
   animation: fade-in 0.8s ease-out forwards;
 }
-.ireland-svg .dot-label {
+.ireland-svg.anim-go .dot-label {
   animation: fade-in 0.6s ease-out forwards;
 }
-
+ 
 /* City dots */
 .dot {
   fill: var(--color-terracotta);
@@ -313,7 +162,7 @@ body {
 .dot-cork { animation-delay: 3.7s; }
 .dot-galway { animation-delay: 3.9s; }
 .dot-belfast { animation-delay: 4.1s; }
-
+ 
 /* City labels */
 .dot-label {
   font-family: var(--font-mono);
@@ -327,3 +176,4 @@ body {
 .dot-label-cork { animation-delay: 3.9s; }
 .dot-label-galway { animation-delay: 4.1s; }
 .dot-label-belfast { animation-delay: 4.3s; }
+ 
