@@ -101,7 +101,7 @@ function BarrierCard({ num, name, status, timeline, impact, color }: { num: stri
           <div style={{ fontFamily: 'var(--font-serif)', fontSize: '12px', color }}>{timeline}</div>
         </div>
       </div>
-      <p style={{ fontFamily: 'var(--font-serif)', fontSize: '12px', color: 'var(--color-graphite)', lineHeight: 1.5, margin: 0 }}><strong>Investor impact:</strong> {impact}</p>
+      <p style={{ fontFamily: 'var(--font-serif)', fontSize: '12px', color: 'var(--color-graphite)', lineHeight: 1.5, margin: 0 }}><strong>Investor impact:</strong>{' '}{impact}</p>
     </div>
   );
 }
@@ -225,16 +225,16 @@ export default function ForInvestors() {
           ]} />
 
           <p style={p}>
-            <strong>What is changing.</strong> ReArm Europe is shifting procurement from national to joint mechanisms. SAFE requires 2+ countries. EDIP requires 3+. The Defence Procurement Directive is being revised to add European supplier preference. Companies that can serve multi-country procurement programmes gain access to a larger addressable market.
+            <strong>What is changing.</strong>{' '}ReArm Europe is shifting procurement from national to joint mechanisms. SAFE requires 2+ countries. EDIP requires 3+. The Defence Procurement Directive is being revised to add European supplier preference. Companies that can serve multi-country procurement programmes gain access to a larger addressable market.
           </p>
 
           <p style={p}>
-            <strong>Where startups fit.</strong> The EU is explicitly creating space for non-traditional defence firms. EDIP includes SME support and the FAST supply chain fund. InvestEU targets VC funds investing in defence startups. DIANA runs challenge programmes. The European Defence Fund requires SME participation in consortia.
+            <strong>Where startups fit.</strong>{' '}The EU is explicitly creating space for non-traditional defence firms. EDIP includes SME support and the FAST supply chain fund. InvestEU targets VC funds investing in defence startups. DIANA runs challenge programmes. The European Defence Fund requires SME participation in consortia.
           </p>
 
           <Callout color="var(--color-forest)">
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-ink)', lineHeight: 1.65, margin: 0 }}>
-              <strong>The procurement timeline matters for investors.</strong> A startup that wins an EDF-funded R&amp;D contract in 2026 may not see production revenue until 2030 or later. Patient capital &mdash; or companies with dual-use revenue sustaining the business while defence contracts mature &mdash; is structurally better positioned. This is not SaaS.
+              <strong>The procurement timeline matters for investors.</strong>{' '}A startup that wins an EDF-funded R&amp;D contract in 2026 may not see production revenue until 2030 or later. Patient capital &mdash; or companies with dual-use revenue sustaining the business while defence contracts mature &mdash; is structurally better positioned. This is not SaaS.
             </p>
           </Callout>
 
@@ -264,7 +264,7 @@ export default function ForInvestors() {
           </div>
 
           <p style={p}>
-            <strong>Relevance for Ireland.</strong> Ireland is not a NATO member, so Irish companies cannot directly apply to NIF or DIANA. However, Ireland&apos;s ITPP membership (since 2024) creates a pathway to NATO innovation ecosystem engagement. Irish companies participating in EU-funded consortia alongside NATO-member firms gain indirect access to both demand pipelines.
+            <strong>Relevance for Ireland.</strong>{' '}Ireland is not a NATO member, so Irish companies cannot directly apply to NIF or DIANA. However, Ireland&apos;s ITPP membership (since 2024) creates a pathway to NATO innovation ecosystem engagement. Irish companies participating in EU-funded consortia alongside NATO-member firms gain indirect access to both demand pipelines.
           </p>
 
           <Callout>
@@ -307,7 +307,7 @@ export default function ForInvestors() {
 
           <Callout color="var(--color-terracotta)">
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-ink)', lineHeight: 1.65, margin: 0 }}>
-              <strong>One structural disadvantage:</strong> Ireland&apos;s defence tech sector is pre-institutional. The firms exist, the technology is often world-class, but the infrastructure investors take for granted &mdash; security clearances, export controls, facility accreditation &mdash; is either absent or being built. This is both the risk and the opportunity.
+              <strong>One structural disadvantage:</strong>{' '}Ireland&apos;s defence tech sector is pre-institutional. The firms exist, the technology is often world-class, but the infrastructure investors take for granted &mdash; security clearances, export controls, facility accreditation &mdash; is either absent or being built. This is both the risk and the opportunity.
             </p>
           </Callout>
         </Expandable>
@@ -344,7 +344,7 @@ export default function ForInvestors() {
 
           <Callout>
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-ink)', lineHeight: 1.65, margin: 0 }}>
-              <strong>The constraint: no industrial participation policy.</strong> Without a requirement for international primes to partner with Irish SMEs, the &euro;2.5 billion pipeline flows to foreign firms with no structured return. With one, every major procurement creates supply chain positions for Irish firms. The domestic pipeline is the launchpad, not the destination.
+              <strong>The constraint: no industrial participation policy.</strong>{' '}Without a requirement for international primes to partner with Irish SMEs, the &euro;2.5 billion pipeline flows to foreign firms with no structured return. With one, every major procurement creates supply chain positions for Irish firms. The domestic pipeline is the launchpad, not the destination.
             </p>
           </Callout>
         </Expandable>
@@ -393,7 +393,7 @@ export default function ForInvestors() {
 
           <Callout color="var(--color-terracotta)">
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-ink)', lineHeight: 1.65, margin: 0 }}>
-              <strong>Cross-cutting observation:</strong> The most investable Irish defence tech companies are those with dual-use revenue models &mdash; civilian revenue sustaining the business while defence contracts mature. Pure-play defence startups face longer timelines because the domestic pipeline is still forming.
+              <strong>Cross-cutting observation:</strong>{' '}The most investable Irish defence tech companies are those with dual-use revenue models &mdash; civilian revenue sustaining the business while defence contracts mature. Pure-play defence startups face longer timelines because the domestic pipeline is still forming.
             </p>
           </Callout>
         </Expandable>
@@ -466,7 +466,7 @@ export default function ForInvestors() {
 
           <Callout>
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-ink)', lineHeight: 1.65, margin: 0 }}>
-              <strong>The sequencing matters.</strong> A company that builds clearances and EU consortium participation now is positioned for each subsequent reform as it arrives. First-movers compound their advantages at every stage.
+              <strong>The sequencing matters.</strong>{' '}A company that builds clearances and EU consortium participation now is positioned for each subsequent reform as it arrives. First-movers compound their advantages at every stage.
             </p>
           </Callout>
         </Expandable>
@@ -487,11 +487,11 @@ export default function ForInvestors() {
           </p>
 
           <p style={p}>
-            <strong>The basic model.</strong> Governments allocate budgets annually. Procurement agencies identify requirements, run tenders, award contracts, and manage delivery. Payment follows milestones. The entire cycle from requirement to delivery can take five to fifteen years for major platforms.
+            <strong>The basic model.</strong>{' '}Governments allocate budgets annually. Procurement agencies identify requirements, run tenders, award contracts, and manage delivery. Payment follows milestones. The entire cycle from requirement to delivery can take five to fifteen years for major platforms.
           </p>
 
           <p style={p}>
-            <strong>What changed with ReArm Europe.</strong> EU-level instruments now supplement national budgets. SAFE loans reduce cost of capital (backed by the Commission&apos;s AAA credit, up to 45-year maturities). EDIP grants co-fund procurement. EDF co-funds R&amp;D. The effect: governments can procure more, sooner, and at lower fiscal cost.
+            <strong>What changed with ReArm Europe.</strong>{' '}EU-level instruments now supplement national budgets. SAFE loans reduce cost of capital (backed by the Commission&apos;s AAA credit, up to 45-year maturities). EDIP grants co-fund procurement. EDF co-funds R&amp;D. The effect: governments can procure more, sooner, and at lower fiscal cost.
           </p>
 
           <Stats items={[
@@ -506,7 +506,7 @@ export default function ForInvestors() {
 
           <Callout color="var(--color-terracotta)">
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-ink)', lineHeight: 1.65, margin: 0 }}>
-              <strong>Demand signal ≠ revenue.</strong> ReArm Europe creates an enormous demand signal. Converting that into revenue requires navigating procurement processes, winning contracts, delivering capability, and collecting payment &mdash; a multi-year process. Fund structures should reflect this: long fund lives, patience with portfolio companies, and realistic time-to-revenue assumptions. This is not SaaS.
+              <strong>Demand signal ≠ revenue.</strong>{' '}ReArm Europe creates an enormous demand signal. Converting that into revenue requires navigating procurement processes, winning contracts, delivering capability, and collecting payment &mdash; a multi-year process. Fund structures should reflect this: long fund lives, patience with portfolio companies, and realistic time-to-revenue assumptions. This is not SaaS.
             </p>
           </Callout>
 
@@ -528,7 +528,7 @@ export default function ForInvestors() {
           ]} />
 
           <p style={p}>
-            <strong>How consortia work.</strong> EDF projects require entities from at least three EU member states. Consortia typically include defence primes (procurement relationships), research institutions (technical depth), and SMEs/startups (innovation). EDF explicitly reserves funding for SME-led projects.
+            <strong>How consortia work.</strong>{' '}EDF projects require entities from at least three EU member states. Consortia typically include defence primes (procurement relationships), research institutions (technical depth), and SMEs/startups (innovation). EDF explicitly reserves funding for SME-led projects.
           </p>
 
           {/* EDF pathway diagram */}
@@ -548,7 +548,7 @@ export default function ForInvestors() {
           </div>
 
           <p style={p}>
-            <strong>Barriers for Irish startups.</strong> Consortium participation requires security clearances. Ireland&apos;s interim clearance process (expected 2026) opens the door. Companies also need consortium partners in at least two other EU states &mdash; relationship-building that Enterprise Ireland support (post-reform) could transform.
+            <strong>Barriers for Irish startups.</strong>{' '}Consortium participation requires security clearances. Ireland&apos;s interim clearance process (expected 2026) opens the door. Companies also need consortium partners in at least two other EU states &mdash; relationship-building that Enterprise Ireland support (post-reform) could transform.
           </p>
 
           <Callout>
@@ -585,7 +585,7 @@ export default function ForInvestors() {
 
           <Callout color="var(--color-terracotta)">
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-ink)', lineHeight: 1.65, margin: 0 }}>
-              <strong>Fund construction:</strong> Defence tech funds need 10&ndash;12 year fund lives with extensions, patience with pre-revenue portfolio companies, comfort with government revenue concentration, and a thesis that treats regulatory environment as a moat. The opportunity is structural and multi-decade. The returns are real but slower than enterprise software.
+              <strong>Fund construction:</strong>{' '}Defence tech funds need 10&ndash;12 year fund lives with extensions, patience with pre-revenue portfolio companies, comfort with government revenue concentration, and a thesis that treats regulatory environment as a moat. The opportunity is structural and multi-decade. The returns are real but slower than enterprise software.
             </p>
           </Callout>
         </Expandable>
@@ -642,14 +642,14 @@ export default function ForInvestors() {
               </div>
               <p style={{ fontFamily: 'var(--font-serif)', fontSize: '13px', color: 'var(--color-graphite)', lineHeight: 1.6, marginBottom: '10px' }}>{d.desc}</p>
               <div style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', color: 'var(--color-stone)', lineHeight: 1.5 }}>
-                <strong style={{ color: 'var(--color-graphite)' }}>EU funding:</strong> {d.funding}
+                <strong style={{ color: 'var(--color-graphite)' }}>EU funding:</strong>{' '}{d.funding}
               </div>
             </div>
           ))}
 
           <Callout>
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-ink)', lineHeight: 1.65, margin: 0 }}>
-              <strong>Why these three and not others.</strong> Ireland will not build tanks, fighter jets, or missile systems. But maritime AI, subsea monitoring, and cybersecurity are domains where geography creates permanent demand, technology talent is directly applicable, and EU funding is explicitly allocated. The bounded nature of the opportunity is a feature &mdash; it defines a clear thesis rather than a diffuse bet.
+              <strong>Why these three and not others.</strong>{' '}Ireland will not build tanks, fighter jets, or missile systems. But maritime AI, subsea monitoring, and cybersecurity are domains where geography creates permanent demand, technology talent is directly applicable, and EU funding is explicitly allocated. The bounded nature of the opportunity is a feature &mdash; it defines a clear thesis rather than a diffuse bet.
             </p>
           </Callout>
         </Expandable>
@@ -715,7 +715,7 @@ export default function ForInvestors() {
 
           <Callout color="var(--color-terracotta)">
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-ink)', lineHeight: 1.65, margin: 0 }}>
-              <strong>The window for early-stage investment in Irish defence tech is now to 2028.</strong> Companies that build institutional infrastructure ahead of each reform &mdash; clearances, EU consortium participation, defence customer relationships &mdash; gain first-mover advantages that compound. After the infrastructure is built, the opportunity shifts from venture-risk to growth-capital.
+              <strong>The window for early-stage investment in Irish defence tech is now to 2028.</strong>{' '}Companies that build institutional infrastructure ahead of each reform &mdash; clearances, EU consortium participation, defence customer relationships &mdash; gain first-mover advantages that compound. After the infrastructure is built, the opportunity shifts from venture-risk to growth-capital.
             </p>
           </Callout>
         </Expandable>
