@@ -727,10 +727,10 @@ export default function ForInvestors() {
         <div style={{ padding: '32px 0 0' }}>
           <div style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', letterSpacing: '2px', textTransform: 'uppercase', color: 'var(--color-terracotta)', marginBottom: '8px' }}>Contact</div>
           <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '620px', marginBottom: '16px' }}>
-            Security Ireland provides private briefings on Ireland&apos;s defence technology landscape for investors, fund managers, and corporate strategists. We do not charge for investor briefings.
+            Security Ireland provides private briefings on Ireland&apos;s defence technology landscape for investors, fund managers, and corporate strategists.
           </p>
-          <a href="mailto:s@sinead.co" style={{ fontFamily: 'var(--font-mono)', fontSize: '12px', color: 'var(--color-terracotta)', textDecoration: 'none', borderBottom: '1px solid var(--color-terracotta)', paddingBottom: '2px' }}>
-            s@sinead.co
+          <a href="mailto:info@securityireland.ie" style={{ fontFamily: 'var(--font-mono)', fontSize: '12px', color: 'var(--color-terracotta)', textDecoration: 'none', borderBottom: '1px solid var(--color-terracotta)', paddingBottom: '2px' }}>
+            info@securityireland.ie
           </a>
         </div>
       </section>
