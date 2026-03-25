@@ -300,20 +300,22 @@ export default function ForPolicymakers() {
         {/* ── Tier 2: Proposed Frameworks ── */}
         <div style={tierLabel}>The Proposed Frameworks</div>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.7, marginBottom: '20px', maxWidth: '620px' }}>
-          What Ireland&apos;s defence and security architecture should look like. These are the documents the government needs but has not produced. Security Ireland provides them.
+          What Ireland&apos;s defence and security architecture should look like. The strategy and industrial policy frameworks are published; the intelligence architecture proposal is forthcoming.
         </p>
 
-        <ProposedCard
+        <PubCard
           title="Proposed National Security Strategy Framework"
-          type="Strategic Framework · Forthcoming"
+          type="Strategic Framework"
           desc="Ireland is one of the few EU states without a published National Security Strategy. This document provides one: the threat assessment, the capability requirements, the institutional architecture, the funding model, and the cooperation frameworks — connected as a single system. Every other paper on this page is a chapter of this document. This is the spine."
-          coming="Coming Q3 2026"
+          href="/publications/national-security-strategy"
+          pdfUrl="/pdfs/National_Security_Strategy_Framework.pdf"
         />
-        <ProposedCard
+        <PubCard
           title="Defence &amp; Security Industrial Policy"
-          type="Policy Framework · Forthcoming"
+          type="Policy Framework"
           desc="Ireland has &euro;2.5 billion in emerging defence procurement demand, a world-class technology sector, and no industrial policy connecting the two. This paper proposes the architecture: which domains Ireland should build in, through which instruments, with what institutional prerequisites, on what timeline."
-          coming="Coming Q4 2026"
+          href="/publications/defence-industrial-policy"
+          pdfUrl="/pdfs/Defence_Industrial_Policy.pdf"
         />
         <ProposedCard
           title="Intelligence Architecture: A Proposal for Unification"
