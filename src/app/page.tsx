@@ -30,8 +30,8 @@ export default async function Home() {
             </h1>
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, marginBottom: '36px' }}>
               Research, commentary, and evidence-based policy on Irish and European security.
-              For policymakers, journalists, and citizens who want to understand the choices
-              being made on their behalf.
+              For policymakers, journalists, and citizens who want to engage constructively
+              with the complex issues shaping Ireland&apos;s role in the world.
             </p>
             <div className="flex gap-6 flex-wrap items-center">
               <Link
