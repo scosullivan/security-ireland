@@ -43,12 +43,13 @@ const audienceNote = {
 
 const tierLabel = {
   fontFamily: 'var(--font-mono)',
-  fontSize: '9px',
-  letterSpacing: '2px',
+  fontSize: '11px',
+  letterSpacing: '2.5px',
   textTransform: 'uppercase' as const,
-  color: 'var(--color-stone)',
-  marginBottom: '12px',
-  marginTop: '28px',
+  color: 'var(--color-graphite)',
+  fontWeight: 600,
+  marginBottom: '10px',
+  marginTop: '32px',
 };
 
 const readMore = {
@@ -268,7 +269,7 @@ export default function ForPolicymakers() {
 
         {/* ── Tier 1: The Diagnosis ── */}
         <div style={tierLabel}>The Diagnosis</div>
-        <p style={{ fontFamily: 'var(--font-serif)', fontSize: '13px', color: 'var(--color-stone)', lineHeight: 1.6, marginBottom: '16px', maxWidth: '580px' }}>
+        <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.7, marginBottom: '20px', maxWidth: '620px' }}>
           Three papers that explain the architecture of the problem before anyone tries to solve it.
         </p>
 
@@ -277,15 +278,15 @@ export default function ForPolicymakers() {
             title="Europe&rsquo;s Defence Problem Isn&rsquo;t Spending"
             type="Research Paper · Complete"
             desc="€800 billion cannot convert to capability without coordination architecture. Twenty-seven procurement systems produce fragmented demand and US dependency. The argument Ireland needs as the lowest-spending state chairing defence budget discussions."
-            href="/publications/eu-presidency-defence-agenda"
-            pdfUrl="/pdfs/Presidency_Desk_Primer.pdf"
+            href="/publications/defence-financing-explained"
+            pdfUrl="/pdfs/Defence_Financing_Explained.pdf"
           />
           <PubCard
             title="Ireland&rsquo;s Defence Problem Isn&rsquo;t Neutrality"
             type="Research Paper · Complete"
             desc="Ireland&rsquo;s institutional system is architecturally configured for the absence of military capability across five reinforcing layers. The constraint is bandwidth, not budget. The honest diagnosis the Commission on Defence Forces implies but does not formalise."
-            href="/publications/defence-at-a-glance-q1-2026"
-            pdfUrl="/pdfs/Irish_Defence_Q1_2026_Datasheet.pdf"
+            href="/publications/loa-transition-architecture"
+            pdfUrl="/pdfs/The_LOA_Transition_Architecture.pdf"
           />
           <PubCard
             title="Ireland&rsquo;s Defence &amp; Security Spending"
@@ -298,7 +299,7 @@ export default function ForPolicymakers() {
 
         {/* ── Tier 2: Proposed Frameworks ── */}
         <div style={tierLabel}>The Proposed Frameworks</div>
-        <p style={{ fontFamily: 'var(--font-serif)', fontSize: '13px', color: 'var(--color-stone)', lineHeight: 1.6, marginBottom: '16px', maxWidth: '580px' }}>
+        <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.7, marginBottom: '20px', maxWidth: '620px' }}>
           What Ireland&apos;s defence and security architecture should look like. These are the documents the government needs but has not produced. Security Ireland provides them.
         </p>
 
