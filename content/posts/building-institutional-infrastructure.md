@@ -3,7 +3,7 @@ title: "Building the Institutional Infrastructure"
 type: "Research Paper"
 date: "2026-03-23"
 author: "Security Ireland"
-excerpt: "Security clearances, industrial participation, and export controls: the three institutional prerequisites Ireland must build before its defence technology sector can access EU funding, win domestic supply chain positions, or compete in international markets. This paper provides the operational blueprint for building each one."
+excerpt: "Security clearances, industrial participation, and export controls: the three institutional prerequisites Ireland must build before its defence technology sector can access EU funding, win domestic supply chain positions, or compete in international markets."
 readTime: "25 min read"
 featured: false
 tags: ["defence", "industry", "clearances", "export-controls", "institutional"]
@@ -15,166 +15,315 @@ keyFindings:
   - "These are not abstract policy gaps — they are the infrastructure that converts a technology sector into a defence industrial base."
 ---
 
-## The Institutional Foundation
+## The Three Systems: Universality and Absence
 
-Ireland possesses significant technological assets—approximately 550 dual-use technology firms, a €2.4 billion dual-use export market, deep engineering talent, and manufacturing capability spanning precision electronics, advanced materials, software systems, and sensors. Yet these assets remain largely disconnected from European defence industrial opportunity. The disconnect is not technological but institutional.
+Every European state procuring defence equipment operates three interlocking institutional systems: security clearances, industrial participation policy, and export controls. These systems are not optional features of defence procurement. They are structural prerequisites. No modern defence programme can operate without them.
 
-Every defence-procuring state in Western Europe has constructed three interlocking institutional systems that enable firms to participate in defence supply chains, access classified information, and export defence technology. Ireland has none. This is not a policy oversight. It reflects historical neutrality commitments that have now evolved, creating an institutional gap that must be deliberately closed.
+France has a security clearance system (the French Interministerial Commission for National Defence); security clearance and vetting authority (Direction générale de la sécurité de l'État); industrial participation requirements embedded in procurement regulations; and export controls administered by the Ministry of Defence and Ministry of Foreign Affairs.
 
-The three missing systems are: security clearances for personnel and facilities, industrial participation policy for defence procurement, and export control frameworks for defence technology. Without these systems, Irish firms face systematic barriers that better-resourced competitors do not. The barriers are not insurmountable, but they require deliberate institutional investment.
+Germany has analogous systems: security clearance authority (Bundesamt für Sicherheit in der Informationstechnik); industrial participation requirements; and export controls under the War Weapons Control Act (Kriegswaffenkontrollgesetz).
 
-This paper provides operational blueprints for constructing each system, including the legislative requirements, institutional housing, staffing needs, IT infrastructure, and interaction mechanisms with EU and NATO frameworks. These blueprints are not theoretical—they are derived from comparative analysis of how other European states have constructed these systems, adapted to Ireland's specific institutional context.
+Poland, despite having a much smaller economy than Ireland, has security clearance infrastructure, industrial participation policy, and a dedicated export control regime. Every NATO member has these systems. Every EU member with any defence industrial activity has them. Without exception.
 
-## System 1: Security Clearance Framework
+Ireland has none of these three systems. This is not an oversight. It reflects historical political choice: Ireland's non-aligned military policy, EU framework reliance, and limited defence industrial ambition meant security clearances, industrial participation policy, and export controls were not institutionalised. They were not necessary because Ireland was not attempting to develop a defence industrial base.
 
-### The Current Situation
+The strategic environment has changed. The government now intends defence industrial development and LOA 2/3 capability growth. This requires building, from scratch, the three institutional systems that every other European state already operates. This is not a marginal administrative task. It is fundamental institutional architecture.
 
-Ireland has no formal security clearance system for defence purposes. Personnel working on classified defence matters do not undergo formal security vetting. Facilities handling classified information are not certified. The absence of this system creates a fundamental barrier: Irish firms cannot participate in classified EU defence programmes because they cannot demonstrate that their personnel and facilities can handle classified information securely.
+## System 1: Security Clearances
 
-This is not a minor administrative gap. A large portion of EU defence funding flows through classified channels—capability development programmes involving sensitive intelligence applications, classified procurement requirements, and restricted operational planning. Firms unable to demonstrate security clearance capability are excluded from these opportunities entirely.
+A security clearance system serves two functions: it vets individuals to determine whether they can be trusted with classified information, and it assesses facilities (laboratories, manufacturing plants, offices) to determine whether they can securely handle classified work.
 
-### What a Security Clearance System Consists Of
+### The Current Absence and Its Implications
 
-A functional security clearance system includes:
+Ireland currently has no security clearance system. Irish citizens can hold UK, EU, or NATO clearances, enabling them to work with classified information in UK, EU, or NATO contexts. However, Ireland itself issues no clearances. This creates a structural barrier: an Irish technology firm developing software for a classified military programme cannot employ Irish citizens on that programme (because those citizens have no Irish clearance) but can employ British or German citizens (because they hold UK or German clearances). This is absurd operationally and creates competitive disadvantage for Irish firms.
 
-**Personnel Vetting**: Formal processes for assessing whether individuals can be trusted with classified information. This involves background investigation (financial, criminal, medical), security interviews, assessment of potential vulnerabilities to coercion or compromise, and ongoing periodic re-evaluation. Different clearance levels (Confidential, Secret, Top Secret) involve different depths of investigation.
+The absence is particularly acute for EU defence programmes. The EDF and EDIP include classified research projects. Irish firms cannot participate because their personnel cannot be cleared. A French or German firm can participate because their countries have security clearance systems. This prevents Irish industrial participation in some of the most significant EU defence technology development initiatives.
 
-**Facility Certification**: Physical security assessment of premises where classified information is handled—assessment of access controls, document handling procedures, IT security, secure areas, and continuous monitoring. Facilities must be certified before classified work can occur.
+### The Operational Blueprint: Creating a Security Clearance System
 
-**Custodian Designation**: Identification of cleared personnel responsible for classified material within an organisation, with training in handling procedures, storage requirements, and reporting obligations.
+Building a security clearance system requires six components:
 
-**Access Control**: Systems for granting access to classified information on a need-to-know basis, recording who has accessed what, and revoking access when individuals leave the organisation or change roles.
+**1. Legislative Foundation**
 
-**Training and Certification**: Mandatory training for anyone accessing classified information, covering legal obligations, handling procedures, and security protocols.
+The Security and Intelligence Act (currently in advanced legislative development, target enactment late 2026) will provide the statutory basis for security clearances. The legislation must:
 
-**Investigation and Sanctions**: Mechanisms for investigating potential breaches, determining sanctions, and revoking clearances where necessary.
+- Define security clearance levels (typically three: confidential, secret, top secret, with sub-categories for special access programmes)
+- Establish criteria for clearance (loyalty to the state, absence of foreign influence or coercion, absence of criminal history, financial stability, psychological fitness)
+- Define vetting process (background investigation, interviews, financial review, psychological assessment)
+- Establish legal protections for individuals (rights to appeal clearance denial, confidentiality of vetting information)
+- Define facility security requirements (physical security, information technology security, personnel controls, audit procedures)
+- Establish reciprocity frameworks with NATO and EU (enabling mutual recognition of clearances)
 
-### Operational Blueprint for Ireland
+**2. Institutional Home and Vetting Authority**
 
-**Institutional Home**: The security clearance authority should be housed within the Department of Defence, reporting to the Secretary General. It should have clear independence from political direction in individual clearance decisions, but policy direction from the Minister. Comparable bodies in other states (UK Security Vetting Office, German Clearance Authority) are independent agencies reporting to the Defence Ministry.
+The vetting authority—the institution responsible for evaluating clearances—must be established with statutory independence. Typical models in other states:
 
-**Legislative Requirements**: Legislation is required establishing the authority, defining clearance categories and requirements, specifying the vetting process, and setting out penalties for breaches. This legislation should reference international frameworks (EU classified information handling rules, NATO security requirements) while tailoring requirements to Irish legal norms.
+- **Dedicated body**: A standalone security vetting authority (France's DGSE for certain clearances; Germany's BfV for some functions)
+- **Integrated model**: Vetting authority within an existing security agency (UK model, where GCHQ administers some clearances; some clearing functions within intelligence services)
+- **Delegated model**: Primary authority with delegated clearance evaluation to service-specific authorities (some NATO countries use this model)
 
-**Initial Staffing**: A clearance authority requires approximately 15-20 full-time staff initially: director, investigations team (5-6 people), facility assessment team (3-4), administrative and IT support (4-5). This can be expanded to 30-40 over time as demand grows, but initial team should be small and focused.
+Ireland should likely adopt an integrated model: security vetting authority within or closely aligned with existing intelligence and security infrastructure (Defence Forces, An Garda Síochána special branch, or a new dedicated unit within a reconstituted security agency). The vetting authority requires:
 
-**IT Infrastructure**: The authority requires secure systems for managing vetting records, recording access to classified material, tracking clearance expiry, and managing investigations. These systems must meet security requirements comparable to other European clearance authorities and must be protected to classified information security standards.
+- Legislative authority to conduct investigations and compel disclosure of information
+- Statutory independence from political interference
+- Transparent appeal process for clearance denials
+- Reciprocal recognition agreements with NATO and EU partners
+- Training programmes for vetting officers (typically 12–18 month development of expertise)
+- IT systems for managing clearance applications and tracking investigations
 
-**Interaction with EU and NATO**: The clearance system should be designed to facilitate mutual recognition with other European clearance systems. This involves alignment with EU classified information handling procedures and compatibility with NATO security requirements. Personnel cleared by Ireland should be able to work on classified EU and NATO projects; conversely, EU-cleared personnel should be able to work on Irish classified projects.
+**3. Personnel Vetting Process**
 
-**Timeline**: Legislation could be drafted and enacted within 6 months. The clearance authority could be established within 12 months. Initial operations could begin immediately, with personnel and facility clearances being issued within 18-24 months. Full operation maturity (with established procedures, trained staff, and recognised credentials) would be achieved within 3 years.
+Individual personnel vetting follows standardised phases:
 
-### Cost and Resource Implications
+- **Initial screening**: Completeness of application, criminal record check, basic background verification (typically 2–4 weeks)
+- **Detailed investigation**: Background investigation including employment history, references, financial records, family connections (typically 8–12 weeks for secret-level; 12–20 weeks for top-secret)
+- **Interviews**: Investigator interviews with applicant and references (typically 4–6 weeks)
+- **Determination**: Clearance authority evaluates investigation results and renders clearance decision (2–4 weeks)
+- **Appeal**: If denied, applicant has right to appeal clearance denial (4–8 weeks)
 
-Initial setup costs (building refurbishment, IT systems, initial staffing) would be approximately €2-3 million. Ongoing annual operating costs would be approximately €2-3 million for a team of 15-20, growing to €4-5 million as the system matures. This is modest compared to the value of defence market access it enables—a single classified EU defence programme could represent €50 million or more in industrial opportunity.
+Total timeline from application to clearance is typically 16–40 weeks depending on clearance level. Initial population clearances (for Defence Forces personnel, defence ministry staff, initial industrial participants) can be expedited with dedicated resources. Ongoing clearances (annual or periodic recertification) take less time.
+
+Staffing requirements: A vetting authority handling approximately 500 new clearances annually (personnel and facility security) and 2,000 periodic certifications requires approximately 30–50 dedicated staff: investigators, adjudicators, administrative staff, and specialised personnel (IT security assessment, facility security engineers).
+
+**4. Facility Security Requirements**
+
+Facilities handling classified information must meet standardised security requirements. These typically include:
+
+- **Physical security**: Perimeter fencing, access controls, surveillance systems, safe storage for classified documents
+- **IT security**: Classified networks isolated from unclassified networks, encrypted communications, access controls, audit logging
+- **Personnel controls**: Background checks for all staff with classified access, training on handling classified information, compartmentalisation of access (people know only what they need to know)
+- **Document controls**: Tracking of classified material, burn procedures for disposal, secure transportation
+- **Security officers**: Designated security officers responsible for compliance with security requirements
+
+Facility security assessment requires certification by the vetting authority. Industrial facilities seeking to handle classified work must undergo assessment and receive facility clearance before classified work can commence.
+
+**5. Training and Professionalization**
+
+Security vetting and facility security assessment require specialist expertise. Personnel must be trained on:
+
+- Investigation methodology and legal standards
+- Security requirements and facility assessment
+- Technology and IT security assessment
+- Psychological assessment fundamentals
+- Legal frameworks and appeal procedures
+
+Initial training for investigators is typically 12–18 months (in-service, with ongoing professional development). Facility assessors require 9–12 months of training. This means the vetting authority cannot be operational immediately. A two-year development timeline (2026–2028) is realistic: 2026 for legislation and staffing, 2027 for training and systems development, 2028 for operational readiness.
+
+**6. Reciprocal Recognition and NATO/EU Integration**
+
+The vetting authority must establish reciprocal agreements with NATO and EU partners. These agreements enable mutual recognition: an Irish clearance enables the holder to access NATO classified information; a NATO clearance holder can access Irish classified information. This requires standardisation of clearance criteria, investigation processes, and oversight.
+
+Reciprocal recognition is critical for industrial participation. When an Irish firm participates in a NATO-classified programme, its personnel must be cleared to NATO standards. Reciprocal recognition eliminates the need for dual clearances (Irish and NATO) and streamlines industrial participation.
+
+Reciprocal agreements exist in various forms across NATO and the EU. Ireland would need to negotiate agreements with major partners (US, UK, Germany, France, NATO as institution) and integrate into EU security clearance frameworks.
+
+![Alt text](/images/charts/bii_three_systems.png)
 
 ## System 2: Industrial Participation Policy
 
-### The Current Situation
+Industrial participation policy embeds requirements within defence procurement that specify a portion of contract value must flow to domestic suppliers or strategic partners. This is industrial policy: the government deliberately pays above-minimum cost to build domestic industrial capacity.
 
-Ireland has no industrial participation or offset policy for defence procurement. These policies, standard in every defence-procuring state, require that a percentage of defence procurement value be sourced domestically (or from specified partner countries) or that firms winning major contracts invest in domestic industrial development ("offsets").
+### The Current Absence and Logic
 
-The absence of this policy means that when Ireland conducts defence procurement, it does not automatically direct any value toward Irish suppliers. An Irish firm has no special advantage in bidding for Irish defence contracts compared to European competitors, even when it might offer equivalent capability. This contrasts sharply with every other European state, where domestic industrial participation is an explicit procurement objective.
+Ireland currently has no industrial participation requirement. When the Irish Defence Forces procure equipment, the contract goes to the lowest qualified bidder regardless of country of origin. This is economically efficient from a pure cost-minimisation perspective. However, it means every euro spent on defence procurement benefits foreign industrial bases, not Irish industry.
 
-### What Industrial Participation Policy Consists Of
+Industrial participation policy reverses this: a portion of contract value (typically 15–30%) must be subcontracted to domestic suppliers or must involve technology transfer, joint development, or offset agreements. This raises procurement cost by 10–15% but builds domestic industrial capacity.
 
-An industrial participation policy typically specifies:
+### The Operational Blueprint: Industrial Participation Framework
 
-**Participation Targets**: A percentage of contract value (commonly 15-30%) that must be sourced from domestic suppliers or from specified partner countries. This is negotiated as part of contract terms.
+Building an industrial participation policy requires:
 
-**Definition of Participation**: What counts as "domestic" participation. This typically includes goods manufactured in Ireland, services provided by Irish firms, and R&D conducted in Ireland. It may exclude labour costs but typically includes significant value-add in Ireland.
+**1. Policy Statement and Legislative Basis**
 
-**Verification Mechanisms**: Processes for confirming that specified industrial participation requirements have been met, through documentation, audits, and supplier verification.
+The government must establish an explicit policy statement:
 
-**Enforcement**: Consequences for failing to meet industrial participation requirements—financial penalties, contract termination, or other sanctions.
+- Defence procurement will include industrial participation requirements
+- Preference will be given to domestic suppliers and technology developers in competitive procurement
+- All major defence contracts (above a threshold, typically €5–10 million) will include industrial participation clauses
+- Industrial participation requirements will be negotiated with prime contractors and embedded in contracts
 
-**Feedback Mechanisms**: Systems for communicating to firms what opportunities exist in coming procurement, enabling them to develop capability or establish partnerships to participate.
+Legislative basis would typically be a Defence Procurement Act or regulatory change within the Defence Forces procurement regulations, establishing industrial participation as a procurement criterion.
 
-### Operational Blueprint for Ireland
+**2. Institutional Home and Administration**
 
-**Institutional Home**: Industrial participation policy should be administered by the Defence Procurement Authority, which should be established within the Department of Defence. This body should have responsibility for all strategic defence procurement and should be empowered to set industrial participation requirements.
+A Defence Industrial Cooperation Office (DICO) or equivalent body must be established within the Department of Defence, responsible for:
 
-**Policy Framework**: A Defence Industrial Participation Policy should be adopted, specifying that all procurement above a specified threshold (e.g., €5 million) will include industrial participation requirements. Initial targets could be modest (10-15%) and increase over time as industrial capability matures.
+- Developing industrial participation targets for each procurement programme
+- Identifying potential domestic suppliers and partners
+- Negotiating industrial participation clauses in contracts
+- Monitoring contractor compliance with industrial participation requirements
+- Documenting outcomes and building institutional knowledge
 
-**Implementation Mechanism**: Industrial participation requirements should be embedded in Defence Procurement Procedure guidance. This does not require primary legislation but can be established through Department of Defence procedures. This allows flexibility and evolution without frequent legislative change.
+Staffing requirement: 5–10 personnel with background in defence procurement, industrial development, and contracting.
 
-**Interaction with EU Procurement Law**: Irish defence procurement must comply with EU defence procurement law, which explicitly permits industrial participation requirements. This is one of the few areas where EU procurement law is flexible, allowing member states to pursue industrial objectives.
+**3. Industrial Participation Requirements: Structure and Mechanics**
 
-**Communication with Industry**: Before major procurement, the Defence Procurement Authority should publish strategic guidance identifying capability areas where Irish participation is sought. This gives firms visibility of future opportunities and enables them to develop capability or establish partnerships.
+Industrial participation typically takes several forms:
 
-**Timeline**: Policy framework could be adopted within 6 months. Implementation through Defence Procurement Procedure guidance could occur within 12 months. Industrial participation requirements could be embedded in new major procurement contracts immediately upon adoption.
+**Direct participation**: Subcontracting specific components or work packages to domestic suppliers. For example, if acquiring a communications system, 20% of development and integration work is subcontracted to Irish system integrators.
 
-### Cost and Resource Implications
+**Offset agreements**: Contractor agrees to purchase goods or services from domestic suppliers outside the original contract scope. For example, contractor agrees to procure IT services, consulting, or facility support from Irish providers.
 
-There are no direct cost implications for establishing industrial participation policy. The cost falls on contractors (who must source domestically specified percentages of work) and on firms responding to participation opportunities. The government's net cost is modest—primarily the establishment of verification and enforcement mechanisms, which can be absorbed within normal procurement administration.
+**Technology transfer**: Contractor agrees to transfer technology or design data enabling future domestic development. For example, contractor provides source code, design documentation, or technical training enabling Irish firms to maintain or upgrade systems domestically.
 
-## System 3: Export Control Framework
+**Joint development**: Contractor partners with domestic firm on development of new capability. For example, contractor and Irish firm jointly develop maritime surveillance software, with equal cost-sharing and IP rights division.
 
-### The Current Situation
+Industrial participation requirements are negotiated during contract award process. A contractor bidding €100 million for a system agrees to €15–20 million (15–20%) flowing to Irish subcontractors, offset agreements, or technology transfer. This raises the contractor's cost but is embedded in the procurement approach as a fixed requirement, not an add-on.
 
-Ireland has export controls for conventional weapons (via EU and international law) but lacks comprehensive national legislation controlling the export of defence technology and dual-use goods. This creates two problems. First, firms cannot independently export defence technology without a legislative framework—there is no process for obtaining export authorisation. Second, intellectual property and technical data generated through EU defence programmes cannot always be transferred to Irish firms for commercialisation because there is no clear legal basis for handling such data under Irish law.
+**4. Supplier Development and Capability Mapping**
 
-### What an Export Control Framework Consists Of
+For industrial participation policy to function, the government must have visibility on domestic suppliers. This requires:
 
-A functional export control framework includes:
+- **Supplier registry**: Database of Irish firms capable of defence-related work (manufacturing, software, systems integration, services)
+- **Capability assessment**: Evaluation of firm capabilities across technology areas
+- **Clearance pathway**: Working with firms to develop security clearance protocols and facility security assessments
+- **Industrial roadmap**: Strategic assessment of industrial capacity needed for medium-term defence requirements
 
-**Controlled List**: Definition of what goods and technologies are controlled (typically based on international regimes—the Wassenaar Arrangement for dual-use goods, various weapons lists for military items).
+The Department of Defence, working with other government agencies (Enterprise Ireland, Department of Enterprise), should establish supplier registry and roadmap. This enables DICO to identify potential subcontractors for each procurement and negotiate realistic industrial participation requirements.
 
-**Licensing Mechanism**: Process for obtaining export licence from government authority before exporting controlled goods or technology. Licences specify destination, end-use, and conditions.
+**5. Procurement Outcome Tracking and Adjustment**
 
-**End-Use Certificate Verification**: Mechanisms for confirming that exported goods and technology are being used only for specified, legitimate purposes, and not diverted to unauthorised uses or destinations.
+Industrial participation policy requires monitoring outcomes. The government should establish reporting requirements:
 
-**Technical Data Control**: Rules governing the export of technical data (designs, specifications, manufacturing processes) for controlled items. Some states distinguish between tangible goods and technical data; others treat them similarly.
+- Value of contracts awarded to domestic firms as primary contractors or subcontractors
+- Technology transfer agreements and their outcomes
+- Training and capability development resulting from participation
+- Employment impact in target sectors
 
-**Diversion Control**: Mechanisms for preventing controlled goods and technology from being re-exported or diverted to unauthorised destinations. This includes working with intermediary states and monitoring supply chains.
+Reporting enables assessment of whether policy is achieving objectives and identification of adjustments. If industrial participation targets are not being met, the government can strengthen requirements or develop additional support mechanisms (training, financing, industrial zones).
 
-**Sanctions and Enforcement**: Penalties for unauthorised export, including criminal liability for serious breaches.
+## System 3: Export Controls
 
-### Operational Blueprint for Ireland
+Export control systems regulate the export of items that could contribute to military capacity. The goal is to prevent proliferation to hostile powers while enabling normal trade and dual-use technology access by authorised partners.
 
-**Institutional Home**: Export controls should be administered by the Department of Enterprise, in coordination with the Department of Defence. Most EU states house export controls in the trade/enterprise ministry rather than the defence ministry, as export controls apply to both military and dual-use items. An inter-departmental committee should oversee policy coordination.
+### The Current Framework and Gaps
 
-**Legislative Requirements**: Legislation is required establishing the controlled list (typically by reference to EU and international regimes), the licensing process, and enforcement mechanisms. Model legislation from other EU states can provide templates. The legislation should be compatible with EU export control law and international treaty obligations.
+Ireland operates within EU dual-use export control framework. Dual-use regulations require export licences for certain technologies (semiconductors above certain specifications, encryption software, advanced materials, certain machine tools). However, Ireland has no defence-specific export control regime. Defence items per se (weapons, military equipment) are very rare in Ireland and typically handled through government-to-government agreements, not export licensing.
 
-**Licensing Authority**: A licensing unit within the Department of Enterprise should issue export licences based on application from firms. This unit requires approximately 5-10 staff (licensing officers, legal, administrative support). Decisions typically take 2-4 weeks for straightforward applications, longer for complex or sensitive cases.
+The gap is for defence-related technology that does not fall under general dual-use control. For example, software code for maritime surveillance systems, specifications for advanced sensor arrays, or security protocols for military communications—these are not officially "dual-use" but have clear defence relevance. Without a defence-specific export control regime, exports of such items occur without systematic evaluation of military end-use or strategic implications.
 
-**Interaction with EU Frameworks**: Ireland must ensure that its export control framework is compatible with EU export control law. This involves coordination with the European Commission and other member states through established export control working groups.
+### The Operational Blueprint: Defence-Specific Export Controls
 
-**IT Infrastructure**: A licensing management system should track applications, licence issuance, conditions, and any follow-up verification. This system should be linked to customs authorities to ensure that exports comply with licensed conditions.
+Building a defence export control system requires:
 
-**Timeline**: Legislation could be drafted and enacted within 6-9 months. The licensing authority could be established within 12 months. Initial operations could begin immediately upon legislative enactment.
+**1. Legislative Foundation**
 
-### Cost and Resource Implications
+Defence export control legislation must:
 
-Initial setup costs (IT systems, staffing training, procedures development) would be approximately €1-2 million. Ongoing annual operating costs would be approximately €1-1.5 million for a licensing team of 5-10 people. These costs are typically recovered through licence fees charged to applicants. By international comparison, this is a modest investment.
+- Define "defence items" and "defence-related technology" (with reference to EU and NATO frameworks where appropriate)
+- Establish export licensing requirements (what requires a licence, what is permitted without licence)
+- Define criteria for export decisions: strategic alignment, end-use assessment, recipient reliability, humanitarian considerations
+- Establish institutional authority for export licensing decisions
+- Define penalties for unauthorised export
+- Establish transparency and reporting requirements
+
+Ireland would typically adopt existing frameworks (EU dual-use controls as foundation, adding defence-specific layers) rather than create wholly new licensing regime. This reduces burden while ensuring consistency with European partners.
+
+**2. Institutional Home: Export Licensing Authority**
+
+An export licensing authority must be designated. Typical approaches:
+
+- **Defence Ministry authority**: Licensing decisions made by Defence Ministry (France model)
+- **Trade Ministry authority**: Licensing within broader trade ministry with defence interagency review (UK model)
+- **Delegated authority**: Primary authority with interagency coordination committee (NATO model for most countries)
+
+Ireland would likely adopt delegated model: an export licensing authority within the Department of Enterprise or Trade, with mandatory interagency coordination with Department of Defence, Department of Foreign Affairs, and security agencies. Committee structure:
+
+- **Export Licensing Authority**: Civil servant authority responsible for licensing decisions
+- **Interagency Review Committee**: Representatives from Defence, Foreign Affairs, Enterprise, and security agencies meeting monthly (or as needed) to review applications and provide guidance
+- **Appeals process**: Applicants can appeal licensing denials
+
+Staffing: 3–5 dedicated licensing specialists, supported by interagency committee members.
+
+**3. Licensing Process and Timelines**
+
+Export licensing requires:
+
+**Application**: Exporter submits application with full details of item, technology, recipient, intended use, delivery schedule. Application requires commercial information (contract, pricing) and technical information (specifications, functionality, security).
+
+**Initial screening**: Authority screens for obviously inappropriate exports (to sanctioned states, known proliferation concerns). Obviously appropriate exports (to EU partners, NATO members, trusted commercial partners) may be approved without full review.
+
+**Detailed assessment**: For borderline cases, authority conducts detailed assessment:
+
+- End-use verification: Confirmation with recipient that stated end-use is accurate
+- Technical assessment: Evaluation of technical characteristics and proliferation risk
+- Strategic assessment: Evaluation of whether export advances or harms strategic objectives
+- Interagency coordination: Consultation with Defence, Foreign Affairs, security agencies
+
+Detailed assessment typically takes 4–8 weeks. Urgent applications can be expedited to 2–3 weeks.
+
+**Decision**: Authority issues licence (permitted export), conditional licence (permitted with restrictions), or denial. Applicant is notified in writing with rationale.
+
+**Monitoring**: For sensitive exports, authority may require reporting of actual shipment, end-use certification from recipient, and ongoing compliance monitoring.
+
+**4. End-Use Assurances and Verification**
+
+A critical element is end-use verification: confirmation that export will be used for stated purposes and not diverted to unauthorised users.
+
+Mechanisms include:
+
+- **End-use certificates**: Recipient government certifies that item will be used for stated purpose only
+- **Technical inspections**: Pre-shipment or post-shipment verification that recipient has actually received and is using item as stated
+- **Contractual restrictions**: Contract with recipient specifies authorised uses and prohibits re-export without licence
+- **Reporting requirements**: Recipient reports back to licenser on use and disposition
+
+End-use verification is particularly important for exports to strategically important but potentially unreliable partners. A software export to a NATO ally requires minimal verification. A sensor export to a non-aligned developing country may require full end-use assurance and inspection regime.
+
+**5. Strategic Technology List and Control Categories**
+
+Export control systems typically define categories of controlled items. Ireland would adopt or adapt existing frameworks:
+
+- **Conventional weapons**: Clearly defined by EU and international frameworks
+- **Dual-use items**: Adopted from EU dual-use control list
+- **Information security**: Encryption software and hardware, network security tools
+- **Satellite technology**: Remote sensing systems, communications satellites
+- **Sensing and surveillance**: Radar systems, surveillance software, advanced imaging
+- **Cyber tools**: Penetration testing software, vulnerability exploitation tools
+- **Propulsion and materials**: Advanced materials, engine technology, coating systems
+
+For each category, the authority maintains specifications: which technologies are controlled, which are permitted, which require case-by-case assessment.
+
+**6. Reciprocal Arrangements and EU Integration**
+
+Export controls must be coordinated with EU partners. This requires:
+
+- **Information sharing**: Data on denied licences, suspicious applications, proliferation concerns
+- **Reciprocal licensing**: Recognition that items licensed for export by one EU state can circulate within EU without additional licence
+- **Common policy coordination**: Alignment on strategic technologies and control approaches
+- **International commitments**: Compliance with non-proliferation treaties, EU embargoes, and UN sanctions
+
+![Alt text](/images/charts/bii_readiness_matrix.png)
 
 ## Integration and Sequencing
 
-These three systems are not independent—they are interlocking parts of a single institutional architecture. A security clearance system enables firms to participate in classified programmes. Industrial participation policy directs procurement toward firms that can meet security requirements. Export controls provide the legal framework for firms to commercialise technology developed through these programmes.
+The three systems—security clearances, industrial participation, and export controls—must be integrated. They operate on overlapping timelines and with interdependencies:
 
-### Recommended Implementation Sequence
+- Industrial participation policy enables Irish firms to bid on defence contracts, but those firms need security clearances to work on classified portions
+- Export controls govern what Irish firms can develop and export, creating need for clarity on whether particular technologies are exportable before investment in development
+- Security clearances require vetting of industrial personnel, which links industrial participation to clearance infrastructure
 
-**Phase 1 (Months 1-6)**: Draft legislation for security clearances and export controls. Adopt industrial participation policy through Defence Procurement Procedure guidance. Establish inter-departmental coordination mechanisms.
+The logical sequence is:
 
-**Phase 2 (Months 6-12)**: Enact security clearance and export control legislation. Establish clearance authority and licensing authority. Begin recruitment of initial staffing teams.
+**Phase 1 (2026–2027)**: Security clearance legislation enacted; export control framework developed; industrial participation policy drafted. Interim measures enable limited industrial participation (through temporary security protocols).
 
-**Phase 3 (Months 12-24)**: Operationalise security clearance authority. Issue initial personnel and facility clearances. Process initial export licence applications. Embed industrial participation requirements in major procurement contracts.
+**Phase 2 (2027–2028)**: Vetting authority operationalised; export licensing authority established; industrial participation policy legislated. Industrial engagement increases as permanent frameworks become available.
 
-**Phase 4 (Months 24-36)**: Mature clearance system with established procedures and recognised credentials. Expand licensing capacity. Evaluate policy effectiveness and refine procedures based on experience.
+**Phase 3 (2028–2030)**: Mature operational systems with fully trained staff; full industrial participation in defence procurement; security clearances routine for defence-relevant personnel; export controls actively managing dual-use technology flow.
 
-### Interaction with Procurement
+This timeline is realistic and appropriately paced. Attempting to compress would create implementation risk and poor institutional quality. The government's current trajectory—phased institutional development—is appropriate.
 
-The timing of institutional infrastructure development should be coordinated with the major procurement programme outlined in the Levels of Ambition transition. The air defence radar procurement, maritime surveillance system acquisition, and submarine detection system procurement represent the first major opportunities for Irish firms to participate in classified work and for industrial participation requirements to be embedded in major contracts.
+## Comparative Context: Where Other Small States Stand
 
-Ideally, the security clearance system should be operational before major classified procurements are launched. This provides time for firms to obtain personnel and facility clearances and to understand the requirements. Industrial participation policy should also be embedded in procurement before major contracts are let.
+Ireland is not unique in lacking these institutional systems. However, comparison reveals the urgency:
 
-![Readiness Matrix for Institutional Infrastructure Development](/images/charts/bii_readiness_matrix.png)
+- **Denmark** (similar population to Ireland) has all three systems. Danish defence firms participate in NATO and EU defence programmes, win defence contracts, and export defence-related technology under Danish regulatory control.
+- **Belgium** (similar population) has all three systems, enabling industrial participation in European defence.
+- **Finland** (recently NATO member) invested heavily in security clearance and export control infrastructure as precondition for NATO membership.
 
-## Conclusion
+Small states that lack these systems typically do not participate in defence industrial cooperation. The systems are not optional extras; they are structural prerequisites for any industrial role. Ireland's current absence reflects historical non-alignment and limited defence ambition. As that calculus changes, institutional infrastructure must follow.
 
-The three institutional systems outlined in this paper—security clearances, industrial participation policy, and export controls—are not optional additions to Irish defence policy. They are foundational infrastructure that every defence-procuring state possesses. Without them, Irish firms cannot effectively participate in European defence industrial opportunity, and Irish defence procurement cannot strategically support industrial development.
+## Conclusion: Infrastructure as Strategic Asset
 
-The good news is that all three systems are well-established internationally. Other European states have built them; their basic elements are known; the legal frameworks are established. For Ireland, the challenge is not innovation but adoption and implementation—taking proven models and adapting them to Irish institutional context.
+Building security clearance, industrial participation, and export control systems is not abstract institutional development. These are strategic assets that determine whether Ireland can participate in European defence industrial cooperation, win procurement contracts, and develop independent defence technology capability.
 
-The cost is modest—measured in tens of millions of euros across a multi-year period. The time requirement is manageable—implementation over 2-3 years is feasible. The payoff is significant—these systems unlock Irish industrial participation in European defence supply chains and create a defensible competitive advantage for Irish firms in a growth market.
-
-The detailed blueprints in the full paper provide step-by-step guidance for establishing each system, including specific reference to comparable systems in other European states, required legislation, staffing, IT infrastructure, and interaction with EU and NATO frameworks. The time for infrastructure building is now, before the window of European defence investment opportunity narrows.
+The government is moving on this agenda, though unevenly. Security clearances are advancing through legislation and interim measures. Industrial participation is under policy development. Export controls remain underdeveloped. The next two years (2026–2028) are critical: this is when the institutional foundations will be laid that determine whether Ireland's defence industrial potential is realised or remains latent.

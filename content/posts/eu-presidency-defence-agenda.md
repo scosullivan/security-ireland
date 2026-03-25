@@ -11,188 +11,133 @@ audiences: ["policymakers", "investors", "media"]
 topics: ["eu-presidency", "european-defence", "defence-transformation"]
 ---
 
-## Overview
+## The Irish Presidency and Its Strategic Context
 
-Ireland's forthcoming presidency of the Council of the European Union (second half of 2026) presents a unique opportunity to shape the EU's defence agenda during a period of significant strategic transition. European defence policy is at an inflection point. Russia's aggression has shattered assumptions about European security. Uncertainty about US strategic commitments has driven recognition that Europe must develop greater defence autonomy. Budget constraints and fiscal discipline are forcing difficult prioritisation choices. NATO enlargement and EU expansion are reshaping European security geography.
+Ireland assumes the EU Presidency on July 1, 2026, for a six-month mandate through December 31, 2026. The presidency rotates among EU member states, with each presidency taking priority-setting responsibility for EU agenda during its term. Presidency priorities are established in consultation with the European Commission and Parliament but are nominally driven by the member state holding the presidency.
 
-Against this backdrop, Ireland assumes its presidency during a critical six-month period (July-December 2026) when several major EU defence initiatives reach maturity and require finalisation. The European Defence Fund, the Strategic Compass, the Military Mobility initiative, and the European Defence Industrial Strategy all require decisions, coordination, or legislative finalisation during this period. Ireland's presidency will directly shape how these initiatives develop and how European defence resources are allocated over the next decade.
+Ireland's presidency occurs at a critical juncture for European defence. Russia's invasion of Ukraine (2022) created persistent security pressure. The €800 billion European defence commitment announced in 2024 requires operational implementation. EU defence instruments—the European Defence Fund, Strategic Autonomy and Financing for Europe, Military Mobility, the Strategic Compass—are reaching critical implementation phases. NATO has expanded with Finland and Sweden membership. The security environment has shifted fundamentally from the pre-2022 assumption of European peace to contemporary reality of strategic competition and persistent conflict proximity.
 
-This paper examines the key strategic priorities for Ireland's presidency, the specific initiatives requiring attention, and the mechanisms through which Ireland can shape European defence policy toward outcomes serving both Irish and broader European interests.
+Within this context, Ireland's presidency faces a specific challenge: Ireland is militarily non-aligned, does not participate in NATO, and has historically positioned itself as neutral in security matters. However, EU defence integration is now central to European strategy. Ireland's presidency must advance EU defence cooperation while maintaining its historical non-alignment posture. This requires sophisticated framing: supporting European defence integration without implying Irish military subordination or NATO alignment.
 
-## Key Strategic Priorities
+## Four Interlocking Instruments
 
-### European Strategic Autonomy
+Ireland's presidency will be defined by four interlocking defence instruments reaching critical implementation junctures:
 
-The primary overarching theme for Ireland's defence presidency should be European strategic autonomy—the capacity for Europe to understand its strategic interests independently, to develop capabilities to advance those interests, and to act decisively without dependence on external powers.
+### Instrument 1: European Defence Fund (EDF) Transition to EDIP
 
-European strategic autonomy was a European Commission priority before the 2022 Russian aggression. The invasion of Ukraine elevated this priority from conceptual to urgent. The COVID-19 pandemic had already exposed European dependence on external supply chains for critical goods. The 2022 energy crisis exposed dependence on Russian gas. The Ukraine conflict exposed dependence on US military assistance and security guarantees. These multiple crises created political consensus that Europe must reduce strategic dependencies and develop greater autonomous capability.
+The EDF (2021–2027) provided approximately €1 billion annually for defence research and industrial development. The successor programme, the European Defence Industrial Programme (EDIP, 2028 onward), will replace EDF with expanded scope and funding. EDIP is expected to provide approximately €1.5 billion annually, with enhanced focus on industrial capacity building, supply chain resilience, and strategic autonomy in critical technologies.
 
-Strategic autonomy in defence has several components:
+The transition from EDF to EDIP requires agreement on governance, budget allocation across member states, and access criteria. Ireland's presidency will oversee detailed negotiation of EDIP rules. This is an opportunity to shape industrial participation requirements, ensuring smaller member states (like Ireland) have meaningful access to EDIP funding and cannot be systematically disadvantaged by larger member states.
 
-**Industrial Capacity**: Europe must develop capacity to produce the weapons, equipment, and technology required for European defence without dependence on US or other external suppliers. This is not autarky—Europe will continue to trade and cooperate—but it is reduction of critical dependencies. European defence industries must be capable, competitive, and sufficient for European needs.
+### Instrument 2: Strategic Autonomy and Financing for Europe (SAFE)
 
-**Military Capability**: European armed forces must possess capabilities sufficient for European security. This does not mean replacing NATO or abandoning the alliance; it means developing European capacity to handle security challenges within Europe without assuming external military support.
+SAFE is the €150 billion EU loan facility designed to provide concessional financing for defence procurement and industrial development. The instrument is legislatively established but not yet operationalised. Implementation requires detailed rules on loan terms, access criteria, eligible uses, and governance. Ireland's presidency will oversee finalisation of SAFE operational framework.
 
-**Political Decision-Making**: Europe must develop political capacity to make independent strategic decisions about security challenges, rather than outsourcing decision-making to external powers. This means strengthened EU institutions for strategic planning, rapid decision-making, and coordinated action.
+Critical issues being negotiated: Should smaller member states have preferential access to maintain burden-sharing fairness? Should SAFE funding be conditional on meeting defence spending targets? How should loan terms be adjusted for member states with different fiscal profiles? These questions have direct relevance to Ireland: a smaller member state with lower defence spending ratios has different needs than a larger state committed to high defence investment.
 
-**Supply Chain Resilience**: European defence supply chains must be resilient to disruption. Critical components must have alternative sources; critical technologies must be developed domestically or within trusted partnership networks.
+### Instrument 3: Military Mobility and Infrastructure
 
-These components of strategic autonomy should provide the overarching framework for Ireland's presidency priorities.
+Military Mobility is an EU initiative to remove regulatory and infrastructure barriers to rapid military movement across borders. It includes harmonisation of road weight limits, railway gauge standardisation, bridge reinforcement for military vehicle crossing, and border procedures enabling rapid military transit.
 
-### Defence Industrial Cooperation
+Implementation requires coordination with member state transport ministries and EU transport policy. It touches on EU customs procedures, environmental standards, and infrastructure investment. Ireland's presidency will oversee detailed implementation of Military Mobility commitments, ensuring Irish infrastructure is compatible with EU military mobility requirements.
 
-Defence industrial cooperation is both a means to strategic autonomy and a priority in itself. The fragmentation of European defence industrial bases—with 27 member states maintaining partially independent defence industries—creates inefficiency, redundancy, and reduced economies of scale compared to larger competitors (particularly the United States).
+### Instrument 4: Strategic Compass Implementation Roadmap
 
-European defence industrial strategy should aim toward:
+The Strategic Compass (adopted 2022) is the EU's strategic defence document, comparable to NATO's Strategic Concept. It defines EU strategic ambitions, identifies capability gaps, and establishes implementation objectives. The Compass identifies specific capabilities needed by 2030 and 2035, sets industrial development targets, and commits to burden-sharing frameworks.
 
-**Consolidation and Specialisation**: Rather than each member state attempting to develop complete defence industrial capacity, Europe should develop specialised roles. Some states excel in particular technologies—advanced electronics, cyber systems, maritime systems. Rather than redundant development, Europe should build integrated supply chains where specialised states provide components to integrated European systems.
+Detailed implementation of the Strategic Compass requires agreement on specific capability timelines, industrial policy, funding mechanisms, and decision-making processes. Ireland's presidency will oversee development of the Strategic Compass implementation roadmap for 2026–2030, effectively translating strategic commitments into operational planning.
 
-**Cross-Border Consolidation**: Defence firms should be enabled to consolidate across borders. Currently, European defence firms are often constrained to single-country operations by export controls, security requirements, and political pressure. Cross-border consolidation would create larger, more competitive firms capable of competing with US and other international competitors.
+![Alt text](/images/charts/eupres_priority_framework.png)
 
-**Research and Development Coordination**: European defence R&D should be coordinated to avoid redundancy and to focus resources on areas of comparative advantage. The European Defence Fund represents one mechanism; stronger coordination mechanisms should be developed.
+## The Presidency Agenda: Specific Objectives
 
-**Supply Chain Integration**: Sub-tier suppliers serving defence industries should be integrated across borders, creating resilient European supply chains less vulnerable to single-point disruption.
+Within these four instruments, Ireland's presidency will advance specific objectives:
 
-**Standardisation**: European defence systems should be standardised where possible to reduce costs, improve interoperability, and create economies of scale. NATO has made progress on standardisation; EU-specific standardisation efforts should be strengthened.
+### Objective 1: Ensure Equitable Industrial Participation
 
-Ireland's presidency should prioritise making progress on these industrial cooperation objectives.
+A core objective is ensuring smaller member states can participate meaningfully in European defence industrial development. Larger states (France, Germany, Italy) have established defence industrial bases and can naturally access EDIP funding and SAFE financing for major procurement programmes. Smaller states must actively build participation mechanisms.
 
-### Burden-Sharing Framework
+Ireland will push for:
 
-A critical challenge for European defence is establishing an equitable burden-sharing framework. Currently, burden-sharing is primarily discussed in NATO context, where burden-sharing targets (2 per cent of GDP for defence spending) provide a framework, though imperfectly implemented.
+- **Industrial participation requirements**: Explicit requirements in major procurements that smaller member states' firms have opportunities to participate as subcontractors or technology partners
+- **Capacity building funding**: EDIP funding reserved for smaller member states' industrial capacity development
+- **Technology transfer requirements**: Larger contractors required to transfer technology to smaller member states' firms, building long-term capacity
 
-Within the EU, burden-sharing frameworks are less developed. Different member states spend vastly different amounts on defence—Germany spending over €80 billion, France over €50 billion, while many smaller states spend under €2 billion. This disparity raises questions about equity, fairness, and shared responsibility.
+This is not charity. It is strategic logic: European defence industrial autonomy requires geographically distributed capacity. Concentrating all defence manufacturing in the largest states creates vulnerability—supply chain disruption in one large state affects all others. Distributed capacity, including meaningful industrial participation by smaller states, creates resilience.
 
-An EU burden-sharing framework should address:
+### Objective 2: Accelerate PESCO Implementation
 
-**Spending Targets**: EU member states should establish common targets for defence spending, reflecting both the strategic importance of defence and national capacity. These targets should be more aggressive than NATO targets given the urgency of developing European capability.
+PESCO projects addressing European defence gaps should be accelerated. Some PESCO projects have been slow to progress due to coordination challenges or funding constraints. Ireland's presidency will push for:
 
-**Contribution Mechanisms**: Rather than just raw spending, burden-sharing should reflect contributions to common European defence initiatives—PESCO projects, European Defence Fund investments, EU military missions. States should receive credit for contributions to collective European capability, not just national spending.
+- **Enhanced PESCO project management**: Streamlined governance reducing decision-making delays
+- **PESCO-EDIP linkage**: EDIP funding explicitly supporting PESCO project implementation, creating efficiency by linking capability development funding to ongoing projects
+- **Presidency convening**: Using presidency prominence to advance specific projects aligned with Irish interests (maritime surveillance, cyber security, logistics)
 
-**Smaller State Participation**: Smaller states often struggle to achieve spending targets because their economies are smaller. Burden-sharing frameworks should recognize that smaller states can contribute through participation in PESCO, through industrial specialization, and through other mechanisms beyond raw spending numbers.
+### Objective 3: Formalise Burden-Sharing Framework
 
-**Industrial Participation**: Member states should recognize industrial participation in defence supply chains as a form of contribution to European defence, not just spending on weapons systems.
+The €800 billion European defence commitment requires agreed burden-sharing principles. Member states are increasing defence spending, but there is no formal agreement on how burden-sharing should be evaluated. Should burden-sharing be measured as percentage of GDP? Absolute expenditure? Defence industrial participation? Troop availability?
 
-A robust EU burden-sharing framework would help distribute defence development responsibilities more equitably across member states and would provide clarity about shared expectations for contribution to European defence.
+Formalising burden-sharing principles would:
 
-## Specific Initiatives Requiring Presidential Attention
+- Create transparency on who is contributing what
+- Enable identifying which member states are under-contributing and might require peer pressure
+- Provide basis for allocating SAFE financing and EDIP funding
+- Create accountability for the €800 billion commitment
 
-### The Strategic Compass
+Ireland's presidency will work toward burden-sharing principles that are fair to smaller member states. A pure percentage-of-GDP metric might disadvantage low-spending states that are increasing spending rapidly. A formula including industrial participation and capability contribution might be more equitable.
 
-The EU's Strategic Compass, adopted in 2022, provides a framework for European defence policy development. It identifies four strategic priorities: acting responsibly in supporting Ukraine and preventing escalation; strengthening European resilience against external threats; investing in military capability; and strengthening EU partnerships with external allies.
+### Objective 4: Build Institutional Infrastructure for EU Defence Authority
 
-The Strategic Compass requires regular review and updating. Ireland's presidency should use this opportunity to assess implementation progress, identify gaps, and adjust priorities if necessary. Specifically:
+Longer term, some form of EU defence authority will be necessary to coordinate European defence industrial strategy, manage EDIP and SAFE, and oversee PESCO projects. Currently, these functions are fragmented across the European Commission, the EEAS, and member state defence ministries.
 
-- **Ukraine Support**: Europe's long-term support for Ukraine requires sustainable mechanisms, not ad-hoc responses. The presidency should help establish frameworks for sustained assistance.
-- **NATO Relationships**: As EU membership expands to include more NATO members (Finland and Sweden recently joined), EU-NATO coordination becomes increasingly important. The presidency should strengthen EU-NATO cooperation mechanisms.
-- **China and Emerging Powers**: The Strategic Compass gives insufficient attention to strategic competition with China and other emerging powers. The presidency should help refocus attention on these strategic challenges.
-- **Space and Cyber Domains**: Emerging security domains require increased attention in the Strategic Compass. The presidency should help elevate these priorities.
+Ireland cannot unilaterally establish a new EU institution during a six-month presidency, but can plant seeds for future development. The presidency can promote discussion of what institutional arrangements would be needed and what authorities such an institution should have.
 
-### European Defence Fund
+![Alt text](/images/charts/eupres_four_instruments.png)
 
-The European Defence Fund (EDF) represents the primary EU mechanism for joint defence R&D investment. The fund allocates several billion euros to research and development projects involving multiple member states. The EDF represents a significant step toward European strategic autonomy by pooling resources for research.
+## Timeline and Critical Milestones
 
-However, the EDF faces several challenges:
+The Irish presidency (July–December 2026) aligns with specific milestones for the four instruments:
 
-**Limited Scale**: The EDF budget is modest compared to national defence spending or compared to US defence R&D investment. The fund should be expanded to provide greater resources for European defence innovation.
+**July 2026**: Presidency begins; inaugural meetings on EDIP, SAFE, Military Mobility, and Strategic Compass implementation. Presidency priorities formally presented.
 
-**Complexity**: The application process for EDF funding is complex, creating barriers for smaller firms and states. Streamlining and simplification should be priorities.
+**August–September 2026**: Detailed negotiations on EDIP governance and budget allocation. SAFE operational framework finalised. Military Mobility implementation plans agreed.
 
-**Outcomes Focus**: The EDF should be more explicitly focused on outcomes—actual capability development—not just research activity. Mechanisms for transitioning research outputs into deployed capability should be strengthened.
+**October 2026**: Strategic Compass implementation roadmap detailed; specific capability targets and timelines agreed. PESCO project acceleration announced.
 
-**Industrial Participation**: The EDF should be more explicitly designed to support European industrial development, not just research, providing pathways for research to become commercial capability.
+**November 2026**: Final agreements on burden-sharing framework and industrial participation requirements. Ireland presidency summits formalising commitments.
 
-Ireland's presidency should prioritise strengthening the EDF, addressing these challenges, and ensuring the fund supports European defence industrial development.
+**December 2026**: Presidency conclusions formally adopted by European Council; recommendations passed to successor presidency and European Commission for ongoing implementation.
 
-### Military Mobility Initiative
+![Alt text](/images/charts/eupres_timeline.png)
 
-The Military Mobility initiative focuses on improving European infrastructure and procedures to facilitate movement of military forces across European territory. This initiative addresses NATO priorities (improving NATO's ability to move forces to Eastern Europe if needed) but also supports EU defence by enabling European forces to coordinate operations across member states.
+## Ireland's Unique Positioning
 
-The initiative involves:
+Ireland holds a distinctive position in EU defence architecture. Ireland is an EU member with military capabilities and defence interests, but is not a NATO member and has historically positioned itself as military non-aligned. This positioning creates unique opportunity during the presidency:
 
-- Infrastructure improvements (roads, bridges, rail lines suitable for military transport)
-- Regulatory harmonisation (procedures for military forces moving across borders)
-- Customs and border procedures (streamlined processes for military equipment in transit)
-- Logistics coordination (supply chain arrangements supporting military forces in transit)
+**Bridge-building role**: Ireland can credibly convene discussions between NATO-aligned states and non-aligned EU members. Ireland is not pushing a NATO agenda (Ireland itself is outside NATO) but advocates EU-level defence integration. This positioning allows Ireland to advance European defence cooperation without appearing to align with NATO against Russia or suggesting any particular threat perception.
 
-These improvements serve both NATO and EU defence purposes. Ireland's presidency should ensure that Military Mobility progress continues and that resources for infrastructure improvement are available.
+**Industrial development focus**: Ireland can prioritize industrial development and burden-sharing without being perceived as advancing national defence interests (Ireland's defence industrial base is minimal). This positioning allows Ireland to advocate for smaller state participation and capacity-building without appearing self-interested.
 
-### Emerging Domains: Space, Cyber, AI
+**Diplomatic agility**: Ireland's non-alignment means Ireland is not locked into particular strategic blocs. This provides diplomatic flexibility to broker agreements between member states with different strategic perspectives or NATO alignments.
 
-European defence increasingly depends on capabilities in emerging domains: space (satellite communications, reconnaissance, positioning), cyber (defensive and offensive cyber capability), and artificial intelligence (autonomous systems, decision support, targeting systems).
+**Presidency leverage**: The presidency provides formal authority to set agenda and convene decision-makers. For a small state like Ireland, the presidency is rare opportunity to shape European strategy at the highest level. Ireland should use this leverage fully.
 
-These domains present both opportunities and challenges for Europe:
+## Implementation Challenges
 
-**Space**: Europe has significant space capability (European Space Agency, national space agencies) but military space capability remains limited compared to US and Russia. European military space programmes should be developed, potentially through EU mechanisms.
+Ireland's presidency agenda faces challenges:
 
-**Cyber**: Cyber defence capability is increasingly critical. European cyber defence capability exists but is fragmented. Greater coordination and investment in European cyber defence is needed.
+**National capability constraints**: Ireland lacks the dedicated defence policy infrastructure that larger states maintain. The Irish defence policy apparatus is small, and the presidency requires intense engagement on defence matters—negotiations, diplomatic meetings, detailed technical work on military standards and industrial policy. This requires bringing in external expertise and expanding temporarily the civil service capacity dedicated to defence.
 
-**AI**: Artificial intelligence will transform military capability. European AI capability is significant in commercial domains but military AI development is limited. Europe should invest in military AI capability to avoid strategic dependence on US technology.
+**Political sensitivity**: Irish defence policy is politically sensitive. Any presidency moves perceived as compromising Irish non-alignment or implying NATO alignment could face domestic political opposition. The presidency must carefully frame EU defence cooperation as distinct from NATO engagement.
 
-Ireland's presidency should prioritise developing EU frameworks for these emerging domains, ensuring that Europe develops autonomous capability in space, cyber, and AI rather than remaining dependent on external suppliers.
+**Coordination with partners**: Successful presidency requires working with the European Commission, the EEAS, and the defense ministers of 26 other member states. Coordination across this many actors is inherently difficult.
 
-![Priority Framework for EU Defence Agenda](/images/charts/eupres_priority_framework.png)
+**Timeline pressure**: Six months is short for resolving major policy questions like burden-sharing frameworks or EDIP governance. Negotiations that might take 18 months in normal conditions must be compressed into six-month presidency.
 
-## Institutional and Process Priorities
+## Conclusion: Opportunity and Strategic Importance
 
-Beyond specific initiatives, Ireland's presidency should address institutional and process improvements in EU defence decision-making:
+Ireland's EU Presidency represents rare opportunity to shape European defence integration at critical moment. The four interlocking instruments—EDIP, SAFE, Military Mobility, Strategic Compass implementation—are reaching decision points. The presidency provides formal authority to shape these decisions and convene member states.
 
-### Accelerating Decision-Making
+For Ireland, the presidency is strategic opportunity: Ireland can advance European defence integration while maintaining its non-aligned posture, can shape industrial participation rules favoring smaller member states, and can demonstrate European security leadership. These outcomes would strengthen Ireland's position in EU affairs and advance Irish defence industrial interests.
 
-EU defence decision-making remains slow compared to the urgency of contemporary strategic challenges. The requirement for unanimous agreement on defence matters can slow progress. While unanimous consent cannot be eliminated, procedures for faster decision-making can be improved:
-
-- Pre-negotiated frameworks where member states agree in advance on decision-making procedures for specific issues
-- Enhanced use of "constructive abstention" allowing states to abstain without blocking decisions
-- Faster legislative procedures for non-controversial items
-- Improved use of digital tools for rapid consultation and decision-making
-
-Ireland's presidency should implement procedural improvements enabling faster decision-making without compromising careful deliberation.
-
-### Strengthening Council Working Groups
-
-The practical work of EU defence policy happens in Council working groups. These groups need adequate staffing, expertise, and resources. Ireland's presidency should ensure that working groups on key defence issues have resources they need and that excellent coordination exists between working groups to prevent fragmentation.
-
-### Engaging Member State Defence Ministers
-
-Regular engagement with Defence Ministers is essential for maintaining political momentum on defence policy. Ireland should schedule regular Defence Minister meetings during its presidency to maintain focus on key issues and to ensure political leaders remain engaged with defence transformation.
-
-### Supporting the European Commission
-
-The European Commission has expanded its role in defence policy in recent years. Commission leadership is critical for implementing defence industrial strategy, managing the European Defence Fund, and coordinating defence procurement. Ireland's presidency should ensure strong support for Commission leadership in defence policy areas.
-
-## Timeline and Key Dates
-
-Ireland's presidency spans July-December 2026. Key dates and events include:
-
-![Presidential Timeline and Key Decision Points](/images/charts/eupres_timeline.png)
-
-- **July 2026**: Presidency begins; initial defence priorities are set
-- **August 2026**: Informal Defence Ministers meeting to establish presidency priorities
-- **September 2026**: European Defence Fund review and potential renewal
-- **October 2026**: Strategic Compass review and assessment of progress
-- **November 2026**: NATO and EU defence coordination discussions
-- **December 2026**: Final defence priorities and legacy decisions before presidency ends
-
-## Implications for Ireland
-
-Ireland's presidency offers both opportunities and responsibilities. The opportunities include:
-
-- **Shaping European Defence Strategy**: Ireland can influence how Europe approaches defence challenges over the coming decade
-- **Supporting Smaller States**: Ireland can advocate for frameworks and approaches that serve smaller states, not just major powers
-- **Connecting Defence to Democratic Values**: Ireland can ensure that European defence development maintains strong connections to democratic governance and civilian control
-- **Advancing Irish Interests**: Ireland can ensure that European defence frameworks support Irish security interests
-
-The responsibilities include:
-
-- **Managing Consensus**: As president, Ireland must manage consensus-building among 27 member states with diverse interests and perspectives
-- **Maintaining Neutrality and Fairness**: The presidency role requires treating all member states fairly and maintaining impartiality in conflict resolution
-- **Technical Competence**: The presidency requires adequate staffing and expertise to manage complex defence policy issues
-- **Continuity**: The presidency must balance innovation with continuity, ensuring that established priorities continue to receive attention
-
-## Conclusion
-
-Ireland's EU presidency in 2026 comes at a critical moment for European defence policy. The Strategic Compass, European Defence Fund, Military Mobility initiative, and numerous other defence programmes all require attention and decisions during this period. Russia's continued aggression, uncertainty about external security guarantees, and the strategic imperative of developing European autonomy all create urgency for progress on European defence issues.
-
-Ireland, as a smaller state with strong democratic institutions and a tradition of bridge-building among diverse perspectives, is well-positioned to lead this presidency effectively. By prioritising strategic autonomy, defence industrial cooperation, and equitable burden-sharing frameworks, and by implementing procedural improvements enabling faster decision-making, Ireland can provide leadership that serves European security interests broadly while advancing Irish interests specifically.
-
-The full paper provides detailed analysis of each of these priority areas, including specific policy recommendations, comparative analysis of approaches taken by other EU presidents on defence issues, and practical implementation guidance for achieving specific objectives during the presidency period.
+The presidency will be demanding. It requires sophisticated diplomacy, detailed technical work, and high-level political engagement. But the opportunity is significant. An Irish presidency that successfully advances the EDIP, SAFE, and Strategic Compass implementation agendas would leave a meaningful mark on European defence architecture.

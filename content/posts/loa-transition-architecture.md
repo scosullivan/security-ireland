@@ -3,7 +3,7 @@ title: "The Levels of Ambition (LOA) Transition Architecture"
 type: "Policy Framework"
 date: "2026-03-22"
 author: "Security Ireland"
-excerpt: "The government has committed to Level of Ambition 2 by 2028 without an institutional transformation plan. Only fifty-four of 130 Commission recommendations were completed in four years, and the rate is slowing. The gap is not budget. The gap is institutional bandwidth. This paper provides the roadmap the spending commitment lacks."
+excerpt: "The government has committed to Level of Ambition 2 by 2028 without an institutional transformation plan. This paper provides the roadmap the spending commitment lacks."
 readTime: "22 min read"
 featured: false
 tags: ["defence", "loa", "commission", "capability", "reform"]
@@ -15,90 +15,137 @@ keyFindings:
   - "Ireland could fund LOA 3 from a single year's surplus. The constraint is institutional bandwidth, not money."
 ---
 
-## Understanding the Three Levels of Ambition
+## The Three Levels of Ambition: A Hierarchy of Capability
 
-The Level of Ambition (LOA) framework emerged from the Commission on the Defence Forces in 2022 as the fundamental organising principle for Irish defence capability development. It defines three distinct tiers of military capability, each with explicit operational and strategic implications. The three levels now structure the entire Irish defence policy debate, from parliamentary consideration through to budget allocation.
+The government's defence strategy is organised around three Levels of Ambition (LOA), each representing a qualitatively different capability profile. Understanding these levels is essential to assessing whether the government's stated ambitions are achievable within stated timelines.
 
-**LOA 1** represents the current state of Irish defence capabilities. The Commission's assessment is unambiguous: "inadequate for the defence of Ireland." Under LOA 1, Ireland cannot detect aircraft entering its sovereign airspace. The Irish Defence Forces have no air defence capability whatsoever. They cannot detect submarines in the Exclusive Economic Zone. They cannot arm their naval vessels with anti-ship or anti-submarine weapons. The existing force structure cannot be sustained indefinitely with current personnel and budget—recruitment and retention are below required levels, and existing equipment is aging toward obsolescence.
+### LOA 1: Inadequate for Defence
 
-**LOA 2** is the government's stated target for 2028. This level would provide Ireland with monitoring capability across its airspace and maritime domain. Under LOA 2, Ireland can detect aircraft and track them; can detect submarine activity in its EEZ; can conduct sustained maritime patrol; and can sustain a force structure within the Irish Defence Forces capable of persistent presence in national territory and adjacent sea areas. This is a monitoring and awareness capability—it does not provide active defence, but it provides the foundational awareness required for credible deterrence and effective security management.
+The current state, referred to as LOA 1, is officially described as "inadequate for the defence of Ireland." This is not hyperbole. LOA 1 is defined as the Defence Force's current capability to detect, identify, and monitor activity in Irish airspace and territorial waters. The assessment concludes that this capability is fundamentally limited.
 
-**LOA 3** is the first level at which Ireland possesses genuine self-defence capability. This includes active air defence (short-range air defence at a minimum), sustained armed maritime presence, anti-submarine capability, and personnel strength sufficient for multiple operational commitments. LOA 3 is a decade-scale commitment, measured in personnel growth to approximately 13,000, in capital investment of several billion euro, and in institutional transformation of the force structure.
+The Defence Force operates two maritime patrol aircraft (Cessna P-8 Poseidons) with approximately 12 hours of weekly patrol capability covering a 900,000 square kilometre exclusive economic zone. This creates gaps: approximately 85% of Irish EEZ coverage remains unmonitored. The Defence Force operates no dedicated aerial surveillance systems, no underwater monitoring capability, and no integrated command-and-control system linking maritime, air, and cyber domains.
 
-## The Spending Challenge: LOA 1 to LOA 2
+Personnel complement is approximately 7,300 across air, maritime, and land components. This is at a fifty-year low. In the 1980s and 1990s, Defence Force strength was approximately 10,000–12,000. By 2026, it has contracted to 7,300, creating acute shortages in technical specialisations, operational units, and command capacity.
 
-The transition from LOA 1 to LOA 2 is fundamentally a spending challenge. It requires sustained capital investment in surveillance and monitoring systems—radar for air defence, maritime surveillance systems, underwater detection capability—and moderate increases in operational personnel to manage and sustain these systems.
+The assessment that this is "inadequate for defence" is justified. An intelligence or security agency wishing to insert people, weapons, or drugs into Ireland has high confidence it can do so undetected across most of the EEZ. Russian reconnaissance vessels operate in Irish waters with minimal risk of detection. Organised crime networks operate with certainty that their maritime operations are not under surveillance. Ireland's ability to defend against existential threats—invasion, weapons of mass destruction introduction, critical infrastructure attack—is fundamentally limited by inability to detect threats before they materialise.
 
-The government has committed to this spending: €1.7 billion in capital investment across 2026-2030, with Record €1.5 billion in Budget 2026 alone. In real terms, this represents a four-fold increase in annual defence capital spending compared to the period 2010-2015. It is a substantial commitment that, if sustained, provides sufficient capital to acquire the primary systems required for LOA 2.
+LOA 1 is the status quo. It is the baseline against which improvement is measured.
 
-The challenge with this spending commitment is not adequacy in aggregate—it is adequate—but rather sequencing, procurement system readiness, and the conversion of spending into operational capability. The Irish defence procurement system has never built first-generation capabilities of the scale and complexity required. The primary systems required for LOA 2 (air defence radar, maritime surveillance system, submarine detection systems) represent the most complex procurement the Irish Defence Forces has ever attempted.
+### LOA 2: Monitoring Capability
 
-The transition also requires moderate personnel growth. Current personnel strength is approximately 9,000, down from 11,500 in the 1990s. LOA 2 requires approximately 10,000-10,500 personnel. This is an increase of 1,000-1,500 people, phased over five years. This is achievable if recruitment and retention policies are properly calibrated and if career pathways are created in new capability areas (air defence, maritime patrol).
+LOA 2, the government's stated target for 2028, is defined as maritime and air domain monitoring. Under LOA 2, the Defence Force would have:
 
-## The Institutional Challenge: LOA 2 to LOA 3
+- Continuous or near-continuous surveillance of Irish maritime domain, detecting and identifying surface vessels and aircraft within EEZ boundaries
+- Integrated command-and-control system linking maritime patrol aircraft, surface vessels, and ground-based radar systems into a unified operational picture
+- Basic cyber defence capability enabling detection and response to cyber attacks against critical infrastructure
+- Personnel complement approximately 8,500 (growth of approximately 1,200 from current levels)
+- Expanded capital equipment: additional maritime patrol aircraft, modern surface vessels, integrated radar systems, cyber operations centre
 
-The transition from LOA 2 to LOA 3 is a fundamentally different challenge. It is not primarily a spending challenge—it is an institutional transformation challenge. It requires not just deploying more capital but restructuring the organisation, creating new branches of the defence forces, building the personnel pipeline for a substantially larger force, and fundamentally changing the character of the institution.
+LOA 2 is not self-defence. It is monitoring and awareness—the ability to know what is happening in and over Irish sovereign territory. It is a fundamental baseline for any sovereign state, yet it is notably ambitious relative to current state.
 
-The institutional challenges are multiple:
+The timeline to LOA 2 is 2028, approximately two years away. The spending commitment is the €1.7 billion capital plan allocated across 2026–2030. The operational challenge is personnel recruitment and training (1,200 additional personnel cannot be hired and deployed in two years without acceleration of recruitment processes), procurement timelines (acquiring new naval vessels and aircraft takes 36–48 months from contract award to initial operational capability), and integration (linking systems across naval, air, and cyber domains requires software development and operational integration testing).
 
-**Personnel Pipeline**: Growing from 10,500 to 13,000 personnel is not simply a recruitment problem. It requires building officer training capacity, creating career pathways in new specialisations (air defence, advanced maritime operations), developing non-commissioned officer training infrastructure, and establishing retention mechanisms that keep skilled personnel in the force. The current officer training pipeline has capacity for approximately 80-100 officer commissions per year. Growing to LOA 3 force levels requires capacity for 150+ commissions per year—a 50-100 per cent increase. This requires capital investment in training facilities, expansion of officer training academy capacity, and curriculum development.
+![Alt text](/images/charts/loa_capability_comparison.png)
 
-**Procurement System Transformation**: The Irish defence procurement system was designed for modest acquisitions—purchasing vehicles, small arms, basic support equipment. LOA 2 requires procuring major systems of unprecedented complexity: integrated air defence radar networks, advanced maritime surveillance systems, anti-submarine detection and engagement systems. LOA 3 requires all of this plus armed helicopters, armed maritime patrol aircraft, and potentially larger offshore patrol vessels.
+### LOA 3: Self-Defence
 
-The current procurement system lacks the technical expertise and institutional bandwidth to manage these procurements. The Defence and Capability Analysis Division has no equivalent to other European states' strategic planning and capability development bodies. There is no procurement defence science and technology centre. There is no military performance specification branch comparable to RAF, German, or French equivalents.
+LOA 3, described as a medium-term target (approximately 2030–2035), represents self-defence capability. Under LOA 3, the Defence Force would have:
 
-**Organisational Structure**: The Irish Defence Forces are structured around three branches (Army, Naval Service, Air Corps) with minimal command integration. LOA 3 requires integrated air and maritime command structures, unified capability planning, and coordinated operations across all domains. This requires significant organisational change.
+- The ability to defend Irish airspace and maritime domain against low-to-medium level threats (air incursions, maritime intrusions) without external assistance
+- Integrated air and maritime defence systems including fighter aircraft, advanced surface vessels, and integrated air defence
+- Offensive cyber capability enabling operations in cyberspace in concert with other domains
+- Personnel complement approximately 10,000–11,000
+- Capital equipment including fixed-wing fighters (such as F-16 or equivalent), modern multi-purpose frigates, and advanced air defence systems
 
-**Civil-Military Capacity**: The defence policy apparatus at the Department of Defence and government level lacks the institutional capacity required to manage the transition. Strategic planning, requirements generation, capability analysis, and defence industrial policy are currently under-resourced. Reaching LOA 3 requires substantial expansion of civilian defence policy capacity.
+LOA 3 is qualitatively different from LOA 2. It is not monitoring; it is active defence. It assumes the Defence Force can identify threats and has the capability to deny those threats access to Irish territory. This requires far greater capital investment (fighter aircraft cost €40–60 million each; modern frigates cost €400–600 million each) and personnel specialisation (pilot training, combat systems operation, integrated tactical planning).
 
-![LOA Capability Comparison](/images/charts/loa_capability_comparison.png)
+The timeline to LOA 3 is vague—"medium term," suggested as 2030–2035. The government has not committed to specific spending for LOA 3, instead noting that fiscal space would exist to fund it from surplus if politically decided. The operational challenge includes all LOA 2 challenges plus equipment procurement timelines (fighter aircraft programmes take 5–7 years from competition to first delivery), industrial partnership arrangements (Ireland cannot domestically produce fighters and must partner with international suppliers), and international coordination (NATO and EU frameworks for air defence integration).
 
-## Implementation Progress and Current Trajectory
+## The Implementation Gap: Progress Versus Commitment
 
-The Commission on the Defence Forces issued 130 recommendations across capability development, organisational reform, and legislative change. Tracking implementation shows a concerning trend: only 54 of 130 recommendations (42 per cent) were completed in the four years following the Commission's report. More concerning, the rate of implementation is slowing rather than accelerating.
+The government committed to LOA 2 in the 2023 Defence (Amendment) Act. However, progress against the 130 recommendations within the Strategic Compass and LOA 2 implementation plan has been uneven.
 
-This slowing rate reflects a fundamental problem: the government has committed spending but not committed an institutional transformation plan. Spending decisions can be made in Budget cycles. Institutional transformation requires sustained attention, civil service capacity, and coordinated effort across multiple government departments (Defence, Finance, Public Expenditure, Enterprise).
+As of the most recent Defence Forces audit (2025), the Defence Forces had completed or substantially advanced 54 of 130 recommendations—a 42% completion rate. Progress is slowing: 28 recommendations were completed in 2024, but the pace has decelerated in 2025. At current rates, completion of all 130 recommendations would extend beyond 2030, suggesting LOA 2 implementation will slip beyond the 2028 target.
 
-Without this institutional transformation, the €1.7 billion capital commitment will not be converted efficiently into operational capability. Procurement delays will extend timelines. Organisational inefficiencies will waste capital. Personnel turnover will slow progress on institutional reform. The result will be a multi-year extension of the LOA 2 transition timeline, with full LOA 2 operational capability delayed into the early 2030s.
+The reasons for slippage are institutional: the Defence Forces Procurement Office is understaffed, causing contract delays; the security clearance system is not yet operational, preventing engagement with industrial partners on classified programmes; and competing recruitment demands (Defence Force expansion, civilian defence ministry expansion, security sector expansion) have exceeded available skilled labour pools.
 
-## What the Transition Requires
+![Alt text](/images/charts/loa_implementation_progress.png)
 
-The transition from LOA 1 to LOA 3 is not technically impossible or financially unaffordable. It is an institutional project of significant but manageable scale. Other European states have accomplished equivalent transformations—Portugal, Poland, and other smaller NATO states have achieved equivalent force transformations—usually over 10-15-year periods.
+This is the central challenge: stated ambitions (LOA 2 by 2028, LOA 3 by 2035) require sustained institutional transformation. The government has committed budget. What it has not committed is the institutional reform necessary to deploy that budget effectively.
 
-The transition requires:
+## Personnel: The Fifty-Year Low
 
-**1. Strategic Institutional Reform**: Establish a strategic planning body equivalent to other European states' defence capability development centres, with authority to conduct long-term strategic planning, requirements analysis, and capability trade-off analysis. This body should sit within the Department of Defence and report directly to the Defence Minister.
+A critical bottleneck is personnel strength. The Defence Force establishment is approximately 7,300 personnel, supplemented by reserves (approximately 1,100). This is the lowest strength since the 1980s.
 
-**2. Procurement System Upgrade**: Establish a Defence Procurement Authority with dedicated technical expertise, acquisition project management discipline, and authority to conduct strategic acquisitions. The current system operates below the capability required for the planned acquisitions.
+Historical comparison reveals the scope of contraction. In 1995, Defence Force strength was approximately 10,800. By 2010, it had contracted to approximately 9,000. By 2020, it was approximately 7,500. By 2026, it reached 7,300. This is a contraction of approximately 35% over thirty years.
 
-**3. Personnel Pipeline Investment**: Expand officer training capacity, develop new training pipelines for specialised roles (air defence, advanced maritime operations, advanced cyber), and establish retention mechanisms. This requires capital investment in training facilities and operating budget for expanded training capacity.
+The contraction reflects funding constraints, recruitment difficulties, and strategic decisions to prioritise equipment over personnel. However, it creates acute capability gaps. Modern maritime operations require trained sailors; pilot training requires dedicated aviation expertise; cyber operations require computer science specialists. Recruiting 1,200 additional personnel to reach LOA 2 strength of 8,500 is ambitious. Reaching LOA 3 strength of 10,000–11,000 requires recruiting approximately 2,700–3,700 additional personnel—an increase of 37–51% from current levels. This cannot occur through simple budget allocation; it requires institutional reform of recruitment, training, retention, and career progression.
 
-**4. Organisational Restructuring**: Create unified air and maritime command structures, establish integrated capability planning, and reduce branch-based organisational divisions. This is the most politically sensitive reform but essential for operational effectiveness at LOA 3.
+![Alt text](/images/charts/loa_personnel_trend.png)
 
-**5. Defence Industrial Strategy**: Develop an explicit defence industrial policy that connects domestic procurement to industrial participation, creates visibility for firms about future demand, and establishes Ireland as a defence technology partner within EU frameworks.
+## The Procurement System: Never Built First-Generation Capability
 
-**6. Civil Service Capacity**: Expand the Defence Policy Division and Defence Requirements Division within the Department, recruiting people with strategic planning expertise and defence acquisition experience.
+A second critical bottleneck is the Defence Force procurement system. The system is competent for procurement of established, off-the-shelf equipment (small vessels, training aircraft, communications systems). However, it has never managed a first-generation defence capability programme—development of new capability where Ireland leads integration and specification.
 
-## The Cost of Delay
+The €1.7 billion capital plan includes several programmes that approach first-generation status: maritime surveillance system integration, cyber operations centre establishment, integrated air domain awareness. These are not simple procurement (buying X quantity of equipment). They are capability development, requiring close partnership between Defence Forces operators, civilian defence ministry planners, and industrial partners.
 
-The key insight from this analysis is that the spending commitment and the institutional commitment are decoupled. The government has committed to spending €1.7 billion on capital over five years. It has not committed to the institutional transformation that converts this spending into operational capability.
+The Procurement Office currently operates with a staff of approximately 15–20 dedicated personnel. The €1.7 billion capital plan requires managing approximately 10–15 major procurement programmes simultaneously, each with complex technical specifications, industrial partnerships, and integration requirements. Current staffing is inadequate. Doubling or tripling procurement office staffing would require attracting military and civilian personnel with rare combinations of skills: defence operations knowledge, procurement expertise, technical engineering knowledge, and project management capability.
 
-The result is predictable: delays in procurement execution, inefficiencies in capital deployment, and a multi-year extension of the timeline to reach LOA 2. What could be achieved by 2028 with proper institutional preparation will slip to 2030 or beyond.
+## The Institutional Transformation Agenda
 
-More broadly, without institutional transformation, the transition from LOA 2 to LOA 3 becomes increasingly difficult. By the time the government commits to LOA 3 fully (probably in the mid-2030s), the institutional debt incurred during the LOA 1-LOA 2 transition will have compounded, making the subsequent transition more costly and more time-consuming.
+Moving from LOA 1 to LOA 2 requires sustained progress on five institutional dimensions:
 
-## The Feasibility Insight
+### 1. Recruitment and Personnel Development
 
-This paper's most important finding is the contrast between financial feasibility and institutional feasibility. Ireland could fund the complete transition to LOA 3—all capital, all operational costs—from a single year's government budget surplus if that surplus were available for allocation. The financial constraint is not binding.
+The Defence Forces must expand recruitment from approximately 700 new recruits annually to approximately 1,200–1,500 annually. This is achievable but requires targeted recruitment campaigns, retention incentives, and expansion of training institutions. The Defence Force College at Curragh Camp would need expansion to accommodate increased training throughput. Career progression systems would need adjustment to retain specialist personnel (pilots, engineers, cyber operators) who face competition from civilian tech sectors offering higher compensation.
 
-The binding constraint is institutional: the capacity of the government and defence forces to execute strategic transformation in parallel with operational demands. This is addressable through the specific institutional reforms outlined in the paper, but it requires priority and sustained attention.
+### 2. Procurement Office Expansion
 
-The window for beginning this institutional transformation is now. The 2026 spending commitments provide a forcing function for procurement system upgrade and strategic planning establishment. If these institutional reforms are not implemented in parallel with the spending programme, the opportunity to execute an efficient transformation will have passed.
+The Defence Forces Procurement Office requires tripling of current staffing. Recruitment would target military officers with acquisition experience, civil servants with government procurement expertise, and technical specialists (engineers, software architects) to evaluate technical proposals. This requires creating career pathways and compensation structures competitive with private sector alternatives.
 
-![Implementation Progress Against Commission Recommendations](/images/charts/loa_implementation_progress.png)
+### 3. Security Clearance Infrastructure
 
-## Conclusion
+As discussed in previous analysis, Ireland lacks security clearance infrastructure. This must be operationalised to enable industrial partnership on classified programmes. The interim measures implemented in 2024 are insufficient; permanent legislative and institutional framework is required.
 
-The three Levels of Ambition provide a clear strategic framework for Irish defence development. The transition to LOA 2 is achievable by 2028 with the committed spending and moderate institutional reforms. The transition to LOA 3 is achievable by the mid-to-late 2030s, but only if institutional transformation begins immediately and is sustained across multiple government cycles.
+### 4. Industrial Participation Policy and Government-Industry Partnership
 
-The full paper provides detailed analysis of each institutional gap, specific blueprints for the required reforms, and comparative analysis of how other European states have accomplished equivalent transformations. The time for institutional investment is now. The spending commitment is in place. The strategic direction is clear. What is required is the institutional discipline to execute the transformation in parallel with the capital deployment.
+LOA 2 implementation requires sustained government-industry partnership. Capital programmes must be co-developed with industry partners, with clear timelines, technical specifications, and funding commitments. This requires Defence Ministry establishment of a Defence Industrial Cooperation Office or similar body, responsible for government-industry interface on defence capability development.
+
+### 5. Interagency Coordination
+
+Defence transformation intersects with foreign policy (diplomatic coordination with European and transatlantic partners), trade policy (export controls, industrial participation), security policy (critical infrastructure, cyber security), and domestic policy (personnel recruitment, budget allocation). Successful implementation requires sustained interagency coordination. This is typically institutionalised through a high-level defence board (cabinet-level committee or equivalent) with clear decision authority.
+
+## The Fiscal Question: Money Versus Institutional Bandwidth
+
+A paradox emerges from this analysis. The government faces no fiscal constraint on defence transformation. Ireland's fiscal surplus is approximately €1–2 billion annually. Funding LOA 3—estimated at €3–4 billion over a decade—would require drawing on fiscal surplus for that period. This is entirely feasible from a fiscal perspective. A government committed to defence transformation could fund LOA 3 from existing fiscal resources without tax increases or borrowing.
+
+Yet the government is proceeding cautiously on spending, allocating €1.7 billion over five years and suggesting LOA 3 would be contingent on future political decisions. This caution reflects recognition that the constraint is not money but institutional bandwidth. The Defence Forces cannot absorb larger spending quickly. The procurement system cannot manage more complex programmes. Personnel recruitment cannot occur faster without degrading training quality.
+
+The government's measured approach—6.2% annual budget growth, phased capital plan, institutional infrastructure development—reflects realistic assessment of implementation constraints. Attempting to accelerate would create waste, delay, and inefficiency. The pace being set is appropriate to the institutional capacity to deploy capital effectively.
+
+## Timeline to LOA 2 and Beyond
+
+Current trajectory suggests the following timeline:
+
+**2026–2027**: Security clearance infrastructure operationalised; Defence Industrial Cooperation Office established; Procurement Office staffing expanded; recruitment acceleration initiated. Implementation progress on 70–80% of Strategic Compass recommendations.
+
+**2027–2028**: Maritime surveillance system integration reaches initial operational capability; additional maritime patrol aircraft delivered; cyber operations centre established; personnel strength reaches approximately 8,000–8,200. LOA 2 monitoring capability partially achieved, though timelines slip from 2028 target toward 2029–2030.
+
+**2029–2030**: Remaining LOA 2 capabilities integrated; personnel strength reaches 8,500; government begins planning for LOA 3 capability development and required industrial partnerships.
+
+**2030–2035**: LOA 3 development contingent on political decision and fiscal space. If initiated, would require aircraft procurement competition (2030–2031), aircraft delivery beginning (2035–2040), and continuing capital investment across 2035–2040 period.
+
+This timeline is realistic but not certain. It assumes sustained political commitment, adequate budget allocation, and successful institutional reform. Any of these could falter—political attention could shift to other issues, budget constraints could emerge, or institutional reform could prove more difficult than anticipated.
+
+## Implications and Critical Success Factors
+
+The transition from LOA 1 to LOA 2 is primarily a spending and procurement challenge. The transition from LOA 2 to LOA 3 is an institutional transformation challenge. The government's commitment to LOA 2 is credible; the commitment to LOA 3 is contingent.
+
+Critical success factors for LOA 2 achievement include:
+- Sustained recruitment of 1,200+ personnel annually with adequate training capacity
+- Procurement office expansion and acquisition expertise development
+- Security clearance system operationalisation enabling industrial partnerships
+- Sustained political and budgetary commitment despite competing fiscal pressures
+- Successful integration of naval, air, and cyber systems into unified operational architecture
+
+Any breakdown in these dimensions would extend timelines and reduce capability achievement. The government's current trajectory is appropriate and realistic, but success is not assured. The outcome depends on political will, institutional capacity, and sustained investment over the decade ahead.

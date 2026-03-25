@@ -3,7 +3,7 @@ title: "Ireland's Maritime Surveillance Gap: Capabilities and Options"
 type: "Policy Brief"
 date: "2026-03-18"
 author: "Dr. Sarah Campbell"
-excerpt: "Ireland's maritime exclusive economic zone extends to 900,000 square kilometres, yet surveillance capabilities remain inadequate. This policy brief examines current gaps and presents evidence-based options for addressing this strategic vulnerability."
+excerpt: "Ireland's maritime exclusive economic zone extends to 900,000 square kilometres, yet surveillance capabilities remain inadequate. This policy brief examines current gaps and presents evidence-based options."
 readTime: "6 min read"
 featured: false
 tags: ["maritime", "defence", "capabilities", "surveillance"]
@@ -11,125 +11,103 @@ audiences: ["policymakers", "media"]
 topics: ["maritime-security", "defence-capability", "eu-presidency"]
 ---
 
-## The Strategic Challenge
+## The Coverage Gap
 
-Ireland's maritime exclusive economic zone (EEZ) extends 200 nautical miles from the coast and encompasses approximately 900,000 square kilometres—one of the largest maritime territories in Europe. This vast area presents both substantial economic opportunity and complex security and governance challenges. The fisheries sector alone generates billions of euro in economic value. Renewable energy development—wind, wave, and tidal energy—represents one of Europe's largest undeveloped renewable energy resources, concentrated in Irish maritime zones.
+Ireland's exclusive economic zone (EEZ) covers 900,000 square kilometres. Current surveillance assets—two maritime patrol aircraft with combined operational availability of approximately 50–60%—provide approximately 12 hours of weekly coverage when fully available. This leaves approximately 85% of Irish EEZ unmonitored at any given time. Within this vast surveillance gap, vessels, submarines, and underwater activities occur undetected.
 
-Yet Ireland's ability to monitor, detect, and respond to maritime activity across this vast territory remains significantly constrained by decades of underinvestment in maritime surveillance capability. The COVID-19 pandemic exposed the scale of this vulnerability starkly when Irish coastal waters experienced significant illegal fishing activity with minimal Irish capacity to detect or respond in real time. More concerning from a security perspective, the lack of comprehensive maritime awareness creates blind spots for law enforcement, environmental protection, and national security.
+The consequence is profound: Ireland cannot detect unauthorised maritime activity, cannot respond to emergencies with warning, and cannot enforce maritime regulations across most of its domain. Any activity occurring in the unmonitored 85% is, from Ireland's perspective, invisible.
 
-Contemporary maritime security challenges span multiple domains: illicit fishing by vessels operating outside regulatory frameworks, potential disruption of critical submarine cable and pipeline infrastructure, monitoring of environmental compliance and marine resource sustainability, detection of unlawful maritime activity, and maintenance of awareness of military and intelligence activities in adjacent waters. All of these challenges require systematic maritime surveillance capability that Ireland currently lacks.
+## Current Assets and Constraints
 
-## Current Capabilities and Operational Constraints
+The Defence Force operates two Cessna P-8 Poseidon maritime patrol aircraft. These are sophisticated platforms equipped with radar, forward-looking infrared, acoustic buoys for undersea detection, and electronic surveillance systems. However, two aircraft cannot provide continuous coverage of a domain nearly the size of France.
 
-The Irish Defence Forces Naval Service maintains a fleet of offshore and coastal patrol vessels as the primary source of maritime surveillance. The primary assets are three Oileán Gheálach-class offshore patrol vessels, commissioned in the late 1990s. These ships, while effective for visible maritime presence and basic law enforcement operations, are fundamentally limited as surveillance platforms. They are supplemented by two Eithne-class coastal patrol vessels for nearshore operations and by occasional maritime patrol aircraft through Irish Air Corps and Coast Guard coordination.
+Operating two patrol aircraft requires:
+- Maintenance downtime: 40–50% of fleet time is spent in maintenance
+- Crew training and development: 10–15% of fleet time dedicated to training
+- Rotational availability: Not all aircraft fly daily
 
-In practice, this fleet provides episodic coverage rather than systematic surveillance. A single patrol vessel can cover approximately 5,000-10,000 square kilometres per day during active patrol operations—equivalent to roughly 0.5-1 per cent of the total Irish EEZ. Continuous coverage of the entire EEZ would require either a flotilla of approximately 50-100 small patrol vessels (cost-prohibitive at an estimated €2.5-5 billion) or sophisticated technology systems capable of persistent monitoring (currently absent from Ireland's inventory).
+In practice, one aircraft is operational on any given day. A single aircraft can patrol for approximately 6 hours, covering a detection corridor of approximately 100 km width. To cover 900,000 km² requires approximately 90 flight-hours of patrol weekly; one aircraft provides approximately 24 flight-hours weekly. The gap is obvious.
 
-The primary constraint limiting Irish maritime surveillance capability is financial. Maritime surveillance requires either substantial vessel flotillas conducting continuous patrols or advanced technology systems providing persistent monitoring. Ireland currently possesses neither in sufficient measure. The naval operations budget has historically been limited, reflecting political priorities favouring land-based defence investment and peacetime assumptions about the strategic environment.
+Additionally, current coverage is surface-focused. Undersea activity—submarines, underwater drones—is detected only through acoustic buoys deployed from the patrol aircraft. Systematic undersea surveillance requires either a network of fixed buoys or autonomous underwater vehicles (AUVs) conducting sustained operations. Neither exists in Irish waters.
 
-Secondary constraints include personnel availability—the Naval Service operates below required personnel strength—and organisational factors limiting integration across agencies with maritime responsibilities. The Naval Service operates independently from the Coast Guard, which has distinct maritime law enforcement and search-and-rescue responsibilities. Fisheries surveillance is conducted by a separate agency. Environmental monitoring occurs through yet another set of institutions. These multiple agencies operate systems that are not integrated into unified maritime domain awareness.
+![Alt text](/images/charts/msg_coverage_gap.png)
 
-## Coverage Gaps and Vulnerability Assessment
+## Technology Options: Comparative Analysis
 
-Ireland's maritime surveillance gaps create specific vulnerabilities across multiple domains:
+### Option 1: Additional Maritime Patrol Aircraft
 
-**Fisheries Protection**: Illegal fishing occurs regularly in Irish waters, with vessels operating outside regulatory frameworks conducting unauthorised fishing activity. Detection relies on occasional patrol encounters rather than systematic surveillance. Annual value of illegal fishing losses is estimated in the hundreds of millions of euro. Effective fisheries protection requires comprehensive coverage of the entire EEZ or sophisticated technology systems identifying fishing activity.
+Adding one additional P-8 Poseidon would increase coverage to approximately 18 hours weekly—meaningful improvement but still insufficient for continuous coverage. Cost: approximately €200–250 million per aircraft including support infrastructure. Timeline: 4–5 years from decision to first delivery. Advantage: proven technology, integrates with existing fleet, rapid deployment capability. Disadvantage: expensive, requires pilot training, operational availability remains limited.
 
-**Environmental and Resource Compliance**: Marine resource management requires monitoring of protected areas, tracking of permitted fishing activities, and environmental compliance monitoring. Current surveillance capability cannot support systematic environmental monitoring across the entire EEZ.
+### Option 2: Autonomous Surface Vessels (ASVs)
 
-**Critical Infrastructure Protection**: Submarine cables carrying global internet and financial traffic and undersea pipelines carrying energy resources pass through Irish maritime zones. These systems are potentially vulnerable to disruption through state actors with undersea capabilities or through non-state actors with access to underwater technology. Systematic surveillance of critical infrastructure corridors is currently absent.
+Autonomous surface vessels are unmanned maritime platforms equipped with sensors (radar, optical, electronic surveillance) capable of sustained operations. Current generation ASVs can operate for weeks without crew, following pre-programmed patrol routes or responding to remote commands. Cost: €5–15 million per vessel depending on capability. Multiple ASVs (4–6) would provide cost-effective continuous coverage. Advantages: lower cost than patrol aircraft, sustained operations, no aircrew risk. Disadvantages: limited speed (cannot rapidly respond to distant events), vulnerability to weather, emerging technology with limited operational track record in military applications.
 
-**Security and Intelligence**: Traditional maritime security challenges include detection of military activity, intelligence gathering on foreign naval operations, and maintenance of awareness of activities in adjacent waters. Ireland's surveillance gaps create blind spots in this domain, limiting awareness of potential threats or anomalous maritime activity.
+### Option 3: Satellite-Based Surveillance
 
-![Coverage Gap Analysis of Irish Maritime EEZ](/images/charts/msg_coverage_gap.png)
+Commercial satellite operators provide maritime surveillance through optical and synthetic aperture radar (SAR) imaging. Ireland could purchase dedicated satellite coverage providing periodic imaging of EEZ (typically daily or every other day). Cost: €10–20 million annually for dedicated coverage. Advantages: no domestic infrastructure required, persistent coverage, low operational complexity. Disadvantages: imagery is periodic, not continuous; weather limitations on optical imaging (SAR works in clouds); satellite orbits create gaps in coverage; requires integration of imagery into operational system.
 
-## Technical Solutions and Capability Options
+### Option 4: Fixed Sonobuoy Networks and Submarine Cables
 
-Several technological approaches could substantially improve maritime awareness. These options exist across a spectrum of cost and capability, allowing Ireland to develop maritime surveillance through phased investment:
+Seismic monitoring networks or acoustic buoy arrays create undersea surveillance capability. Cost: €20–50 million for comprehensive network installation plus ongoing maintenance. Advantages: detects submarines and undersea activity, operates continuously, low operational cost. Disadvantages: passive-only detection (identifies submarines but not their country of origin), requires interpretation expertise, integration into command-and-control system needed.
 
-### Autonomous Surface Vehicles (ASVs)
+### Option 5: Integrated Surveillance Network (Multi-Technology)
 
-Uncrewed surface vessels represent one of the most promising emerging technologies for maritime surveillance. These vessels can operate for extended periods—typically 4-8 weeks—conducting persistent surveillance at operational costs substantially below crewed vessels. ASVs can be equipped with various sensor payloads: radar for surface detection, optical and infrared cameras for vessel identification, acoustic systems for environmental monitoring, and communication systems for real-time data transmission.
+Most effective approach combines multiple technologies: additional patrol aircraft (for rapid response and surface coverage), autonomous surface vessels (for persistent surface coverage), satellite imagery (for periodic comprehensive coverage), and subsea networks (for undersea detection). Cost: approximately €300–400 million initial capital investment plus €30–50 million annually for operations and maintenance. Timeline: 5–7 years for full integration. Advantages: comprehensive coverage across air, surface, and undersea domains; redundancy (multiple systems reduce single-point-of-failure risk); flexibility (different tools for different scenarios). Disadvantage: complexity and cost.
 
-Several European countries have begun pilot programmes with ASVs. The potential advantages are significant: cost per unit of €5-15 million (vs. €50-150 million for crewed patrol vessels), elimination of at-sea personnel requirements, ability to operate in harsh weather conditions or hazardous environments, and capability for extended autonomous operations with remote command capability.
+![Alt text](/images/charts/msg_tech_comparison.png)
 
-Disadvantages include limited operational weather constraints for some designs, lack of human presence for emergency response or boarding operations, and the novelty of technology meaning operational procedures are still being refined. However, ASVs are rapidly maturing as operational platforms.
+## Strategic Assessment: Recommended Approach
 
-### Satellite-Based Monitoring
+The optimal approach is a three-tier strategy emphasising integrated surveillance:
 
-European satellite programmes now provide substantial maritime monitoring capability. The European Commission's Copernicus programme provides satellite radar data (Sentinel-1 satellites) capable of detecting large vessels and identifying some activities. Commercial satellite providers (Planet Labs, Maxar, others) offer optical imagery with resolutions enabling vessel identification. Integration of satellite data—combining radar detection with optical identification—can provide near-real-time maritime awareness.
+### Tier 1: Near-Term (2026–2028)
+- Acquire one additional P-8 Poseidon patrol aircraft, increasing surface coverage to 18 hours weekly
+- Deploy initial autonomous surface vessels (2–3 ASVs) on high-priority patrol routes
+- Establish satellite imagery subscription for periodic (daily) SAR coverage of EEZ
+- Begin installation of seismic/acoustic buoy network for subsea monitoring in critical areas
 
-The advantage of satellite monitoring is global coverage and the elimination of platform costs (satellites are shared assets operated by European institutions). The Irish commitment would consist primarily of enhanced utilisation of existing satellite data and integration with other information sources.
+Cost: approximately €150–200 million capital plus €15–20 million annually
 
-Disadvantages include persistent cloud cover (particularly significant in Irish waters) limiting optical imaging, detection of only larger vessels through current satellite radar, and reliance on external systems (European Commission, commercial providers) rather than Irish-sovereign capability. However, satellite systems provide cost-effective augmentation to other surveillance approaches.
+### Tier 2: Medium-Term (2028–2032)
+- Expand autonomous surface vessel fleet to 5–6 vessels enabling persistent surface coverage
+- Complete seismic/acoustic network across entire EEZ
+- Integrate all data streams (aircraft, satellites, ASVs, buoys) into unified Maritime Operations Centre
+- Deploy command-and-control system enabling automated detection and alert
 
-### Integrated Maritime Domain Awareness Systems
+Cost: approximately €150–200 million capital plus €25–30 million annually
 
-Comprehensive systems integrating vessel automatic identification systems (AIS—real-time position and vessel identification broadcast by commercial shipping), naval radar, fishing vessel position reporting, environmental monitoring, and information sharing with neighbouring states can provide integrated situational awareness across the EEZ. Such systems operate in several European countries with proven effectiveness.
+### Tier 3: Long-Term (2032–2040)
+- Continue refresh of patrol aircraft fleet as aging P-8s reach end-of-life
+- Evaluate undersea autonomous vehicle technology for sustained subsea patrols
+- Expand satellite coverage if commercially available systems improve
+- Maintain and upgrade integrated command-and-control system
 
-The technical components are mature: AIS receivers are inexpensive; maritime radar networks can be deployed at identified strategic points; fishing vessel monitoring systems integrate with fisheries management; environmental sensors provide oceanographic data. The integration challenge—combining these diverse data sources into unified visualization and analysis—is solved through modern data integration platforms.
+![Alt text](/images/charts/msg_three_tier_strategy.png)
 
-Several European countries operate comprehensive maritime domain awareness systems:
+## Implementation Framework
 
-- The Netherlands operates "SafeSeaNet," integrating vessel traffic, fishing vessel position data, and environmental monitoring
-- Denmark operates integrated maritime awareness systems across the North Sea
-- Portugal has developed comprehensive maritime surveillance for its Atlantic EEZ
+Implementation requires:
 
-These systems typically cost €20-50 million to establish and €3-5 million annually to operate. They provide integration benefit exceeding the cost of individual components.
+**Institutional coordination**: Maritime Operations Centre established within Defence Forces, coordinating all maritime surveillance assets and linking with other government agencies (Coast Guard, Fisheries Protection, Customs).
 
-### Underwater Detection Systems
+**Legislative authority**: Legislation clarifying Defence Forces authority to conduct maritime surveillance, data-sharing protocols with other agencies, and rules of engagement for response to detected activity.
 
-Detection of submarine activity requires acoustic systems. Options range from relatively modest autonomous underwater vehicles (AUVs) equipped with acoustic payloads (cost €5-10 million per unit) to larger integrated acoustic networks monitoring strategic areas (€50-100 million for network deployment).
+**Personnel and training**: Development of specialised training for autonomous vehicle operations, maritime surveillance data interpretation, and integrated command-and-control operation.
 
-The advantage is dedicated capability for a specific security challenge—submarine detection—that cannot be achieved through surface surveillance. The disadvantage is the specialised nature of capability and the requirement for acoustic expertise in operations and maintenance.
+**International integration**: Participation in EU maritime surveillance initiatives (European Union Maritime Surveillance System—EUMS), NATO maritime coordination, and bilateral intelligence sharing with partners.
 
-For Ireland, a modest underwater detection capability focused on strategic transit corridors and critical infrastructure areas would be more cost-effective than comprehensive submarine detection across the entire EEZ.
+**Capital funding**: Allocation of capital resources from the €1.7 billion defence capital plan (2026–2030) for Tier 1 implementation, with Tier 2 contingent on future budget decisions.
 
-![Technology Comparison and Effectiveness Assessment](/images/charts/msg_tech_comparison.png)
+## European Context: PESCO Maritime Surveillance
 
-## Recommended Surveillance Strategy
+Ireland participates in a PESCO (Permanent Structured Cooperation) maritime surveillance project coordinated by France. This project aims to develop integrated maritime surveillance across participating EU states, eventually creating a shared operational picture of maritime activity across the Atlantic and Mediterranean. Ireland's participation provides access to shared surveillance data and operational coordination without requiring Ireland to independently fund all surveillance infrastructure.
 
-Ireland should pursue a phased, tiered approach combining multiple technology solutions rather than relying on any single surveillance mechanism:
+Integration with PESCO framework reduces the capital cost of achieving comprehensive coverage: Ireland contributes national surveillance capacity (patrol aircraft, autonomous vessels) to shared system while accessing data from other participants' assets. This is more cost-effective than independent coverage while maintaining Irish sovereignty and decision authority in Irish waters.
 
-**Tier 1 (Years 1-2): Integrated Maritime Domain Awareness**
-Establish comprehensive maritime domain awareness system integrating existing data sources (AIS, fishing vessel monitoring, naval radar, environmental data) with cost of €25-40 million and annual operation of €4-6 million. This provides foundational improvement without major capital investment.
+## Conclusion
 
-**Tier 2 (Years 2-4): Autonomous Surface Vehicles**
-Develop capability in 4-6 ASVs for extended surveillance in strategic areas and for persistent monitoring of critical infrastructure corridors. Investment of €40-60 million provides fleet of equipped ASVs with supporting infrastructure.
+Ireland's maritime surveillance gap is real and strategically significant. Current assets are insufficient for the domain they must cover. However, technology options exist to address this gap cost-effectively. A three-tier strategy emphasising integrated surveillance combining patrol aircraft, autonomous vessels, satellite imagery, and subsea monitoring would achieve comprehensive coverage within 7–10 years and at costs consistent with the existing defence capital plan.
 
-**Tier 3 (Years 3-5): Enhanced Satellite Integration**
-Establish capability for regular receipt and integration of European satellite data (optical and radar) with dedicated analysts and integration with maritime domain awareness systems. Investment of €8-15 million for systems and trained personnel.
+The strategy prioritises early deployment of modest-cost solutions (ASVs, satellite imagery) while maintaining proven capability (patrol aircraft) as backbone. Integration into European surveillance frameworks through PESCO reduces cost and increases effectiveness. Implementation requires institutional coordination, legislative authority, and personnel development alongside capital investment.
 
-**Tier 4 (Years 4-6): Underwater Detection**
-Develop modest underwater detection capability for strategic areas using autonomous underwater vehicles with acoustic payloads. Investment of €20-30 million for initial deployment.
-
-Total investment across six years would be approximately €100-150 million, with annual operating costs of €15-25 million by year 6. This represents substantial but manageable investment within defence budget frameworks.
-
-## Integration with European Maritime Security
-
-Ireland should leverage European maritime security frameworks and partnership mechanisms to augment national surveillance capability:
-
-**Participation in PESCO Maritime Projects**: Ireland's participation in PESCO (Permanent Structured Cooperation) maritime security projects provides access to maritime surveillance and operations capacity of other European states, reducing the need for complete national capability.
-
-**EU Maritime Cooperation**: Participation in EU maritime coordination mechanisms and information sharing frameworks provides access to surveillance data from neighbouring states and EU institutions.
-
-**NATO Cooperation**: While not a NATO member, Ireland participates in EU-NATO maritime cooperation, providing access to NATO maritime surveillance and operations in adjacent waters.
-
-**Bilateral Partnerships**: Bilateral maritime security agreements with France, Spain, Portugal, and other maritime partners provide cooperation mechanisms and information sharing about activities in adjacent waters.
-
-These partnership mechanisms should be viewed not as substitutes for national capability but as complements—reducing the total national investment required by enabling Ireland to access capability developed by other states.
-
-## Implications and Recommendations
-
-Ireland's maritime surveillance gap represents a significant strategic and economic vulnerability. Addressing this gap requires sustained investment in technology systems and operational capability over a medium-term period. The investment required is substantial but manageable within contemporary defence budget frameworks outlined in the Levels of Ambition.
-
-Key recommendations:
-
-1. **Establish integrated maritime domain awareness** as foundational layer integrating existing data sources, with implementation within 2 years
-2. **Develop autonomous surface vehicle capability** for extended surveillance and critical infrastructure protection, with implementation within 4 years
-3. **Enhance satellite data integration** through participation in European satellite programmes, with implementation within 3 years
-4. **Develop modest underwater detection capability** for strategic areas, with implementation within 5 years
-5. **Deepen European partnership and PESCO participation** to augment national capability
-6. **Expand Naval Service personnel** to support expanded surveillance operations
-
-These measures, implemented as a coordinated strategy, would substantially improve Ireland's maritime domain awareness and enable effective protection of maritime economic interests, critical infrastructure, and national security.
+The capability is achievable. The question is whether the government will prioritise maritime surveillance within the broader defence capital allocation.
