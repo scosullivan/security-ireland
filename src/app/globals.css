@@ -144,6 +144,40 @@ body {
   color: var(--color-copper);
 }
  
+/* Key Findings box */
+.key-findings {
+  margin: 32px 0;
+  padding: 24px 28px;
+  border-left: 3px solid var(--color-terracotta);
+  background-color: var(--color-parchment);
+  border-radius: 0 4px 4px 0;
+}
+.key-findings .kf-title {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--color-terracotta);
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+.key-findings ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+.key-findings li {
+  font-family: var(--font-serif);
+  font-size: 15px;
+  color: var(--color-ink);
+  line-height: 1.7;
+  margin-bottom: 10px;
+  padding-left: 4px;
+}
+.key-findings li::marker {
+  color: var(--color-terracotta);
+}
+ 
 /* Ireland SVG animation */
 @keyframes draw {
   from { stroke-dashoffset: 2400; }
