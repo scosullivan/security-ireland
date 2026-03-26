@@ -15,7 +15,7 @@ function formatMeta(post: { author: string; date: string; readTime: string }): s
 export default async function Home() {
   const featuredPost = await getFeaturedPost();
   const allPosts = await getAllPosts();
-  const latestPosts = allPosts.slice(0, 4);
+  const latestPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 4);
 
   return (
     <div className="bg-cream">
@@ -30,8 +30,8 @@ export default async function Home() {
             </h1>
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, marginBottom: '36px' }}>
               Research, commentary, and evidence-based policy on Irish and European security.
-              For policymakers, journalists, and citizens who want to understand the choices
-              being made on their behalf.
+              For policymakers, journalists, and citizens who want to engage constructively
+              with the complex issues shaping Ireland&apos;s role in the world.
             </p>
             <div className="flex gap-6 flex-wrap items-center">
               <Link
@@ -60,8 +60,12 @@ export default async function Home() {
       {featuredPost && (
         <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px' }}>
           <hr className="rule-accent" />
-          <div style={{ padding: '36px 0' }}>
-            <div className="label-caps" style={{ marginBottom: '20px' }}>Featured</div>
+          <Link
+            href={`/publications/${featuredPost.slug}`}
+            style={{ display: 'block', textDecoration: 'none', padding: '36px 32px', margin: '24px 0', backgroundColor: 'var(--color-parchment)', borderLeft: '4px solid var(--color-terracotta)', borderRadius: '0 6px 6px 0', transition: 'background-color 0.2s ease' }}
+            className="featured-card-hover"
+          >
+            <div className="label-caps" style={{ marginBottom: '16px' }}>Featured</div>
             <div
               style={{
                 fontFamily: 'var(--font-mono)',
@@ -74,16 +78,31 @@ export default async function Home() {
             >
               {featuredPost.type}
             </div>
-            <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: '26px', fontWeight: 400, color: 'var(--color-ink)', lineHeight: 1.3, marginBottom: '10px', maxWidth: '580px' }}>
+            <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: '28px', fontWeight: 400, color: 'var(--color-ink)', lineHeight: 1.3, marginBottom: '12px', maxWidth: '600px' }}>
               {featuredPost.title}
             </h2>
-            <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.7, marginBottom: '12px', maxWidth: '540px' }}>
+            <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.7, marginBottom: '16px', maxWidth: '560px' }}>
               {featuredPost.excerpt}
             </p>
-            <div style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', color: 'var(--color-stone)' }}>
-              {formatMeta(featuredPost)}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px' }}>
+              <div style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', color: 'var(--color-stone)' }}>
+                {formatMeta(featuredPost)}
+              </div>
+              <span style={{
+                fontFamily: 'var(--font-mono)',
+                fontSize: '12px',
+                letterSpacing: '1.5px',
+                textTransform: 'uppercase',
+                color: 'var(--color-cream)',
+                backgroundColor: 'var(--color-forest)',
+                padding: '10px 24px',
+                borderRadius: '3px',
+                fontWeight: 600,
+              }}>
+                Read Now →
+              </span>
             </div>
-          </div>
+          </Link>
 
           {/* Latest Section */}
           <hr style={{ border: 'none', borderTop: '1px solid var(--color-rule)' }} />

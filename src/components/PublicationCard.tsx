@@ -5,9 +5,9 @@ interface PublicationCardProps {
   post: Post;
 }
 
-function formatShortDate(dateStr: string): string {
+function formatCardDate(dateStr: string): string {
   const d = new Date(dateStr + 'T00:00:00');
-  return d.toLocaleDateString('en-GB', { month: 'short', year: 'numeric' });
+  return d.toLocaleDateString('en-IE', { year: 'numeric', month: '2-digit', day: '2-digit' });
 }
 
 export default function PublicationCard({ post }: PublicationCardProps) {
@@ -18,7 +18,33 @@ export default function PublicationCard({ post }: PublicationCardProps) {
     >
       <span className="type-pip-inline">{post.type}</span>
       <h3>{post.title}</h3>
-      <span className="date">{formatShortDate(post.date)}</span>
+      {post.excerpt && <p>{post.excerpt}</p>}
+      <div className="meta">
+        <span>{post.author || 'Security Ireland'}</span>
+        <span>·</span>
+        <span>{formatCardDate(post.date)}</span>
+        {post.readTime && (
+          <>
+            <span>·</span>
+            <span>{post.readTime}</span>
+          </>
+        )}
+        {post.pdfUrl && (
+          <>
+            <span>·</span>
+            <span
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                window.open(post.pdfUrl, '_blank');
+              }}
+              style={{ color: 'var(--color-terracotta)', cursor: 'pointer' }}
+            >
+              PDF ↓
+            </span>
+          </>
+        )}
+      </div>
     </Link>
   );
 }

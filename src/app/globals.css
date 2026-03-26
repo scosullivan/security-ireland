@@ -67,46 +67,59 @@ body {
   white-space: nowrap;
 }
 
-/* Pub list items — compact inline rows */
+/* Pub list items — stacked layout, left-aligned */
 .pub-list-item {
-  padding: 24px 0;
+  padding: 28px 0;
   border-bottom: 1px solid var(--color-rule);
-  display: flex;
-  gap: 20px;
-  align-items: baseline;
+  display: block;
   cursor: pointer;
   transition: background 0.1s;
   text-decoration: none;
 }
 .pub-list-item:hover {
   margin: 0 -20px;
-  padding: 24px 20px;
+  padding: 28px 20px;
   background: rgba(237,231,219,0.5);
 }
 .pub-list-item .type-pip-inline {
   font-family: var(--font-mono);
   font-size: 9px;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   color: var(--color-stone);
-  white-space: nowrap;
-  min-width: 100px;
-  flex-shrink: 0;
+  display: inline-block;
+  margin-bottom: 8px;
 }
 .pub-list-item h3 {
   font-family: var(--font-serif);
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
   color: var(--color-ink);
   line-height: 1.35;
-  flex: 1;
+  margin-bottom: 8px;
 }
-.pub-list-item .date {
+.pub-list-item p {
+  font-family: var(--font-serif);
+  font-size: 15px;
+  color: var(--color-graphite);
+  line-height: 1.65;
+  margin-bottom: 10px;
+}
+.pub-list-item .meta {
   font-family: var(--font-mono);
   font-size: 11px;
   color: var(--color-stone);
-  white-space: nowrap;
-  flex-shrink: 0;
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.pub-list-item .meta a {
+  color: var(--color-terracotta);
+  text-decoration: none;
+}
+.pub-list-item .meta a:hover {
+  text-decoration: underline;
 }
 
 /* Filter row */
@@ -187,6 +200,36 @@ body {
 }
 .prose-si a:hover {
   color: var(--color-copper);
+}
+.prose-si table {
+  width: 100%;
+  max-width: 640px;
+  border-collapse: collapse;
+  margin: 24px 0;
+  font-family: var(--font-serif);
+  font-size: 15px;
+  color: var(--color-graphite);
+}
+.prose-si thead {
+  border-bottom: 2px solid var(--color-rule);
+}
+.prose-si th {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--color-stone);
+  text-align: left;
+  padding: 8px 16px 8px 0;
+  font-weight: 500;
+}
+.prose-si td {
+  padding: 10px 16px 10px 0;
+  border-bottom: 1px solid var(--color-rule);
+  line-height: 1.5;
+}
+.prose-si tbody tr:last-child td {
+  border-bottom: 2px solid var(--color-rule);
 }
 
 /* Key findings */

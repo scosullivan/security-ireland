@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
+import remarkGfm from 'remark-gfm';
 import remarkHtml from 'remark-html';
 
 export interface Post {
@@ -81,7 +82,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
   if (!post) return null;
 
   if (post.content) {
-    const processedContent = await remark().use(remarkHtml).process(post.content);
+    const processedContent = await remark().use(remarkGfm).use(remarkHtml).process(post.content);
     post.html = processedContent.toString();
   }
 

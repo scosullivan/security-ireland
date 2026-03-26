@@ -21,11 +21,6 @@ function formatDate(dateStr: string): string {
   });
 }
 
-function formatShortDate(dateStr: string): string {
-  const d = new Date(dateStr + 'T00:00:00');
-  return d.toLocaleDateString('en-GB', { month: 'short', year: 'numeric' });
-}
-
 export default async function PublicationPage({
   params,
 }: PublicationPageProps) {
@@ -34,210 +29,178 @@ export default async function PublicationPage({
 
   if (!post) {
     return (
-      <div style={{ maxWidth: '860px', margin: '0 auto', padding: '48px 24px' }}>
+      <div className="max-w-3xl mx-auto px-4 py-12">
         <p>Publication not found</p>
       </div>
     );
   }
 
-  // Get all posts for "Related" section
-  const allPosts = await getAllPosts();
-  const relatedPosts = allPosts
-    .filter((p) => p.slug !== slug)
-    .slice(0, 2);
-
   return (
     <div className="bg-cream min-h-screen">
-      <div style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px' }}>
-        {/* Publication Header */}
-        <div style={{ padding: '56px 0 36px' }}>
-          {/* Type Label */}
-          <div
-            style={{
-              fontFamily: 'var(--font-mono)',
-              fontSize: '10px',
-              letterSpacing: '2px',
-              textTransform: 'uppercase',
-              color: 'var(--color-terracotta)',
-              marginBottom: '14px',
-            }}
-          >
-            {post.type}
-          </div>
-
-          {/* Title */}
-          <h1
-            style={{
-              fontFamily: 'var(--font-serif)',
-              fontSize: '36px',
-              fontWeight: 400,
-              lineHeight: 1.2,
-              color: 'var(--color-ink)',
-              marginBottom: '14px',
-              maxWidth: '620px',
-            }}
-          >
-            {post.title}
-          </h1>
-
-          {/* Subtitle / Excerpt */}
-          <p
-            style={{
-              fontFamily: 'var(--font-serif)',
-              fontSize: '16px',
-              fontStyle: 'italic',
-              color: 'var(--color-graphite)',
-              lineHeight: 1.6,
-              maxWidth: '540px',
-              marginBottom: '24px',
-            }}
-          >
-            {post.excerpt}
-          </p>
-
-          {/* Meta Row */}
-          <div
-            style={{
-              fontFamily: 'var(--font-mono)',
-              fontSize: '11px',
-              color: 'var(--color-stone)',
-              display: 'flex',
-              gap: '20px',
-            }}
-          >
-            <span>{post.author}</span>
-            <span>{formatDate(post.date)}</span>
-            {post.readTime && <span>{post.readTime}</span>}
-          </div>
+      <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+        {/* Breadcrumb */}
+        <div className="font-mono text-sm text-stone mb-8">
+          <Link href="/analysis" className="hover:text-terracotta transition-colors">
+            Analysis
+          </Link>
+          <span className="mx-2">›</span>
+          <span>{post.type}</span>
+          <span className="mx-2">›</span>
+          <span className="truncate">{post.title}</span>
         </div>
 
-        {/* Accent rule */}
-        <hr className="rule-accent" />
+        {/* Type Label */}
+        <span className="label-accent">{post.type}</span>
 
-        {/* Key Findings */}
+        {/* Title */}
+        <h1
+          style={{
+            fontFamily: 'var(--font-serif)',
+            fontSize: 'clamp(2rem, 5vw, 2.75rem)',
+            fontWeight: 400,
+            lineHeight: 1.2,
+            color: 'var(--color-ink)',
+            marginTop: '24px',
+            marginBottom: '24px',
+          }}
+        >
+          {post.title}
+        </h1>
+
+        {/* Excerpt */}
+        <p
+          style={{
+            fontFamily: 'var(--font-serif)',
+            fontSize: '1.125rem',
+            fontStyle: 'italic',
+            lineHeight: 1.75,
+            color: 'var(--color-graphite)',
+            marginBottom: '24px',
+          }}
+        >
+          {post.excerpt}
+        </p>
+
+        {/* Meta */}
+        <div
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            alignItems: 'center',
+            gap: '16px',
+            fontFamily: 'var(--font-mono)',
+            fontSize: '12px',
+            color: 'var(--color-stone)',
+            marginBottom: '24px',
+          }}
+        >
+          <span>{post.author}</span>
+          <span>·</span>
+          <span>{formatDate(post.date)}</span>
+          {post.readTime && (
+            <>
+              <span>·</span>
+              <span>{post.readTime}</span>
+            </>
+          )}
+        </div>
+
+        {/* PDF Download Button — prominent, before the divider */}
+        {post.pdfUrl && (
+          <div className="mb-8">
+            <a
+              href={post.pdfUrl}
+              download
+              className="inline-flex items-center gap-2.5 px-7 py-3.5 bg-forest text-white font-sans font-semibold text-[0.95rem] tracking-wide rounded-md no-underline transition-colors duration-200 hover:bg-fern"
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Download PDF
+            </a>
+          </div>
+        )}
+
+        {/* Divider */}
+        <hr className="rule-accent mb-12" />
+
+        {/* Key Findings (if present) */}
         {post.keyFindings && post.keyFindings.length > 0 && (
-          <div className="key-findings">
-            <div className="kf-title">Key Findings</div>
-            <ul>
+          <div
+            style={{
+              borderLeft: '3px solid var(--color-terracotta)',
+              padding: '24px 28px',
+              marginBottom: '48px',
+              backgroundColor: 'var(--color-cream)',
+            }}
+          >
+            <div
+              style={{
+                fontFamily: 'var(--font-mono)',
+                fontSize: '10px',
+                letterSpacing: '3px',
+                textTransform: 'uppercase',
+                color: 'var(--color-terracotta)',
+                marginBottom: '16px',
+              }}
+            >
+              Key Findings
+            </div>
+            <ul
+              style={{
+                listStyleType: 'disc',
+                paddingLeft: '20px',
+                fontFamily: 'var(--font-sans)',
+                fontSize: '1rem',
+                lineHeight: 1.75,
+                color: 'var(--color-ink)',
+              }}
+            >
               {post.keyFindings.map((finding: string, i: number) => (
-                <li key={i}>{finding}</li>
+                <li key={i} style={{ marginBottom: '8px' }}>{finding}</li>
               ))}
             </ul>
           </div>
         )}
 
-        {/* Article Content */}
+        {/* Content */}
         {post.html && (
           <div
-            className="prose-si"
+            className="prose-si mb-12"
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
         )}
 
-        {/* Pub Actions */}
-        <div className="pub-actions">
-          <a href="#" className="action-link primary">
-            Download PDF
-          </a>
-          <a href="#" className="action-link">
-            Twitter
-          </a>
-          <a href="#" className="action-link">
-            LinkedIn
-          </a>
-          <a href="#" className="action-link">
-            Copy Link
-          </a>
-        </div>
+        {/* Bottom divider and back link — clean */}
+        <hr className="rule-accent mt-12 mb-8" />
 
-        {/* Author Block */}
-        <div className="author-block">
-          <div className="author-avatar" />
-          <div>
-            <div className="author-name">{post.author}</div>
-            <div className="author-role">Research Fellow, Security Ireland.</div>
-          </div>
-        </div>
-
-        {/* Related Section */}
-        {relatedPosts.length > 0 && (
-          <div style={{ padding: '36px 0', borderTop: '1px solid var(--color-rule)' }}>
-            <div className="label-caps" style={{ marginBottom: '20px' }}>
-              Related
-            </div>
-            {relatedPosts.map((p) => (
-              <Link
-                key={p.slug}
-                href={`/analysis/${p.slug}`}
-                className="pub-list-item"
-              >
-                <span className="type-pip-inline">{p.type}</span>
-                <h3>{p.title}</h3>
-                <span className="date">{formatShortDate(p.date)}</span>
-              </Link>
-            ))}
+        {/* Repeat PDF download at bottom for convenience */}
+        {post.pdfUrl && (
+          <div className="mb-6">
+            <a
+              href={post.pdfUrl}
+              download
+              className="inline-flex items-center gap-2 px-5 py-2.5 border-[1.5px] border-forest text-forest font-sans text-sm font-semibold rounded-md no-underline bg-transparent transition-colors duration-200 hover:bg-forest hover:text-white"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Download PDF
+            </a>
           </div>
         )}
 
-        {/* Newsletter (pub page version) */}
-        <div style={{ margin: '48px 0', padding: '36px 0', borderTop: '1px solid var(--color-rule)' }}>
-          <h3
-            style={{
-              fontFamily: 'var(--font-serif)',
-              fontSize: '20px',
-              fontWeight: 400,
-              color: 'var(--color-ink)',
-              marginBottom: '6px',
-            }}
-          >
-            Get analysis like this in your inbox
-          </h3>
-          <p
-            style={{
-              fontFamily: 'var(--font-serif)',
-              fontSize: '14px',
-              color: 'var(--color-graphite)',
-              lineHeight: 1.6,
-              marginBottom: '20px',
-              maxWidth: '400px',
-            }}
-          >
-            Weekly. Independent. No fluff.
-          </p>
-          <div style={{ display: 'flex', gap: '8px', maxWidth: '380px' }}>
-            <input
-              type="email"
-              placeholder="your@email.com"
-              style={{
-                fontFamily: 'var(--font-serif)',
-                fontSize: '14px',
-                padding: '10px 14px',
-                border: '1px solid var(--color-rule)',
-                borderRadius: 0,
-                background: 'transparent',
-                color: 'var(--color-ink)',
-                flex: 1,
-                outline: 'none',
-              }}
-            />
-            <button
-              style={{
-                fontFamily: 'var(--font-mono)',
-                fontSize: '11px',
-                letterSpacing: '1px',
-                textTransform: 'uppercase',
-                background: 'none',
-                border: '1px solid var(--color-ink)',
-                color: 'var(--color-ink)',
-                padding: '10px 20px',
-                cursor: 'pointer',
-              }}
-            >
-              Subscribe
-            </button>
-          </div>
-        </div>
-      </div>
+        <Link
+          href="/analysis"
+          className="text-terracotta font-sans font-bold hover:text-copper transition-colors"
+        >
+          ← Back to Analysis
+        </Link>
+      </article>
     </div>
   );
 }

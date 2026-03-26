@@ -14,9 +14,12 @@ topics: ["defence-capability", "defence-transformation"]
 ## Defence Budget and Spending
 
 **Total Defence Budget 2026:** €1.24 billion
-- Personnel costs: ~58% (€719 million)
-- Equipment and maintenance: ~28% (€347 million)
-- Operations and infrastructure: ~14% (€174 million)
+
+| Category | Amount | Share |
+|---|---|---|
+| Personnel costs | €719m | 58% |
+| Equipment & maintenance | €347m | 28% |
+| Operations & infrastructure | €174m | 14% |
 
 **Year-on-Year Growth:** +6.2% compared to 2025
 
