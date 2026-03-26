@@ -328,11 +328,12 @@ export default function ForPolicymakers() {
         {/* ── Tier 3: The Context ── */}
         <div style={tierLabel}>The Context</div>
 
-        <ForthcomingCard
+        <PubCard
           title="Neutrality as Institutional Architecture"
-          type="Research Paper · Forthcoming"
+          type="Research Paper"
           desc="How can Irish non-alignment be reconceptualised as requiring defence capability (the Swiss, Austrian, and Finnish model) rather than as a reason for its absence? The deepest structural challenge in Irish security policy."
-          coming="Coming 2027"
+          href="/publications/neutrality-institutional-architecture"
+          pdfUrl="/pdfs/Neutrality_Institutional_Architecture.pdf"
         />
 
         <div style={{ padding: '16px 20px', backgroundColor: 'var(--color-parchment)', borderLeft: '3px solid var(--color-fern)', borderRadius: '2px', marginTop: '8px' }}>
