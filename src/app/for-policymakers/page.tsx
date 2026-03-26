@@ -409,14 +409,15 @@ export default function ForPolicymakers() {
             title="The UK&ndash;Ireland Security Interface"
             type="Working Paper 1 · Complete"
             desc="The island is a single security domain across five dimensions: maritime, airspace, subsea, energy, and cyber. The free-riding equilibrium has collapsed. Bilateral cooperation strengthens &mdash; not undermines &mdash; Ireland&rsquo;s EU commitments. The Cork MoU validates the transition this paper diagnosed."
-            href="/publications/maritime-security-framework"
-            pdfUrl="/pdfs/Irelands_Maritime_Security_Framework.pdf"
+            href="/publications/uk-ireland-security-interface"
+            pdfUrl="/pdfs/UK_Ireland_Security_Interface.pdf"
           />
           <PubCard
             title="The GFA and the Security Gap"
             type="Working Paper 2 · Complete"
             desc="The 1998 security firewall was deliberate, not accidental. External threats (subsea sabotage, cyber attacks, energy disruption) are categorically different from the internal threats the firewall was designed to manage. Strand Two has a bounded forward-looking role in infrastructure-focused security coordination."
-            href="/publications/good-friday-agreement-security"
+            href="/publications/gfa-security-gap"
+            pdfUrl="/pdfs/GFA_Security_Gap.pdf"
           />
           <ForthcomingCard
             title="North/South Security Implementation Protocol"
