@@ -152,7 +152,7 @@ export default function ForInvestors() {
         <h2 style={sectionH2}>The European Defence Money</h2>
 
         {/* ── 1. ReArm Europe ── */}
-        <Expandable num="01" title="ReArm Europe: Where the &euro;800 Billion Is Going" readTime="5 min read" defaultOpen>
+        <Expandable num="01" title="ReArm Europe: Where the &euro;800 Billion Is Going" readTime="5 min read">
           <p style={p}>
             In March 2025, the EU announced ReArm Europe (formally Readiness 2030) &mdash; an &euro;800 billion target for European defence investment by 2030. This is not a single fund. It is a political framework aggregating five distinct financing channels, each with different institutions, timelines, and access conditions.
           </p>
