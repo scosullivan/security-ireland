@@ -49,6 +49,9 @@ body {
   border: none;
   border-top: 1.5px solid var(--color-terracotta);
 }
+.featured-card-hover:hover {
+  background-color: color-mix(in srgb, var(--color-parchment) 85%, var(--color-terracotta) 15%) !important;
+}
 .rule-subtle {
   border: none;
   border-top: 1px solid var(--color-rule);
