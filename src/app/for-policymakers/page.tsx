@@ -279,7 +279,7 @@ export default function ForPolicymakers() {
             type="Research Paper · Complete"
             desc="€800 billion cannot convert to capability without coordination architecture. Twenty-seven procurement systems produce fragmented demand and US dependency. The argument Ireland needs as the lowest-spending state chairing defence budget discussions."
             href="/publications/defence-financing-explained"
-            pdfUrl="/pdfs/Defence_Financing_Explained.pdf"
+            pdfUrl="/pdfs/Europes_Defence_Problem_Isnt_Spending.pdf"
           />
           <PubCard
             title="Ireland&rsquo;s Defence Problem Isn&rsquo;t Neutrality"
