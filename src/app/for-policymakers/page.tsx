@@ -300,7 +300,7 @@ export default function ForPolicymakers() {
         {/* ── Tier 2: Proposed Frameworks ── */}
         <div style={tierLabel}>The Proposed Frameworks</div>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.7, marginBottom: '20px', maxWidth: '620px' }}>
-          What Ireland&apos;s defence and security architecture should look like. The strategy and industrial policy frameworks are published; the intelligence architecture proposal is forthcoming.
+          What Ireland&apos;s defence and security architecture should look like. These are the documents the government needs but has not produced. Security Ireland provides them.
         </p>
 
         <PubCard
@@ -317,11 +317,12 @@ export default function ForPolicymakers() {
           href="/publications/defence-industrial-policy"
           pdfUrl="/pdfs/Defence_Industrial_Policy.pdf"
         />
-        <ProposedCard
+        <PubCard
           title="Intelligence Architecture: A Proposal for Unification"
-          type="Policy Framework · Forthcoming"
-          desc="Ireland&rsquo;s intelligence is split across three agencies (J2/IMIS, Garda CSB, NCSC) with no unified structure &mdash; unique in Europe. This paper proposes the target architecture, the legislative pathway, and the phased transition. Intelligence reform is the prerequisite for everything else."
-          coming="Coming 2027"
+          type="Policy Framework"
+          desc="Ireland&rsquo;s intelligence is split across three agencies (IMIS, GNCSIS, NCSC) with no unified structure &mdash; unique in Europe. This paper proposes the target architecture, the legislative pathway, and the phased transition. Intelligence reform is the prerequisite for everything else."
+          href="/publications/intelligence-architecture-reform"
+          pdfUrl="/pdfs/Intelligence_Architecture_Reform.pdf"
         />
 
         {/* ── Tier 3: The Context ── */}
