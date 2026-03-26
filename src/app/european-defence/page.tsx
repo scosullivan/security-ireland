@@ -190,8 +190,7 @@ export default function EuropeanDefence() {
               type="Research Paper"
               status="Complete"
               desc="For every weapon type the United States fields, the EU operates more than five variants. Twenty-seven separate procurement systems produce fragmented demand, duplicated programmes, and subscale production runs. €800 billion cannot buy deterrence without coordination architecture."
-              slug="europes-defence-problem-isnt-spending"
-              forthcoming
+              slug="defence-financing-explained"
             />
           </div>
         </Expandable>
