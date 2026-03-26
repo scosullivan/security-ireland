@@ -51,7 +51,7 @@ function Stats({ items }: { items: { value: string; label: string; color?: strin
   return (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '10px', marginBottom: '20px' }}>
       {items.map((s, i) => (
-        <div key={i} style={{ padding: '16px 14px', backgroundColor: 'var(--color-parchment)', border: `2px solid ${s.color || 'var(--color-forest)'}`, borderRadius: '3px', textAlign: 'center' }}>
+        <div key={i} style={{ padding: '16px 14px', backgroundColor: 'var(--color-parchment)', borderTop: `3px solid ${s.color || 'var(--color-terracotta)'}`, border: '1px solid var(--color-rule)', borderRadius: '3px', textAlign: 'center' }}>
           <div style={{ fontFamily: 'var(--font-serif)', fontSize: '20px', fontWeight: 700, color: s.color || 'var(--color-forest)', marginBottom: '3px' }}>{s.value}</div>
           <div style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', color: 'var(--color-graphite)', lineHeight: 1.3 }}>{s.label}</div>
         </div>
@@ -324,6 +324,11 @@ export default function ForThePublic() {
           <p style={p}>
             75% of the Irish public supports neutrality as currently understood. This explainer does not argue for or against that position. It argues that the public should understand what Ireland&apos;s actual position is — which is non-alignment, not neutrality — and what it does and does not require.
           </p>
+          <div style={{ marginTop: '16px', padding: '14px 18px', backgroundColor: 'color-mix(in srgb, var(--color-terracotta) 6%, var(--color-cream))', borderLeft: '3px solid var(--color-terracotta)', borderRadius: '0 4px 4px 0' }}>
+            <p style={{ fontFamily: 'var(--font-serif)', fontSize: '13px', color: 'var(--color-graphite)', lineHeight: 1.6, margin: 0 }}>
+              <strong>Go deeper:</strong> <Link href="/publications/neutrality-institutional-architecture" style={{ color: 'var(--color-terracotta)', textDecoration: 'none', borderBottom: '1px solid var(--color-terracotta)' }}>Neutrality as Institutional Architecture</Link> examines how every other non-aligned European state understood neutrality as requiring defence capability — and why Ireland is the sole exception.
+            </p>
+          </div>
         </Expandable>
 
         {/* ── 5. Other Neutral Countries ── */}
