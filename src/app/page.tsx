@@ -15,7 +15,7 @@ function formatMeta(post: { author: string; date: string; readTime: string }): s
 export default async function Home() {
   const featuredPost = await getFeaturedPost();
   const allPosts = await getAllPosts();
-  const latestPosts = allPosts.slice(0, 4);
+  const latestPosts = allPosts.filter(p => p.slug !== featuredPost?.slug).slice(0, 4);
 
   return (
     <div className="bg-cream">
