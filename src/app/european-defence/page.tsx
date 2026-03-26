@@ -159,7 +159,7 @@ export default function EuropeanDefence() {
         <div style={sectionLabel}>Section 1</div>
         <h2 style={sectionH2}>The Spending Surge &mdash; and Why It Isn&apos;t Enough</h2>
 
-        <Expandable num="01" title="The Numbers and the Problem" readTime="4 min read" defaultOpen>
+        <Expandable num="01" title="The Numbers and the Problem" readTime="4 min read">
           <Stats items={[
             { value: '€381bn', label: 'EU-27 defence spending 2025', color: 'var(--color-forest)' },
             { value: '+63%', label: 'Increase since 2020', color: 'var(--color-terracotta)' },
