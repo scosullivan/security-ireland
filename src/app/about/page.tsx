@@ -188,7 +188,7 @@ export default function AboutPage() {
                   maxWidth: '480px',
                 }}
               >
-                Founding director of Security Ireland. Two decades of experience in global aerospace, defense, and security policy research.
+                Founding Director of Security Ireland. Two decades of experience in global aerospace, defense, and security policy research.
               </p>
             </div>
           </div>
