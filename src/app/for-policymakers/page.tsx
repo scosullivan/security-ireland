@@ -12,7 +12,7 @@ const sectionIntro = {
   fontSize: '15px',
   color: 'var(--color-graphite)',
   lineHeight: 1.75,
-  maxWidth: '600px',
+  maxWidth: '620px',
   marginBottom: '28px',
 } as const;
 
@@ -22,7 +22,7 @@ const sectionLabel = {
   letterSpacing: '2px',
   textTransform: 'uppercase' as const,
   color: 'var(--color-terracotta)',
-  marginBottom: '8px',
+  margin: '32px 0 8px',
 };
 
 const sectionH2 = {
@@ -41,41 +41,94 @@ const audienceNote = {
   marginBottom: '16px',
 };
 
-/* ── Publication card component ── */
-function PubCard({ title, type, desc, href, status = 'complete' }: {
-  title: string; type: string; desc: string; href?: string; status?: 'complete' | 'forthcoming';
+const tierLabel = {
+  fontFamily: 'var(--font-mono)',
+  fontSize: '11px',
+  letterSpacing: '2.5px',
+  textTransform: 'uppercase' as const,
+  color: 'var(--color-graphite)',
+  fontWeight: 600,
+  marginBottom: '10px',
+  marginTop: '32px',
+};
+
+const readMore = {
+  display: 'inline-block' as const,
+  fontFamily: 'var(--font-mono)',
+  fontSize: '10px',
+  letterSpacing: '1px',
+  textTransform: 'uppercase' as const,
+  color: 'var(--color-terracotta)',
+  textDecoration: 'none',
+  borderBottom: '1px solid var(--color-terracotta)',
+  paddingBottom: '1px',
+};
+
+/* ── Publication card ── */
+function PubCard({ title, type, desc, href, pdfUrl }: {
+  title: string; type: string; desc: string; href?: string; pdfUrl?: string;
 }) {
-  const isComplete = status === 'complete' && href;
   return (
     <div style={{
       padding: '20px 24px',
       backgroundColor: 'var(--color-parchment)',
-      borderLeft: isComplete ? '3px solid var(--color-forest)' : '3px solid var(--color-rule)',
+      borderLeft: '3px solid var(--color-forest)',
       borderRadius: '2px',
-      opacity: isComplete ? 1 : 0.7,
+      marginBottom: '12px',
     }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '4px', flexWrap: 'wrap', gap: '8px' }}>
         <span style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', fontWeight: 600, color: 'var(--color-ink)' }}>
           {title}
         </span>
-        <span style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', letterSpacing: '1px', textTransform: 'uppercase', color: isComplete ? 'var(--color-fern)' : 'var(--color-stone)' }}>
+        <span style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', letterSpacing: '1px', textTransform: 'uppercase', color: 'var(--color-fern)' }}>
           {type}
         </span>
       </div>
-      <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-graphite)', lineHeight: 1.65, margin: '0 0 12px', maxWidth: '560px' }}>
+      <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-graphite)', lineHeight: 1.65, margin: '0 0 12px', maxWidth: '580px' }}>
         {desc}
       </p>
-      {isComplete ? (
-        <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-          <Link href={href} style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', letterSpacing: '1px', textTransform: 'uppercase', color: 'var(--color-forest)', textDecoration: 'none', borderBottom: '1px solid var(--color-forest)', paddingBottom: '1px' }}>
-            Read brief →
+      <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+        {href && (
+          <Link href={href} style={readMore}>
+            Read brief &rarr;
           </Link>
-        </div>
-      ) : (
-        <span style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: 'var(--color-stone)' }}>
-          {desc.includes('Q3') ? 'Coming Q3 2026' : desc.includes('Q4') ? 'Coming Q4 2026' : 'Coming 2027'}
+        )}
+        {pdfUrl && (
+          <a href={pdfUrl} download style={{ ...readMore, color: 'var(--color-forest)', borderBottomColor: 'var(--color-forest)' }}>
+            Download PDF &darr;
+          </a>
+        )}
+      </div>
+    </div>
+  );
+}
+
+/* ── Proposed framework card (visually distinct) ── */
+function ProposedCard({ title, type, desc, coming }: {
+  title: string; type: string; desc: string; coming: string;
+}) {
+  return (
+    <div style={{
+      padding: '20px 24px',
+      backgroundColor: 'color-mix(in srgb, var(--color-terracotta) 4%, var(--color-cream))',
+      borderLeft: '3px solid var(--color-terracotta)',
+      borderRadius: '2px',
+      marginBottom: '12px',
+    }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '4px', flexWrap: 'wrap', gap: '8px' }}>
+        <span style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', fontWeight: 600, color: 'var(--color-ink)' }}>
+          {title}
         </span>
-      )}
+        <span style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', letterSpacing: '1px', textTransform: 'uppercase', color: 'var(--color-terracotta)' }}>
+          {type}
+        </span>
+      </div>
+      <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-graphite)', lineHeight: 1.65, margin: '0 0 10px', maxWidth: '580px' }}>
+        {desc}
+      </p>
+      <span style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: 'var(--color-stone)', fontStyle: 'italic' }}>
+        {coming}
+      </span>
     </div>
   );
 }
@@ -91,6 +144,7 @@ function ForthcomingCard({ title, type, desc, coming }: {
       borderLeft: '3px solid var(--color-rule)',
       borderRadius: '2px',
       opacity: 0.75,
+      marginBottom: '12px',
     }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '4px', flexWrap: 'wrap', gap: '8px' }}>
         <span style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', fontWeight: 600, color: 'var(--color-graphite)' }}>
@@ -100,7 +154,7 @@ function ForthcomingCard({ title, type, desc, coming }: {
           {type}
         </span>
       </div>
-      <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-stone)', lineHeight: 1.65, margin: '0 0 10px', maxWidth: '560px' }}>
+      <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-stone)', lineHeight: 1.65, margin: '0 0 10px', maxWidth: '580px' }}>
         {desc}
       </p>
       <span style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: 'var(--color-stone)', fontStyle: 'italic' }}>
@@ -110,7 +164,21 @@ function ForthcomingCard({ title, type, desc, coming }: {
   );
 }
 
-/* ── Recommendations table data ── */
+/* ── Audience pathway card ── */
+function PathwayCard({ who, content }: { who: string; content: React.ReactNode }) {
+  return (
+    <div style={{ padding: '20px', backgroundColor: 'var(--color-parchment)', borderRadius: '2px', borderLeft: '3px solid var(--color-fern)' }}>
+      <div style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', fontWeight: 700, color: 'var(--color-forest)', marginBottom: '8px', letterSpacing: '0.5px' }}>
+        {who}
+      </div>
+      <div style={{ fontFamily: 'var(--font-serif)', fontSize: '13px', color: 'var(--color-graphite)', lineHeight: 1.6 }}>
+        {content}
+      </div>
+    </div>
+  );
+}
+
+/* ── 16 Recommendations ── */
 const recommendations = [
   { num: 1, action: 'Apply for SAFE loans for maritime and cyber procurement', brief: 'ReArm', owner: "Minister\u2019s office", deadline: 'Before Jul 2026' },
   { num: 2, action: 'Ensure EDIP implementing rules recognise technology contribution', brief: 'ReArm', owner: 'Dept of Defence / ITRE', deadline: 'Oct 2026' },
@@ -140,80 +208,273 @@ const briefColors: Record<string, string> = {
 export default function ForPolicymakers() {
   return (
     <div className="bg-cream">
-      {/* ── HEADER ── */}
+      {/* ══════════════════════════════════════
+          PAGE HEADER
+         ══════════════════════════════════════ */}
       <section style={{ maxWidth: '860px', margin: '0 auto', padding: '64px 24px 24px' }}>
-        <div style={sectionLabel}>For Policymakers</div>
+        <div style={{ ...sectionLabel, margin: '0 0 8px' }}>For Policymakers</div>
         <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: '32px', fontWeight: 400, color: 'var(--color-ink)', marginBottom: '16px', maxWidth: '640px' }}>
           Analysis for decisions, not commentary for debate
         </h1>
-        <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '600px', marginBottom: '20px' }}>
+        <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '620px', marginBottom: '20px' }}>
           Every publication below was written to be cited in a ministerial briefing, used in a Council working group, or referenced in an Oireachtas committee session. If it isn&apos;t useful, we haven&apos;t done our job.
         </p>
       </section>
 
-      {/* ── SECTION 1: START HERE ── */}
+      {/* ══════════════════════════════════════
+          SECTION 1: HOW TO USE THIS PAGE
+         ══════════════════════════════════════ */}
       <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
         <hr className="rule-accent" />
-        <div style={{ ...sectionLabel, margin: '32px 0 8px' }}>Start Here</div>
-        <h2 style={sectionH2}>The Strategic Picture</h2>
+        <div style={sectionLabel}>How to Use This Page</div>
         <p style={sectionIntro}>
-          Ireland faces a convergence of security demands without precedent: an EU Council Presidency that includes the largest defence spending programme in EU history, a bilateral security architecture with the UK being operationalised for the first time, and an institutional system at a fifty-year low. These three papers explain why the system is configured the way it is.
+          This page contains Security Ireland&apos;s complete body of work for government. It is organised in layers: the strategic foundation, then domestic capability, then bilateral cooperation, then EU instruments. Start with the section that matches your role.
         </p>
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '14px' }}>
+          <PathwayCard who="Ministerial offices" content={
+            <p style={{ margin: 0 }}>Start with the <strong>Proposed National Security Strategy Framework</strong> in Section 2 &mdash; it connects every other paper. Then read whichever operational section covers your active dossier. For the Presidency, the <Link href="#presidency" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>Primer in Section 5</Link> maps the full agenda.</p>
+          } />
+          <PathwayCard who="Oireachtas members" content={
+            <p style={{ margin: 0 }}>The analytical background papers in <Link href="#foundation" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>Section 2</Link> &mdash; on European and Irish defence &mdash; provide the analytical foundation for committee work. The 16-recommendation table in Section 5 tracks Presidency actions.</p>
+          } />
+          <PathwayCard who="Officials in Brussels" content={
+            <p style={{ margin: 0 }}>Start with <Link href="#presidency" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>Section 5</Link> (EU Presidency). The Presidency Desk series maps directly to Council working group agendas. Brief 1: FAC/ITRE. Brief 2: PESCO. Brief 3: Maritime. Brief 4: Cyber/hybrid.</p>
+          } />
+          <PathwayCard who="Defence Forces &amp; Dept of Defence" content={
+            <p style={{ margin: 0 }}><Link href="#domestic" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>Section 3</Link> is your primary section &mdash; LOA transition, institutional infrastructure, defence industrial architecture. The spending analysis in Section 2 traces the funding architecture.</p>
+          } />
+          <PathwayCard who="Cross-border officials" content={
+            <p style={{ margin: 0 }}><Link href="#bilateral" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>Section 4</Link> (UK&ndash;Ireland Bilateral) contains three papers. Start with <em>The UK&ndash;Ireland Security Interface</em> for the analytical framework, then <em>The GFA and the Security Gap</em> for GFA architecture, then <em>North/South Implementation Protocol</em> for operational detail.</p>
+          } />
+          <PathwayCard who="European Defence Landscape" content={
+            <p style={{ margin: 0 }}>If you need to understand the NATO and EU systems within which Ireland operates before engaging with the Ireland-specific work, start with the <Link href="/european-defence" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>European Defence Landscape page &rarr;</Link></p>
+          } />
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
+          SECTION 2: THE STRATEGIC FOUNDATION
+         ══════════════════════════════════════ */}
+      <section id="foundation" style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
+        <hr className="rule-accent" />
+        <div style={sectionLabel}>Section 2</div>
+        <h2 style={sectionH2}>The Strategic Foundation</h2>
+        <p style={{ ...sectionIntro, marginBottom: '8px' }}>
+          Ireland&apos;s security architecture: the proposed strategy, the analytical background, and the context.
+        </p>
+        <p style={sectionIntro}>
+          These are the papers with the longest shelf life. The proposed frameworks provide what the government has not yet produced: a strategic architecture for Irish defence and security. The analytical background explains why the system is configured the way it is. Everything else on this page is implementation of what these papers establish.
+        </p>
+
+        {/* ── Tier 1: Proposed Frameworks ── */}
+        <div style={tierLabel}>The Proposed Frameworks</div>
+        <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.7, marginBottom: '20px', maxWidth: '620px' }}>
+          What Ireland&apos;s defence and security architecture should look like. These are the documents the government needs but has not produced. Security Ireland provides them.
+        </p>
+
+        <PubCard
+          title="Proposed National Security Strategy Framework"
+          type="Strategic Framework"
+          desc="Ireland is one of the few EU states without a published National Security Strategy. This document provides one: the threat assessment, the capability requirements, the institutional architecture, the funding model, and the cooperation frameworks — connected as a single system. Every other paper on this page is a chapter of this document. This is the spine."
+          href="/publications/national-security-strategy"
+          pdfUrl="/pdfs/National_Security_Strategy_Framework.pdf"
+        />
+        <PubCard
+          title="Defence &amp; Security Industrial Policy"
+          type="Policy Framework"
+          desc="Ireland has &euro;2.5 billion in emerging defence procurement demand, a world-class technology sector, and no industrial policy connecting the two. This paper proposes the architecture: which domains Ireland should build in, through which instruments, with what institutional prerequisites, on what timeline."
+          href="/publications/defence-industrial-policy"
+          pdfUrl="/pdfs/Defence_Industrial_Policy.pdf"
+        />
+        <PubCard
+          title="Intelligence Architecture: A Proposal for Unification"
+          type="Policy Framework"
+          desc="Ireland&rsquo;s intelligence is split across three agencies (IMIS, GNCSIS, NCSC) with no unified structure &mdash; unique in Europe. This paper proposes the target architecture, the legislative pathway, and the phased transition. Intelligence reform is the prerequisite for everything else."
+          href="/publications/intelligence-architecture-reform"
+          pdfUrl="/pdfs/Intelligence_Architecture_Reform.pdf"
+        />
+
+        {/* ── Tier 2: Analytical Background ── */}
+        <div style={tierLabel}>The Analytical Background</div>
+        <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.7, marginBottom: '20px', maxWidth: '620px' }}>
+          The research and analysis underpinning the frameworks above. These papers explain the architecture of the problem &mdash; European and Irish &mdash; and why the system is configured the way it is.
+        </p>
+
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
           <PubCard
             title="Europe&rsquo;s Defence Problem Isn&rsquo;t Spending"
             type="Research Paper · Complete"
             desc="€800 billion cannot convert to capability without coordination architecture. Twenty-seven procurement systems produce fragmented demand and US dependency. The argument Ireland needs as the lowest-spending state chairing defence budget discussions."
-            href="/publications/eu-presidency-defence-agenda"
-            status="complete"
+            href="/publications/defence-financing-explained"
+            pdfUrl="/pdfs/Europes_Defence_Problem_Isnt_Spending.pdf"
+          />
+          <PubCard
+            title="Europe&rsquo;s Defence Buildup Is Reproducing the Problem It&rsquo;s Trying to Solve"
+            type="Explainer · Complete"
+            desc="Why spending without industrial architecture deepens dependency. The procurement flow problem and the fragmentation problem compound each other &mdash; and an architecture-first approach requires four structural investments that are not spending targets."
+            href="/publications/europe-defence-buildup"
+            pdfUrl="/pdfs/Europes_Defence_Buildup.pdf"
           />
           <PubCard
             title="Ireland&rsquo;s Defence Problem Isn&rsquo;t Neutrality"
             type="Research Paper · Complete"
             desc="Ireland&rsquo;s institutional system is architecturally configured for the absence of military capability across five reinforcing layers. The constraint is bandwidth, not budget. The honest diagnosis the Commission on Defence Forces implies but does not formalise."
-            href="/publications/defence-at-a-glance-q1-2026"
-            status="complete"
+            href="/publications/loa-transition-architecture"
+            pdfUrl="/pdfs/The_LOA_Transition_Architecture.pdf"
+          />
+          <PubCard
+            title="Ireland&rsquo;s Defence &amp; Security Spending"
+            type="Research Paper · Complete"
+            desc="Where the money comes from (five funding channels), where it goes (seven capability domains), and why the constraint isn&rsquo;t budget. The &euro;1.7 billion capital programme creates procurement demand for the first time &mdash; but a system designed for routine replacement is now running first-generation capability builds."
+            href="/publications/ireland-defence-spending"
+            pdfUrl="/pdfs/Ireland_Defence_Spending.pdf"
+          />
+        </div>
+
+        {/* ── Tier 3: The Context ── */}
+        <div style={tierLabel}>The Context</div>
+
+        <PubCard
+          title="Neutrality as Institutional Architecture"
+          type="Research Paper"
+          desc="How can Irish non-alignment be reconceptualised as requiring defence capability (the Swiss, Austrian, and Finnish model) rather than as a reason for its absence? The deepest structural challenge in Irish security policy."
+          href="/publications/neutrality-institutional-architecture"
+          pdfUrl="/pdfs/Neutrality_Institutional_Architecture.pdf"
+        />
+
+        <div style={{ padding: '16px 20px', backgroundColor: 'var(--color-parchment)', borderLeft: '3px solid var(--color-fern)', borderRadius: '2px', marginTop: '8px' }}>
+          <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-graphite)', lineHeight: 1.6, margin: 0 }}>
+            <strong>The European Defence Landscape</strong> &rarr; See the dedicated <Link href="/european-defence" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>European Defence Landscape page</Link> for the NATO, EU, and transatlantic context within which Ireland&apos;s strategy operates.
+          </p>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
+          SECTION 3: BUILDING DOMESTIC CAPABILITY
+         ══════════════════════════════════════ */}
+      <section id="domestic" style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
+        <hr className="rule-accent" />
+        <div style={sectionLabel}>Section 3</div>
+        <h2 style={sectionH2}>Building Domestic Capability</h2>
+        <div style={audienceNote}>
+          For Dept of Defence, Chief of Staff, Defence Forces strategic planning, National Security Committee, Oireachtas Committee on Defence.
+        </div>
+        <p style={sectionIntro}>
+          Ireland has committed to reaching Level of Ambition 2 by 2028: primary radar, improved naval capacity, a counter-drone system, and a reformed reserve. The constraint is not budget &mdash; Ireland could fund LOA 3 from a single year&apos;s surplus. The constraint is institutional bandwidth: the distance between what the system can currently coordinate and what the transition demands. These papers address the institutional architecture the spending requires.
+        </p>
+
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
+          <PubCard
+            title="Building the Institutional Infrastructure"
+            type="Policy Framework · Complete"
+            desc="The foundational architecture Ireland needs before capability investment can convert to operational capacity. Maps the institutional prerequisites across procurement, workforce, and governance that the Commission on Defence Forces identified but that remain unbuilt."
+            href="/publications/building-institutional-infrastructure"
+            pdfUrl="/pdfs/Building_the_Institutional_Infrastructure.pdf"
+          />
+          <PubCard
+            title="The LOA Transition Architecture"
+            type="Policy Framework · Complete"
+            desc="What institutional transformation &mdash; not just spending &mdash; is required to move from LOA 1 to LOA 2? Fifty-four of 130 Commission on Defence Forces recommendations completed in four years. The rate is slowing. This paper provides the institutional roadmap the spending commitment lacks."
+            href="/publications/loa-transition-architecture"
+            pdfUrl="/pdfs/The_LOA_Transition_Architecture.pdf"
+          />
+          <PubCard
+            title="Ireland&rsquo;s Defence Industrial Architecture"
+            type="Policy Framework · Complete"
+            desc="Can Ireland develop a defence industrial base? The government is removing restrictions on Enterprise Ireland&rsquo;s dual-use engagement and establishing security clearance processes. This paper analyses what institutional prerequisites are missing and what bounded role Irish industry can play within European defence production."
+            href="/publications/defence-industrial-architecture"
+            pdfUrl="/pdfs/Irelands_Defence_Industrial_Architecture.pdf"
           />
         </div>
       </section>
 
-      {/* ── SECTION 2: EU PRESIDENCY ── */}
-      <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
+      {/* ══════════════════════════════════════
+          SECTION 4: UK–IRELAND BILATERAL
+         ══════════════════════════════════════ */}
+      <section id="bilateral" style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
         <hr className="rule-accent" />
-        <div style={{ ...sectionLabel, margin: '32px 0 8px' }}>The EU Presidency</div>
-        <h2 style={sectionH2}>Five briefs. Four instruments. One strategy.</h2>
+        <div style={sectionLabel}>Section 4</div>
+        <h2 style={sectionH2}>The Bilateral Track &mdash; UK&ndash;Ireland</h2>
+        <div style={audienceNote}>
+          For DFA bilateral relations, Dept of Defence, officials working on Cork MoU implementation, Northern Ireland Office, NSMC.
+        </div>
+        <p style={{ ...sectionIntro, marginBottom: '8px' }}>
+          The Cork Summit of March 2026 operationalised UK&ndash;Ireland security cooperation for the first time. The island is a single security domain across five dimensions: maritime, airspace, subsea, energy, and cyber. These papers provide the analytical architecture the MoU itself lacks.
+        </p>
+        <p style={sectionIntro}>
+          The bilateral track builds the institutional capacity that makes the EU track credible. Ireland&apos;s PESCO maritime projects are strengthened by bilateral maritime cooperation. The Cork MoU&apos;s cyber cooperation improves Ireland&apos;s standing in PESCO&apos;s Cyber Threats platform. The bilateral track is not an alternative to the EU track &mdash; it is the foundation the EU track requires.
+        </p>
+
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
+          <PubCard
+            title="The UK&ndash;Ireland Security Interface"
+            type="Paper 1 of 3 · Complete"
+            desc="The island is a single security domain across five dimensions: maritime, airspace, subsea, energy, and cyber. The free-riding equilibrium has collapsed. Bilateral cooperation strengthens &mdash; not undermines &mdash; Ireland&rsquo;s EU commitments. The Cork MoU validates the transition this paper diagnosed."
+            href="/publications/uk-ireland-security-interface"
+            pdfUrl="/pdfs/UK_Ireland_Security_Interface.pdf"
+          />
+          <PubCard
+            title="The GFA and the Security Gap"
+            type="Paper 2 of 3 · Complete"
+            desc="The 1998 security firewall was deliberate, not accidental. External threats (subsea sabotage, cyber attacks, energy disruption) are categorically different from the internal threats the firewall was designed to manage. Strand Two has a bounded forward-looking role in infrastructure-focused security coordination."
+            href="/publications/gfa-security-gap"
+            pdfUrl="/pdfs/GFA_Security_Gap.pdf"
+          />
+          <PubCard
+            title="North/South Security Implementation Protocol"
+            type="Implementation Document · Paper 3 of 3"
+            desc="Extracts the operational detail from Working Paper 2 into a standalone protocol for cross-border officials: energy infrastructure security, transport resilience, maritime environmental monitoring, and cyber resilience coordination. Four bounded functions, each with agency-to-agency primacy and bilateral fallback."
+            href="/publications/north-south-implementation-protocol"
+            pdfUrl="/pdfs/North_South_Implementation_Protocol.pdf"
+          />
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
+          SECTION 5: EU PRESIDENCY
+         ══════════════════════════════════════ */}
+      <section id="presidency" style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
+        <hr className="rule-accent" />
+        <div style={sectionLabel}>Section 5</div>
+        <h2 style={sectionH2}>The EU Presidency</h2>
         <div style={audienceNote}>
           For DFA Presidency team, McEntee&apos;s office, permanent representation in Brussels, Council working group delegates.
         </div>
+        <p style={{ ...sectionIntro, marginBottom: '8px' }}>
+          Ireland chairs the Council of the EU from July to December 2026. During these six months, the rules governing EU defence funding, defence cooperation, maritime surveillance, and cyber resilience are being written. These briefs identify the specific actions that lock in Ireland&apos;s permanent role &mdash; and the cost of chairing passively.
+        </p>
         <p style={sectionIntro}>
-          Ireland chairs the Council of the EU from July to December 2026. During these six months, the rules governing EU defence funding, defence cooperation, maritime surveillance, and cyber resilience are being written. These briefs identify the specific actions that lock in Ireland&apos;s permanent role — and the cost of chairing passively.
+          This section is time-bound. It is the operational centre of the page for six months. After December 2026, it becomes an archive. The sections above &mdash; the strategic foundation, domestic capability, and bilateral cooperation &mdash; are the permanent architecture.
         </p>
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '14px', marginBottom: '40px' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0', marginBottom: '40px' }}>
           <PubCard
             title="Primer: The Agenda Ireland Must Steer"
             type="Presidency Desk · Primer"
-            desc="The complete map of every EU security and defence dossier on the Presidency desk. Explains why Ireland&rsquo;s lanes are maritime, subsea, and cyber — not air defence or ground combat. Shows how the four briefs interlock as a single strategy. Start here."
-            href="/publications/presidency-desk-primer"
+            desc="The complete map of every EU security and defence dossier on the Presidency desk. Explains why Ireland&rsquo;s lanes are maritime, subsea, and cyber &mdash; not air defence or ground combat. Shows how the four briefs interlock as a single strategy. Start here."
+            href="/publications/eu-presidency-defence-agenda"
+            pdfUrl="/pdfs/Presidency_Desk_Primer.pdf"
           />
           <PubCard
-            title="Brief 1: ReArm Europe — What Ireland Should Lock In"
+            title="Brief 1: ReArm Europe &mdash; What Ireland Should Lock In"
             type="Presidency Desk · Brief 1 of 4"
-            desc="SAFE (€150bn), EDIP (€1.5bn), and the next MFF defence chapter. If the rules reward only large-scale military procurement, Ireland is excluded. If they recognise domain-specific contribution, Ireland&rsquo;s geographic assets become fundable."
+            desc="SAFE (&euro;150bn), EDIP (&euro;1.5bn), and the next MFF defence chapter. If the rules reward only large-scale military procurement, Ireland is excluded. If they recognise domain-specific contribution, Ireland&rsquo;s geographic assets become fundable."
             href="/publications/rearm-europe-brief"
           />
           <PubCard
-            title="Brief 2: PESCO Strategic Review — What Ireland Should Lock In"
+            title="Brief 2: PESCO Strategic Review &mdash; What Ireland Should Lock In"
             type="Presidency Desk · Brief 2 of 4"
-            desc="The strategic review is rewriting PESCO&rsquo;s binding commitments. Ireland&rsquo;s 7 projects — all in maritime, cyber, and logistics — are the institutional evidence of its contribution. The revised framework either formalises Ireland&rsquo;s model or penalises it."
-            href="/publications/pesco-strategic-review-brief"
+            desc="The strategic review is rewriting PESCO&rsquo;s binding commitments. Ireland&rsquo;s 7 projects &mdash; all in maritime, cyber, and logistics &mdash; are the institutional evidence of its contribution. The revised framework either formalises Ireland&rsquo;s model or penalises it."
+            href="/publications/pesco-explained"
+            pdfUrl="/pdfs/PESCO_Explained.pdf"
           />
           <PubCard
             title="Brief 3: Maritime Surveillance Cooperation"
             type="Presidency Desk · Brief 3 of 4"
-            desc="880,000 km² of Atlantic EEZ. CISE membership since April 2025. The EUMSS progress report due October 2026. The EU Cable Action Plan investing €1 billion. Ireland should be leading the Atlantic basin response — not consuming data others provide."
-            href="/publications/maritime-surveillance-cooperation-brief"
+            desc="880,000 km&sup2; of Atlantic EEZ. CISE membership since April 2025. The EUMSS progress report due October 2026. The EU Cable Action Plan investing &euro;1 billion. Ireland should be leading the Atlantic basin response &mdash; not consuming data others provide."
+            href="/publications/maritime-surveillance-gap"
+            pdfUrl="/pdfs/Maritime_Surveillance_Cooperation.pdf"
           />
           <PubCard
             title="Brief 4: Hybrid Threats &amp; Cyber Defence"
@@ -260,153 +521,31 @@ export default function ForPolicymakers() {
         </div>
       </section>
 
-      {/* ── SECTION 3: UK–IRELAND ── */}
+      {/* ══════════════════════════════════════
+          SECTION 6: REFRAMING THE DEBATE
+         ══════════════════════════════════════ */}
       <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
         <hr className="rule-accent" />
-        <div style={{ ...sectionLabel, margin: '32px 0 8px' }}>UK–Ireland Security Cooperation</div>
-        <h2 style={sectionH2}>The bilateral track</h2>
-        <div style={audienceNote}>
-          For DFA bilateral relations, Dept of Defence, officials working on Cork MoU implementation, Northern Ireland Office, NSMC.
-        </div>
-        <p style={sectionIntro}>
-          The Cork Summit of March 2026 operationalised UK–Ireland security cooperation for the first time. These papers provide the analytical architecture the MoU itself lacks — explaining why bilateral and EU tracks complement rather than compete, and how cross-border operational coordination can work within GFA constraints.
-        </p>
-
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
-          <PubCard
-            title="Ireland&rsquo;s Layered Security Cooperation Model"
-            type="Research Paper · Complete"
-            desc="How bilateral, EU, and NATO-adjacent cooperation tracks compound rather than compete. Maps the institutional mechanics of capability transfer from Cork MoU operations through to PESCO frameworks, identifies the friction points, and tests whether the model is replicable for non-aligned EU member states."
-            href="/publications/layered-security-cooperation"
-            status="complete"
-          />
-          <PubCard
-            title="The UK–Ireland Security Interface"
-            type="Working Paper 1 · Complete"
-            desc="The island is a single security domain across five dimensions: maritime, airspace, subsea, energy, and cyber. The free-riding equilibrium has collapsed. Bilateral cooperation strengthens — not undermines — Ireland&rsquo;s EU commitments."
-            href="/publications/maritime-security-framework"
-          />
-          <PubCard
-            title="The GFA and the Security Gap"
-            type="Working Paper 2 · Complete"
-            desc="The 1998 security firewall was deliberate, not accidental. External threats are categorically different from the internal threats the firewall was designed to manage. Strand Two has a bounded forward-looking role in infrastructure-focused security coordination."
-            href="/publications/good-friday-agreement-security"
-          />
-          <ForthcomingCard
-            title="North/South Security Implementation Protocol"
-            type="Implementation Document · Forthcoming"
-            desc="Extracts the operational detail from Working Paper 2 into a standalone protocol for cross-border officials: energy infrastructure security, transport resilience, maritime environmental monitoring, and cyber resilience coordination."
-            coming="Coming Q3 2026"
-          />
-        </div>
-      </section>
-
-      {/* ── SECTION 4: DOMESTIC CAPABILITY ── */}
-      <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
-        <hr className="rule-accent" />
-        <div style={{ ...sectionLabel, margin: '32px 0 8px' }}>Building Domestic Capability</div>
-        <h2 style={sectionH2}>The transformation the spending enables</h2>
-        <div style={audienceNote}>
-          For Dept of Defence, Chief of Staff, Defence Forces strategic planning, National Security Committee, Oireachtas Committee on Defence.
-        </div>
-        <p style={sectionIntro}>
-          Ireland has committed to reaching Level of Ambition 2 by 2028: primary radar, improved naval capacity, a counter-drone system, and a reformed reserve. The constraint is not budget — Ireland could fund LOA 3 from a single year&apos;s surplus. The constraint is institutional bandwidth. These papers address the transformation the spending enables.
-        </p>
-
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
-          <PubCard
-            title="Building the Institutional Infrastructure"
-            type="Policy Framework · Complete"
-            desc="The foundational architecture Ireland needs before capability investment can convert to operational capacity. Maps the institutional prerequisites across procurement, workforce, and governance that the Commission on Defence Forces identified but that remain unbuilt."
-            href="/publications/building-institutional-infrastructure"
-            status="complete"
-          />
-          <PubCard
-            title="Ireland&rsquo;s Defence Industrial Architecture"
-            type="Policy Framework · Complete"
-            desc="Can Ireland develop a defence industrial base? The government is removing restrictions on Enterprise Ireland&rsquo;s dual-use engagement. This paper analyses what institutional prerequisites are missing and what bounded role Irish industry can play within European defence production."
-            href="/publications/defence-industrial-architecture"
-            status="complete"
-          />
-          <PubCard
-            title="The LOA Transition Architecture"
-            type="Policy Framework · Complete"
-            desc="What institutional transformation — not just spending — is required to move from LOA 1 to LOA 2? Fifty-four of 130 Commission on Defence Forces recommendations completed in four years. The rate is slowing."
-            href="/publications/loa-transition-architecture"
-            status="complete"
-          />
-          <ForthcomingCard
-            title="Intelligence Architecture Reform"
-            type="Policy Framework · Forthcoming"
-            desc="Ireland&rsquo;s intelligence architecture — split between military (J2/IMIS), police (Garda CSB), and cyber (NCSC) — is unique in Europe. Every comparable state has unified intelligence. This paper examines what a unified national intelligence structure would look like."
-            coming="Coming 2027"
-          />
-        </div>
-      </section>
-
-      {/* ── SECTION 5: REFRAMING THE DEBATE ── */}
-      <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
-        <hr className="rule-accent" />
-        <div style={{ ...sectionLabel, margin: '32px 0 8px' }}>Reframing the Debate</div>
-        <h2 style={sectionH2}>Beyond &ldquo;join NATO or do nothing&rdquo;</h2>
+        <div style={sectionLabel}>Section 6</div>
+        <h2 style={sectionH2}>Reframing the Debate</h2>
         <div style={audienceNote}>
           For Taoiseach&apos;s office, public affairs, anyone who needs to articulate Ireland&apos;s security position without abandoning its constitutional position.
         </div>
         <p style={sectionIntro}>
-          Minister McEntee&apos;s formulation — &ldquo;militarily non-aligned but not neutral to threats&rdquo; — needs an analytical framework. The public debate is stuck between two positions: join NATO or do nothing. Neither is useful. These papers offer a third position grounded in institutional analysis rather than ideology.
+          The public debate on Irish security is stuck between two positions: join NATO or do nothing. Neither is useful. Minister McEntee&apos;s formulation &mdash; &ldquo;militarily non-aligned but not neutral to threats&rdquo; &mdash; needs an analytical framework that the sections above provide. This section offers the public-facing articulation grounded in institutional analysis rather than ideology.
         </p>
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
-          <ForthcomingCard
-            title="Neutrality as Institutional Architecture"
-            type="Research Paper · Forthcoming"
-            desc="How can Irish non-alignment be reconceptualised as requiring defence capability (the Swiss, Austrian, and Finnish model) rather than as a reason for its absence? The deepest structural challenge in Irish security policy."
-            coming="Coming 2027"
-          />
-        </div>
+        <ForthcomingCard
+          title="Neutrality as Institutional Architecture"
+          type="Research Paper · Forthcoming"
+          desc="How can Irish non-alignment be reconceptualised as requiring defence capability (the Swiss, Austrian, and Finnish model) rather than as a reason for its absence? This paper draws on the diagnostic work in Section 2, the capability architecture in Section 3, and the cooperation frameworks in Sections 4 and 5 to propose a coherent public position. The deepest structural challenge in Irish security policy."
+          coming="Coming 2027"
+        />
       </section>
 
-      {/* ── SECTION 6: HOW TO USE THIS WORK ── */}
-      <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
-        <hr className="rule-accent" />
-        <div style={{ ...sectionLabel, margin: '32px 0 8px' }}>How to Use This Work</div>
-
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '16px' }}>
-          {[
-            {
-              who: 'Ministerial offices',
-              how: 'Start with the Primer, then read whichever brief covers your active dossier. The 16-recommendation table is the operational reference. Each recommendation names the responsible department and deadline.',
-            },
-            {
-              who: 'Oireachtas members',
-              how: 'The two research papers provide the analytical foundation for committee work. The Presidency series provides the specific actions Ireland should take during its term. All publications are designed to be cited in debate.',
-            },
-            {
-              who: 'Officials in Brussels',
-              how: 'The Presidency Desk series maps directly to Council working group agendas. Brief 1 covers FAC/ITRE. Brief 2 covers PESCO working groups. Brief 3 covers maritime security. Brief 4 covers cyber and hybrid discussions.',
-            },
-            {
-              who: 'Defence Forces',
-              how: 'The capability gap analysis and LOA framework provide the diagnostic. The Presidency briefs show how EU instruments can fund the transition. The forthcoming LOA Transition Architecture addresses the institutional roadmap.',
-            },
-            {
-              who: 'Cross-border officials',
-              how: 'Working Papers 1 and 2 provide the analytical framework. The forthcoming Implementation Protocol translates this into operational guidance.',
-            },
-          ].map((item, i) => (
-            <div key={i} style={{ padding: '20px', backgroundColor: 'var(--color-parchment)', borderRadius: '2px', borderLeft: '3px solid var(--color-fern)' }}>
-              <div style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', fontWeight: 700, color: 'var(--color-forest)', marginBottom: '8px', letterSpacing: '0.5px' }}>
-                {item.who}
-              </div>
-              <p style={{ fontFamily: 'var(--font-serif)', fontSize: '13px', color: 'var(--color-graphite)', lineHeight: 1.6, margin: 0 }}>
-                {item.how}
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* ── SECTION 7: CONTACT ── */}
+      {/* ══════════════════════════════════════
+          SECTION 7: CONTACT & BRIEFINGS
+         ══════════════════════════════════════ */}
       <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
         <hr className="rule-accent" />
         <div style={{ ...sectionLabel, margin: '32px 0 8px' }}>Contact &amp; Briefings</div>
