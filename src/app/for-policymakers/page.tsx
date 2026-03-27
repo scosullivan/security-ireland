@@ -230,7 +230,6 @@ export default function ForPolicymakers() {
         <p style={sectionIntro}>
           This page contains Security Ireland&apos;s complete body of work for government. It is organised in layers: the strategic foundation, then domestic capability, then bilateral cooperation, then EU instruments. Start with the section that matches your role.
         </p>
-
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '14px' }}>
           <PathwayCard who="Ministerial offices" content={
             <p style={{ margin: 0 }}>Start with the <strong>Proposed National Security Strategy Framework</strong> in Section 2 &mdash; it connects every other paper. Then read whichever operational section covers your active dossier. For the Presidency, the <Link href="#presidency" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>Primer in Section 5</Link> maps the full agenda.</p>
@@ -245,7 +244,7 @@ export default function ForPolicymakers() {
             <p style={{ margin: 0 }}><Link href="#domestic" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>Section 3</Link> is your primary section &mdash; LOA transition, institutional infrastructure, defence industrial architecture. The spending analysis in Section 2 traces the funding architecture.</p>
           } />
           <PathwayCard who="Cross-border officials" content={
-            <p style={{ margin: 0 }}><Link href="#bilateral" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>Section 4</Link> (UK&ndash;Ireland Bilateral) contains three papers. Start with <em>The UK&ndash;Ireland Security Interface</em> for the analytical framework, then <em>The GFA and the Security Gap</em> for GFA architecture, then <em>North/South Implementation Protocol</em> for operational detail.</p>
+            <p style={{ margin: 0 }}><Link href="#bilateral" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>Section 4</Link> (UK&ndash;Ireland Bilateral) contains the bilateral series plus the layered cooperation model. Start with <em>The UK&ndash;Ireland Security Interface</em> for the analytical framework, then <em>The GFA and the Security Gap</em> for GFA architecture, then <em>North/South Implementation Protocol</em> for operational detail.</p>
           } />
           <PathwayCard who="European Defence Landscape" content={
             <p style={{ margin: 0 }}>If you need to understand the NATO and EU systems within which Ireland operates before engaging with the Ireland-specific work, start with the <Link href="/european-defence" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>European Defence Landscape page &rarr;</Link></p>
@@ -272,7 +271,6 @@ export default function ForPolicymakers() {
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.7, marginBottom: '20px', maxWidth: '620px' }}>
           What Ireland&apos;s defence and security architecture should look like. These are the documents the government needs but has not produced. Security Ireland provides them.
         </p>
-
         <PubCard
           title="Proposed National Security Strategy Framework"
           type="Strategic Framework"
@@ -300,7 +298,6 @@ export default function ForPolicymakers() {
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.7, marginBottom: '20px', maxWidth: '620px' }}>
           The research and analysis underpinning the frameworks above. These papers explain the architecture of the problem &mdash; European and Irish &mdash; and why the system is configured the way it is.
         </p>
-
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
           <PubCard
             title="Europe&rsquo;s Defence Problem Isn&rsquo;t Spending"
@@ -334,7 +331,6 @@ export default function ForPolicymakers() {
 
         {/* ── Tier 3: The Context ── */}
         <div style={tierLabel}>The Context</div>
-
         <PubCard
           title="Neutrality as Institutional Architecture"
           type="Research Paper"
@@ -342,7 +338,6 @@ export default function ForPolicymakers() {
           href="/publications/neutrality-institutional-architecture"
           pdfUrl="/pdfs/Neutrality_Institutional_Architecture.pdf"
         />
-
         <div style={{ padding: '16px 20px', backgroundColor: 'var(--color-parchment)', borderLeft: '3px solid var(--color-fern)', borderRadius: '2px', marginTop: '8px' }}>
           <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-graphite)', lineHeight: 1.6, margin: 0 }}>
             <strong>The European Defence Landscape</strong> &rarr; See the dedicated <Link href="/european-defence" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>European Defence Landscape page</Link> for the NATO, EU, and transatlantic context within which Ireland&apos;s strategy operates.
@@ -363,7 +358,6 @@ export default function ForPolicymakers() {
         <p style={sectionIntro}>
           Ireland has committed to reaching Level of Ambition 2 by 2028: primary radar, improved naval capacity, a counter-drone system, and a reformed reserve. The constraint is not budget &mdash; Ireland could fund LOA 3 from a single year&apos;s surplus. The constraint is institutional bandwidth: the distance between what the system can currently coordinate and what the transition demands. These papers address the institutional architecture the spending requires.
         </p>
-
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
           <PubCard
             title="Building the Institutional Infrastructure"
@@ -405,8 +399,14 @@ export default function ForPolicymakers() {
         <p style={sectionIntro}>
           The bilateral track builds the institutional capacity that makes the EU track credible. Ireland&apos;s PESCO maritime projects are strengthened by bilateral maritime cooperation. The Cork MoU&apos;s cyber cooperation improves Ireland&apos;s standing in PESCO&apos;s Cyber Threats platform. The bilateral track is not an alternative to the EU track &mdash; it is the foundation the EU track requires.
         </p>
-
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
+          <PubCard
+            title="Ireland&rsquo;s Layered Security Cooperation Model"
+            type="Research Paper · Complete"
+            desc="How bilateral, EU, and NATO-adjacent cooperation tracks compound rather than compete. Maps the institutional mechanics of capability transfer from Cork MoU operations through to PESCO frameworks, identifies the friction points, and tests whether the model is replicable for non-aligned EU member states."
+            href="/publications/layered-security-cooperation"
+            pdfUrl="/pdfs/Layered_Security_Cooperation.pdf"
+          />
           <PubCard
             title="The UK&ndash;Ireland Security Interface"
             type="Paper 1 of 3 · Complete"
@@ -447,7 +447,6 @@ export default function ForPolicymakers() {
         <p style={sectionIntro}>
           This section is time-bound. It is the operational centre of the page for six months. After December 2026, it becomes an archive. The sections above &mdash; the strategic foundation, domestic capability, and bilateral cooperation &mdash; are the permanent architecture.
         </p>
-
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0', marginBottom: '40px' }}>
           <PubCard
             title="Primer: The Agenda Ireland Must Steer"
@@ -534,7 +533,6 @@ export default function ForPolicymakers() {
         <p style={sectionIntro}>
           The public debate on Irish security is stuck between two positions: join NATO or do nothing. Neither is useful. Minister McEntee&apos;s formulation &mdash; &ldquo;militarily non-aligned but not neutral to threats&rdquo; &mdash; needs an analytical framework that the sections above provide. This section offers the public-facing articulation grounded in institutional analysis rather than ideology.
         </p>
-
         <ForthcomingCard
           title="Neutrality as Institutional Architecture"
           type="Research Paper · Forthcoming"
