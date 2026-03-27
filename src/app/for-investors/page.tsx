@@ -152,7 +152,7 @@ export default function ForInvestors() {
         <h2 style={sectionH2}>The European Defence Money</h2>
 
         {/* ── 1. ReArm Europe ── */}
-        <Expandable num="01" title="ReArm Europe: Where the &euro;800 Billion Is Going" readTime="5 min read" defaultOpen>
+        <Expandable num="01" title="ReArm Europe: Where the &euro;800 Billion Is Going" readTime="5 min read">
           <p style={p}>
             In March 2025, the EU announced ReArm Europe (formally Readiness 2030) &mdash; an &euro;800 billion target for European defence investment by 2030. This is not a single fund. It is a political framework aggregating five distinct financing channels, each with different institutions, timelines, and access conditions.
           </p>
@@ -238,9 +238,14 @@ export default function ForInvestors() {
             </p>
           </Callout>
 
-          <Link href="/publications/europes-defence-problem-isnt-spending" style={readMore}>
-            Read more: Europe&apos;s Defence Problem Isn&apos;t Spending &rarr;
-          </Link>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+            <Link href="/publications/europes-defence-problem-isnt-spending" style={readMore}>
+              Europe&apos;s Defence Problem Isn&apos;t Spending &rarr;
+            </Link>
+            <Link href="/publications/europe-defence-buildup" style={readMore}>
+              Europe&apos;s Defence Buildup Is Reproducing the Problem &rarr;
+            </Link>
+          </div>
         </Expandable>
 
         {/* ── 3. NATO Innovation Fund ── */}
@@ -310,6 +315,10 @@ export default function ForInvestors() {
               <strong>One structural disadvantage:</strong>{' '}Ireland&apos;s defence tech sector is pre-institutional. The firms exist, the technology is often world-class, but the infrastructure investors take for granted &mdash; security clearances, export controls, facility accreditation &mdash; is either absent or being built. This is both the risk and the opportunity.
             </p>
           </Callout>
+
+          <Link href="/publications/building-institutional-infrastructure" style={readMore}>
+            Building the Institutional Infrastructure &rarr;
+          </Link>
         </Expandable>
 
         {/* ── 5. Domestic Procurement ── */}
@@ -347,6 +356,10 @@ export default function ForInvestors() {
               <strong>The constraint: no industrial participation policy.</strong>{' '}Without a requirement for international primes to partner with Irish SMEs, the &euro;2.5 billion pipeline flows to foreign firms with no structured return. With one, every major procurement creates supply chain positions for Irish firms. The domestic pipeline is the launchpad, not the destination.
             </p>
           </Callout>
+
+          <Link href="/publications/ireland-defence-spending" style={readMore}>
+            Ireland&apos;s Defence &amp; Security Spending &rarr;
+          </Link>
         </Expandable>
 
         {/* ── 6. Five Sectors ── */}
@@ -510,9 +523,14 @@ export default function ForInvestors() {
             </p>
           </Callout>
 
-          <Link href="/publications/europes-defence-problem-isnt-spending" style={readMore}>
-            Read more: Europe&apos;s Defence Problem Isn&apos;t Spending &rarr;
-          </Link>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '16px' }}>
+            <Link href="/publications/ireland-defence-spending" style={readMore}>
+              Ireland&apos;s Defence &amp; Security Spending &rarr;
+            </Link>
+            <Link href="/publications/defence-financing-explained" style={readMore}>
+              European Defence Financing Explained &rarr;
+            </Link>
+          </div>
         </Expandable>
 
         {/* ── 9. EDF for Startups ── */}
@@ -658,7 +676,7 @@ export default function ForInvestors() {
               Read: Ireland&rsquo;s Layered Security Cooperation Model &rarr;
             </Link>
             <p style={{ ...note, marginTop: '6px' }}>
-              How bilateral, EU, and NATO-adjacent cooperation tracks compound — and why all three domains sit at the intersection.
+              How bilateral, EU, and NATO-adjacent cooperation tracks compound &mdash; and why all three domains sit at the intersection.
             </p>
           </div>
         </Expandable>
