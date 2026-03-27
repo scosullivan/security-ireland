@@ -147,11 +147,8 @@ export default function ForPolicymakers() {
           color: 'var(--color-terracotta)',
           marginBottom: '8px',
         }}>For Policymakers</div>
-        <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: '32px', fontWeight: 400, color: 'var(--color-ink)', marginBottom: '16px', maxWidth: '640px' }}>
-          Analysis for decisions, not commentary for debate
-        </h1>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '620px', marginBottom: '20px' }}>
-          Every publication below was written to be cited in a ministerial briefing, used in a Council working group, or referenced in an Oireachtas committee session. If it isn&apos;t useful, we haven&apos;t done our job.
+          Publications written to be cited in a ministerial brief, used in a Council working group, or referenced in an Oireachtas committee session. Rigorous, operationally grounded, and designed to inform decisions under time pressure.
         </p>
       </section>
 
@@ -174,10 +171,10 @@ export default function ForPolicymakers() {
             <p style={{ margin: 0 }}>The EU Presidency series is available on the dedicated <Link href="/eu-presidency" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>EU Presidency page</Link>. Section 1 provides the strategic context for Council working group agendas.</p>
           } />
           <PathwayCard who="Defence Forces &amp; Dept of Defence" content={
-            <p style={{ margin: 0 }}>Section 2 is your primary section &mdash; LOA transition, institutional infrastructure, defence industrial architecture. The spending analysis in Section 1 traces the funding architecture.</p>
+            <p style={{ margin: 0 }}>Section 3 is your primary section &mdash; LOA transition, institutional infrastructure, defence industrial architecture. The spending analysis in Section 1 traces the funding architecture.</p>
           } />
           <PathwayCard who="Cross-border officials" content={
-            <p style={{ margin: 0 }}>Section 3 (UK&ndash;Ireland Bilateral) contains the bilateral series plus the layered cooperation model. Start with <em>The UK&ndash;Ireland Security Interface</em> for the analytical framework.</p>
+            <p style={{ margin: 0 }}>Section 4 (UK&ndash;Ireland Bilateral) contains the bilateral series plus the layered cooperation model. Start with <em>The UK&ndash;Ireland Security Interface</em> for the analytical framework.</p>
           } />
           <PathwayCard who="European Defence Landscape" content={
             <p style={{ margin: 0 }}>If you need to understand the NATO and EU systems within which Ireland operates, start with the <Link href="/european-defence" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>European Defence Landscape page &rarr;</Link></p>
@@ -191,7 +188,7 @@ export default function ForPolicymakers() {
       <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
 
         {/* ── SECTION 1: THE STRATEGIC FOUNDATION ── */}
-        <Expandable num="1" title="The Strategic Foundation" readTime="8 papers" defaultOpen>
+        <Expandable num="1" title="The Strategic Foundation" readTime="7 papers" defaultOpen>
           <div style={audienceNote}>
             Ireland&apos;s security architecture: the proposed strategy, the analytical background, and the context.
           </div>
@@ -260,15 +257,6 @@ export default function ForPolicymakers() {
             pdfUrl="/pdfs/Ireland_Defence_Spending.pdf"
           />
 
-          {/* ── Tier 3: The Context ── */}
-          <div style={tierLabel}>The Context</div>
-          <PubCard
-            title="Neutrality as Institutional Architecture"
-            type="Research Paper"
-            desc="How can Irish non-alignment be reconceptualised as requiring defence capability (the Swiss, Austrian, and Finnish model) rather than as a reason for its absence? The deepest structural challenge in Irish security policy."
-            href="/publications/neutrality-institutional-architecture"
-            pdfUrl="/pdfs/Neutrality_Institutional_Architecture.pdf"
-          />
           <div style={{ padding: '16px 20px', backgroundColor: 'var(--color-parchment)', borderLeft: '3px solid var(--color-fern)', borderRadius: '2px', marginTop: '8px' }}>
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-graphite)', lineHeight: 1.6, margin: 0 }}>
               <strong>The European Defence Landscape</strong> &rarr; See the dedicated <Link href="/european-defence" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>European Defence Landscape page</Link> for the NATO, EU, and transatlantic context within which Ireland&apos;s strategy operates.
@@ -276,8 +264,25 @@ export default function ForPolicymakers() {
           </div>
         </Expandable>
 
-        {/* ── SECTION 2: BUILDING DOMESTIC CAPABILITY ── */}
-        <Expandable num="2" title="Building Domestic Capability" readTime="3 papers">
+        {/* ── SECTION 2: REFRAMING THE DEBATE ── */}
+        <Expandable num="2" title="Reframing the Debate" readTime="1 paper">
+          <div style={audienceNote}>
+            For Taoiseach&apos;s office, public affairs, anyone who needs to articulate Ireland&apos;s security position without abandoning its constitutional position.
+          </div>
+          <p style={sectionIntro}>
+            The public debate on Irish security is stuck between two positions: join NATO or do nothing. Neither is useful. Minister McEntee&apos;s formulation &mdash; &ldquo;militarily non-aligned but not neutral to threats&rdquo; &mdash; needs an analytical framework that the sections above provide. This section offers the public-facing articulation grounded in institutional analysis rather than ideology.
+          </p>
+          <PubCard
+            title="Neutrality as Institutional Architecture"
+            type="Research Paper"
+            desc="How can Irish non-alignment be reconceptualised as requiring defence capability (the Swiss, Austrian, and Finnish model) rather than as a reason for its absence? The deepest structural challenge in Irish security policy."
+            href="/publications/neutrality-institutional-architecture"
+            pdfUrl="/pdfs/Neutrality_Institutional_Architecture.pdf"
+          />
+        </Expandable>
+
+        {/* ── SECTION 3: BUILDING DOMESTIC CAPABILITY ── */}
+        <Expandable num="3" title="Building Domestic Capability" readTime="3 papers">
           <div style={audienceNote}>
             For Dept of Defence, Chief of Staff, Defence Forces strategic planning, National Security Committee, Oireachtas Committee on Defence.
           </div>
@@ -307,8 +312,8 @@ export default function ForPolicymakers() {
           />
         </Expandable>
 
-        {/* ── SECTION 3: UK–IRELAND BILATERAL ── */}
-        <Expandable num="3" title="The Bilateral Track — UK–Ireland" readTime="4 papers">
+        {/* ── SECTION 4: UK–IRELAND BILATERAL ── */}
+        <Expandable num="4" title="The Bilateral Track — UK–Ireland" readTime="4 papers">
           <div style={audienceNote}>
             For DFA bilateral relations, Dept of Defence, officials working on Cork MoU implementation, Northern Ireland Office, NSMC.
           </div>
@@ -345,22 +350,6 @@ export default function ForPolicymakers() {
             desc="Extracts the operational detail from Working Paper 2 into a standalone protocol for cross-border officials: energy infrastructure security, transport resilience, maritime environmental monitoring, and cyber resilience coordination. Four bounded functions, each with agency-to-agency primacy and bilateral fallback."
             href="/publications/north-south-implementation-protocol"
             pdfUrl="/pdfs/North_South_Implementation_Protocol.pdf"
-          />
-        </Expandable>
-
-        {/* ── SECTION 4: REFRAMING THE DEBATE ── */}
-        <Expandable num="4" title="Reframing the Debate" readTime="1 paper · forthcoming">
-          <div style={audienceNote}>
-            For Taoiseach&apos;s office, public affairs, anyone who needs to articulate Ireland&apos;s security position without abandoning its constitutional position.
-          </div>
-          <p style={sectionIntro}>
-            The public debate on Irish security is stuck between two positions: join NATO or do nothing. Neither is useful. Minister McEntee&apos;s formulation &mdash; &ldquo;militarily non-aligned but not neutral to threats&rdquo; &mdash; needs an analytical framework that the sections above provide. This section offers the public-facing articulation grounded in institutional analysis rather than ideology.
-          </p>
-          <ForthcomingCard
-            title="Neutrality as Institutional Architecture"
-            type="Research Paper · Forthcoming"
-            desc="How can Irish non-alignment be reconceptualised as requiring defence capability (the Swiss, Austrian, and Finnish model) rather than as a reason for its absence? This paper draws on the diagnostic work in Section 1, the capability architecture in Section 2, and the cooperation frameworks in Section 3 to propose a coherent public position. The deepest structural challenge in Irish security policy."
-            coming="Coming 2027"
           />
         </Expandable>
 
