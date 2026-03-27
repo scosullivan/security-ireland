@@ -188,7 +188,7 @@ export default function ForPolicymakers() {
       <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
 
         {/* ── SECTION 1: THE STRATEGIC FOUNDATION ── */}
-        <Expandable num="1" title="The Strategic Foundation" readTime="7 papers" defaultOpen>
+        <Expandable num="1" title="The Strategic Foundation" readTime="7 papers">
           <div style={audienceNote}>
             Ireland&apos;s security architecture: the proposed strategy, the analytical background, and the context.
           </div>
