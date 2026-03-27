@@ -38,7 +38,7 @@ export default async function ForMedia() {
           For Media
         </div>
         <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: '32px', fontWeight: 400, color: 'var(--color-ink)', marginBottom: '16px', maxWidth: '600px' }}>
-          Quotable research, formatted for deadlines
+          Quotable research, formatted for deadline
         </h1>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '560px', marginBottom: '40px' }}>
           Every publication includes key findings designed for citation. Data sheets are formatted for broadcast graphics. For press enquiries or commentary requests, contact <a href="mailto:info@securityireland.ie" style={{ color: 'var(--color-terracotta)' }}>info@securityireland.ie</a>.
@@ -154,6 +154,192 @@ export default async function ForMedia() {
           ]} />
           <p style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', color: 'var(--color-stone)', marginTop: '16px' }}>
             % of establishment strength filled. Source: Defence Forces Annual Report, 2024
+          </p>
+        </div>
+
+        <hr style={{ border: 'none', borderTop: '1px solid var(--color-rule)' }} />
+
+        {/* ══════════════════════════════════════
+            HOW IRISH SECURITY IS ORGANISED
+           ══════════════════════════════════════ */}
+        <div style={{ marginBottom: '48px', marginTop: '32px' }}>
+          <div style={sectionLabel}>How Irish Security Is Organised</div>
+          <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: '20px', fontWeight: 400, color: 'var(--color-ink)', marginBottom: '16px' }}>
+            The landscape at a glance
+          </h2>
+          <p style={p}>
+            Ireland&rsquo;s security architecture is split across multiple departments and agencies with no single coordinating authority. Understanding who does what &mdash; and where the gaps sit &mdash; is essential context for any defence or security story.
+          </p>
+
+          {/* ── Civilian oversight tier ── */}
+          <div style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', letterSpacing: '1.5px', textTransform: 'uppercase', color: 'var(--color-stone)', marginBottom: '10px', marginTop: '24px', fontWeight: 600 }}>
+            Civilian Oversight
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '24px' }}>
+            {/* Taoiseach row */}
+            <div style={{
+              padding: '12px 16px',
+              backgroundColor: 'var(--color-forest)',
+              borderRadius: '4px',
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              flexWrap: 'wrap',
+              gap: '8px',
+            }}>
+              <div>
+                <div style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', fontWeight: 700, color: 'var(--color-cream)', letterSpacing: '0.5px' }}>Taoiseach</div>
+                <div style={{ fontFamily: 'var(--font-serif)', fontSize: '12px', color: 'var(--color-sage)', marginTop: '2px' }}>Chairs the National Security Council</div>
+              </div>
+            </div>
+            {/* Two departments row */}
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
+              <div style={{ padding: '12px 16px', backgroundColor: 'var(--color-parchment)', borderLeft: '3px solid var(--color-fern)', borderRadius: '2px' }}>
+                <div style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', fontWeight: 700, color: 'var(--color-forest)', letterSpacing: '0.5px' }}>Dept of Defence</div>
+                <div style={{ fontFamily: 'var(--font-serif)', fontSize: '12px', color: 'var(--color-graphite)', lineHeight: 1.5, marginTop: '4px' }}>
+                  Minister for Defence &middot; Secretary General. Defence policy, procurement, civil-military interface.
+                </div>
+              </div>
+              <div style={{ padding: '12px 16px', backgroundColor: 'var(--color-parchment)', borderLeft: '3px solid var(--color-fern)', borderRadius: '2px' }}>
+                <div style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', fontWeight: 700, color: 'var(--color-forest)', letterSpacing: '0.5px' }}>Dept of Justice</div>
+                <div style={{ fontFamily: 'var(--font-serif)', fontSize: '12px', color: 'var(--color-graphite)', lineHeight: 1.5, marginTop: '4px' }}>
+                  Minister for Justice. Garda oversight, NCSC (transferred), immigration security.
+                </div>
+              </div>
+            </div>
+            {/* Coordination bodies */}
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
+              <div style={{ padding: '10px 16px', backgroundColor: 'color-mix(in srgb, var(--color-terracotta) 5%, var(--color-cream))', borderLeft: '3px solid var(--color-copper)', borderRadius: '2px' }}>
+                <div style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', fontWeight: 700, color: 'var(--color-copper)', letterSpacing: '0.5px' }}>National Security Council</div>
+                <div style={{ fontFamily: 'var(--font-serif)', fontSize: '11px', color: 'var(--color-graphite)', lineHeight: 1.5, marginTop: '3px' }}>
+                  Ministerial-level body for strategic coordination. Announced 2025 &mdash; not yet on statutory footing.
+                </div>
+              </div>
+              <div style={{ padding: '10px 16px', backgroundColor: 'color-mix(in srgb, var(--color-terracotta) 5%, var(--color-cream))', borderLeft: '3px solid var(--color-copper)', borderRadius: '2px' }}>
+                <div style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', fontWeight: 700, color: 'var(--color-copper)', letterSpacing: '0.5px' }}>National Security Secretariat</div>
+                <div style={{ fontFamily: 'var(--font-serif)', fontSize: '11px', color: 'var(--color-graphite)', lineHeight: 1.5, marginTop: '3px' }}>
+                  Threat analysis &amp; intelligence synthesis. Replaced NSAC (est. 2019) as standalone body.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* ── Defence Forces tier ── */}
+          <div style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', letterSpacing: '1.5px', textTransform: 'uppercase', color: 'var(--color-stone)', marginBottom: '10px', fontWeight: 600 }}>
+            Defence Forces &mdash; Óglaigh na hÉireann
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '8px' }}>
+            <div style={{
+              padding: '12px 16px',
+              backgroundColor: 'var(--color-forest)',
+              borderRadius: '4px',
+            }}>
+              <div style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', fontWeight: 700, color: 'var(--color-cream)', letterSpacing: '0.5px' }}>Chief of Staff</div>
+              <div style={{ fontFamily: 'var(--font-serif)', fontSize: '12px', color: 'var(--color-sage)', marginTop: '2px' }}>DFHQ, Newbridge, Co. Kildare &middot; ~7,500 permanent personnel (establishment: 9,739)</div>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '8px' }}>
+              {[
+                { name: 'Army', detail: '~5,400 personnel. 1 & 2 Brigade, DFTS.' },
+                { name: 'Naval Service', detail: '~900 personnel. Based at Haulbowline, Co. Cork.' },
+                { name: 'Air Corps', detail: '~750 personnel. Casement Aerodrome, Baldonnel.' },
+                { name: 'IRL SOF', detail: 'Special Operations Force (formerly Army Ranger Wing). Restructuring underway.' },
+              ].map((svc, i) => (
+                <div key={i} style={{ padding: '10px 14px', backgroundColor: 'var(--color-parchment)', borderLeft: '3px solid var(--color-fern)', borderRadius: '2px' }}>
+                  <div style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', fontWeight: 700, color: 'var(--color-forest)', letterSpacing: '0.5px' }}>{svc.name}</div>
+                  <div style={{ fontFamily: 'var(--font-serif)', fontSize: '11px', color: 'var(--color-graphite)', lineHeight: 1.5, marginTop: '3px' }}>{svc.detail}</div>
+                </div>
+              ))}
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
+              <div style={{ padding: '10px 14px', backgroundColor: 'var(--color-parchment)', borderLeft: '3px solid var(--color-sage)', borderRadius: '2px' }}>
+                <div style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', fontWeight: 700, color: 'var(--color-sage)', letterSpacing: '0.5px' }}>Reserve Defence Force</div>
+                <div style={{ fontFamily: 'var(--font-serif)', fontSize: '11px', color: 'var(--color-graphite)', lineHeight: 1.5, marginTop: '3px' }}>Army Reserve (~1,470), Naval Service Reserve (~130), First Line Reserve (~200). Total ~1,800 against a 4,000 target.</div>
+              </div>
+              <div style={{ padding: '10px 14px', backgroundColor: 'var(--color-parchment)', borderLeft: '3px solid var(--color-sage)', borderRadius: '2px' }}>
+                <div style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', fontWeight: 700, color: 'var(--color-sage)', letterSpacing: '0.5px' }}>G2 &mdash; Military Intelligence</div>
+                <div style={{ fontFamily: 'var(--font-serif)', fontSize: '11px', color: 'var(--color-graphite)', lineHeight: 1.5, marginTop: '3px' }}>Signals intelligence, threat assessment, counter-intelligence. Reports to DCOS Operations.</div>
+              </div>
+            </div>
+          </div>
+          <div style={{ marginBottom: '24px' }} />
+
+          {/* ── Internal Security & Intelligence tier ── */}
+          <div style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', letterSpacing: '1.5px', textTransform: 'uppercase', color: 'var(--color-stone)', marginBottom: '10px', fontWeight: 600 }}>
+            Internal Security &amp; Intelligence
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '8px' }}>
+            <div style={{
+              padding: '12px 16px',
+              backgroundColor: 'var(--color-forest)',
+              borderRadius: '4px',
+            }}>
+              <div style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', fontWeight: 700, color: 'var(--color-cream)', letterSpacing: '0.5px' }}>Garda Commissioner</div>
+              <div style={{ fontFamily: 'var(--font-serif)', fontSize: '12px', color: 'var(--color-sage)', marginTop: '2px' }}>Head of An Garda Síochána &mdash; Ireland&rsquo;s national police service</div>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '8px' }}>
+              {[
+                { name: 'GNCSIS', detail: 'Crime & Security Intelligence Service. Counter-terrorism, counter-intel, organised crime intelligence.' },
+                { name: 'Special Detective Unit', detail: 'Political and state security investigations.' },
+                { name: 'Emergency Response Unit', detail: 'Armed tactical response and close protection.' },
+              ].map((unit, i) => (
+                <div key={i} style={{ padding: '10px 14px', backgroundColor: 'var(--color-parchment)', borderLeft: '3px solid var(--color-fern)', borderRadius: '2px' }}>
+                  <div style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', fontWeight: 700, color: 'var(--color-forest)', letterSpacing: '0.5px' }}>{unit.name}</div>
+                  <div style={{ fontFamily: 'var(--font-serif)', fontSize: '11px', color: 'var(--color-graphite)', lineHeight: 1.5, marginTop: '3px' }}>{unit.detail}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div style={{ marginBottom: '24px' }} />
+
+          {/* ── Cyber & Infrastructure tier ── */}
+          <div style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', letterSpacing: '1.5px', textTransform: 'uppercase', color: 'var(--color-stone)', marginBottom: '10px', fontWeight: 600 }}>
+            Cyber &amp; Critical Infrastructure
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '8px', marginBottom: '24px' }}>
+            {[
+              { name: 'NCSC', detail: 'National Cyber Security Centre. National incident response. Transferring to Dept of Justice.' },
+              { name: 'Office of Emergency Planning', detail: 'Within Dept of Defence. Cross-government emergency coordination.' },
+              { name: 'Revenue Customs Service', detail: 'Maritime interdiction, customs cutters, joint ops with Naval Service.' },
+            ].map((body, i) => (
+              <div key={i} style={{ padding: '10px 14px', backgroundColor: 'var(--color-parchment)', borderLeft: '3px solid var(--color-fern)', borderRadius: '2px' }}>
+                <div style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', fontWeight: 700, color: 'var(--color-forest)', letterSpacing: '0.5px' }}>{body.name}</div>
+                <div style={{ fontFamily: 'var(--font-serif)', fontSize: '11px', color: 'var(--color-graphite)', lineHeight: 1.5, marginTop: '3px' }}>{body.detail}</div>
+              </div>
+            ))}
+          </div>
+
+          {/* ── Known structural gaps callout ── */}
+          <div style={{
+            padding: '20px 24px',
+            backgroundColor: 'color-mix(in srgb, var(--color-terracotta) 6%, var(--color-cream))',
+            borderLeft: '3px solid var(--color-terracotta)',
+            borderRadius: '2px',
+          }}>
+            <div style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', letterSpacing: '1.5px', textTransform: 'uppercase', color: 'var(--color-terracotta)', marginBottom: '10px', fontWeight: 600 }}>
+              Known Structural Gaps
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '10px' }}>
+              {[
+                { gap: 'No National Security Strategy', detail: 'Originally due 2021. Still unpublished.' },
+                { gap: 'No standalone intelligence agency', detail: 'Intel, counter-terrorism & armed ops blended within Garda GNCSIS.' },
+                { gap: 'No primary surveillance radar', detail: 'Only western European state without it. Delivery expected 2028.' },
+                { gap: 'Personnel crisis across branches', detail: '~77% of establishment filled. Naval Service at just 58%.' },
+                { gap: 'Fragmented cyber governance', detail: 'NCSC changing departments; no single authority owns the full picture.' },
+                { gap: 'Subsea infrastructure unmonitored', detail: '~25 cables make landfall with no dedicated surveillance capability.' },
+              ].map((g, i) => (
+                <div key={i} style={{ display: 'flex', gap: '8px', alignItems: 'flex-start' }}>
+                  <div style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: 'var(--color-terracotta)', flexShrink: 0, marginTop: '5px' }} />
+                  <div>
+                    <span style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', fontWeight: 700, color: 'var(--color-terracotta)', letterSpacing: '0.3px' }}>{g.gap}</span>
+                    <span style={{ fontFamily: 'var(--font-serif)', fontSize: '12px', color: 'var(--color-graphite)' }}> &mdash; {g.detail}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <p style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', color: 'var(--color-stone)', marginTop: '16px' }}>
+            Structure reflects Commission on the Defence Forces implementation updates, NSAC restructuring, and Programme for Government 2025 commitments. Last updated March 2026.
           </p>
         </div>
 
