@@ -186,6 +186,14 @@ export default async function EUPresidency() {
               slug: 'hybrid-threats-cyber-defence-brief',
               accent: 'var(--color-fern)',
             },
+            {
+              num: '05',
+              title: 'Critical Infrastructure Resilience',
+              subtitle: 'From Compliance to Leadership',
+              body: 'Ireland published its Critical Entities Resilience Strategy weeks before assuming the Council Presidency. It now chairs the body where every other member state\u2019s implementation is reviewed. Three EU frameworks intersect during Ireland\u2019s term: the CER Directive, NIS 2, and the Critical Entities Resilience Group\u2019s work programme. The question is whether Ireland treats this as compliance or as a platform for EU-wide leadership on infrastructure protection.',
+              slug: 'critical-infrastructure-resilience-brief',
+              accent: 'var(--color-fern)',
+            },
           ].map((item) => (
             <Link key={item.num} href={`/publications/${item.slug}`} style={{ textDecoration: 'none' }}>
             <div style={{
@@ -236,7 +244,7 @@ export default async function EUPresidency() {
         {/* Interlocking strategy note */}
         <div style={{ padding: '24px', backgroundColor: 'rgba(61,107,79,0.06)', borderLeft: '3px solid var(--color-forest)', borderRadius: '2px' }}>
           <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-ink)', lineHeight: 1.65, margin: 0, maxWidth: '560px' }}>
-            The five briefs interlock as a single strategy. PESCO provides the institutional framework. ReArm Europe provides the funding. Maritime surveillance and cyber defence are the domains where Ireland contributes. The Primer maps how they connect. Remove any one and the others lose coherence.
+            The five briefs interlock as a single strategy. PESCO provides the institutional framework. ReArm Europe provides the funding. Maritime surveillance and cyber defence are the operational domains. Critical infrastructure resilience is the regulatory architecture that governs all four. The Primer maps how they connect. Remove any one and the others lose coherence.
           </p>
         </div>
       </section>
