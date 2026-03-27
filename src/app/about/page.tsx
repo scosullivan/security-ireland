@@ -59,10 +59,10 @@ export default function AboutPage() {
               maxWidth: '640px',
             }}
           >
-            Security Ireland is an independent think tank dedicated to research, analysis, and
-            public engagement on Irish security and defence policy. We bridge the gap between
-            technical security expertise and public discourse — producing rigorous, accessible
-            work that informs policymakers, media, and citizens.
+            Security Ireland is dedicated to research, analysis, and public engagement on Irish
+            security and defence policy. We bridge the gap between technical security expertise
+            and public discourse &mdash; producing rigorous, accessible work that informs
+            policymakers, citizens, and the media.
           </p>
           <p
             style={{
@@ -74,8 +74,7 @@ export default function AboutPage() {
             }}
           >
             At a time of unprecedented change in Ireland&apos;s strategic environment, we help
-            policymakers, journalists, and citizens understand the challenges and opportunities
-            ahead. Because security policy is too important for slogans.
+            stakeholders understand the challenges and opportunities ahead.
           </p>
         </section>
 
@@ -119,7 +118,7 @@ export default function AboutPage() {
             }}
           >
             Our focus spans military neutrality and non-alignment, EU defence integration
-            and PESCO, the post-Brexit UK-Ireland security relationship, maritime and
+            and PESCO, the post-Brexit UK&ndash;Ireland security relationship, maritime and
             cyber security, hybrid threats, and Ireland&apos;s 2026 EU Council Presidency.
           </p>
         </section>
@@ -140,8 +139,8 @@ export default function AboutPage() {
           </div>
           <div className="key-findings">
             <ul>
-              <li><strong>Independence.</strong> We operate without political or corporate affiliation. Our analysis follows the evidence.</li>
-              <li><strong>Rigour.</strong> We draw on primary sources, expert interviews, and peer review. We show our working.</li>
+              <li><strong>Independence.</strong> We operate without political or corporate affiliation.</li>
+              <li><strong>Rigour.</strong> We draw on primary sources, expert interviews, and peer review.</li>
               <li><strong>Clarity.</strong> Security policy affects everyone. We communicate complex issues in accessible language.</li>
               <li><strong>Engagement.</strong> We seek dialogue with policymakers, practitioners, media, and international peers.</li>
             </ul>
@@ -163,33 +162,36 @@ export default function AboutPage() {
             Team
           </div>
 
-          {/* Team member placeholders */}
-          {[
-            { name: '[Director Name]', role: 'Director', bio: 'Founding director of Security Ireland. Background in security policy research and public engagement.' },
-            { name: '[Research Lead]', role: 'Research Fellow', bio: 'Leads long-form research on EU defence integration and Ireland’s evolving security architecture.' },
-            { name: '[Policy Lead]', role: 'Policy Analyst', bio: 'Focuses on translating research findings into actionable policy recommendations.' },
-            { name: '[Communications]', role: 'Head of Communications', bio: 'Manages editorial output, media engagement, and the Security Ireland newsletter.' },
-          ].map((member, i) => (
-            <div key={i} className="author-block">
-              <div className="author-avatar" />
-              <div>
-                <div className="author-name">{member.name}</div>
-                <div className="author-role">{member.role}</div>
-                <p
-                  style={{
-                    fontFamily: 'var(--font-serif)',
-                    fontSize: '14px',
-                    color: 'var(--color-graphite)',
-                    lineHeight: 1.65,
-                    marginTop: '6px',
-                    maxWidth: '480px',
-                  }}
-                >
-                  {member.bio}
-                </p>
-              </div>
+          <div className="author-block">
+            <img
+              src="/images/sinead-osullivan.jpg"
+              alt="Sin&eacute;ad O&rsquo;Sullivan"
+              style={{
+                width: '80px',
+                height: '80px',
+                borderRadius: '50%',
+                objectFit: 'cover',
+                objectPosition: 'center top',
+                flexShrink: 0,
+              }}
+            />
+            <div>
+              <div className="author-name">Sin&eacute;ad O&rsquo;Sullivan</div>
+              <div className="author-role">Director</div>
+              <p
+                style={{
+                  fontFamily: 'var(--font-serif)',
+                  fontSize: '14px',
+                  color: 'var(--color-graphite)',
+                  lineHeight: 1.65,
+                  marginTop: '6px',
+                  maxWidth: '480px',
+                }}
+              >
+                Founding director of Security Ireland. Two decades of experience in global aerospace, defense, and security policy research.
+              </p>
             </div>
-          ))}
+          </div>
         </section>
 
         {/* Contact */}
@@ -230,10 +232,9 @@ export default function AboutPage() {
               flexWrap: 'wrap',
             }}
           >
-            <a href="mailto:hello@securityireland.ie" style={{ color: 'var(--color-terracotta)', textDecoration: 'none', borderBottom: '1px solid var(--color-terracotta)', paddingBottom: '1px' }}>
-              hello@securityireland.ie
+            <a href="mailto:info@securityireland.ie" style={{ color: 'var(--color-terracotta)', textDecoration: 'none', borderBottom: '1px solid var(--color-terracotta)', paddingBottom: '1px' }}>
+              info@securityireland.ie
             </a>
-            <span>Dublin, Ireland</span>
           </div>
         </section>
 
