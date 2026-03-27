@@ -261,16 +261,44 @@ export default function ForPolicymakers() {
         <div style={sectionLabel}>Section 2</div>
         <h2 style={sectionH2}>The Strategic Foundation</h2>
         <p style={{ ...sectionIntro, marginBottom: '8px' }}>
-          Ireland&apos;s security architecture: the diagnosis, the proposed strategy, and the context.
+          Ireland&apos;s security architecture: the proposed strategy, the analytical background, and the context.
         </p>
         <p style={sectionIntro}>
-          These are the papers with the longest shelf life. The diagnostic papers explain why Ireland&apos;s system is configured the way it is. The proposed frameworks provide what the government has not yet produced: a strategic architecture for Irish defence and security. Everything else on this page is implementation of what these papers establish.
+          These are the papers with the longest shelf life. The proposed frameworks provide what the government has not yet produced: a strategic architecture for Irish defence and security. The analytical background explains why the system is configured the way it is. Everything else on this page is implementation of what these papers establish.
         </p>
 
-        {/* ── Tier 1: The Diagnosis ── */}
-        <div style={tierLabel}>The Diagnosis</div>
+        {/* ── Tier 1: Proposed Frameworks ── */}
+        <div style={tierLabel}>The Proposed Frameworks</div>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.7, marginBottom: '20px', maxWidth: '620px' }}>
-          Four papers that explain the architecture of the problem before anyone tries to solve it.
+          What Ireland&apos;s defence and security architecture should look like. These are the documents the government needs but has not produced. Security Ireland provides them.
+        </p>
+
+        <PubCard
+          title="Proposed National Security Strategy Framework"
+          type="Strategic Framework"
+          desc="Ireland is one of the few EU states without a published National Security Strategy. This document provides one: the threat assessment, the capability requirements, the institutional architecture, the funding model, and the cooperation frameworks — connected as a single system. Every other paper on this page is a chapter of this document. This is the spine."
+          href="/publications/national-security-strategy"
+          pdfUrl="/pdfs/National_Security_Strategy_Framework.pdf"
+        />
+        <PubCard
+          title="Defence &amp; Security Industrial Policy"
+          type="Policy Framework"
+          desc="Ireland has &euro;2.5 billion in emerging defence procurement demand, a world-class technology sector, and no industrial policy connecting the two. This paper proposes the architecture: which domains Ireland should build in, through which instruments, with what institutional prerequisites, on what timeline."
+          href="/publications/defence-industrial-policy"
+          pdfUrl="/pdfs/Defence_Industrial_Policy.pdf"
+        />
+        <PubCard
+          title="Intelligence Architecture: A Proposal for Unification"
+          type="Policy Framework"
+          desc="Ireland&rsquo;s intelligence is split across three agencies (IMIS, GNCSIS, NCSC) with no unified structure &mdash; unique in Europe. This paper proposes the target architecture, the legislative pathway, and the phased transition. Intelligence reform is the prerequisite for everything else."
+          href="/publications/intelligence-architecture-reform"
+          pdfUrl="/pdfs/Intelligence_Architecture_Reform.pdf"
+        />
+
+        {/* ── Tier 2: Analytical Background ── */}
+        <div style={tierLabel}>The Analytical Background</div>
+        <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.7, marginBottom: '20px', maxWidth: '620px' }}>
+          The research and analysis underpinning the frameworks above. These papers explain the architecture of the problem &mdash; European and Irish &mdash; and why the system is configured the way it is.
         </p>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
@@ -303,34 +331,6 @@ export default function ForPolicymakers() {
             pdfUrl="/pdfs/Ireland_Defence_Spending.pdf"
           />
         </div>
-
-        {/* ── Tier 2: Proposed Frameworks ── */}
-        <div style={tierLabel}>The Proposed Frameworks</div>
-        <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.7, marginBottom: '20px', maxWidth: '620px' }}>
-          What Ireland&apos;s defence and security architecture should look like. These are the documents the government needs but has not produced. Security Ireland provides them.
-        </p>
-
-        <PubCard
-          title="Proposed National Security Strategy Framework"
-          type="Strategic Framework"
-          desc="Ireland is one of the few EU states without a published National Security Strategy. This document provides one: the threat assessment, the capability requirements, the institutional architecture, the funding model, and the cooperation frameworks — connected as a single system. Every other paper on this page is a chapter of this document. This is the spine."
-          href="/publications/national-security-strategy"
-          pdfUrl="/pdfs/National_Security_Strategy_Framework.pdf"
-        />
-        <PubCard
-          title="Defence &amp; Security Industrial Policy"
-          type="Policy Framework"
-          desc="Ireland has &euro;2.5 billion in emerging defence procurement demand, a world-class technology sector, and no industrial policy connecting the two. This paper proposes the architecture: which domains Ireland should build in, through which instruments, with what institutional prerequisites, on what timeline."
-          href="/publications/defence-industrial-policy"
-          pdfUrl="/pdfs/Defence_Industrial_Policy.pdf"
-        />
-        <PubCard
-          title="Intelligence Architecture: A Proposal for Unification"
-          type="Policy Framework"
-          desc="Ireland&rsquo;s intelligence is split across three agencies (IMIS, GNCSIS, NCSC) with no unified structure &mdash; unique in Europe. This paper proposes the target architecture, the legislative pathway, and the phased transition. Intelligence reform is the prerequisite for everything else."
-          href="/publications/intelligence-architecture-reform"
-          pdfUrl="/pdfs/Intelligence_Architecture_Reform.pdf"
-        />
 
         {/* ── Tier 3: The Context ── */}
         <div style={tierLabel}>The Context</div>
