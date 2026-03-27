@@ -238,9 +238,14 @@ export default function ForInvestors() {
             </p>
           </Callout>
 
-          <Link href="/publications/europes-defence-problem-isnt-spending" style={readMore}>
-            Read more: Europe&apos;s Defence Problem Isn&apos;t Spending &rarr;
-          </Link>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+            <Link href="/publications/europes-defence-problem-isnt-spending" style={readMore}>
+              Europe&apos;s Defence Problem Isn&apos;t Spending &rarr;
+            </Link>
+            <Link href="/publications/europe-defence-buildup" style={readMore}>
+              Europe&apos;s Defence Buildup Is Reproducing the Problem &rarr;
+            </Link>
+          </div>
         </Expandable>
 
         {/* ── 3. NATO Innovation Fund ── */}
