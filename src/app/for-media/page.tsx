@@ -38,7 +38,7 @@ export default async function ForMedia() {
           For Media
         </div>
         <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: '32px', fontWeight: 400, color: 'var(--color-ink)', marginBottom: '16px', maxWidth: '600px' }}>
-          Quotable research, formatted for deadline
+          Quotable research, formatted for deadlines
         </h1>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '560px', marginBottom: '40px' }}>
           Every publication includes key findings designed for citation. Data sheets are formatted for broadcast graphics. For press enquiries or commentary requests, contact <a href="mailto:info@securityireland.ie" style={{ color: 'var(--color-terracotta)' }}>info@securityireland.ie</a>.
