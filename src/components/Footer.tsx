@@ -30,49 +30,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Right side - social and contact links */}
-          <div
-            className="flex gap-6"
-            style={{
-              fontFamily: 'var(--font-mono)',
-              fontSize: '10px',
-              letterSpacing: '1px',
-              textTransform: 'uppercase',
-            }}
-          >
-            <Link
-              href="https://twitter.com/securityireland"
-              style={{ color: 'var(--color-stone)' }}
-              className="hover:opacity-75 transition-opacity"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Twitter
-            </Link>
-            <Link
-              href="https://linkedin.com/company/security-ireland"
-              style={{ color: 'var(--color-stone)' }}
-              className="hover:opacity-75 transition-opacity"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              LinkedIn
-            </Link>
-            <Link
-              href="/feed.xml"
-              style={{ color: 'var(--color-stone)' }}
-              className="hover:opacity-75 transition-opacity"
-            >
-              RSS
-            </Link>
-            <Link
-              href="mailto:hello@securityireland.ie"
-              style={{ color: 'var(--color-stone)' }}
-              className="hover:opacity-75 transition-opacity"
-            >
-              Contact
-            </Link>
-          </div>
         </div>
 
         {/* Copyright */}
