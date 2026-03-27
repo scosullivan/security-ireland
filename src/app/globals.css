@@ -191,7 +191,21 @@ body {
   line-height: 1.85;
   color: var(--color-graphite);
   margin-bottom: 1.25rem;
-  padding-left: 1.5rem;
+  padding-left: 1.75rem;
+  max-width: 640px;
+}
+.prose-si ul {
+  list-style-type: disc;
+}
+.prose-si ol {
+  list-style-type: decimal;
+}
+.prose-si li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.25rem;
+}
+.prose-si li::marker {
+  color: var(--color-terracotta);
 }
 .prose-si a {
   color: var(--color-terracotta);
