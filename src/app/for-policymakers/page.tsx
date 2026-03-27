@@ -421,11 +421,12 @@ export default function ForPolicymakers() {
             href="/publications/gfa-security-gap"
             pdfUrl="/pdfs/GFA_Security_Gap.pdf"
           />
-          <ForthcomingCard
+          <PubCard
             title="North/South Security Implementation Protocol"
-            type="Implementation Document · Forthcoming"
-            desc="Extracts the operational detail from Working Paper 2 into a standalone protocol for cross-border officials: energy infrastructure security, transport resilience, maritime environmental monitoring, and cyber resilience coordination."
-            coming="Coming Q3 2026"
+            type="Implementation Document · Paper 3 of 3"
+            desc="Extracts the operational detail from Working Paper 2 into a standalone protocol for cross-border officials: energy infrastructure security, transport resilience, maritime environmental monitoring, and cyber resilience coordination. Four bounded functions, each with agency-to-agency primacy and bilateral fallback."
+            href="/publications/north-south-implementation-protocol"
+            pdfUrl="/pdfs/North_South_Implementation_Protocol.pdf"
           />
         </div>
       </section>
