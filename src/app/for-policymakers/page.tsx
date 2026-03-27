@@ -386,12 +386,6 @@ export default function ForPolicymakers() {
             href="/publications/defence-industrial-architecture"
             pdfUrl="/pdfs/Irelands_Defence_Industrial_Architecture.pdf"
           />
-          <ForthcomingCard
-            title="Intelligence Architecture Reform"
-            type="Policy Framework · Forthcoming"
-            desc="Ireland&rsquo;s intelligence architecture &mdash; split between military (J2/IMIS), police (Garda CSB), and cyber (NCSC) &mdash; is unique in Europe. Every comparable state has unified intelligence. This paper examines what a unified national intelligence structure would look like. The companion &ldquo;Proposal for Unification&rdquo; in Section 2 provides the prescriptive framework."
-            coming="Coming 2027"
-          />
         </div>
       </section>
 
