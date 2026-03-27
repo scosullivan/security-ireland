@@ -270,7 +270,7 @@ export default function ForPolicymakers() {
         {/* ── Tier 1: The Diagnosis ── */}
         <div style={tierLabel}>The Diagnosis</div>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.7, marginBottom: '20px', maxWidth: '620px' }}>
-          Three papers that explain the architecture of the problem before anyone tries to solve it.
+          Four papers that explain the architecture of the problem before anyone tries to solve it.
         </p>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
@@ -280,6 +280,13 @@ export default function ForPolicymakers() {
             desc="€800 billion cannot convert to capability without coordination architecture. Twenty-seven procurement systems produce fragmented demand and US dependency. The argument Ireland needs as the lowest-spending state chairing defence budget discussions."
             href="/publications/defence-financing-explained"
             pdfUrl="/pdfs/Europes_Defence_Problem_Isnt_Spending.pdf"
+          />
+          <PubCard
+            title="Europe&rsquo;s Defence Buildup Is Reproducing the Problem It&rsquo;s Trying to Solve"
+            type="Explainer · Complete"
+            desc="Why spending without industrial architecture deepens dependency. The procurement flow problem and the fragmentation problem compound each other &mdash; and an architecture-first approach requires four structural investments that are not spending targets."
+            href="/publications/europe-defence-buildup"
+            pdfUrl="/pdfs/Europes_Defence_Buildup.pdf"
           />
           <PubCard
             title="Ireland&rsquo;s Defence Problem Isn&rsquo;t Neutrality"
