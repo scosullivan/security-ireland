@@ -159,7 +159,7 @@ export default function EuropeanDefence() {
         <div style={sectionLabel}>Section 1</div>
         <h2 style={sectionH2}>The Spending Surge &mdash; and Why It Isn&apos;t Enough</h2>
 
-        <Expandable num="01" title="The Numbers and the Problem" readTime="4 min read">
+        <Expandable num="01" title="The Numbers and the Problem" readTime="4 min read" defaultOpen>
           <Stats items={[
             { value: '€381bn', label: 'EU-27 defence spending 2025', color: 'var(--color-forest)' },
             { value: '+63%', label: 'Increase since 2020', color: 'var(--color-terracotta)' },
@@ -190,7 +190,8 @@ export default function EuropeanDefence() {
               type="Research Paper"
               status="Complete"
               desc="For every weapon type the United States fields, the EU operates more than five variants. Twenty-seven separate procurement systems produce fragmented demand, duplicated programmes, and subscale production runs. €800 billion cannot buy deterrence without coordination architecture."
-              slug="defence-financing-explained"
+              slug="europes-defence-problem-isnt-spending"
+              forthcoming
             />
           </div>
         </Expandable>
@@ -275,18 +276,18 @@ export default function EuropeanDefence() {
           </p>
 
           <PubCard
-            title="Ireland's Defence & Security Spending"
+            title="How Do You Pay for Rearmament?"
             type="Research Paper"
             status="Complete"
-            desc="Where the money comes from, where it goes, and why the constraint isn't budget. Ireland's defence funding flows through five distinct channels. €42 billion surplus means fiscal space is not the constraint — institutional bandwidth is."
-            slug="ireland-defence-spending"
+            desc="Europe's defence financing operates through five principal mechanisms, each with different scales, constraints, and expiry dates. The national escape clause — by far the largest — expires in 2028. The financing architecture, not the money itself, is the binding constraint."
+            forthcoming
           />
           <PubCard
-            title="European Defence Financing Explained"
-            type="Explainer"
+            title="How Defence Financing Actually Works"
+            type="Research Paper"
             status="Complete"
-            desc="How the €800 billion is raised, where it flows, and why procurement — not financing — is the true bottleneck. Traces the full chain from constitutional authorisation through bond issuance to procurement pipeline."
-            slug="defence-financing-explained"
+            desc="Traces the full chain from constitutional authorisation through bond issuance through capital markets absorption to procurement pipeline. Explains why the plumbing determines the pace of rearmament and why defence finance reshapes sovereign risk perception across European capital markets."
+            forthcoming
           />
 
           {/* Five financing mechanisms table */}
@@ -445,6 +446,13 @@ export default function EuropeanDefence() {
             status="Complete"
             desc="Ireland's institutional system is architecturally configured for the absence of military capability — not because of neutrality, but because of a century of self-reinforcing institutional design. Switzerland, Austria, and Finland demonstrate that non-alignment historically required more defence capability, not less."
             slug="defence-at-a-glance-q1-2026"
+          />
+          <PubCard
+            title="Ireland&rsquo;s Layered Security Cooperation Model"
+            type="Research Paper"
+            status="Complete"
+            desc="How bilateral, EU, and NATO-adjacent cooperation tracks compound rather than compete. Maps capability flows from Cork MoU operations through to PESCO frameworks, identifies friction points, and tests replicability for non-aligned EU member states."
+            slug="layered-security-cooperation"
           />
           <PubCard
             title="The UK–Ireland Security Interface"
