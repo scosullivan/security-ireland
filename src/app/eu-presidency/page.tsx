@@ -21,10 +21,10 @@ export default async function EUPresidency() {
           EU Presidency 2026
         </div>
         <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: '36px', fontWeight: 400, color: 'var(--color-ink)', marginBottom: '16px', maxWidth: '640px' }}>
-          The rules being written now will persist for a decade. Ireland chairs the room where they are decided.
+          The rules being written now will persist for a decade, and Ireland chairs the room where they are decided.
         </h1>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '580px', marginBottom: '20px' }}>
-          From July to December 2026, Ireland holds the rotating Presidency of the Council of the European Union. This is not ceremonial. Ireland will set agendas, chair working groups, and broker compromises on the EU&apos;s defence and security architecture — at the moment Europe is rewriting it.
+          From July to December 2026, Ireland holds the rotating Presidency of the Council of the European Union. This is not ceremonial; Ireland will set agendas, chair working groups, and broker compromises on the EU&apos;s defence and security architecture &mdash; at the moment Europe is rewriting it.
         </p>
       </section>
 
