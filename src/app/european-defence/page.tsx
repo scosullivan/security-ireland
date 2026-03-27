@@ -159,7 +159,7 @@ export default function EuropeanDefence() {
         <div style={sectionLabel}>Section 1</div>
         <h2 style={sectionH2}>The Spending Surge &mdash; and Why It Isn&apos;t Enough</h2>
 
-        <Expandable num="01" title="The Numbers and the Problem" readTime="4 min read" defaultOpen>
+        <Expandable num="01" title="The Numbers and the Problem" readTime="4 min read">
           <Stats items={[
             { value: '€381bn', label: 'EU-27 defence spending 2025', color: 'var(--color-forest)' },
             { value: '+63%', label: 'Increase since 2020', color: 'var(--color-terracotta)' },
@@ -190,8 +190,7 @@ export default function EuropeanDefence() {
               type="Research Paper"
               status="Complete"
               desc="For every weapon type the United States fields, the EU operates more than five variants. Twenty-seven separate procurement systems produce fragmented demand, duplicated programmes, and subscale production runs. €800 billion cannot buy deterrence without coordination architecture."
-              slug="europes-defence-problem-isnt-spending"
-              forthcoming
+              slug="defence-financing-explained"
             />
           </div>
         </Expandable>
@@ -276,18 +275,18 @@ export default function EuropeanDefence() {
           </p>
 
           <PubCard
-            title="How Do You Pay for Rearmament?"
+            title="Ireland's Defence & Security Spending"
             type="Research Paper"
             status="Complete"
-            desc="Europe's defence financing operates through five principal mechanisms, each with different scales, constraints, and expiry dates. The national escape clause — by far the largest — expires in 2028. The financing architecture, not the money itself, is the binding constraint."
-            forthcoming
+            desc="Where the money comes from, where it goes, and why the constraint isn't budget. Ireland's defence funding flows through five distinct channels. €42 billion surplus means fiscal space is not the constraint — institutional bandwidth is."
+            slug="ireland-defence-spending"
           />
           <PubCard
-            title="How Defence Financing Actually Works"
-            type="Research Paper"
+            title="European Defence Financing Explained"
+            type="Explainer"
             status="Complete"
-            desc="Traces the full chain from constitutional authorisation through bond issuance through capital markets absorption to procurement pipeline. Explains why the plumbing determines the pace of rearmament and why defence finance reshapes sovereign risk perception across European capital markets."
-            forthcoming
+            desc="How the €800 billion is raised, where it flows, and why procurement — not financing — is the true bottleneck. Traces the full chain from constitutional authorisation through bond issuance to procurement pipeline."
+            slug="defence-financing-explained"
           />
 
           {/* Five financing mechanisms table */}
