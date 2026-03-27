@@ -147,10 +147,10 @@ export default async function ForMedia() {
             Current staffing levels against the government&apos;s own establishment targets.
           </p>
           <HBarChart data={[
-            { label: 'Army', value: 72 },
-            { label: 'Naval Service', value: 58 },
-            { label: 'Air Corps', value: 81 },
-            { label: 'Reserve Forces', value: 34 },
+            { label: 'Army', value: 72, max: 100 },
+            { label: 'Naval Service', value: 58, max: 100 },
+            { label: 'Air Corps', value: 81, max: 100 },
+            { label: 'Reserve Forces', value: 34, max: 100 },
           ]} />
           <p style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', color: 'var(--color-stone)', marginTop: '16px' }}>
             % of establishment strength filled. Source: Defence Forces Annual Report, 2024
