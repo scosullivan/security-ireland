@@ -236,7 +236,7 @@ export default function ForPolicymakers() {
             <p style={{ margin: 0 }}>Start with the <strong>Proposed National Security Strategy Framework</strong> in Section 2 &mdash; it connects every other paper. Then read whichever operational section covers your active dossier. For the Presidency, the <Link href="#presidency" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>Primer in Section 5</Link> maps the full agenda.</p>
           } />
           <PathwayCard who="Oireachtas members" content={
-            <p style={{ margin: 0 }}>The two diagnostic papers in <Link href="#foundation" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>Section 2</Link> &mdash; Europe&apos;s Defence Problem and Ireland&apos;s Defence Problem &mdash; provide the analytical foundation for committee work. The 16-recommendation table in Section 5 tracks Presidency actions.</p>
+            <p style={{ margin: 0 }}>The analytical background papers in <Link href="#foundation" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>Section 2</Link> &mdash; on European and Irish defence &mdash; provide the analytical foundation for committee work. The 16-recommendation table in Section 5 tracks Presidency actions.</p>
           } />
           <PathwayCard who="Officials in Brussels" content={
             <p style={{ margin: 0 }}>Start with <Link href="#presidency" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>Section 5</Link> (EU Presidency). The Presidency Desk series maps directly to Council working group agendas. Brief 1: FAC/ITRE. Brief 2: PESCO. Brief 3: Maritime. Brief 4: Cyber/hybrid.</p>
@@ -245,7 +245,7 @@ export default function ForPolicymakers() {
             <p style={{ margin: 0 }}><Link href="#domestic" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>Section 3</Link> is your primary section &mdash; LOA transition, institutional infrastructure, defence industrial architecture. The spending analysis in Section 2 traces the funding architecture.</p>
           } />
           <PathwayCard who="Cross-border officials" content={
-            <p style={{ margin: 0 }}><Link href="#bilateral" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>Section 4</Link> (UK&ndash;Ireland Bilateral) contains Working Papers 1 and 2. Start with <em>The UK&ndash;Ireland Security Interface</em> for the analytical framework, then <em>The GFA and the Security Gap</em> for implementation.</p>
+            <p style={{ margin: 0 }}><Link href="#bilateral" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>Section 4</Link> (UK&ndash;Ireland Bilateral) contains three papers. Start with <em>The UK&ndash;Ireland Security Interface</em> for the analytical framework, then <em>The GFA and the Security Gap</em> for GFA architecture, then <em>North/South Implementation Protocol</em> for operational detail.</p>
           } />
           <PathwayCard who="European Defence Landscape" content={
             <p style={{ margin: 0 }}>If you need to understand the NATO and EU systems within which Ireland operates before engaging with the Ireland-specific work, start with the <Link href="/european-defence" style={{ color: 'var(--color-terracotta)', textDecoration: 'none' }}>European Defence Landscape page &rarr;</Link></p>
@@ -409,14 +409,14 @@ export default function ForPolicymakers() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
           <PubCard
             title="The UK&ndash;Ireland Security Interface"
-            type="Working Paper 1 · Complete"
+            type="Paper 1 of 3 · Complete"
             desc="The island is a single security domain across five dimensions: maritime, airspace, subsea, energy, and cyber. The free-riding equilibrium has collapsed. Bilateral cooperation strengthens &mdash; not undermines &mdash; Ireland&rsquo;s EU commitments. The Cork MoU validates the transition this paper diagnosed."
             href="/publications/uk-ireland-security-interface"
             pdfUrl="/pdfs/UK_Ireland_Security_Interface.pdf"
           />
           <PubCard
             title="The GFA and the Security Gap"
-            type="Working Paper 2 · Complete"
+            type="Paper 2 of 3 · Complete"
             desc="The 1998 security firewall was deliberate, not accidental. External threats (subsea sabotage, cyber attacks, energy disruption) are categorically different from the internal threats the firewall was designed to manage. Strand Two has a bounded forward-looking role in infrastructure-focused security coordination."
             href="/publications/gfa-security-gap"
             pdfUrl="/pdfs/GFA_Security_Gap.pdf"
