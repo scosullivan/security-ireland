@@ -372,7 +372,7 @@ export default function ForPolicymakers() {
           Security Ireland is available for private briefings to government departments, Oireachtas committees, and the permanent representation in Brussels. We do not charge for policy briefings.
         </p>
         <a
-          href="mailto:s@sinead.co"
+          href="mailto:info@securityireland.ie"
           style={{ fontFamily: 'var(--font-mono)', fontSize: '12px', letterSpacing: '1px', color: 'var(--color-terracotta)', textDecoration: 'none', borderBottom: '1px solid var(--color-terracotta)', paddingBottom: '2px' }}
         >
           s@sinead.co
