@@ -22,18 +22,12 @@ export default function PublicationCard({ post }: PublicationCardProps) {
       <h3>{post.title}</h3>
       {post.excerpt && <p>{post.excerpt}</p>}
       <div className="meta">
-        <span>{post.author || 'Security Ireland'}</span>
-        <span>·</span>
-        <span>{formatCardDate(post.date)}</span>
         {post.readTime && (
-          <>
-            <span>·</span>
-            <span>{post.readTime}</span>
-          </>
+          <span>{post.readTime}</span>
         )}
         {post.pdfUrl && (
           <>
-            <span>·</span>
+            {post.readTime && <span>·</span>}
             <span
               onClick={(e) => {
                 e.preventDefault();
