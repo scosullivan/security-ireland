@@ -54,6 +54,8 @@ Political sustainability: Defence spending is culturally illegitimate in a way t
 
 Ireland's industrial contribution is bounded and domain-specific. This paper identifies four domains where Ireland's existing economic base can contribute to European defence production without requiring the institutional infrastructure of a full-spectrum defence industry.
 
+![Ireland's defence industrial instruments and domain fit](/images/charts/dip_instruments.png)
+
 ### 1. Cybersecurity and AI
 
 Ireland's tech-sector concentration makes it a natural contributor to EU cyber defence capability. The NCSC, while under-resourced, provides the institutional anchor. Irish AI firms have expertise in threat detection, anomaly identification, and automated response. If EDIP's implementing rules recognise cyber and AI as eligible participation, Irish firms can join EU defence consortia. The PESCO Cyber Threats and Incident Response project provides the collaborative framework.
@@ -63,6 +65,8 @@ The domestic reform required: security clearances for firms handling classified 
 ### 2. Maritime Sensing and Surveillance
 
 Sea-Scan maritime AI, subsea monitoring sensors, and satellite imagery processing represent an emerging Irish capability in maritime domain awareness. The PESCO Maritime Surveillance Upgrade and Critical Seabed Infrastructure Protection projects connect directly. Ireland's geographic position — the Atlantic terminus of European subsea infrastructure — creates structural demand for these capabilities.
+
+![Domain-specific industrial domains and their domain fit](/images/charts/dip_domain_fit.png)
 
 The domestic reform required: classified information handling for maritime threat data.
 
@@ -79,6 +83,8 @@ Ireland's GDPR hub status gives it unique institutional expertise in data handli
 ## The Instruments
 
 Four EU and bilateral instruments can connect Ireland's industrial capability to European defence demand. Each requires specific Irish action during the Presidency.
+
+![Timeline for institutional prerequisites and industrial policy implementation](/images/charts/dip_timeline.png)
 
 ### EDIP
 

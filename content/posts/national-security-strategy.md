@@ -31,6 +31,8 @@ The five threat domains define a single security architecture specific to the is
 
 Ireland is not safe by accident, it is safe by dependency. Ireland's security has rested on three pillars: (1) invisible threats the public did not perceive, (2) no external pressure to contribute, and (3) a United Kingdom willing to provide a security umbrella without acknowledgement. All three pillars have degraded simultaneously.
 
+![Threat and capability gap across five security domains](/images/charts/nss_threat_capability_gap.png)
+
 ### Maritime
 
 Ireland's Exclusive Economic Zone covers 880,000 km² of the northeast Atlantic—one of Europe's largest—and Russian submarine activity has increased since 2014. The Naval Service operates nine vessels with no functioning armament and can deploy one large vessel at any time. It has no anti-submarine capability; the UK Royal Navy provides the de facto maritime umbrella with no treaty basis. Surveillance coverage on any given day is estimated at less than 15%.
@@ -79,6 +81,8 @@ Source: Author's analysis. Commission on Defence Forces (2022), Cork MoU, PESCO 
 
 Ireland ran a €42 billion surplus between 2022 and 2024. It could fund LOA 3 from a single year's surplus, meaning that the constraint is not money but institutional bandwidth: the distance between what the system can coordinate and what the security environment demands. Ireland's system has been architecturally configured for the absence of military capability since the Civil War and the disbandment of the National Army in 1923.
 
+![National Security Strategy institutional reforms required across five pillars](/images/charts/nss_institutional_reforms.png)
+
 ### 1. National Security Council
 
 Ireland's National Security Committee exists but lacks institutional weight. This strategy proposes a National Security Council chaired by the Taoiseach with statutory authority over threat assessment, capability planning, and interagency coordination. The NSC is the institutional home for this strategy—the body responsible for its implementation and review.
@@ -115,7 +119,10 @@ Ireland's defence funding flows through five channels. This strategy connects th
 
 ## Part V: The Cooperation Architecture
 
-Ireland's security cannot be delivered domestically alone. The strategy operates through three cooperation tracks that feed into each other:
+Ireland's security cannot be delivered domestically alone. The strategy operates through three cooperation tracks that feed into each other.
+
+![Three-track cooperation architecture: domestic-bilateral-EU integration](/images/charts/nss_three_tracks.png)
+![Defence funding channels flowing through the cooperation architecture](/images/charts/nss_funding_channels.png)
 
 **One:** Domestic capability is the foundation.
 
@@ -142,6 +149,8 @@ Institutionalise Ireland's contribution within EU governance and funding. PESCO 
 ## Part VI: Implementation
 
 Implementation pathway spans four phases from immediate (2026) through strategic horizon (2030–2035). Key milestones mapped against capability delivery.
+
+![Implementation phases from immediate actions through strategic horizon](/images/charts/nss_implementation_phases.png)
 
 ### Phase 1: Immediate (2026)
 

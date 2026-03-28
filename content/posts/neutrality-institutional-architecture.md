@@ -25,6 +25,8 @@ How can Irish non-alignment be reconceptualised as requiring defence capability 
 
 Ireland’s relationship between non-alignment and defence capability is an anomaly in European history. The anomaly is so deeply embedded that it has become invisible—naturalised into the institutional fabric of the state. To see it clearly, one must compare Ireland with every other European state that has maintained a non-aligned or neutral posture.
 
+![The neutrality inversion: Ireland’s unique position among non-aligned European states](/images/charts/nia_inversion.png)
+
 Switzerland has been constitutionally neutral since 1815. It maintains universal male conscription, a trained reserve of approximately 100,000 personnel, sophisticated air defence (F-35s on order to replace its current fleet), a domestic arms industry (RUAG, Thales Switzerland), and underground military infrastructure built into the Alpine landscape. Swiss neutrality was never understood as an alternative to defence. It was understood as requiring more of it—because a neutral state cannot call on allies when threatened. Swiss defence spending is approximately 0.7 per cent of GDP, and Switzerland is now participating in a PESCO project (Military Mobility), demonstrating that neutrality and EU defence cooperation are compatible.
 
 Finland maintained non-alignment from 1948 until joining NATO in 2023. During that period, it maintained universal conscription, a wartime strength of approximately 280,000, one of Europe’s largest artillery arsenals, F-18 fighters (now being replaced by F-35s), and a defence spending level that reached 2.4 per cent of GDP by 2023. Finnish non-alignment was explicitly understood as requiring robust defence capability—the ‘deterrence by denial’ model—because Finland could not rely on NATO’s Article 5 guarantee. Finland joined NATO not because its defence capability was insufficient but because the threat environment changed after Russia’s full-scale invasion of Ukraine.
@@ -40,6 +42,8 @@ The inversion is this: every other non-aligned European state understood neutral
 ## Why the inversion persists: five reinforcing layers
 
 The inversion is not a policy choice that a single government made and a subsequent government can unmake, it is the product of five institutional layers that reinforce each other, creating a self-sustaining equilibrium. The companion paper ‘The UK–Ireland Security Interface’ identifies these layers; this paper examines how each sustains the neutrality inversion.
+
+![Five institutional layers sustaining the neutrality inversion](/images/charts/nia_five_layers.png)
 
 **The political layer.** Defence is politically marginalised in Ireland, and no major party has made defence investment a central platform. Defence spending is electorally invisible—there is no constituency that rewards politicians for increasing it and a diffuse constituency that punishes them. The Department of Defence has less institutional weight than departments governing health, education, or social welfare. Ministers for Defence have historically held the portfolio as a secondary responsibility.
 
@@ -81,11 +85,15 @@ The answer is domain-specific, not full-spectrum. Ireland does not need—and sh
 
 **Intelligence.** A unified National Security and Intelligence Agency that fuses military, police, and cyber intelligence into a single analytical capability. The Intelligence Architecture Reform paper provides the target architecture and phased transition. Without unified intelligence, none of the other four domains can be monitored as a single system.
 
+![Capability gaps across Ireland's security domain](/images/charts/nia_capability_gaps.png)
+
 ## The cooperation model: how non-alignment builds capability
 
 Non-alignment does not mean isolation. Ireland is already building capability through three simultaneous cooperation tracks: EU frameworks (PESCO, CISE, EDF), bilateral UK–Ireland (Cork MoU, Subsea Framework), and NATO-adjacent (ITPP, North Sea Joint Declaration). The Layered Security Cooperation Model paper demonstrates that these tracks compound rather than compete—capability built through bilateral cooperation feeds directly into EU framework participation.
 
 The reconceptualisation strengthens rather than undermines this model. A state that understands non-alignment as requiring capability has a stronger case for PESCO participation (it is building, not freeloading), a stronger case for bilateral cooperation (it is contributing, not depending), and a stronger case for the EU Presidency narrative (‘we contribute to European security in the domains where our geography makes us critical’).
+
+![Non-alignment reconceptualised: the five-domain model](/images/charts/nia_reconceptualisation.png)
 
 The Swiss precedent is decisive. Switzerland—constitutionally neutral since 1815, not an EU member—is participating in a PESCO project. If a non-EU neutral can participate in EU defence cooperation, an EU non-aligned member building capability through layered cooperation is doing something entirely consistent with European norms. The reconceptualisation positions Ireland within this norm rather than as an exception to it.
 

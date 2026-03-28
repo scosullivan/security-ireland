@@ -35,6 +35,8 @@ PESCO’s second phase, running from 2025 to 2029, unfolds in a security environ
 
 Ireland’s selections are not accidental. Every full-member project addresses a domain where the shared island security envelope is most exposed — the same domains identified in the foundational analysis of this series. Ireland has not joined tank programmes, fighter-jet consortia, or artillery initiatives. It has joined maritime surveillance, subsea protection, mine countermeasures, cyber resilience, and logistics. Ireland also holds observer status on 17 additional projects.
 
+![PESCO project domains and their strategic relevance to Ireland](/images/charts/pesco_domains.png)
+
 This pattern reflects a state that understands its geographic contribution to European security. Ireland sits at the western edge of the European continental shelf, its EEZ encompasses critical shipping lanes and over 20 major subsea cable landings, and it hosts the European headquarters of most major American technology companies. The PESCO selections target precisely these domains.
 
 The Upgrade of Maritime Surveillance project connects directly to Ireland’s participation in the EU’s Common Information Sharing Environment (CISE), which the Defence Forces joined in April 2025. Data generated through bilateral UK cooperation — the Cork MoU’s maritime pillar — feeds into this EU framework. The Critical Seabed Infrastructure Protection project addresses the subsea domain where Ireland’s vulnerability is most acute: the Yantar incidents, the shadow fleet anchor-dragging, and the growing density of cable landings on Irish coasts make this project operationally urgent, not merely symbolic.
@@ -57,6 +59,8 @@ For Ireland, this means PESCO participation is necessary but not sufficient. It 
 
 Ireland assumes the EU Council Presidency in July 2026. The Presidency transforms PESCO from a participation framework into an active diplomatic instrument. Ireland will chair discussions on the EU’s defence budget, including the ReArm Europe plan targeting €800 billion by 2030, the SAFE loan facility mobilising up to €150 billion, and the European Defence Industrial Programme.
 
+![Ireland’s PESCO project participation across defence domains](/images/charts/pesco_ireland_projects.png)
+
 At 0.2% of GDP on defence — the lowest in the EU — Ireland cannot credibly lead these discussions through spending metrics alone. The coordination architecture argument is uniquely powerful here: the problem is not whether Europe spends enough but whether 27 procurement systems can convert spending into capability. This argument is strongest coming from the lowest-spending member state, because it shifts the debate from metrics Ireland cannot win to structural analysis where Ireland’s contribution is relevant.
 
 PESCO participation provides the concrete evidence. Ireland can point to domain-specific cooperation in maritime surveillance, subsea protection, and cyber resilience — areas where its geography makes it a critical node. The layered cooperation model demonstrates that Ireland is building security contribution through architecture, not spending alone.
@@ -70,6 +74,9 @@ The architecture lag pattern is consistent: governance frameworks (PESCO, Cork M
 The sonar arrives in 2027. The primary radar targets 2028. The National Maritime Security Centre is being established. Until these capabilities materialise, PESCO participation is a commitment to cooperate — which is valuable — but not yet a capability to contribute. The distinction matters.
 
 ## Recommendations
+
+![PESCO participation types and project categories](/images/charts/pesco_project_types.png)
+![PESCO participation across EU member states](/images/charts/pesco_participation.png)
 
 ### For the Presidency team
 

@@ -52,6 +52,8 @@ The question is not whether the UK and Ireland share a security domain, because 
 
 The physical geography of the island creates security interdependencies that exist regardless of neutrality claims. These interdependencies operate across five physically integrated domains.
 
+![Defence spending as percentage of GDP: UK, Ireland, and EU comparisons](/images/charts/uksi_spending_comparison.png)
+
 ### Maritime approaches
 
 Ireland's Exclusive Economic Zone covers approximately 880,000 square kilometres. Within that zone are critical subsea infrastructure, energy resources, and maritime approaches to both islands. The legal fiction that Irish airspace and waters are defensible as separate domains from UK airspace and waters does not reflect physical reality. An attack on one affects the entire system.
@@ -94,6 +96,8 @@ The asymmetry means the security interface is structurally one-sided: the UK pro
 
 A serious objection to structured UK–Ireland bilateral security cooperation is that it may compete with and distract from EU defence cooperation. This objection misunderstands how security cooperation operates at different institutional levels.
 
+![Threat evolution and incidents on the shared UK-Ireland security domain](/images/charts/uksi_threat_timeline.png)
+
 Ireland's participation in EU defence cooperation is more extensive than its spending figure suggests. Ireland participates in the Permanent Structured Cooperation (PESCO), the European Peace Facility, and multinational defence initiatives. Ireland's contribution to European defence is real, even if its national defence budget is minimal.
 
 Further, Ireland committed approximately €350 million to the European Peace Facility by early 2025. This is evidence that Ireland has accepted the political necessity of contributing to European collective defence.
@@ -103,6 +107,8 @@ The Cork MoU's focus areas—maritime cooperation, cyber defence, air domain inf
 The Switzerland precedent reinforces this. In 2025, the EU Council confirmed Switzerland's participation in European defence initiatives despite Swiss neutrality and the absence of formal EU membership. Switzerland operates within NATO coordination while remaining militarily non-aligned. The institutional model is proven.
 
 ![Ireland's layered security cooperation. Three tracks—EU frameworks, bilateral UK–Ireland, and NATO coordination—operate simultaneously.](/images/charts/uksi_cooperation_tracks.png)
+
+![Ireland's layered security cooperation: three tracks operating simultaneously](/images/charts/uksi_cooperation_tracks.png)
 
 ## The EU Presidency as forcing function
 
@@ -140,6 +146,8 @@ Northern Ireland's geographic position at the hinge of the shared domain—betwe
 
 The emerging security cooperation framework operates across three distinct institutional layers. Clarity about what each layer does is essential.
 
+![The three layers of UK-Ireland security architecture: governance, interface, and implementation](/images/charts/uksi_three_layers.png)
+
 ### Governance layer
 
 State-to-state and multilateral. This is where commitments are made, resources allocated, and political decisions institutionalized. The Cork MoU operates at this layer. So do EU defence initiatives. This is where authority resides.
@@ -157,6 +165,8 @@ This is where the current framework is weakest. The Cork MoU creates governance 
 ## Stabilisation mechanisms
 
 Regardless of which institutions carry them, the shared security domain requires four tiers of stabilisation mechanisms.
+
+![Four tiers of stabilisation mechanisms for the shared security domain](/images/charts/uksi_fallback.png)
 
 ### Tier 1: Friction monitoring and early warning
 
@@ -213,6 +223,8 @@ The Cork MoU addresses governance but not implementation. If the island's instit
 ## Conclusion
 
 The island of Ireland is a single security domain. For decades it was managed through an unstable but politically tolerable arrangement: the UK provided security while Ireland free-rode on neutrality claims.
+
+![Shared security domain with UK integration points and shared infrastructure](/images/charts/uksi_shared_domain.png)
 
 The Cork summit of 13 March 2026 is evidence that the transition to structured cooperation is underway. The governments have accepted that coherent institutional arrangements serve both states better than latent crisis.
 

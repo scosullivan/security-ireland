@@ -61,6 +61,8 @@ The protocol is designed around five principles drawn from the analytical archit
 
 The Single Electricity Market (SEM) is the all-island wholesale electricity market operated jointly by SONI (System Operator for Northern Ireland) and EirGrid (Republic of Ireland's transmission system operator). The SEM Committee—comprising the Commission for Regulation of Utilities (CRU) and the Utility Regulator (Northern Ireland)—governs cross-border grid management. This is the most mature cross-border coordination mechanism on the island and already handles real-time operational decisions affecting both jurisdictions.
 
+![Four operational functions for cross-border security coordination](/images/charts/nsip_four_functions.png)
+
 ### Security Extension
 
 Add a security annex to the SEM Committee's terms of reference. The annex would cover:
@@ -161,6 +163,8 @@ NCSC bilateral sharing operates under the Cork MoU regardless of Strand Two stat
 
 The four functions should be activated in sequence based on institutional readiness, not political ambition.
 
+![Implementation protocol sequencing and governance layers](/images/charts/nsip_operational_protocol.png)
+
 ### Immediate (Q3 2026): Energy Infrastructure Security
 
 The SEM Committee already meets regularly. Adding a security annex requires an administrative decision, not legislation. SONI and EirGrid already have the operational relationship. This is the highest-readiness, lowest-risk function—the natural proof of concept.
@@ -192,6 +196,8 @@ Each function is independently valuable. If the process stalls at any point, wha
 ## From Governance to Operations
 
 The Cork summit established that the UK and Ireland will cooperate on security. This protocol specifies how that cooperation reaches the island level in four domains where cross-border coordination is operationally necessary. It does not create new institutions; rather it extends existing ones into adjacent territory. It does not require legislation, only administrative decisions by the agencies that already do the work.
+
+![Sequencing of implementation functions from immediate activation to phase 4](/images/charts/nsip_sequencing.png)
 
 The September 2026 exercises are the first opportunity to test whether the protocol's design assumptions hold: whether the SEM Committee can host a security annex, whether environmental monitoring data can carry anomaly detection, whether cyber incident response can operate across classification boundaries. If the exercises produce a friction audit that identifies specific, solvable coordination gaps, the protocol is validated. If they produce nothing but photographs, the implementation gap persists.
 

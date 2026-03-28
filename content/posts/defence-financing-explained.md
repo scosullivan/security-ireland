@@ -25,7 +25,7 @@ How the €800 billion is raised, where it flows, why Ireland’s EU Presidency 
 
 ## Where the €800 billion comes from
 
-
+![European defence spending breakdown by source and channel](/images/charts/dfe_800bn_breakdown.png)
 
 The €800 billion headline figure is not a single pool of money. It is an aggregation of at least six distinct financing channels, each created by different institutions, funded through different mechanisms, and subject to different constraints.
 
@@ -39,7 +39,7 @@ Private capital mobilisation is the most speculative channel. The Commission has
 
 ## How sovereign borrowing works
 
-
+![EU defence financing channels and institutional structures](/images/charts/dfe_channel_architecture.png)
 
 The mechanics of sovereign borrowing for defence are identical to borrowing for any other government function. Each member state has a national debt management office responsible for issuing government bonds. Germany’s Finanzagentur issues Bunds, Bobls, and Schätze across maturities from six months to thirty years; France’s Agence France Trésor issues OATs; Italy’s Department of Treasury issues BTPs.
 
@@ -67,7 +67,7 @@ Critically, SAFE loans are debt on member states’ balance sheets, meaning that
 
 ## The impact on capital markets
 
-
+![EU defence spending comparison across member states](/images/charts/dfe_eu_spending_comparison.png)
 
 European defence rearmament is adding tens of billions of euros per year to an already enormous sovereign bond market in which EU-27 governments collectively issue roughly four trillion euros annually. Defence-related borrowing—perhaps €400–500 billion cumulatively through 2030—represents a meaningful, but not overwhelming, increment relative to total issuance.
 
@@ -93,7 +93,7 @@ Rearmament is not only a geopolitical event. It is a capital markets event.
 
 ## Germany: the full chain
 
-
+![Defence financing split between EU instruments and national sources](/images/charts/dfe_funding_split.png)
 
 Germany offers the clearest case study of how defence finance works end to end, as it has undertaken the most ambitious single-country reform through a constitutional amendment which permanently exempts defence spending above one per cent of GDP from the debt brake.
 

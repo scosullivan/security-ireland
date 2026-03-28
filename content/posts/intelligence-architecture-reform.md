@@ -36,6 +36,8 @@ Figure 1: Ireland's current intelligence architecture. Three agencies under thre
 
 Ireland's intelligence architecture is not merely under-resourced; it is structurally fragmented in a way that no other European state replicates. Three agencies, each under a different government department, perform intelligence functions with no unified analytical capability, no joint tasking authority, and no shared intelligence platform.
 
+![Ireland's current fragmented intelligence architecture compared to European peers](/images/charts/iar_current_architecture.png)
+
 ### Irish Military Intelligence Service (IMIS)
 
 The Irish Military Intelligence Service (IMIS), renamed from J2 in July 2025, is the intelligence branch of the Defence Forces. It operates domestic and foreign intelligence sections, providing intelligence to the Government concerning threats to the security of the state from internal and external sources. IMIS draws staff from the Army, Naval Service, and Air Corps. The Defence Forces Intelligence School was formalised in 2025, establishing a professional pathway for military intelligence careers. Regional intelligence hubs were established at military installations during 2025. IMIS reports to the Department of Defence. Its budget and personnel numbers are classified; the only publicly known funding is the €2 million Secret Service budget shared with the Garda.
@@ -76,6 +78,8 @@ The Commission on the Defence Forces made 130 recommendations in 2022. By early 
 
 The target is not a single monolithic intelligence agency on the MI5 or DGSI model. Ireland's scale, constitutional position, and institutional culture make that neither desirable nor achievable. The target is a coordinated architecture in which existing agencies retain operational independence but operate under unified strategic direction, joint tasking, and a shared analytical platform.
 
+![European intelligence structures: integrated, coordinated, and fragmented models](/images/charts/iar_european_comparison.png)
+
 ### National Security and Intelligence Agency (NSIA)
 
 A new statutory body with a legislative mandate to provide unified intelligence analysis, joint tasking, and a shared intelligence platform. The NSIA would not absorb IMIS, GNCSIS, or the NCSC; it would sit above them as the integrating layer—receiving raw and processed intelligence from all three agencies, producing fused threat assessments, and tasking collection priorities based on a unified threat picture. The Fianna Fáil election manifesto proposed exactly this structure. The model follows the Dutch approach (where AIVD and MIVD retain independence but share a joint SIGINT organisation, the NSO) and the Finnish approach (where Supo reports to the Ministry of the Interior but operates under PM Office coordination).
@@ -110,6 +114,8 @@ Figure 4: Phased transition from fragmentation to integration. Phase 1 (coordina
 
 ## The Phased Transition
 
+![Phased transition from fragmentation to integrated intelligence](/images/charts/iar_phased_transition.png)
+
 ### Phase 1: Coordination (2026–2027)
 
 This phase requires no legislation and can begin immediately. Elevate the National Security Committee to a Cabinet-level committee as committed in the Programme for Government. Appoint a National Security Coordinator—a senior official with cross-departmental authority to direct intelligence tasking. Establish a joint tasking protocol between IMIS, GNCSIS, and NCSC specifying who collects what, who analyses what, and how assessments are shared. Deploy a shared secure communications platform for inter-agency intelligence exchange. Commission the national security structures review promised in the Programme for Government and ensure it produces a public report with specific legislative recommendations.
@@ -121,6 +127,8 @@ Draft and enact the National Security and Intelligence Act establishing the NSIA
 ### Phase 3: Integration (2028–2031)
 
 The NSIA becomes operational. The unified analysis centre produces integrated threat assessments for the National Security Council. The shared intelligence platform connects IMIS, GNCSIS, and NCSC data streams. Ireland's bilateral intelligence sharing with the UK (through the Cork MoU) and multilateral sharing through PESCO and EU mechanisms flows through the unified platform. The primary radar programme (target 2028) feeds airspace data into the same system. For the first time, Ireland has a single intelligence picture covering maritime, airspace, subsea, energy, and cyber domains.
+
+![Target architecture: National Security and Intelligence Agency with unified analysis and joint tasking](/images/charts/iar_target_architecture.png)
 
 ## Risks and Constraints
 

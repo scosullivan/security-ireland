@@ -32,6 +32,8 @@ The diagnosis of Ireland's industrial economy follows the frameworks developed i
 
 This is not a counsel of despair but a fact and a diagnostic that prevents the government from confusing technical capacity with institutional readiness. If Ireland approaches defence industrialisation as a factory-siting decision, it will fail. If it approaches it as a coordination architecture problem — that it must build each institutional prerequisite in sequence — it can define a bounded role that is sustainable within Ireland's political and institutional constraints.
 
+![Ireland's defence industrial prerequisites and their sequencing](/images/charts/dia_prerequisites.png)
+
 ## The five institutional prerequisites
 
 ### 1. Procurement demand
@@ -58,7 +60,11 @@ This is the deepest gap. Defence production requires sustained government commit
 
 The bounded role is defined by two constraints: what Ireland's technical capacity can deliver, and what Ireland's political economy can sustain. Ireland will not manufacture fighter jets, tanks, ammunition, or strategic weapons platforms. It does not need to. Ireland can develop and supply maritime AI and surveillance technology, cybersecurity tools and platforms, subsea monitoring and sensing systems, and dual-use AI, drone technology, and data analytics. These capabilities align precisely with the three domains identified in the Presidency series: maritime surveillance, subsea infrastructure protection, and cyber resilience.
 
+![Ireland's bounded defence industrial role: dual-use and domain-specific sectors](/images/charts/dia_dualuse_sectors.png)
+
 The distinction is between an arms industry and a defence technology contribution. Ireland is not building an arms industry. It is building the institutional architecture to contribute technology to European defence in the domains where its technical capacity and geographic position are irreplaceable. The government's language should reflect this distinction: defence technology contribution, not defence manufacturing.
+
+![Ireland's bounded role within European defence industrial architecture](/images/charts/dia_bounded_role.png)
 
 ## The EU funding pathway
 

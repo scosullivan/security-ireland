@@ -18,6 +18,8 @@ keyFindings:
 
 Ireland's defence and security funding flows through five distinct channels. Understanding which channel funds what explains why the system is configured the way it is — and where the leverage points sit.
 
+![Ireland's defence spending compared to EU and NATO peers, 2025](/images/charts/ids_gdp_comparison.png)
+
 ### 1. The National Defence Budget
 
 This is the core. Ireland's defence vote covers personnel, operations, and capital. The capital programme — €1.7 billion over 2026–2030 — is the transformative element. Historically, the capital budget was negligible: equipment replacement, barracks maintenance, minor procurement. The Level of Ambition 2 commitment has changed this into a genuine capability-building programme.
@@ -101,6 +103,8 @@ EU frameworks (PESCO, CISE, EDIP/SAFE eligibility) provide institutional legitim
 NATO-adjacent frameworks (ITPP, North Sea Declaration) connect Ireland to alliance standards without membership.
 
 Ireland's Presidency narrative: 'We contribute to European security through structured cooperation in the domains where our geography makes us critical — maritime surveillance, subsea protection, cyber resilience — using bilateral, EU, and NATO-adjacent partnerships that generate real capability without compromising our constitutional position.'
+
+![Ireland's defence budget trend 2015–2026](/images/charts/ids_budget_trend.png)
 
 ## What's Missing
 

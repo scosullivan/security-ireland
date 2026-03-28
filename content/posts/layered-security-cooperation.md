@@ -23,9 +23,13 @@ keyFindings:
 
 Ireland's security cooperation operates across three simultaneous tracks. The EU track includes seven PESCO projects as full member (Maritime Surveillance Upgrade, Maritime Mine Countermeasures, Critical Seabed Infrastructure Protection, Cyber Threats and Incident Response, Network of Logistic Hubs, plus two further projects), CISE membership for maritime data sharing since April 2025, and approximately €350 million committed to the European Peace Facility. The bilateral track includes the Cork MoU signed March 2026 covering maritime, cyber, air domain, subsea, exercises, procurement, and training; the Subsea Infrastructure Framework for cable incident coordination; and joint exercises committed for September 2026. The NATO-adjacent track includes the Individually Tailored Partnership Programme joined in 2024, the North Sea Joint Declaration application of March 2026, and a working relationship with the UK Joint Expeditionary Force.
 
+![Three concentric security cooperation tracks: EU frameworks, bilateral UK-Ireland, NATO-adjacent](/images/charts/lsc_three_tracks.png)
+
 The analytical claim is not simply that these tracks coexist. It is that they compound. Capability built through bilateral cooperation with the UK feeds directly into Ireland's EU framework participation. This feeding mechanism is specific and traceable, not metaphorical. Understanding how it works — and where it breaks down — is essential to making the model sustainable.
 
 ## The Institutional Mechanics of Capability Transfer
+
+![Layered security cooperation model: how tracks compound and feed into each other](/images/charts/lsc_layered_model.png)
 
 ### Maritime Surveillance: From Bilateral Patrols to CISE Data
 
@@ -48,6 +52,8 @@ The classification friction is most acute in the cyber domain. UK-origin cyber t
 ## The Cork MoU: Anatomy and Gaps
 
 The Cork MoU covers seven domains: maritime, cyber defence, air domain information sharing, subsea infrastructure, joint exercises, joint procurement, and personnel/training exchanges. The design is deliberate: every domain maps to an existing PESCO project or EU framework. Maritime maps to PESCO Maritime Surveillance Upgrade and CISE. Cyber maps to PESCO Cyber Threats. Subsea maps to PESCO Critical Seabed Infrastructure Protection and the North Sea Joint Declaration. This alignment was not accidental — Ireland's PESCO project selections were made precisely because they address the shared UK–Ireland security domain.
+
+![Cork MoU domains mapped to EU frameworks and bilateral tracks](/images/charts/lsc_cork_mou_domains.png)
 
 But the MoU has three operational gaps that must be closed.
 
@@ -97,6 +103,8 @@ Can island-level agencies in both jurisdictions coordinate a response to a simul
 
 ## The Implementation Architecture
 
+![Ireland-Austria comparison: different responses to the same layered cooperation architecture](/images/charts/lsc_ireland_austria.png)
+
 ## Conditions for Replicability
 
 The layered cooperation model is replicable under five conditions.
@@ -120,6 +128,8 @@ Some form of engagement with NATO structures — through PfP, ITPP, or project-s
 ### Political Capacity for Constitutional Distinction
 
 The state's political system must be capable of distinguishing between non-alignment (a diplomatic posture governing alliance membership) and security cooperation (an operational necessity governing domain protection). If the political system conflates these — treating any cooperation as a step toward alliance membership — the model cannot operate. Ireland's McEntee formulation ('not neutral to threats') demonstrates this capacity. Austria's defensive PESCO posture suggests it may not.
+
+![Three layers of capability flows across Ireland's security cooperation tracks](/images/charts/lsc_capability_flows.png)
 
 ## The Real Risk
 

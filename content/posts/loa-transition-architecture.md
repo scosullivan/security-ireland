@@ -40,6 +40,8 @@ LOA stands for Level of Ambition — the framework the Commission on the Defence
 
 As of December 2025, fifty-four of the Commission’s 130 recommendations have been completed — roughly forty per cent in nearly four years. The implementation rate peaked in the first two years and has since decelerated. At the current trajectory, approximately 64 recommendations will be complete by 2028 — falling well short of the approximately 100 required for LOA 2 to be meaningfully achieved.
 
+![LOA implementation progress: capability gaps versus implementation timeline](/images/charts/loa_implementation_progress.png)
+
 The deceleration is not random. The early completions were the easier ones: policy documents, governance reforms, organisational changes that required decisions but not capability builds. The remaining recommendations increasingly involve first-generation capability acquisition — radar systems, naval armament, counter-drone technology, personnel reform — that the procurement system has never delivered. Each remaining recommendation is institutionally harder than the ones already completed.
 
 
@@ -74,6 +76,8 @@ The system must maintain existing operations while simultaneously building capab
 
 ## The Transformation Roadmap
 
+![LOA capability requirements and personnel comparisons across three levels](/images/charts/loa_capability_comparison.png)
+
 ### Phase 1: Triage (now–2028)
 
 Phase 1 is primarily a spending and procurement challenge. In short, the money exists, and the task is to convert it into delivered capability through a procurement system that has never done this. If Phase 1 succeeds, Ireland achieves LOA 2: it can monitor its own airspace and maritime domain. The free-rider accusation loses its sharpest edge.
@@ -85,6 +89,8 @@ Phase 1 is primarily a spending and procurement challenge. In short, the money e
 Phase 2 is an institutional transformation challenge. It cannot be solved with money alone. It requires new institutions, reformed processes, and sustained political commitment across at least one electoral cycle.
 
 **Activities:** Build the institutional architecture that Phase 1 lacked. Establish a unified intelligence agency. Develop a defence industrial participation policy. Build export control infrastructure. Reform procurement to handle first-generation capability builds. Bring personnel to establishment strength (9,739). Integrate radar data-sharing with the UK.
+
+![LOA personnel trends and requirements for each transition phase](/images/charts/loa_personnel_trend.png)
 
 ### Phase 3: Capability (2032+)
 

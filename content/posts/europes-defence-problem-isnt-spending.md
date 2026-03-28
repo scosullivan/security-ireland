@@ -24,6 +24,8 @@ It’s that €800 billion in defence expenditure cannot convert into capability
 
 The scale of European defence fragmentation is difficult to overstate. For every single weapon type produced in the United States — tanks, infantry fighting vehicles, frigates, artillery systems — the European Union fields more than five times as many variants. Over sixty percent of EU-produced weapons are used exclusively in one country, while each variant requires its own logistics chain, its own spare-parts inventory, its own training pipeline, and its own maintenance contracts.
 
+![European defence fragmentation tax: cost of operating 5+ variants for each US system](/images/charts/edps_fragmentation_tax.png)
+
 Consider combat aircraft: Europe currently produces three separate fighter programmes. The Eurofighter Typhoon is a German–Italian–Spanish–British consortium. The Rafale is wholly French. The Gripen is Swedish. Together, these three programmes have generated roughly 1,860 orders. The American F-35 programme, a single consolidated platform, has generated over 3,500 — nearly twice the combined European total. The cost implications of this fragmentation compound across every stage of the lifecycle: development, production, maintenance, upgrades, and eventual replacement.
 
 This is the predictable outcome of twenty-seven nations each running independent procurement processes designed to protect national industrial champions, distribute workshare to domestic constituencies, and maintain sovereign control over defence decisions. Each of these motivations is individually rational. Collectively, they produce a system that cannot achieve scale.
@@ -31,6 +33,8 @@ This is the predictable outcome of twenty-seven nations each running independent
 ## Where the Money Actually Goes
 
 When urgency forces European governments to procure at speed — as it did after February 2022 — the fragmented European system fails its most basic test. According to European Commission data, 78% of EU defence equipment acquisitions between February 2022 and June 2023 came from outside the EU, with 63% from the United States alone.
+
+![European defence procurement sources: where the €800 billion actually goes](/images/charts/edps_procurement_sources.png)
 
 This is not because European industry lacks capability; Europe’s defence sector generated €183 billion in turnover in 2024 and exported €60 billion in arms. The problem is that when individual governments need equipment quickly, the easiest option is to buy American off-the-shelf — systems that are already in production, already proven, and already integrated into NATO command structures.
 
@@ -60,6 +64,8 @@ This is why the ReArm Europe plan’s insistence that member states ‘spend bet
 
 The ReArm Europe plan is right that Europe needs to spend more on defence, and it is right that the spending should be coordinated, European-sourced, and focused on joint procurement. But the plan underestimates the institutional architecture required to make any of this happen. Four structural changes would make the difference.
 
+![Coordination instruments Europe has deployed to address fragmentation](/images/charts/edps_coordination_instruments.png)
+
 ### 1. Consolidated demand
 
 The single most effective thing Europe could do is aggregate national procurement into genuinely joint orders — not in the weak sense of two or three countries co-signing a contract, but in the strong sense of defining common requirements and placing a single order of sufficient scale to change the production economics. This is how the F-35 achieved its cost position: 3,500 aircraft across multiple allied nations on a single production line. Europe has the aggregate market to do this; what it lacks is the mechanism.
@@ -75,6 +81,8 @@ Every European collaborative programme is slower and more expensive than it need
 ### 4. Speed as a design criterion
 
 European procurement timelines are measured in decades. The FCAS programme was conceived in 2017 and is not expected to deliver an operational aircraft until the 2040s. In the same period, the United States will have produced thousands of F-35s, and China will have fielded at least two new combat aircraft types. If European procurement cannot be restructured for speed, the money will arrive too late to matter.
+
+![SAFE and spending priorities: structural requirements for capability investment](/images/charts/edps_safe_priorities.png)
 
 ## The Real Question
 

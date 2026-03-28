@@ -23,6 +23,8 @@ This paper provides the operational details of security clearances, industrial p
 
 Three prerequisites, three market layers unlocked. Security clearances (2026) unlock EU programme access. Industrial participation (2027+) unlocks domestic supply chain positions. Export controls (2028+) unlock international market access. The sequence matters: each reform enables the next.
 
+![Institutional infrastructure prerequisites and their sequencing](/images/charts/bii_three_systems.png)
+
 
 
 ## Prerequisite 1: Security clearances
@@ -99,7 +101,9 @@ Second, the EU’s EUDIS programme (EU Defence Innovation Scheme) includes provi
 
 ### What Ireland should build
 
-The system should have three clearance levels aligned with both EU Council Security Rules and NATO security policy:
+The system should have three clearance levels aligned with both EU Council Security Rules and NATO security policy.
+
+![Security clearance system readiness matrix and implementation phases](/images/charts/bii_readiness_matrix.png)
 
 1. Irish Confidential/EU Restreint/NATO Restricted
 2. Irish Secret/EU Secret/NATO Secret
