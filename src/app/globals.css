@@ -386,3 +386,29 @@ body {
 .dot-label-cork { animation-delay: 3.9s; }
 .dot-label-galway { animation-delay: 4.1s; }
 .dot-label-belfast { animation-delay: 4.3s; }
+
+/* Hero grid responsive layout */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+.ireland-svg-container {
+  min-height: 400px;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 48px 24px !important;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .ireland-svg-container {
+    min-height: 240px;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}
