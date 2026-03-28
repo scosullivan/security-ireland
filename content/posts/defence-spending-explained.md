@@ -9,6 +9,7 @@ featured: false
 tags: ["defence-spending", "defence-transformation"]
 audiences: ["policymakers", "public", "media"]
 topics: ["defence-spending", "defence-transformation"]
+pdfUrl: "/pdfs/Defence_Spending_Explained.pdf"
 ---
 
 Ireland’s Defence &

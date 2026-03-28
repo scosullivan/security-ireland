@@ -9,6 +9,7 @@ featured: false
 tags: ["defence-transformation", "institutional-reform"]
 audiences: ["policymakers", "public", "media"]
 topics: ["defence-transformation", "institutional-reform"]
+pdfUrl: "/pdfs/The_LOA_Transition_Architecture.pdf"
 ---
 
 The Levels Of Ambition (LOA)

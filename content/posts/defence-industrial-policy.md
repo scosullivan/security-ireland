@@ -9,6 +9,7 @@ featured: false
 tags: ["defence-industry", "defence-transformation"]
 audiences: ["policymakers", "public", "media"]
 topics: ["defence-industry", "defence-transformation"]
+pdfUrl: "/pdfs/Defence_Industrial_Policy.pdf"
 ---
 
 Defence & Security

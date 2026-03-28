@@ -9,6 +9,7 @@ featured: false
 tags: ["uk-ireland", "defence-cooperation", "european-defence"]
 audiences: ["policymakers", "public", "media"]
 topics: ["uk-ireland", "defence-cooperation", "european-defence"]
+pdfUrl: "/pdfs/Layered_Security_Cooperation.pdf"
 ---
 
 Ireland’s Layered Security

@@ -9,6 +9,7 @@ featured: false
 tags: ["neutrality", "defence-transformation", "european-defence"]
 audiences: ["policymakers", "public", "media"]
 topics: ["neutrality", "defence-transformation", "european-defence"]
+pdfUrl: "/pdfs/Neutrality_Institutional_Architecture.pdf"
 ---
 
 Neutrality as Institutional Architecture

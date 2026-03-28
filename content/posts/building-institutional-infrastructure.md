@@ -9,6 +9,7 @@ featured: false
 tags: ["defence-transformation", "institutional-reform"]
 audiences: ["policymakers", "public", "media"]
 topics: ["defence-transformation", "institutional-reform"]
+pdfUrl: "/pdfs/Building_the_Institutional_Infrastructure.pdf"
 ---
 
 Building the Institutional

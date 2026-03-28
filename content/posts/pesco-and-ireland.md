@@ -9,6 +9,7 @@ featured: false
 tags: ["pesco", "european-defence"]
 audiences: ["policymakers", "public", "media"]
 topics: ["pesco", "european-defence"]
+pdfUrl: "/pdfs/PESCO_and_Ireland.pdf"
 ---
 
 PESCO and Ireland

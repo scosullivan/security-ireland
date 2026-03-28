@@ -9,6 +9,7 @@ featured: false
 tags: ["national-security", "defence-transformation"]
 audiences: ["policymakers", "public", "media"]
 topics: ["national-security", "defence-transformation"]
+pdfUrl: "/pdfs/National_Security_Strategy.pdf"
 ---
 
 Proposed National

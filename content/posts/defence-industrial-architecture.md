@@ -9,6 +9,7 @@ featured: false
 tags: ["defence-industry", "defence-transformation"]
 audiences: ["policymakers", "public", "media"]
 topics: ["defence-industry", "defence-transformation"]
+pdfUrl: "/pdfs/Irelands_Defence_Industrial_Architecture.pdf"
 ---
 
 Ireland’s Defence
