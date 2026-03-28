@@ -183,7 +183,7 @@ export default function EuropeanDefence() {
               type="Research Paper"
               status="Complete"
               desc="The spending target is the starting point of the problem, not the solution. This paper explains why GDP-share commitments and capability requirements operate on different logics."
-              forthcoming
+              slug="nato-spending-targets"
             />
             <PubCard
               title="Europe's Defence Problem Isn't Spending"
