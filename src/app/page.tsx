@@ -54,6 +54,79 @@ export default async function Home() {
         </div>
       </section>
 
+      {/* Introduction — what this is and why it matters */}
+      <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px 48px' }}>
+        <hr className="rule-accent" />
+        <div style={{ padding: '36px 0 0' }}>
+          <div style={{
+            fontFamily: 'var(--font-mono)',
+            fontSize: '10px',
+            letterSpacing: '2px',
+            textTransform: 'uppercase',
+            color: 'var(--color-terracotta)',
+            marginBottom: '16px',
+          }}>
+            Why Security Ireland
+          </div>
+          <p style={{
+            fontFamily: 'var(--font-serif)',
+            fontSize: '16px',
+            color: 'var(--color-graphite)',
+            lineHeight: 1.85,
+            marginBottom: '20px',
+            maxWidth: '640px',
+          }}>
+            Ireland&apos;s security environment has changed more in the last five years than
+            in the previous fifty. European rearmament, undersea infrastructure threats, hybrid
+            attacks, and a shifting Atlantic alliance are rewriting the rules — and Ireland has
+            no dedicated institution analysing what this means for the country.
+          </p>
+          <p style={{
+            fontFamily: 'var(--font-serif)',
+            fontSize: '16px',
+            color: 'var(--color-graphite)',
+            lineHeight: 1.85,
+            marginBottom: '20px',
+            maxWidth: '640px',
+          }}>
+            Security Ireland fills that gap. We produce original research on defence architecture,
+            EU commitments, bilateral cooperation, and institutional reform — not to advocate for
+            any political position, but to give policymakers, journalists, and citizens the
+            evidence they need to engage seriously with these questions.
+          </p>
+          <p style={{
+            fontFamily: 'var(--font-serif)',
+            fontSize: '16px',
+            color: 'var(--color-graphite)',
+            lineHeight: 1.85,
+            marginBottom: '20px',
+            maxWidth: '640px',
+          }}>
+            Our work covers the full landscape: from how Ireland spends its defence budget,
+            to how PESCO and EU battle groups actually work, to the quiet bilateral agreements
+            shaping Ireland&apos;s real security posture. Every paper includes original analysis,
+            structured frameworks, and concrete policy options.
+          </p>
+          <p style={{
+            fontFamily: 'var(--font-serif)',
+            fontSize: '16px',
+            color: 'var(--color-graphite)',
+            lineHeight: 1.85,
+            marginBottom: '24px',
+            maxWidth: '640px',
+          }}>
+            Start with our featured research below, explore the{' '}
+            <Link href="/publications" style={{ color: 'var(--color-terracotta)', textDecoration: 'underline', textUnderlineOffset: '2px' }}>
+              full publication list
+            </Link>, or{' '}
+            <Link href="#newsletter" style={{ color: 'var(--color-terracotta)', textDecoration: 'underline', textUnderlineOffset: '2px' }}>
+              subscribe to the newsletter
+            </Link>{' '}
+            to follow new work as it&apos;s published.
+          </p>
+        </div>
+      </section>
+
       {/* Featured Section */}
       {featuredPost && (
         <section style={{ maxWidth: '860px', margin: '0 auto', padding: '0 24px' }}>
