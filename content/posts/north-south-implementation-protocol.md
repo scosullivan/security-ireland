@@ -10,76 +10,197 @@ tags: ["uk-ireland", "cross-border", "implementation"]
 audiences: ["policymakers", "public", "media"]
 topics: ["uk-ireland", "cross-border", "implementation"]
 pdfUrl: "/pdfs/North_South_Implementation_Protocol.pdf"
+keyFindings: [
+  "The Cork MoU establishes governance commitments but does not specify operational coordination mechanisms for island-level security functions",
+  "Four bounded, domain-specific functions can be implemented through existing Strand Two mechanisms without triggering sovereignty concerns",
+  "Each function includes direct agency-to-agency relationships as primary channel and bilateral fallbacks for political continuity",
+  "Energy infrastructure security is ready for immediate activation; others can be sequenced based on institutional readiness",
+  "The protocol is designed to degrade gracefully, ensuring security coordination continues regardless of Stormont's political status"
+]
 ---
-I M P L E M E N T A T I O N   D O C U M E N T
-North/South Security Implementation Protocol
+
+## Overview
+
 Extracts the operational detail from Working Paper 2 into a standalone protocol for cross-border officials: energy infrastructure security, transport resilience, maritime environmental monitoring, and cyber resilience coordination. Four bounded functions. Four agency pairs. One fallback architecture.
-Security Ireland	Paper 3 of 3
-I N   B R I E F
-| The Cork summit of March 2026 established the governance layer for UK–Ireland security cooperation. But governance commitments do not implement themselves: subsea cables land on coasts in both jurisdictions; the energy grid is coupled across the border through SONI and EirGrid. Maritime domain awareness in the Irish Sea involves assets from Cork, Belfast, and Plymouth; cyber resilience for shared infrastructure has cross-border operational dimensions. 
 
-The Cork MoU does not specify who coordinates any of this at the island level. The companion working paper—The GFA and the Security Gap—identified four bounded, domain-specific functions that existing Strand Two mechanisms could carry without triggering the sovereignty sensitivities the 1998 firewall was designed to manage. 
+## In Brief
 
-This document extracts those four functions into a standalone implementation protocol: the specific agencies, the coordination mechanisms, the standing routines, the incident response procedures, and the fallback architecture that ensures security is never hostage to Stormont’s political health. This is an operational document, not an analytical one. It is designed to be usable by cross-border officials working on coordination—not by policymakers debating whether coordination should happen. |
-Figure 1: Four implementation functions. Each extends existing Strand Two cooperation into security-adjacent territory. None requires a new institutional mandate. Political visibility is lowest for functions that build on existing agency-to-agency relationships.
-The implementation gap
-The Cork MoU commits to ‘closer liaison between defence and naval organisations’ and ‘coordinated response mechanisms for subsea communication cable incidents.’ These are governance commitments at the London–Dublin level, but the operational consequences play out on the island.
+The Cork summit of March 2026 established the governance layer for UK–Ireland security cooperation. But governance commitments do not implement themselves: subsea cables land on coasts in both jurisdictions; the energy grid is coupled across the border through SONI and EirGrid. Maritime domain awareness in the Irish Sea involves assets from Cork, Belfast, and Plymouth; cyber resilience for shared infrastructure has cross-border operational dimensions.
+
+The Cork MoU does not specify who coordinates any of this at the island level. The companion working paper—The GFA and the Security Gap—identified four bounded, domain-specific functions that existing Strand Two mechanisms could carry without triggering the sovereignty sensitivities the 1998 firewall was designed to manage.
+
+This document extracts those four functions into a standalone implementation protocol: the specific agencies, the coordination mechanisms, the standing routines, the incident response procedures, and the fallback architecture that ensures security is never hostage to Stormont's political health. This is an operational document, not an analytical one. It is designed to be usable by cross-border officials working on coordination—not by policymakers debating whether coordination should happen.
+
+## The Implementation Gap
+
+The Cork MoU commits to 'closer liaison between defence and naval organisations' and 'coordinated response mechanisms for subsea communication cable incidents.' These are governance commitments at the London–Dublin level, but the operational consequences play out on the island.
+
 Subsea cables land at Killala Bay, Ballinskelligs, and Loughshinny in Ireland, and through the Irish Sea to Northern Ireland and Great Britain. The energy grid is coupled across the border through SONI and EirGrid. Maritime domain awareness in the Irish Sea involves assets operating from Cork, Belfast, and Plymouth. Cyber threats to shared infrastructure—the cross-border energy grid, shared data connectivity, co-located technology operations—require coordinated response across jurisdictions.
+
 The MoU does not specify who coordinates between SONI and EirGrid on energy infrastructure threats; nor does it specify how subsea cable monitoring data is shared between agencies operating on different sides of the border. It does not specify how maritime domain awareness in the Irish Sea is operationally integrated.
+
 This is the implementation gap, and it exists because the governance framework used bilateral state-to-state instruments—correct for the governance layer but insufficient for the island-level operational coordination the shared domain requires. This protocol fills the gap.
-Design principles
+
+## Design Principles
+
 The protocol is designed around five principles drawn from the analytical architecture in Working Paper 2.
-Domain-specific, not general. Each function is an incremental extension of existing cross-border cooperation into security-adjacent territory. No function requires a general mandate for ‘security cooperation through Strand Two.’ The language matters: ‘energy infrastructure resilience coordination’ operates in a different political register than ‘cross-border defence cooperation.’
-Infrastructure-focused, not military. The four functions are civilian in character: SONI–EirGrid coordination is not military cooperation; port resilience assessment is not naval integration. The functions may overlap with defence domains in practice, but the framing is infrastructure management, not defence.
-Agency-to-agency primary, Strand Two preferred. The operational backbone is the direct relationship between counterpart agencies. Strand Two mechanisms add governance, review cycles, and escalation when operational—but the system functions without them.
-Fallback by design. Every function has a bilateral backstop that operates regardless of Stormont’s political status. Security coordination must never be hostage to politics.
-Selectively relaxed, not removed. The 1998 firewall between Strand Two and security is lowered in four bounded domains. Core defence functions—maritime patrol, airspace interception, intelligence, procurement—remain at the bilateral governance layer where they belong.
-Function 1: Energy infrastructure security
-Existing base. The Single Electricity Market (SEM) is the all-island wholesale electricity market operated jointly by SONI (System Operator for Northern Ireland) and EirGrid (Republic of Ireland’s transmission system operator). The SEM Committee—comprising the Commission for Regulation of Utilities (CRU) and the Utility Regulator (Northern Ireland)—governs cross-border grid management. This is the most mature cross-border coordination mechanism on the island and already handles real-time operational decisions affecting both jurisdictions.
-Security extension. Add a security annex to the SEM Committee’s terms of reference. The annex would cover: threat monitoring for energy infrastructure (interconnectors, substations, generation assets), vulnerability assessment of cross-border energy systems, coordinated incident response procedures for hybrid threats to the energy grid, and regular security briefings for SEM Committee members drawing on NCSC and intelligence agency assessments.
-Standing routine. Quarterly security review within the SEM Committee cycle. Named security liaison officers at SONI and EirGrid. Annual tabletop exercise simulating a hybrid threat to cross-border energy infrastructure—grid disruption combined with a cyber attack on control systems.
-Incident procedure. When an energy infrastructure security incident is detected: SONI or EirGrid alerts its counterpart within thirty minutes. The SEM Committee security annex activates. Both system operators implement pre-agreed mitigation protocols. The bilateral backstop (Cork MoU) provides escalation to national-level coordination if the incident exceeds island-level response capacity.
-Fallback. If Strand Two is non-functional, SONI–EirGrid agency-to-agency coordination continues under existing grid management obligations, as the SEM itself does not depend on Stormont.
-Function 2: Transport and infrastructure resilience
-Existing base. Cross-border transport cooperation is established through multiple mechanisms: the A5 road programme, cross-border rail services (Enterprise), port coordination, and aviation connectivity. InterTradeIreland and the North/South Ministerial Council have standing transport cooperation arrangements. These are low-visibility, technically grounded, and politically uncontroversial.
-Security extension. Add infrastructure vulnerability assessment to existing transport cooperation. This covers: port security assessment for Belfast, Dublin, Cork, Larne, Rosslare, and Warrenpoint, shared resilience planning for cross-border road and rail infrastructure, coordinated response protocols for disruption to transport nodes serving both jurisdictions, and assessment of logistics vulnerabilities that would affect cross-border supply chains during a crisis.
-Standing routine. Annual cross-border infrastructure resilience review. Shared vulnerability assessments updated biannually. Named resilience liaison officers at each major port authority.
-Incident procedure. When a transport infrastructure disruption is detected: the affected port authority or transport operator alerts its cross-border counterpart. Existing cooperation mechanisms activate to coordinate re-routing, capacity sharing, and mutual assistance. The bilateral backstop provides escalation to national-level coordination.
-Fallback. Port authorities and transport operators maintain direct agency-to-agency relationships regardless of Strand Two status. Cross-border rail and road cooperation has operational momentum independent of political institutions.
-Function 3: Maritime environmental monitoring
-Existing base. Environmental monitoring of shared waterways and marine environments operates through the Marine Institute (Ireland) and the Agri-Food and Biosciences Institute (AFBI, Northern Ireland), alongside Inland Fisheries Ireland, the Loughs Agency (a North/South body), and coastguard services. These agencies already use sensor networks, buoy systems, and data-sharing protocols for water quality, marine biodiversity, and fisheries management.
-Security extension. Extend existing environmental monitoring to include anomaly detection: unusual vessel activity, unexplained seabed disturbance, unidentified acoustic signatures, and electromagnetic anomalies near subsea cable routes. This is a dual-use extension—the same sensors and data flows that monitor environmental conditions can detect security-relevant anomalies. The framing is environmental monitoring with an added anomaly-detection layer, not naval surveillance.
-Standing routine. Monthly data-sharing cycle between the Marine Institute and AFBI including an anomaly report. Quarterly review within the Loughs Agency’s existing cooperation framework. Integration of anomaly data into the National Maritime Coordination Centre’s operational picture and, through CISE, into the EU’s maritime surveillance system.
-Incident procedure. When an anomaly is detected: the detecting agency classifies the anomaly (environmental, navigational, or security-relevant). Environmental and navigational anomalies are handled through existing protocols. Security-relevant anomalies—unusual vessel behaviour near cable routes, unexplained seabed disturbance—are reported to the National Maritime Coordination Centre and the UK Coastguard simultaneously. The bilateral Subsea Infrastructure Framework activates if the anomaly involves cable infrastructure.
-Fallback. Marine Institute–AFBI data sharing operates under research cooperation frameworks that are independent of Strand Two. CISE data flows are governed by EU regulation. The anomaly-detection extension inherits the resilience of the existing environmental monitoring architecture.
-Figure 2: The operational protocol. For each function: the lead agencies, the Strand Two coordination mechanism, and the bilateral fallback. The protocol is designed so that every function operates through direct agency relationships first.
-Function 4: Cyber resilience for shared infrastructure
-Existing base. The Cork MoU establishes NCSC-to-NCSC threat intelligence sharing between Ireland’s National Cyber Security Centre and the UK’s equivalent. Threat indicators, malware signatures, and incident response lessons flow bilaterally. Ireland’s NCSC also participates in the PESCO Cyber Threats and Incident Response project, which operates a shared threat intelligence platform among participating EU member states.
-Security extension. Add a Northern Ireland coordination node for the cyber resilience of cross-border shared infrastructure. The energy grid (SONI/EirGrid), shared data connectivity, and co-located technology operations all have cross-border cyber dimensions that require coordinated response. The NI node would: receive downgraded or sanitised threat intelligence relevant to cross-border infrastructure, coordinate incident response for cyber attacks affecting systems in both jurisdictions, and participate in bilateral tabletop exercises testing cross-border cyber incident response.
-Standing routine. Monthly threat briefing cycle between NCSC (Ireland), NCSC (UK), and the NI coordination node. Quarterly tabletop exercise simulating a cyber attack on cross-border infrastructure—targeting the energy grid control systems, for instance, or the shared banking infrastructure.
-Incident procedure. When a cyber incident affects cross-border infrastructure: the detecting NCSC alerts its bilateral counterpart within one hour. If the incident affects NI-based infrastructure, the NI node is activated. Pre-agreed triage protocols determine whether the incident is handled bilaterally or escalated to PESCO partners. The classification friction—UK-origin intelligence that cannot be shared into EU systems without sanitisation—is managed through the dual-track reporting mechanism identified in the Layered Security Cooperation Model paper.
-Fallback. NCSC bilateral sharing operates under the Cork MoU regardless of Strand Two status. The PESCO cyber project provides a parallel EU channel. The NI coordination node adds value when Strand Two is operational but the bilateral backbone functions without it.
-Figure 3: Graceful degradation. Agency-to-agency protocols (primary) operate continuously. Strand Two (preferred) adds governance when operational. Bilateral MoUs (backstop) function regardless. The system degrades gracefully—security is never hostage to politics.
-Activation and sequencing
+
+**Domain-specific, not general.** Each function is an incremental extension of existing cross-border cooperation into security-adjacent territory. No function requires a general mandate for 'security cooperation through Strand Two.' The language matters: 'energy infrastructure resilience coordination' operates in a different political register than 'cross-border defence cooperation.'
+
+**Infrastructure-focused, not military.** The four functions are civilian in character: SONI–EirGrid coordination is not military cooperation; port resilience assessment is not naval integration. The functions may overlap with defence domains in practice, but the framing is infrastructure management, not defence.
+
+**Agency-to-agency primary, Strand Two preferred.** The operational backbone is the direct relationship between counterpart agencies. Strand Two mechanisms add governance, review cycles, and escalation when operational—but the system functions without them.
+
+**Fallback by design.** Every function has a bilateral backstop that operates regardless of Stormont's political status. Security coordination must never be hostage to politics.
+
+**Selectively relaxed, not removed.** The 1998 firewall between Strand Two and security is lowered in four bounded domains. Core defence functions—maritime patrol, airspace interception, intelligence, procurement—remain at the bilateral governance layer where they belong.
+
+## Function 1: Energy Infrastructure Security
+
+### Existing Base
+
+The Single Electricity Market (SEM) is the all-island wholesale electricity market operated jointly by SONI (System Operator for Northern Ireland) and EirGrid (Republic of Ireland's transmission system operator). The SEM Committee—comprising the Commission for Regulation of Utilities (CRU) and the Utility Regulator (Northern Ireland)—governs cross-border grid management. This is the most mature cross-border coordination mechanism on the island and already handles real-time operational decisions affecting both jurisdictions.
+
+### Security Extension
+
+Add a security annex to the SEM Committee's terms of reference. The annex would cover:
+
+- Threat monitoring for energy infrastructure (interconnectors, substations, generation assets)
+- Vulnerability assessment of cross-border energy systems
+- Coordinated incident response procedures for hybrid threats to the energy grid
+- Regular security briefings for SEM Committee members drawing on NCSC and intelligence agency assessments
+
+### Standing Routine
+
+Quarterly security review within the SEM Committee cycle. Named security liaison officers at SONI and EirGrid. Annual tabletop exercise simulating a hybrid threat to cross-border energy infrastructure—grid disruption combined with a cyber attack on control systems.
+
+### Incident Procedure
+
+When an energy infrastructure security incident is detected: SONI or EirGrid alerts its counterpart within thirty minutes. The SEM Committee security annex activates. Both system operators implement pre-agreed mitigation protocols. The bilateral backstop (Cork MoU) provides escalation to national-level coordination if the incident exceeds island-level response capacity.
+
+### Fallback
+
+If Strand Two is non-functional, SONI–EirGrid agency-to-agency coordination continues under existing grid management obligations, as the SEM itself does not depend on Stormont.
+
+## Function 2: Transport and Infrastructure Resilience
+
+### Existing Base
+
+Cross-border transport cooperation is established through multiple mechanisms: the A5 road programme, cross-border rail services (Enterprise), port coordination, and aviation connectivity. InterTradeIreland and the North/South Ministerial Council have standing transport cooperation arrangements. These are low-visibility, technically grounded, and politically uncontroversial.
+
+### Security Extension
+
+Add infrastructure vulnerability assessment to existing transport cooperation. This covers:
+
+- Port security assessment for Belfast, Dublin, Cork, Larne, Rosslare, and Warrenpoint
+- Shared resilience planning for cross-border road and rail infrastructure
+- Coordinated response protocols for disruption to transport nodes serving both jurisdictions
+- Assessment of logistics vulnerabilities that would affect cross-border supply chains during a crisis
+
+### Standing Routine
+
+Annual cross-border infrastructure resilience review. Shared vulnerability assessments updated biannually. Named resilience liaison officers at each major port authority.
+
+### Incident Procedure
+
+When a transport infrastructure disruption is detected: the affected port authority or transport operator alerts its cross-border counterpart. Existing cooperation mechanisms activate to coordinate re-routing, capacity sharing, and mutual assistance. The bilateral backstop provides escalation to national-level coordination.
+
+### Fallback
+
+Port authorities and transport operators maintain direct agency-to-agency relationships regardless of Strand Two status. Cross-border rail and road cooperation has operational momentum independent of political institutions.
+
+## Function 3: Maritime Environmental Monitoring
+
+### Existing Base
+
+Environmental monitoring of shared waterways and marine environments operates through the Marine Institute (Ireland) and the Agri-Food and Biosciences Institute (AFBI, Northern Ireland), alongside Inland Fisheries Ireland, the Loughs Agency (a North/South body), and coastguard services. These agencies already use sensor networks, buoy systems, and data-sharing protocols for water quality, marine biodiversity, and fisheries management.
+
+### Security Extension
+
+Extend existing environmental monitoring to include anomaly detection: unusual vessel activity, unexplained seabed disturbance, unidentified acoustic signatures, and electromagnetic anomalies near subsea cable routes. This is a dual-use extension—the same sensors and data flows that monitor environmental conditions can detect security-relevant anomalies. The framing is environmental monitoring with an added anomaly-detection layer, not naval surveillance.
+
+### Standing Routine
+
+Monthly data-sharing cycle between the Marine Institute and AFBI including an anomaly report. Quarterly review within the Loughs Agency's existing cooperation framework. Integration of anomaly data into the National Maritime Coordination Centre's operational picture and, through CISE, into the EU's maritime surveillance system.
+
+### Incident Procedure
+
+When an anomaly is detected: the detecting agency classifies the anomaly (environmental, navigational, or security-relevant). Environmental and navigational anomalies are handled through existing protocols. Security-relevant anomalies—unusual vessel behaviour near cable routes, unexplained seabed disturbance—are reported to the National Maritime Coordination Centre and the UK Coastguard simultaneously. The bilateral Subsea Infrastructure Framework activates if the anomaly involves cable infrastructure.
+
+### Fallback
+
+Marine Institute–AFBI data sharing operates under research cooperation frameworks that are independent of Strand Two. CISE data flows are governed by EU regulation. The anomaly-detection extension inherits the resilience of the existing environmental monitoring architecture.
+
+## Function 4: Cyber Resilience for Shared Infrastructure
+
+### Existing Base
+
+The Cork MoU establishes NCSC-to-NCSC threat intelligence sharing between Ireland's National Cyber Security Centre and the UK's equivalent. Threat indicators, malware signatures, and incident response lessons flow bilaterally. Ireland's NCSC also participates in the PESCO Cyber Threats and Incident Response project, which operates a shared threat intelligence platform among participating EU member states.
+
+### Security Extension
+
+Add a Northern Ireland coordination node for the cyber resilience of cross-border shared infrastructure. The energy grid (SONI/EirGrid), shared data connectivity, and co-located technology operations all have cross-border cyber dimensions that require coordinated response. The NI node would:
+
+- Receive downgraded or sanitised threat intelligence relevant to cross-border infrastructure
+- Coordinate incident response for cyber attacks affecting systems in both jurisdictions
+- Participate in bilateral tabletop exercises testing cross-border cyber incident response
+
+### Standing Routine
+
+Monthly threat briefing cycle between NCSC (Ireland), NCSC (UK), and the NI coordination node. Quarterly tabletop exercise simulating a cyber attack on cross-border infrastructure—targeting the energy grid control systems, for instance, or the shared banking infrastructure.
+
+### Incident Procedure
+
+When a cyber incident affects cross-border infrastructure: the detecting NCSC alerts its bilateral counterpart within one hour. If the incident affects NI-based infrastructure, the NI node is activated. Pre-agreed triage protocols determine whether the incident is handled bilaterally or escalated to PESCO partners. The classification friction—UK-origin intelligence that cannot be shared into EU systems without sanitisation—is managed through the dual-track reporting mechanism identified in the Layered Security Cooperation Model paper.
+
+### Fallback
+
+NCSC bilateral sharing operates under the Cork MoU regardless of Strand Two status. The PESCO cyber project provides a parallel EU channel. The NI coordination node adds value when Strand Two is operational but the bilateral backbone functions without it.
+
+## Activation and Sequencing
+
 The four functions should be activated in sequence based on institutional readiness, not political ambition.
-Immediate (Q3 2026): Energy infrastructure security. The SEM Committee already meets regularly. Adding a security annex requires an administrative decision, not legislation. SONI and EirGrid already have the operational relationship. This is the highest-readiness, lowest-risk function—the natural proof of concept.
-Q4 2026: Maritime environmental monitoring. The Marine Institute–AFBI data-sharing relationship exists. Adding anomaly detection requires a technical specification for what constitutes a security-relevant anomaly and a reporting protocol. The September 2026 exercises committed at Cork should test this function.
-Q1 2027: Transport and infrastructure resilience. Port authorities already cooperate. Adding vulnerability assessment requires a shared methodology and named liaison officers. Lower urgency than energy or maritime but builds institutional depth.
-Q2 2027: Cyber resilience coordination. The most complex function because of classification constraints. Requires the NI coordination node to be established, security clearances to be in place for NI-based personnel, and the dual-track reporting mechanism to be tested. This function should wait until the September 2026 exercises have validated the classification transfer protocols.
+
+### Immediate (Q3 2026): Energy Infrastructure Security
+
+The SEM Committee already meets regularly. Adding a security annex requires an administrative decision, not legislation. SONI and EirGrid already have the operational relationship. This is the highest-readiness, lowest-risk function—the natural proof of concept.
+
+### Q4 2026: Maritime Environmental Monitoring
+
+The Marine Institute–AFBI data-sharing relationship exists. Adding anomaly detection requires a technical specification for what constitutes a security-relevant anomaly and a reporting protocol. The September 2026 exercises committed at Cork should test this function.
+
+### Q1 2027: Transport and Infrastructure Resilience
+
+Port authorities already cooperate. Adding vulnerability assessment requires a shared methodology and named liaison officers. Lower urgency than energy or maritime but builds institutional depth.
+
+### Q2 2027: Cyber Resilience Coordination
+
+The most complex function because of classification constraints. Requires the NI coordination node to be established, security clearances to be in place for NI-based personnel, and the dual-track reporting mechanism to be tested. This function should wait until the September 2026 exercises have validated the classification transfer protocols.
+
 Each function is independently valuable. If the process stalls at any point, what has been activated remains useful. The sequence is designed so that simpler, lower-risk functions prove the model before more complex ones are attempted.
-Risks
-Unionist concern. The bounded, domain-specific design is the mitigation. Energy grid coordination is not defence integration, just as port resilience is not military cooperation. The protocol document itself makes visible which functions sit in Strand Two and which do not. Officials can point to the table: four infrastructure functions, all extending existing cooperation, all with bilateral fallbacks.
-Nationalist concern. Using GFA institutions to coordinate with UK defence establishments could be seen as compromising the agreement’s purpose. The mitigation is that the implementation functions are infrastructure-focused and civilian in character. The protocol explicitly excludes core defence functions—maritime patrol, airspace, intelligence, procurement—which remain at the bilateral governance layer.
-Institutional capacity. The agencies named in this protocol are small, and adding security coordination to their existing mandates risks overloading them. The mitigation is incrementalism—each function is a marginal extension of existing work, not a new mandate. The standing routines are quarterly or monthly, not continuous. The resource requirement is modest: named liaison officers, not new departments.
-Stormont collapse. The entire architecture is designed for this risk. Agency-to-agency protocols are the primary channel. Strand Two adds governance when available. The bilateral backstop operates regardless. If Stormont collapses again, the protocol continues to function through its primary and backstop channels. When Stormont returns, Strand Two resumes its governance role. The system degrades gracefully.
-From governance to operations
+
+## Risks
+
+**Unionist concern.** The bounded, domain-specific design is the mitigation. Energy grid coordination is not defence integration, just as port resilience is not military cooperation. The protocol document itself makes visible which functions sit in Strand Two and which do not. Officials can point to the table: four infrastructure functions, all extending existing cooperation, all with bilateral fallbacks.
+
+**Nationalist concern.** Using GFA institutions to coordinate with UK defence establishments could be seen as compromising the agreement's purpose. The mitigation is that the implementation functions are infrastructure-focused and civilian in character. The protocol explicitly excludes core defence functions—maritime patrol, airspace, intelligence, procurement—which remain at the bilateral governance layer.
+
+**Institutional capacity.** The agencies named in this protocol are small, and adding security coordination to their existing mandates risks overloading them. The mitigation is incrementalism—each function is a marginal extension of existing work, not a new mandate. The standing routines are quarterly or monthly, not continuous. The resource requirement is modest: named liaison officers, not new departments.
+
+**Stormont collapse.** The entire architecture is designed for this risk. Agency-to-agency protocols are the primary channel. Strand Two adds governance when available. The bilateral backstop operates regardless. If Stormont collapses again, the protocol continues to function through its primary and backstop channels. When Stormont returns, Strand Two resumes its governance role. The system degrades gracefully.
+
+## From Governance to Operations
+
 The Cork summit established that the UK and Ireland will cooperate on security. This protocol specifies how that cooperation reaches the island level in four domains where cross-border coordination is operationally necessary. It does not create new institutions; rather it extends existing ones into adjacent territory. It does not require legislation, only administrative decisions by the agencies that already do the work.
-The September 2026 exercises are the first opportunity to test whether the protocol’s design assumptions hold: whether the SEM Committee can host a security annex, whether environmental monitoring data can carry anomaly detection, whether cyber incident response can operate across classification boundaries. If the exercises
-produce a friction audit that identifies specific, solvable coordination gaps, the protocol is validated. If they produce nothing but photographs, the implementation gap persists.
+
+The September 2026 exercises are the first opportunity to test whether the protocol's design assumptions hold: whether the SEM Committee can host a security annex, whether environmental monitoring data can carry anomaly detection, whether cyber incident response can operate across classification boundaries. If the exercises produce a friction audit that identifies specific, solvable coordination gaps, the protocol is validated. If they produce nothing but photographs, the implementation gap persists.
+
 The governance is set, but the implementation layer is what connects it to the island-level systems the cooperation is supposed to protect. This protocol is the implementation layer.
-| W H Y   T H I S   M A T T E R S   N O W
-The Cork MoU’s governance commitments are in place and the September 2026 exercises provide the testing window, while Ireland’s EU Council Presidency creates the political context. The four functions identified here can be activated by administrative decision—no legislation required for the first two. Energy infrastructure security through the SEM Committee is ready now and maritime environmental monitoring can be tested in the September exercises. If these functions are not activated while the political window is open, the implementation gap will persist and the governance commitments will remain declaratory. |
-| S E R I E S   C O N T E X T
-This implementation document extracts operational detail from The GFA and the Security Gap (Working Paper 2 of 2). It connects to The UK–Ireland Security Interface (the governance layer this protocol implements), Ireland’s Layered Security Cooperation Model (the capability transfer mechanisms the protocol operationalises), and the Intelligence Architecture Reform paper (the unified intelligence system that would coordinate threat assessments across all four functions). |
-Security Ireland
-Independent analysis for a changing Ireland. · securityireland.ie
+
+## Why This Matters Now
+
+The Cork MoU's governance commitments are in place and the September 2026 exercises provide the testing window, while Ireland's EU Council Presidency creates the political context. The four functions identified here can be activated by administrative decision—no legislation required for the first two. Energy infrastructure security through the SEM Committee is ready now and maritime environmental monitoring can be tested in the September exercises. If these functions are not activated while the political window is open, the implementation gap will persist and the governance commitments will remain declaratory.
+
+## Series Context
+
+This implementation document extracts operational detail from The GFA and the Security Gap (Working Paper 2 of 2). It connects to The UK–Ireland Security Interface (the governance layer this protocol implements), Ireland's Layered Security Cooperation Model (the capability transfer mechanisms the protocol operationalises), and the Intelligence Architecture Reform paper (the unified intelligence system that would coordinate threat assessments across all four functions).

@@ -10,218 +10,103 @@ tags: ["neutrality", "defence-transformation", "european-defence"]
 audiences: ["policymakers", "public", "media"]
 topics: ["neutrality", "defence-transformation", "european-defence"]
 pdfUrl: "/pdfs/Neutrality_Institutional_Architecture.pdf"
+keyFindings:
+  - "Ireland is the only non-aligned European state where neutrality has been used to justify the absence of defence capability rather than requiring its presence"
+  - "Switzerland, Finland, Sweden, and Austria all understood neutrality as requiring robust defence capability"
+  - "Irish defence spending at 0.2% of GDP is the lowest in the EU, with minimal military capability across all domains"
+  - "The neutrality inversion is sustained by five reinforcing institutional layers: political, legal, cultural, dependency, and personnel"
+  - "Non-alignment is reconceptualised as compatible with security cooperation across five domains: maritime, airspace, subsea, cyber, and intelligence"
+  - "A unified National Security and Intelligence Agency is essential for coherent security policy"
 ---
-
-Neutrality as Institutional Architecture
-
-
 
 How can Irish non-alignment be reconceptualised as requiring defence capability (the Swiss, Austrian, and Finnish model) rather than as a reason for its absence? This paper draws on the diagnostic work in the foundational papers, the capability architecture, and the cooperation frameworks to propose a coherent public position. The deepest structural challenge in Irish security policy.
 
-
-
-Security Ireland	2027
-
-
-
-I N   B R I E F
-
-
-
-Figure 1: The neutrality inversion. Switzerland, Finland, Sweden, and Austria all understood neutrality as requiring defence capability. Ireland is the only non-aligned state where neutrality has been used to justify the absence of capability rather than requiring its presence.
-
-
-
-The inversion
-
-
+## The inversion
 
 Ireland’s relationship between non-alignment and defence capability is an anomaly in European history. The anomaly is so deeply embedded that it has become invisible—naturalised into the institutional fabric of the state. To see it clearly, one must compare Ireland with every other European state that has maintained a non-aligned or neutral posture.
 
-
-
 Switzerland has been constitutionally neutral since 1815. It maintains universal male conscription, a trained reserve of approximately 100,000 personnel, sophisticated air defence (F-35s on order to replace its current fleet), a domestic arms industry (RUAG, Thales Switzerland), and underground military infrastructure built into the Alpine landscape. Swiss neutrality was never understood as an alternative to defence. It was understood as requiring more of it—because a neutral state cannot call on allies when threatened. Swiss defence spending is approximately 0.7 per cent of GDP, and Switzerland is now participating in a PESCO project (Military Mobility), demonstrating that neutrality and EU defence cooperation are compatible.
-
-
 
 Finland maintained non-alignment from 1948 until joining NATO in 2023. During that period, it maintained universal conscription, a wartime strength of approximately 280,000, one of Europe’s largest artillery arsenals, F-18 fighters (now being replaced by F-35s), and a defence spending level that reached 2.4 per cent of GDP by 2023. Finnish non-alignment was explicitly understood as requiring robust defence capability—the ‘deterrence by denial’ model—because Finland could not rely on NATO’s Article 5 guarantee. Finland joined NATO not because its defence capability was insufficient but because the threat environment changed after Russia’s full-scale invasion of Ukraine.
 
-
-
 Sweden maintained non-alignment from 1814 until joining NATO in 2024. It maintained conscription (reintroduced in 2017), Gripen fighter aircraft, a submarine fleet, and sophisticated defence technology capabilities including Saab’s defence systems. Swedish non-alignment was supported by a domestic defence industrial base that made Sweden one of the world’s largest per capita arms exporters. Non-alignment required industrial self-sufficiency, not dependency.
-
-
 
 Austria has been constitutionally neutral since 1955. It maintains conscription, Eurofighter Typhoon fighters, and a professional military of approximately 16,000 active personnel. Austria’s defence spending is approximately 0.8 per cent of GDP—low by European standards but four times Ireland’s. Austria unified its domestic intelligence through the DSN reform in 2022 and participates in four PESCO projects. Austrian neutrality, while less robustly implemented than the Swiss or Finnish models, is nevertheless understood as requiring institutional capability for security.
 
-
-
 Ireland is the exception. Defence spending is 0.2 per cent of GDP—the lowest in the EU. There is no conscription, no fighter aircraft, no primary radar, no surface-to-air missiles, no anti-submarine capability, no functioning armament on naval patrol vessels, and an intelligence architecture split across three departments with no unified structure. Personnel are at a fifty-year low of 7,531. The Commission on the Defence Forces (2022) identified the capability gaps. The government committed to LOA 2 by 2028 without an institutional transformation plan. Ireland’s €42 billion budget surplus between 2022 and 2024 demonstrates that resources are not the constraint.
-
-
 
 The inversion is this: every other non-aligned European state understood neutrality as requiring defence capability, but Ireland alone has understood it as justifying the absence of capability. The institutional logic is self-reinforcing—and it has operated for a century.
 
-
-
-Why the inversion persists: five reinforcing layers
-
-
+## Why the inversion persists: five reinforcing layers
 
 The inversion is not a policy choice that a single government made and a subsequent government can unmake, it is the product of five institutional layers that reinforce each other, creating a self-sustaining equilibrium. The companion paper ‘The UK–Ireland Security Interface’ identifies these layers; this paper examines how each sustains the neutrality inversion.
 
+**The political layer.** Defence is politically marginalised in Ireland, and no major party has made defence investment a central platform. Defence spending is electorally invisible—there is no constituency that rewards politicians for increasing it and a diffuse constituency that punishes them. The Department of Defence has less institutional weight than departments governing health, education, or social welfare. Ministers for Defence have historically held the portfolio as a secondary responsibility.
 
+**The legal layer.** The Triple Lock—requiring Government, Dáil, and UN (or equivalent) approval for overseas deployment above twelve personnel—constrains operational flexibility. More fundamentally, there is no statutory mandate for military intelligence (IMIS), no National Security Strategy (nearly five years overdue), no intelligence oversight framework, and no export control system for military items. The legal architecture is configured for a state that does not conduct security operations.
 
-The political layer. Defence is politically marginalised in Ireland, and no major party has made defence investment a central platform. Defence spending is electorally invisible—there is no constituency that rewards politicians for increasing it and a diffuse constituency that punishes them. The Department of Defence has less institutional weight than departments governing health, education, or social welfare. Ministers for Defence have historically held the portfolio as a secondary responsibility.
+**The cultural layer.** Defence spending is culturally illegitimate in Ireland in a way that no other category of public expenditure is. Seventy-five per cent of the public supports neutrality. Military service does not carry the social prestige it does in Finland, Switzerland, or even Austria. The Defence Forces’ recruitment and retention crisis is partly a cultural problem: the career is not seen as socially valued. This cultural layer is the deepest and most resistant to change, because it is reproduced through education, media, and political discourse rather than through policy decisions.
 
+**The dependency layer.** The UK provides de facto security for the shared Irish domain—maritime patrol, airspace interception, subsea monitoring—under informal arrangements with no treaty basis, no governance, and no accountability. This dependency was invisible to the Irish public and costless to the Irish government. It removed the incentive to invest in capability because the capability was being provided for free. The Cork MoU of March 2026 is the first formal acknowledgment that this arrangement is transitioning to structured cooperation—but the dependency has not yet been replaced with Irish capability.
 
+**The personnel layer.** Defence Forces personnel are at a fifty-year low of 7,531, against an establishment strength of 9,500 and a Commission on Defence Forces recommendation of 11,500. The retention crisis is driven by pay, conditions, and cultural factors. But the personnel gap is also a capability gap: Ireland cannot operate the systems it is acquiring (primary radar, armed vessels, cyber capabilities) without trained personnel to run them. The workforce pipeline is broken, and fixing it requires a decade of sustained investment in recruitment, training, and retention—which in turn requires the political and cultural layers to change first.
 
-The legal layer. The Triple Lock—requiring Government, Dáil, and UN (or equivalent) approval for overseas deployment above twelve personnel—constrains operational flexibility. More fundamentally, there is no statutory mandate for military intelligence (IMIS), no National Security Strategy (nearly five years overdue), no intelligence oversight framework, and no export control system for military items. The legal architecture is configured for a state that does not conduct security operations.
-
-
-
-The cultural layer. Defence spending is culturally illegitimate in Ireland in a way that no other category of public expenditure is. Seventy-five per cent of the public supports neutrality. Military service does not carry the social prestige it does in Finland, Switzerland, or even Austria. The Defence Forces’ recruitment and retention crisis is partly a cultural problem: the career is not seen as socially valued. This cultural layer is the deepest and most resistant to change, because it is reproduced through education, media, and political discourse rather than through policy decisions.
-
-
-
-The dependency layer. The UK provides de facto security for the shared Irish domain—maritime patrol, airspace interception, subsea monitoring—under informal arrangements with no treaty basis, no governance, and no accountability. This dependency was invisible to the Irish public and costless to the Irish government. It removed the incentive to invest in capability because the capability was being provided for free. The Cork MoU of March 2026 is the first formal acknowledgment that this arrangement is transitioning to structured cooperation—but the dependency has not yet been replaced with Irish capability.
-
-
-
-The personnel layer. Defence Forces personnel are at a fifty-year low of 7,531, against an establishment strength of 9,500 and a Commission on Defence Forces recommendation of 11,500. The retention crisis is driven by pay, conditions, and cultural factors. But the personnel gap is also a capability gap: Ireland cannot operate the systems it is acquiring (primary radar, armed vessels, cyber capabilities) without trained personnel to run them. The workforce pipeline is broken, and fixing it requires a decade of sustained investment in recruitment, training, and retention—which in turn requires the political and cultural layers to change first.
-
-
-
-Figure 2: The five reinforcing layers. Each layer reinforces the others, creating a self-sustaining equilibrium that resists reform. The neutrality inversion is the product of this system, not of any single policy choice.
-
-
-
-The reconceptualisation
-
-
+## The reconceptualisation
 
 The reconceptualisation does not require Ireland to abandon non-alignment, it requires Ireland to understand non-alignment the way Switzerland, Finland, and Austria understand it: as a posture that requires defence capability rather than excusing its absence.
 
-
-
 The distinction is between non-alignment as a diplomatic posture and security cooperation as an operational necessity.
-
-
 
 Non-alignment governs Ireland’s relationship to military alliances: Ireland does not participate in collective defence arrangements, does not accept Article 5 mutual defence obligations, and retains sovereign decision-making over the deployment of its forces. This posture is constitutionally embedded, democratically supported, and consistent with EU membership (the Lisbon Treaty guarantees protect it).
 
-
-
 Security cooperation governs Ireland’s management of the physical domains it occupies: the 880,000 km² EEZ, the airspace over the island, the subsea cables carrying EU–US data traffic, the coupled energy grid, and the digital infrastructure hosting the European headquarters of most major American technology companies. These domains require monitoring, protection, and incident response capability regardless of Ireland’s alliance posture.
-
-
 
 Minister McEntee’s formulation—‘We’re militarily neutral, but we’re not neutral to any of the threats that exist at the moment’—is precisely the distinction the reconceptualisation draws. It separates alliance posture from security capability. It acknowledges that threats to shared infrastructure require a response regardless of neutrality. And it provides the political language for a shift that does not require a constitutional amendment, a referendum, or a repudiation of the non-aligned tradition.
 
-
-
 The formulation needs an analytical framework to sustain it. Without one, ‘not neutral to threats’ is a soundbite that will not survive contact with the Oireachtas, the media, or European partners who want to know what it means in practice. This paper—and the suite of which it is part—provides that framework.
 
-
-
-Figure 3: From neutrality-as-excuse to non-alignment-as-requirement. McEntee’s formulation is the bridge between the two positions.
-
-
-
-What non-alignment actually requires
-
-
+## What non-alignment actually requires
 
 If non-alignment is reconceptualised as requiring capability, the question becomes: capability in which domains, at what level, through which mechanisms?
 
-
-
 The answer is domain-specific, not full-spectrum. Ireland does not need—and should not attempt—to build a full-spectrum military. It needs capability in the five domains where its geographic and institutional position creates an irreplaceable European security contribution: maritime surveillance, airspace awareness, subsea infrastructure protection, cyber resilience, and integrated intelligence.
 
+**Maritime.** Armed patrol vessels capable of sovereign maritime operations. Anti-submarine capability in waters where Russian submarine activity has increased. Surveillance coverage that exceeds the current estimated fifteen per cent of the EEZ on any given day. The Naval Service fleet renewal programme and the PESCO Maritime Surveillance Upgrade project address this domain.
 
+**Airspace.** Primary radar (target 2028) to provide independent detection capability. The air response question—whether Ireland acquires fighter aircraft or establishes a cooperative arrangement with a partner—is the most politically sensitive capability decision in the pipeline. The Commission on Defence Forces recommended examining the question. Non-alignment does not preclude air response capability; Switzerland and Austria both maintain fighter fleets.
 
-Maritime. Armed patrol vessels capable of sovereign maritime operations. Anti-submarine capability in waters where Russian submarine activity has increased. Surveillance coverage that exceeds the current estimated fifteen per cent of the EEZ on any given day. The Naval Service fleet renewal programme and the PESCO Maritime Surveillance Upgrade project address this domain.
+**Subsea.** Monitoring and protection capability for the cable infrastructure transiting Irish waters. The Cork MoU’s Subsea Infrastructure Framework and the PESCO Critical Seabed Infrastructure Protection project address this domain. Ireland’s position as the Atlantic terminus of the transatlantic cable network makes this contribution irreplaceable.
 
+**Cyber.** A resourced NCSC integrated into EU crisis mechanisms. NIS2 transposition. Bilateral threat intelligence sharing through the Cork MoU. Ireland’s technology sector—the European headquarters of Apple, Google, Meta, Microsoft, Amazon—makes cyber resilience a domain of Irish leadership, not just Irish vulnerability.
 
+**Intelligence.** A unified National Security and Intelligence Agency that fuses military, police, and cyber intelligence into a single analytical capability. The Intelligence Architecture Reform paper provides the target architecture and phased transition. Without unified intelligence, none of the other four domains can be monitored as a single system.
 
-Airspace. Primary radar (target 2028) to provide independent detection capability. The air response question—whether Ireland acquires fighter aircraft or establishes a cooperative arrangement with a partner—is the most politically sensitive capability decision in the pipeline. The Commission on Defence Forces recommended examining the question. Non-alignment does not preclude air response capability; Switzerland and Austria both maintain fighter fleets.
-
-
-
-Subsea. Monitoring and protection capability for the cable infrastructure transiting Irish waters. The Cork MoU’s Subsea Infrastructure Framework and the PESCO Critical Seabed Infrastructure Protection project address this domain. Ireland’s position as the Atlantic terminus of the transatlantic cable network makes this contribution irreplaceable.
-
-
-
-Cyber. A resourced NCSC integrated into EU crisis mechanisms. NIS2 transposition. Bilateral threat intelligence sharing through the Cork MoU. Ireland’s technology sector—the European headquarters of Apple, Google, Meta, Microsoft, Amazon—makes cyber resilience a domain of Irish leadership, not just Irish vulnerability.
-
-
-
-Intelligence. A unified National Security and Intelligence Agency that fuses military, police, and cyber intelligence into a single analytical capability. The Intelligence Architecture Reform paper provides the target architecture and phased transition. Without unified intelligence, none of the other four domains can be monitored as a single system.
-
-
-
-Figure 4: What non-alignment actually requires. The capability architecture mapped to the five domains where Ireland’s contribution is irreplaceable. Current status in terracotta; every domain shows critical gaps.
-
-
-
-The cooperation model: how non-alignment builds capability
-
-
+## The cooperation model: how non-alignment builds capability
 
 Non-alignment does not mean isolation. Ireland is already building capability through three simultaneous cooperation tracks: EU frameworks (PESCO, CISE, EDF), bilateral UK–Ireland (Cork MoU, Subsea Framework), and NATO-adjacent (ITPP, North Sea Joint Declaration). The Layered Security Cooperation Model paper demonstrates that these tracks compound rather than compete—capability built through bilateral cooperation feeds directly into EU framework participation.
 
-
-
 The reconceptualisation strengthens rather than undermines this model. A state that understands non-alignment as requiring capability has a stronger case for PESCO participation (it is building, not freeloading), a stronger case for bilateral cooperation (it is contributing, not depending), and a stronger case for the EU Presidency narrative (‘we contribute to European security in the domains where our geography makes us critical’).
-
-
 
 The Swiss precedent is decisive. Switzerland—constitutionally neutral since 1815, not an EU member—is participating in a PESCO project. If a non-EU neutral can participate in EU defence cooperation, an EU non-aligned member building capability through layered cooperation is doing something entirely consistent with European norms. The reconceptualisation positions Ireland within this norm rather than as an exception to it.
 
-
-
 The Austrian cautionary tale is equally relevant. Austria is constitutionally neutral and participates in PESCO, but its PESCO participation has been defensive rather than strategic—joining to limit ambitions rather than to build capability. Ireland risks the same outcome if the reconceptualisation remains at the level of rhetoric rather than institutional transformation. Being at the table is not the same as building something at the table.
 
-
-
-The public position
-
-
+## The public position
 
 The reconceptualisation provides the government with a coherent public position that does four things simultaneously.
 
-
-
 First, it preserves non-alignment. Ireland remains militarily non-aligned. It does not join NATO. It does not accept collective defence obligations. The Lisbon Treaty guarantees remain in force. Seventy-five per cent public support for neutrality is respected, not challenged.
-
-
 
 Second, it reframes investment. Defence spending is reframed from ‘militarisation’ (which the cultural layer rejects) to ‘infrastructure protection’ and ‘domain-specific security’ (which is politically achievable). The €1.5 billion Budget 2026 allocation and the Commission’s €3 billion target are positioned as the cost of independence, not the cost of militarism.
 
-
-
 Third, it answers European partners. During the Presidency, Ireland can articulate a position that European partners find credible: ‘We are non-aligned but we are investing in the domains where our contribution is irreplaceable—maritime surveillance, subsea protection, cyber resilience—through structured cooperation that generates real capability.’ This is not a perfect answer to the free-rider criticism, but it is substantive and defensible.
-
-
 
 Fourth, it creates domestic space for reform. The intelligence architecture reform, the defence industrial policy, the procurement pipeline, the personnel investment—all of these become politically achievable if they are framed as the requirements of non-alignment rather than as steps toward militarisation. The reconceptualisation provides the political cover that institutional transformation requires.
 
-
+## Conclusion
 
 Non-alignment, properly understood, requires more security capability, not less. A non-aligned state cannot rely on alliance guarantees. Capability is the price of independence.
 
-
-
 The deepest structural challenge in Irish security policy is not spending, not neutrality, and not the threat environment. It is the century-old institutional logic that treats non-alignment as an alternative to defence capability rather than as a condition that requires it. Every other non-aligned European state resolved this question decades ago. Ireland has not—and the consequences are visible in every domain of its security architecture.
 
-
-
 The reconceptualisation proposed here does not require Ireland to change its constitutional position. It requires Ireland to understand that position the way Switzerland, Finland, and Austria understand theirs: as a demand for capability, not an excuse for its absence. McEntee’s formulation is the bridge. This paper—and the analytical suite of which it is part—provides the framework to cross it.
-
-
-
-Security Ireland
-
-
-
-Independent analysis for a changing Ireland. · securityireland.ie

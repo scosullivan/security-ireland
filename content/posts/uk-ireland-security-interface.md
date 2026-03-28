@@ -52,15 +52,25 @@ The question is not whether the UK and Ireland share a security domain, because 
 
 The physical geography of the island creates security interdependencies that exist regardless of neutrality claims. These interdependencies operate across five physically integrated domains.
 
-**Maritime approaches.** Ireland's Exclusive Economic Zone covers approximately 880,000 square kilometres. Within that zone are critical subsea infrastructure, energy resources, and maritime approaches to both islands. The legal fiction that Irish airspace and waters are defensible as separate domains from UK airspace and waters does not reflect physical reality. An attack on one affects the entire system.
+### Maritime approaches
 
-**Airspace.** Ireland has no primary radar, no fighter aircraft, no surface-to-air missiles, and no capability to conduct air defence. This is not a historical accident but a design choice. Ireland's air sovereignty is therefore dependent, in practice, on UK capabilities. A breach of Irish airspace would be detected and initially assessed by UK air defence systems. This is not a partnership; it is asymmetric dependency.
+Ireland's Exclusive Economic Zone covers approximately 880,000 square kilometres. Within that zone are critical subsea infrastructure, energy resources, and maritime approaches to both islands. The legal fiction that Irish airspace and waters are defensible as separate domains from UK airspace and waters does not reflect physical reality. An attack on one affects the entire system.
 
-**Subsea infrastructure.** The waters surrounding Ireland contain critical subsea infrastructure serving the entire European network: telecommunications cables, energy pipelines, and underwater monitoring systems. This infrastructure cannot be protected by Ireland alone. Protection requires coordinated surveillance, rapid response capacity, and shared intelligence.
+### Airspace
 
-**Energy systems.** The island's energy grid operates as a coupled system through the Single Electricity Market (SEM), which integrates Northern Ireland, Ireland, Scotland, and England into one operational domain. An attack on energy infrastructure on one part of the island cascades across the entire system. Energy security is therefore a shared system problem, not a jurisdictional one.
+Ireland has no primary radar, no fighter aircraft, no surface-to-air missiles, and no capability to conduct air defence. This is not a historical accident but a design choice. Ireland's air sovereignty is therefore dependent, in practice, on UK capabilities. A breach of Irish airspace would be detected and initially assessed by UK air defence systems. This is not a partnership; it is asymmetric dependency.
 
-**Cyber and hybrid threat surface.** Ireland hosts the European headquarters of most major American technology companies. This creates a significant cyber attack surface and makes Ireland a plausible staging point for attacks on broader European infrastructure. Cyber threats do not respect jurisdiction. A breach in Dublin potentially affects infrastructure across the entire EU.
+### Subsea infrastructure
+
+The waters surrounding Ireland contain critical subsea infrastructure serving the entire European network: telecommunications cables, energy pipelines, and underwater monitoring systems. This infrastructure cannot be protected by Ireland alone. Protection requires coordinated surveillance, rapid response capacity, and shared intelligence.
+
+### Energy systems
+
+The island's energy grid operates as a coupled system through the Single Electricity Market (SEM), which integrates Northern Ireland, Ireland, Scotland, and England into one operational domain. An attack on energy infrastructure on one part of the island cascades across the entire system. Energy security is therefore a shared system problem, not a jurisdictional one.
+
+### Cyber and hybrid threat surface
+
+Ireland hosts the European headquarters of most major American technology companies. This creates a significant cyber attack surface and makes Ireland a plausible staging point for attacks on broader European infrastructure. Cyber threats do not respect jurisdiction. A breach in Dublin potentially affects infrastructure across the entire EU.
 
 ## The architectural asymmetry
 
@@ -100,7 +110,7 @@ Ireland's Council Presidency from July 2026 transforms the EU dimension from con
 
 The layered cooperation approach provides the narrative Ireland needs: 'We are contributing to European defence through multiple channels—EU initiatives, bilateral cooperation with our closest security partner, and selective NATO coordination.' This narrative preserves neutrality while demonstrating genuine security commitment.
 
-The real risk. The genuine risk is not that the tracks compete but that neither generates sufficient implementation capacity. If bilateral cooperation remains at the MoU level without implementation architecture, and if EU participation remains at the budgeting level without Irish institutional capacity, then the Presidency will expose the gap rather than fill it.
+The real risk is not that the tracks compete but that neither generates sufficient implementation capacity. If bilateral cooperation remains at the MoU level without implementation architecture, and if EU participation remains at the budgeting level without Irish institutional capacity, then the Presidency will expose the gap rather than fill it.
 
 ## Working within the neutrality constraint
 
@@ -114,21 +124,33 @@ Switzerland offers the instructive comparison. Constitutionally neutral since 18
 
 ## What each side gains
 
-**For the United Kingdom.** The UK gains structured cooperation in a domain it already underwrites unilaterally. Currently, the UK provides air defence, maritime surveillance, and intelligence-sharing to Ireland without reciprocal institutional arrangements. Structured cooperation formalizes this relationship and creates mechanisms for feedback and coordination rather than one-way provision.
+### For the United Kingdom
 
-**For Ireland.** Ireland gains a pathway from dependency to structured cooperation. The current arrangement is stable only because the UK accepts asymmetry. Formal coordination mechanisms reduce the risk of rupture and create reciprocal obligations that strengthen the relationship.
+The UK gains structured cooperation in a domain it already underwrites unilaterally. Currently, the UK provides air defence, maritime surveillance, and intelligence-sharing to Ireland without reciprocal institutional arrangements. Structured cooperation formalizes this relationship and creates mechanisms for feedback and coordination rather than one-way provision.
 
-**For Northern Ireland.** Northern Ireland's geographic position at the hinge of the shared domain—between Irish airspace and UK territory, between EU maritime zones and UK waters—makes it strategically central to any security framework. A formal architecture creates institutional space for Northern Ireland's voice in security matters that currently have no formal Irish representation.
+### For Ireland
+
+Ireland gains a pathway from dependency to structured cooperation. The current arrangement is stable only because the UK accepts asymmetry. Formal coordination mechanisms reduce the risk of rupture and create reciprocal obligations that strengthen the relationship.
+
+### For Northern Ireland
+
+Northern Ireland's geographic position at the hinge of the shared domain—between Irish airspace and UK territory, between EU maritime zones and UK waters—makes it strategically central to any security framework. A formal architecture creates institutional space for Northern Ireland's voice in security matters that currently have no formal Irish representation.
 
 ## The three-layer architecture
 
 The emerging security cooperation framework operates across three distinct institutional layers. Clarity about what each layer does is essential.
 
-**Governance layer:** state-to-state and multilateral. This is where commitments are made, resources allocated, and political decisions institutionalized. The Cork MoU operates at this layer. So do EU defence initiatives. This is where authority resides.
+### Governance layer
 
-**Interface layer:** Northern Ireland as strategic node. Northern Ireland's post-Brexit position at the hinge of the shared security domain creates a distinct institutional space. This is where day-to-day coordination occurs and where the GFA's structures potentially have a role. This layer exists between governance and implementation.
+State-to-state and multilateral. This is where commitments are made, resources allocated, and political decisions institutionalized. The Cork MoU operates at this layer. So do EU defence initiatives. This is where authority resides.
 
-**Implementation layer:** the gap. This is where the current framework is weakest. The Cork MoU creates governance commitments but does not specify how those commitments will be operationalized. Implementation requires standing relationships, continuous monitoring, shared protocols, and interoperability frameworks that do not yet exist.
+### Interface layer
+
+Northern Ireland as strategic node. Northern Ireland's post-Brexit position at the hinge of the shared security domain creates a distinct institutional space. This is where day-to-day coordination occurs and where the GFA's structures potentially have a role. This layer exists between governance and implementation.
+
+### Implementation layer
+
+This is where the current framework is weakest. The Cork MoU creates governance commitments but does not specify how those commitments will be operationalized. Implementation requires standing relationships, continuous monitoring, shared protocols, and interoperability frameworks that do not yet exist.
 
 ![The three-layer security architecture. The governance layer is being established. The interface layer awaits clarification. The implementation layer remains a gap.](/images/charts/uksi_three_layers.png)
 
@@ -136,13 +158,21 @@ The emerging security cooperation framework operates across three distinct insti
 
 Regardless of which institutions carry them, the shared security domain requires four tiers of stabilisation mechanisms.
 
-**Tier 1: Friction monitoring and early warning.** Continuous monitoring of the friction points where the different institutional systems meet—for example, where UK air defence monitoring overlaps with Irish sovereignty claims, or where subsea infrastructure protection requires coordination across jurisdictions. Early warning systems that identify where institutional gaps might create operational risk.
+### Tier 1: Friction monitoring and early warning
 
-**Tier 2: Trusted operational routines.** Standing working relationships between operational counterparts. These are not high-level policy relationships but working-level coordination. Maritime operators on both sides knowing their counterparts. Cyber security specialists having regular liaison. This tier operates beneath political variation.
+Continuous monitoring of the friction points where the different institutional systems meet—for example, where UK air defence monitoring overlaps with Irish sovereignty claims, or where subsea infrastructure protection requires coordination across jurisdictions. Early warning systems that identify where institutional gaps might create operational risk.
 
-**Tier 3: Shared protocols for incident response.** Common incident classification frameworks, pre-agreed escalation procedures, and joint response plans for scenarios where a threat to the shared domain would require coordinated action. This tier addresses operational readiness.
+### Tier 2: Trusted operational routines
 
-**Tier 4: Interoperability governance.** Equivalence mapping between UK and Irish security standards, shared training protocols, and mechanisms for bringing Irish institutional capacity into alignment with UK systems without requiring Ireland to abandon sovereignty over decision-making.
+Standing working relationships between operational counterparts. These are not high-level policy relationships but working-level coordination. Maritime operators on both sides knowing their counterparts. Cyber security specialists having regular liaison. This tier operates beneath political variation.
+
+### Tier 3: Shared protocols for incident response
+
+Common incident classification frameworks, pre-agreed escalation procedures, and joint response plans for scenarios where a threat to the shared domain would require coordinated action. This tier addresses operational readiness.
+
+### Tier 4: Interoperability governance
+
+Equivalence mapping between UK and Irish security standards, shared training protocols, and mechanisms for bringing Irish institutional capacity into alignment with UK systems without requiring Ireland to abandon sovereignty over decision-making.
 
 ![Four tiers of stabilisation. From friction monitoring (highest return, lowest cost) to interoperability governance (most resource intensive).](/images/charts/uksi_stabilisation_tiers.png)
 
@@ -150,21 +180,35 @@ Regardless of which institutions carry them, the shared security domain requires
 
 The following sequence builds on the Cork summit commitments. Each step is independently valuable; together they create an implementation architecture.
 
-**Phase 1: Foundation (months 0–12).** The Cork summit has begun this phase. The refreshed MoU, the Subsea Infrastructure Framework, and initial working groups create the governance layer. This phase should complete baseline threat assessments and establish standing working groups for each of the five physical domains (maritime, airspace, subsea, energy, cyber).
+### Phase 1: Foundation (months 0–12)
 
-**Phase 2: Routinisation (months 12–24).** Activate Tier 2 mechanisms: standing meetings, regular information sharing, and trusted operational relationships. Move from episodic engagement to continuous coordination. By the end of Phase 2, the working relationships should be robust enough to survive political variation.
+The Cork summit has begun this phase. The refreshed MoU, the Subsea Infrastructure Framework, and initial working groups create the governance layer. This phase should complete baseline threat assessments and establish standing working groups for each of the five physical domains (maritime, airspace, subsea, energy, cyber).
 
-**Phase 3: Integration (months 24–36).** Formalise shared protocols for incident response across all domains. Test these protocols through exercises. Build interoperability governance mechanisms. By the end of Phase 3, the framework should be capable of responding to actual threats without requiring new political decisions.
+### Phase 2: Routinisation (months 12–24)
+
+Activate Tier 2 mechanisms: standing meetings, regular information sharing, and trusted operational relationships. Move from episodic engagement to continuous coordination. By the end of Phase 2, the working relationships should be robust enough to survive political variation.
+
+### Phase 3: Integration (months 24–36)
+
+Formalise shared protocols for incident response across all domains. Test these protocols through exercises. Build interoperability governance mechanisms. By the end of Phase 3, the framework should be capable of responding to actual threats without requiring new political decisions.
 
 ## Risks and constraints
 
-**Politicisation.** Security cooperation is vulnerable to being framed in ways that trigger the neutrality debate. The mitigation is clarity: security cooperation is not military alliance. The framework should be designed to weather political criticism without requiring renegotiation.
+### Politicisation
 
-**Asymmetric capacity.** The UK can implement most mechanisms immediately, whereas Ireland faces institutional constraints. The mitigation is not to wait for Irish capacity to reach parity, but to design mechanisms that work with asymmetry as a starting condition.
+Security cooperation is vulnerable to being framed in ways that trigger the neutrality debate. The mitigation is clarity: security cooperation is not military alliance. The framework should be designed to weather political criticism without requiring renegotiation.
 
-**Dependency reinforcement.** Structured cooperation risks entrenching dependency. The mitigation is reciprocal obligation: Ireland's contribution may be smaller, but it must be genuine and create real cost to the UK if the relationship breaks.
+### Asymmetric capacity
 
-**Implementation gap persistence.** The Cork MoU addresses governance but not implementation. If the island's institutional capacity to respond to actual threats remains unchanged, the MoU creates a visibility of the gap without filling it. The mitigation is explicit commitment to Phase 1 completion within 12 months.
+The UK can implement most mechanisms immediately, whereas Ireland faces institutional constraints. The mitigation is not to wait for Irish capacity to reach parity, but to design mechanisms that work with asymmetry as a starting condition.
+
+### Dependency reinforcement
+
+Structured cooperation risks entrenching dependency. The mitigation is reciprocal obligation: Ireland's contribution may be smaller, but it must be genuine and create real cost to the UK if the relationship breaks.
+
+### Implementation gap persistence
+
+The Cork MoU addresses governance but not implementation. If the island's institutional capacity to respond to actual threats remains unchanged, the MoU creates a visibility of the gap without filling it. The mitigation is explicit commitment to Phase 1 completion within 12 months.
 
 ## Conclusion
 
@@ -177,8 +221,3 @@ What the transition currently lacks is an implementation layer: an institutional
 The transition from dependency to structured cooperation is underway; the governance layer is being built; the interface layer is being clarified. What remains is implementation. This paper has provided the analytical framework. The companion paper, *The GFA and the Security Gap*, addresses the architecture required to fill the implementation gap.
 
 The question facing the two governments is not whether to cooperate, but whether to do so deliberately and openly or to continue the fiction that asymmetric dependency is sustainable.
-
----
-
-Security Ireland
-Independent analysis for a changing Ireland · [securityireland.ie](https://securityireland.ie)

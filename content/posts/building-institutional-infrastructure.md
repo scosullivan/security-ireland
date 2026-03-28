@@ -10,37 +10,24 @@ tags: ["defence-transformation", "institutional-reform"]
 audiences: ["policymakers", "public", "media"]
 topics: ["defence-transformation", "institutional-reform"]
 pdfUrl: "/pdfs/Building_the_Institutional_Infrastructure.pdf"
+keyFindings:
+  - "Security clearances enable EU programme access through classified procurement participation"
+  - "Industrial participation policies unlock domestic supply chain positions in major procurements"
+  - "Export control framework enables independent international market access"
+  - "Sequential implementation required: clearances (2026), participation (2027), export controls (2028–2030)"
 ---
 
-Building the Institutional
+This paper provides the operational details of security clearances, industrial participation, and export controls: the three institutional prerequisites Ireland must build before its defence technology sector can access EU funding, win domestic supply chain positions, or compete in international markets.
+
+## The Argument
+
+Three prerequisites, three market layers unlocked. Security clearances (2026) unlock EU programme access. Industrial participation (2027+) unlocks domestic supply chain positions. Export controls (2028+) unlock international market access. The sequence matters: each reform enables the next.
 
 
 
-Infrastructure
+## Prerequisite 1: Security clearances
 
-
-
-This paper provides the operational details of security clearances, industrial participation, and export controls: the three institutional prerequisites Ireland must build before its defence technology sector can access EU funding, win domestic supply chain positions, or compete in international markets
-
-
-
-Security Ireland	June 2026
-
-
-
-T H E   A R G U M E N T
-
-
-
-Figure 1: Three prerequisites, three market layers unlocked. Security clearances (2026) unlock EU programme access. Industrial participation (2027+) unlocks domestic supply chain positions. Export controls (2028+) unlock international market access. The sequence matters: each reform enables the next.
-
-
-
-Prerequisite 1: Security clearances
-
-
-
-Why clearances matter
+### Why clearances matter
 
 
 
@@ -52,7 +39,7 @@ Without clearances, Irish firms are locked out of the most valuable parts of EU 
 
 
 
-How vetting actually works
+### How vetting actually works
 
 
 
@@ -72,11 +59,9 @@ The challenge for Ireland is not the concept — it is the investigative infrast
 
 
 
-Figure 2: How comparable states run security clearances. Finland (SUPO/DSA), Denmark (PET), Netherlands (AIVD/MIVD), Estonia (KAPO) — all have permanent, statutory systems with defined processing times, clearance levels aligned to EU/NATO standards, and mutual recognition arrangements. Ireland has none.
+**Comparable systems:** Finland (SUPO/DSA), Denmark (PET), Netherlands (AIVD/MIVD), Estonia (KAPO) — all have permanent, statutory systems with defined processing times, clearance levels aligned to EU/NATO standards, and mutual recognition arrangements. Ireland has none.
 
-
-
-The mutual recognition problem
+### The mutual recognition problem
 
 
 
@@ -88,7 +73,7 @@ Ireland’s interim clearance process creates an immediate problem here. An inte
 
 
 
-The facility clearance dimension
+### The facility clearance dimension
 
 
 
@@ -112,47 +97,27 @@ Second, the EU’s EUDIS programme (EU Defence Innovation Scheme) includes provi
 
 
 
-What Ireland should build
-
-
+### What Ireland should build
 
 The system should have three clearance levels aligned with both EU Council Security Rules and NATO security policy:
 
+1. Irish Confidential/EU Restreint/NATO Restricted
+2. Irish Secret/EU Secret/NATO Secret
+3. Irish Top Secret/EU Tres Secret/NATO Cosmic Top Secret
 
+**Two tracks:** personnel and facility.
 
-(1) Irish Confidential/EU Restreint/NATO Restricted;
+**One authority:** a National Security Authority (NSA) housed initially within the Department of Justice (where the interim process sits) and eventually within the unified National Security Agency recommended in the Intelligence Architecture Reform paper.
 
+**Specific steps:** draft legislation establishing the NSA’s clearance powers, the classification system, and the rights and obligations of cleared persons and facilities. Recruit an initial cadre of 15–20 vetting officers (a mix of investigators seconded from An Garda Síochána and IMIS, plus new hires with financial investigation experience). Build or procure the IT system for managing applications, tracking clearance status, interfacing with EU and partner databases, and supporting the reinvestigation cycle. Negotiate mutual recognition arrangements with France, Germany, the Netherlands, and the UK — the four states whose acceptance matters most for EDF, EDIP, and Cork MoU purposes. Establish the shared classified facility for SME access.
 
-
-(2) Irish Secret/EU Secret/NATO Secret;
-
-
-
-(3) Irish Top Secret/EU Tres Secret/NATO Cosmic Top Secret.
-
-
-
-Two tracks: personnel and facility.
+**Target:** interim process operational before July 2026 (Presidency start), permanent system operational by late 2027, mutual recognition agreements signed by mid-2028.
 
 
 
-One authority: a National Security Authority (NSA) housed initially within the Department of Justice (where the interim process sits) and eventually within the unified National Security Agency recommended in the Intelligence Architecture Reform paper.
+## Prerequisite 2: Industrial participation
 
-
-
-Specific steps: draft legislation establishing the NSA’s clearance powers, the classification system, and the rights and obligations of cleared persons and facilities. Recruit an initial cadre of 15–20 vetting officers (a mix of investigators seconded from An Garda Síochána and IMIS, plus new hires with financial investigation experience). Build or procure the IT system for managing applications, tracking clearance status, interfacing with EU and partner databases, and supporting the reinvestigation cycle. Negotiate mutual recognition arrangements with France, Germany, the Netherlands, and the UK — the four states whose acceptance matters most for EDF, EDIP, and Cork MoU purposes. Establish the shared classified facility for SME access.
-
-
-
-Target: interim process operational before July 2026 (Presidency start), permanent system operational by late 2027, mutual recognition agreements signed by mid-2028.
-
-
-
-Prerequisite 2: Industrial participation
-
-
-
-How offset negotiations actually work
+### How offset negotiations actually work
 
 
 
@@ -168,35 +133,23 @@ The critical design choice is the ‘multiplier’ system. Most offset policies 
 
 
 
-Where the failures happen
-
-
+### Where the failures happen
 
 Offset policies have well-documented failure modes that Ireland should design around:
 
+1. **Phantom offsets:** the prime claims credit for activities that would have happened anyway (hiring local staff it was going to hire, purchasing local materials it was going to purchase). The solution is an additionality requirement — offset credit only for activities that would not have occurred without the offset obligation.
 
+2. **Gold-plating:** the prime proposes expensive but low-value activities to meet the percentage target without building real capability (sponsoring conferences, donating equipment to universities). The solution is a pre-approved list of eligible activities with clear criteria for what counts.
 
-First, phantom offsets: the prime claims credit for activities that would have happened anyway (hiring local staff it was going to hire, purchasing local materials it was going to purchase). The solution is an additionality requirement — offset credit only for activities that would not have occurred without the offset obligation.
+3. **Displacement:** the prime subcontracts to a local firm but at below-market terms, effectively extracting value from the local firm rather than investing in it. The solution is fair-market-value requirements and monitoring of subcontract terms.
 
+4. **Front-loading:** the prime fulfils offset obligations early in the contract through easy activities and then reduces engagement in later years when the harder capability-building work is supposed to happen. The solution is milestone-linked offset schedules aligned with the procurement timeline.
 
-
-Second, gold-plating: the prime proposes expensive but low-value activities to meet the percentage target without building real capability (sponsoring conferences, donating equipment to universities). The solution is a pre-approved list of eligible activities with clear criteria for what counts.
-
-
-
-Third, displacement: the prime subcontracts to a local firm but at below-market terms, effectively extracting value from the local firm rather than investing in it. The solution is fair-market-value requirements and monitoring of subcontract terms.
-
-
-
-Fourth, front-loading: the prime fulfils offset obligations early in the contract through easy activities and then reduces engagement in later years when the harder capability-building work is supposed to happen. The solution is milestone-linked offset schedules aligned with the procurement timeline.
+**Scale of impact:** With versus without an industrial participation policy, the contrast is binary: €2.5 billion either leaves Ireland or generates €375–750 million in domestic workshare, reference customers, and technology transfer. Every comparable defence-procuring state requires participation. Ireland does not.
 
 
 
-Figure 4: With versus without an industrial participation policy. The contrast is binary: €2.5 billion either leaves Ireland or generates €375–750 million in domestic workshare, reference customers, and technology transfer. Every comparable defence-procuring state requires participation. Ireland does not.
-
-
-
-The specific Irish procurement contracts
+### The specific Irish procurement contracts
 
 
 
@@ -208,7 +161,7 @@ The naval fleet renewal programme involves new multi-role vessels and armament f
 
 
 
-The institutional home
+### The institutional home
 
 
 
@@ -216,7 +169,7 @@ The industrial participation office should sit within the Department of Defence�
 
 
 
-The EU procurement directive question
+### The EU procurement directive question
 
 
 
@@ -224,11 +177,9 @@ The EU Defence Procurement Directive (2009/81/EC) restricts the use of offsets i
 
 
 
-Prerequisite 3: Export controls
+## Prerequisite 3: Export controls
 
-
-
-How export control chains actually work
+### How export control chains actually work
 
 
 
@@ -244,7 +195,7 @@ Ireland currently implements the EU Dual-Use Regulation (2021/821) through the D
 
 
 
-What Wassenaar alignment involves
+### What Wassenaar alignment involves
 
 
 
@@ -256,11 +207,9 @@ Practically, this means: drafting legislation defining controlled military items
 
 
 
-Figure 5: The export control gap. Ireland has no end-user certificate system for military items, no re-export controls, and no Munitions List implementation. Irish firms can operate within Ireland and through EU frameworks but cannot independently export to non-EU defence markets.
+**Export control gap:** Ireland has no end-user certificate system for military items, no re-export controls, and no Munitions List implementation. Irish firms can operate within Ireland and through EU frameworks but cannot independently export to non-EU defence markets.
 
-
-
-The specific items that would fall under controls
+### The specific items that would fall under controls
 
 
 
@@ -276,7 +225,7 @@ Ireland, as the EU’s GDPR enforcement hub and the European home of most major 
 
 
 
-The Anthropic question, operationalised
+### The Anthropic question, operationalised
 
 
 
@@ -284,7 +233,7 @@ Ireland hosts Anthropic’s European headquarters. However, Anthropic’s AI tec
 
 
 
-Realistic timeline and resource requirements
+### Realistic timeline and resource requirements
 
 
 
@@ -296,36 +245,24 @@ The legislation can be modelled on peer states — Finland’s military export c
 
 
 
-The implementation sequence
+## The implementation sequence
 
-
-
-Figure 6: The sequenced roadmap. Interim clearances (2026) enable EU programme access. Permanent clearances and industrial participation (2027) enable domestic supply chain positions. Export controls (2028–2030) enable international market access. Each phase enables the next.
-
-
+**Sequenced roadmap:** Interim clearances (2026) enable EU programme access. Permanent clearances and industrial participation (2027) enable domestic supply chain positions. Export controls (2028–2030) enable international market access. Each phase enables the next.
 
 The three prerequisites must be implemented in sequence because each enables the next:
 
+### 1. Clearances first
 
+Without them, Irish firms cannot participate in the EU programmes that generate the experience and relationships needed for domestic workshare. The interim process must be operational before the Presidency begins in July 2026, because the EDF 2026 calls are open and EDIP consortium formation is underway. Missing this window means waiting for the next programme cycle.
 
-Clearances first: without them, Irish firms cannot participate in the EU programmes that generate the experience and relationships needed for domestic workshare. The interim process must be operational before the Presidency begins in July 2026, because the EDF 2026 calls are open and EDIP consortium formation is underway. Missing this window means waiting for the next programme cycle.
+### 2. Industrial participation second
 
+Once clearances enable Irish firms to participate in EU consortia, the domestic procurement pipeline becomes the vehicle for building Irish firms’ capability and track record. The radar programme RFP should include participation requirements from its inception. The policy decision should be made by mid-2026 and incorporated into the next major tender.
 
+### 3. Export controls third
 
-Industrial participation second: once clearances enable Irish firms to participate in EU consortia, the domestic procurement pipeline becomes the vehicle for building Irish firms’ capability and track record. The radar programme RFP should include participation requirements from its inception. The policy decision should be made by mid-2026 and incorporated into the next major tender.
+The longest build time but the longest payoff horizon. Irish firms participating in EU consortia will, by 2028–2029, be producing technology that has defence-specific configurations. Without export controls, they can supply through the EU framework but cannot independently access non-EU markets. The export control system should be initiated in 2026 so that it is operational by the time Irish firms need it.
 
-
-
-Export controls third: the longest build time but the longest payoff horizon. Irish firms participating in EU consortia will, by 2028–2029, be producing technology that has defence-specific configurations. Without export controls, they can supply through the EU framework but cannot independently access non-EU markets. The export control system should be initiated in 2026 so that it is operational by the time Irish firms need it.
-
-
+---
 
 Each reform is independently valuable. If the process stalls at any point, what has been built remains useful. But the full system — clearances plus participation plus export controls — is what transforms Ireland from a state that happens to have technology firms into a state with a functioning defence industrial architecture.
-
-
-
-Security Ireland
-
-
-
-Independent analysis for a changing Ireland.  ·  securityireland.ie
