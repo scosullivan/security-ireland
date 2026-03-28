@@ -167,8 +167,8 @@ export default function ForPolicymakers() {
             title="Europe&rsquo;s Defence Problem Isn&rsquo;t Spending"
             type="Research Paper"
             desc="&euro;800 billion cannot convert to capability without coordination architecture. Twenty-seven procurement systems produce fragmented demand and US dependency."
-            href="/publications/eu-presidency-defence-agenda"
-            pdfUrl="/pdfs/Europes_Defence_Problem.pdf"
+            href="/publications/europes-defence-problem-isnt-spending"
+            pdfUrl="/pdfs/Europes_Defence_Problem_Isnt_Spending.pdf"
           />
           <PubCard
             title="Ireland&rsquo;s Defence Problem Isn&rsquo;t Neutrality"
