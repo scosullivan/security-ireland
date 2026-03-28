@@ -4,10 +4,8 @@ import { IrelandSVG } from '@/components/IrelandSVG';
 import PublicationCard from '@/components/PublicationCard';
 import Newsletter from '@/components/Newsletter';
 
-function formatMeta(post: { author: string; date: string; readTime: string }): string {
-  const d = new Date(post.date + 'T00:00:00');
-  const dateStr = d.toLocaleDateString('en-GB', { month: 'long', year: 'numeric' });
-  const parts = [post.author, dateStr];
+function formatMeta(post: { readTime: string }): string {
+  const parts: string[] = [];
   if (post.readTime) parts.push(post.readTime);
   return parts.join(' · ');
 }
