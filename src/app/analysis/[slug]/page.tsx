@@ -94,14 +94,8 @@ export default async function PublicationPage({
             marginBottom: '24px',
           }}
         >
-          <span>{post.author}</span>
-          <span>·</span>
-          <span>{formatDate(post.date)}</span>
           {post.readTime && (
-            <>
-              <span>·</span>
-              <span>{post.readTime}</span>
-            </>
+            <span>{post.readTime}</span>
           )}
         </div>
 
