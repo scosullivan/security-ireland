@@ -258,11 +258,12 @@ export default function ForPolicymakers() {
             href="/publications/loa-transition-architecture"
             pdfUrl="/pdfs/The_LOA_Transition_Architecture.pdf"
           />
-          <ForthcomingCard
+          <PubCard
             title="Intelligence Architecture Reform"
-            type="Policy Framework · Forthcoming"
+            type="Policy Framework"
             desc="Ireland&rsquo;s intelligence architecture &mdash; split between military (J2/IMIS), police (Garda CSB), and cyber (NCSC) &mdash; is unique in Europe. Every comparable state has unified intelligence."
-            coming="Coming 2027"
+            href="/publications/intelligence-architecture-reform"
+            pdfUrl="/pdfs/Intelligence_Architecture_Reform.pdf"
           />
         </Expandable>
 
@@ -293,11 +294,12 @@ export default function ForPolicymakers() {
             href="/publications/good-friday-agreement-security"
             pdfUrl="/pdfs/GFA_Security_Gap.pdf"
           />
-          <ForthcomingCard
+          <PubCard
             title="North/South Security Implementation Protocol"
-            type="Implementation Document · Forthcoming"
+            type="Implementation Document"
             desc="Extracts the operational detail from Working Paper 2 into a standalone protocol for cross-border officials: energy infrastructure security, transport resilience, maritime environmental monitoring, and cyber resilience coordination."
-            coming="Coming Q3 2026"
+            href="/publications/north-south-implementation-protocol"
+            pdfUrl="/pdfs/North_South_Implementation_Protocol.pdf"
           />
         </Expandable>
       </section>
