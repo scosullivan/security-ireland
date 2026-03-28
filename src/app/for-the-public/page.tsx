@@ -81,7 +81,7 @@ export default function ForThePublic() {
           Understand Irish Security
         </h1>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '620px', marginBottom: '8px' }}>
-          Accessible explainers on Ireland&apos;s defence, European commitments, and why this matters now. No jargon. No agenda. Just the facts you need to form your own view.
+          Accessible explainers on Ireland&apos;s defence, European commitments, and why this matters now. The facts you need to form your own view.
         </p>
         <p style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: 'var(--color-stone)' }}>
           15 explainers · ~5 minutes each · Click any heading to expand
