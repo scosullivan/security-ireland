@@ -190,7 +190,7 @@ export default function EuropeanDefence() {
               type="Research Paper"
               status="Complete"
               desc="For every weapon type the United States fields, the EU operates more than five variants. Twenty-seven separate procurement systems produce fragmented demand, duplicated programmes, and subscale production runs. €800 billion cannot buy deterrence without coordination architecture."
-              slug="defence-financing-explained"
+              slug="europes-defence-problem-isnt-spending"
             />
           </div>
         </Expandable>
@@ -218,7 +218,7 @@ export default function EuropeanDefence() {
             type="Research Paper"
             status="Complete"
             desc="A premature rearmament: a politically-driven spending surge into an industrial architecture that cannot absorb it productively. Traces two compounding failure modes — external dependency on American contractors and internal fragmentation across 27 European procurement systems."
-            forthcoming
+            slug="europe-defence-buildup"
           />
 
           {/* Architecture-first framework table */}
