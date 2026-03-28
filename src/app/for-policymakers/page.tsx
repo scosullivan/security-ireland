@@ -4,7 +4,7 @@ import Expandable from '@/components/Expandable';
 
 export const metadata = {
   title: 'For Policymakers — Security Ireland',
-  description: 'Rigorous analysis for decisionmakers. Written to be cited in ministerial briefings, Council working groups, and Oireachtas committee sessions.',
+  description: 'Rigorous Analysis For Decision Makers. Written to be cited in ministerial briefings, Council working groups, and Oireachtas committee sessions.',
 };
 
 /* ── Shared styles ── */
@@ -120,7 +120,7 @@ export default function ForPolicymakers() {
           For Policymakers
         </div>
         <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: '32px', fontWeight: 400, color: 'var(--color-ink)', marginBottom: '16px', maxWidth: '640px' }}>
-          Rigorous analysis for decisionmakers
+          Rigorous Analysis For Decision Makers
         </h1>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '600px', marginBottom: '20px' }}>
           Publications written to be cited in a ministerial brief, used in a Council working group, or referenced in an Oireachtas committee session. Rigorous, operationally grounded, and designed to inform decisions under time pressure.
