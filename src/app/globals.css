@@ -249,8 +249,10 @@ body {
 /* Key findings */
 .key-findings {
   margin: 32px 0;
-  padding: 20px 0 20px 24px;
-  border-left: 2px solid var(--color-terracotta);
+  padding: 24px 28px 24px 28px;
+  border-left: 3px solid var(--color-terracotta);
+  background: var(--color-parchment);
+  border-radius: 0 6px 6px 0;
 }
 .key-findings .kf-title {
   font-family: var(--font-mono);
