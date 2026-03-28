@@ -51,10 +51,12 @@ export default async function PublicationPage({ params }: { params: Promise<{ sl
           {post.excerpt}
         </p>
 
-        {/* Date + read time */}
-        <div style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', color: 'var(--color-stone)', marginBottom: '24px' }}>
-          {dateStr} · {post.readTime}
-        </div>
+        {/* Read time */}
+        {post.readTime && (
+          <div style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', color: 'var(--color-stone)', marginBottom: '24px' }}>
+            {post.readTime}
+          </div>
+        )}
 
         {/* PDF Download Button — prominent, near the top */}
         {post.pdfUrl && (
