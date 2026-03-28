@@ -174,8 +174,8 @@ export default function ForPolicymakers() {
             title="Ireland&rsquo;s Defence Problem Isn&rsquo;t Neutrality"
             type="Research Paper"
             desc="Ireland&rsquo;s institutional system is architecturally configured for the absence of military capability across five reinforcing layers. The constraint is bandwidth, not budget."
-            href="/publications/defence-at-a-glance-q1-2026"
-            pdfUrl="/pdfs/Irelands_Defence_Problem.pdf"
+            href="/publications/neutrality-institutional-architecture"
+            pdfUrl="/pdfs/Neutrality_Institutional_Architecture.pdf"
           />
 
           <div style={tierLabel}>Explainers</div>
