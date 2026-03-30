@@ -9,6 +9,7 @@ featured: true
 tags: ["gfa", "defence", "eu-presidency", "security-architecture"]
 audiences: ["public", "policymakers"]
 topics: ["uk-ireland", "european-defence"]
+pdfUrl: "/pdfs/GFA_Security_Gap.pdf"
 ---
 
 ## The Good Friday Agreement Security Framework: Original Design
