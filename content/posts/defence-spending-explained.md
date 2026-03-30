@@ -1,5 +1,5 @@
 ---
-title: "Defence Spending Explained"
+title: "Ireland's Defence Spending Explained"
 type: "Explainer"
 date: "2026-03-20"
 author: "Security Ireland"
