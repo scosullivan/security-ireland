@@ -11,7 +11,7 @@ audience:
   - media
 topic: eu-presidency
 excerpt: "Ireland published its Critical Entities Resilience Strategy weeks before assuming the Council Presidency. It now chairs the body where every other member state's implementation is reviewed. The question is whether Ireland treats this as compliance or as a platform for EU-wide leadership on infrastructure protection."
-pdf: "/pdfs/Critical_Infrastructure_Resilience.pdf"
+pdfUrl: "/pdfs/Critical_Infrastructure_Resilience.pdf"
 ---
 
 ## In Brief
