@@ -49,6 +49,10 @@ The double dependency is therefore: 100 per cent oil import dependence with no r
 
 > *Ireland is possibly the least flexible country in Europe to adapt to any energy supply disruption: no LNG terminal, no gas storage, no nuclear power, no refining capacity, and a single pipeline route for gas imports.*
 
+![The double dependency: Ireland is approaching 100% import dependency on both oil and gas simultaneously](/images/charts/es_double_dependency.png)
+
+![Ireland's fuel supply chain: 100% import-dependent with no refining capacity](/images/charts/es_fuel_supply_chain.png)
+
 ## The institutional gap
 
 Ireland's fuel security architecture rests on three pillars, each of which is inadequate for the crisis it now faces.
@@ -60,6 +64,8 @@ Ireland's fuel security architecture rests on three pillars, each of which is in
 **The strategic reserve is thinner than it appears.** NORA maintains 90 days of oil supply, meeting Ireland's IEA and EU obligations. Stocks are held at oil terminals across the island—Dublin, Cork (the former Whitegate refinery site), Whiddy Island in Bantry Bay, Foynes, Shannon, Tarbert, and Galway—as well as at Derry and Kilroot in Northern Ireland. However, 28 per cent of total stocks are held abroad in other EU member states under bilateral stockholding agreements. In a crisis affecting multiple EU states simultaneously—which is precisely the scenario the current conflict creates—the practical availability of those foreign-held stocks is uncertain.
 
 Ireland has already committed 1.6 million barrels (approximately 10.5 days of supply) to the IEA's 400-million-barrel collective release. If the crisis extends beyond the summer, the reserve draws down further. And Ireland has no domestic refining capacity: the Whitegate refinery in Cork, the state's only refinery, ceased independent refining operations. Ireland imports finished fuel products—petrol, diesel, kerosene, jet fuel—meaning even with crude oil in reserve, the refining bottleneck remains. The reserve buys time; it does not resolve a supply disruption. And the time it buys is shrinking with every release.
+
+![The institutional gap: four departments, one ad hoc coordination group, no standing architecture](/images/charts/es_institutional_gap.png)
 
 ## The pattern: architectural absence as system design
 
