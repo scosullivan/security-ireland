@@ -162,6 +162,29 @@ export default function ForPolicymakers() {
             Ireland faces a convergence of security demands without precedent: an EU Council Presidency during the largest defence spending programme in EU history, a bilateral security architecture with the UK being operationalised for the first time, and an institutional system at a fifty-year low.
           </p>
 
+          <div style={tierLabel}>Proposals</div>
+          <PubCard
+            title="Ireland&rsquo;s Defence Problem Isn&rsquo;t Neutrality"
+            type="Research Paper"
+            desc="Ireland&rsquo;s institutional system is architecturally configured for the absence of military capability across five reinforcing layers. The constraint is bandwidth, not budget."
+            href="/publications/neutrality-institutional-architecture"
+            pdfUrl="/pdfs/Neutrality_Institutional_Architecture.pdf"
+          />
+          <PubCard
+            title="National Security Strategy Explained"
+            type="Policy Framework"
+            desc="Ireland still has no national security strategy. What it would contain, why it matters, and what the delay costs."
+            href="/publications/national-security-strategy"
+            pdfUrl="/pdfs/National_Security_Strategy.pdf"
+          />
+          <PubCard
+            title="Defence Industrial Policy Explained"
+            type="Policy Framework"
+            desc="Enterprise Ireland&rsquo;s dual-use engagement, EDIP eligibility, and what a bounded Irish defence industrial role looks like."
+            href="/publications/defence-industrial-policy"
+            pdfUrl="/pdfs/Defence_Industrial_Policy.pdf"
+          />
+
           <div style={tierLabel}>Context</div>
           <PubCard
             title="Europe&rsquo;s Defence Problem Isn&rsquo;t Spending"
@@ -170,17 +193,10 @@ export default function ForPolicymakers() {
             href="/publications/europes-defence-problem-isnt-spending"
             pdfUrl="/pdfs/Europes_Defence_Problem_Isnt_Spending.pdf"
           />
-          <PubCard
-            title="Ireland&rsquo;s Defence Problem Isn&rsquo;t Neutrality"
-            type="Research Paper"
-            desc="Ireland&rsquo;s institutional system is architecturally configured for the absence of military capability across five reinforcing layers. The constraint is bandwidth, not budget."
-            href="/publications/neutrality-institutional-architecture"
-            pdfUrl="/pdfs/Neutrality_Institutional_Architecture.pdf"
-          />
 
           <div style={tierLabel}>Explainers</div>
           <PubCard
-            title="Defence Spending Explained"
+            title="Ireland&rsquo;s Defence Spending Explained"
             type="Explainer"
             desc="What Ireland actually spends on defence, how it compares to EU and NATO peers, and what the Commission on Defence Forces recommended."
             href="/publications/defence-spending-explained"
@@ -199,20 +215,6 @@ export default function ForPolicymakers() {
             desc="How Ireland funds defence, the capital allocation for 2026&ndash;2030, and what the spending trajectory means for capability."
             href="/publications/defence-financing-explained"
             pdfUrl="/pdfs/Defence_Financing_Explained.pdf"
-          />
-          <PubCard
-            title="Defence Industrial Policy Explained"
-            type="Explainer"
-            desc="Enterprise Ireland&rsquo;s dual-use engagement, EDIP eligibility, and what a bounded Irish defence industrial role looks like."
-            href="/publications/defence-industrial-policy"
-            pdfUrl="/pdfs/Defence_Industrial_Policy.pdf"
-          />
-          <PubCard
-            title="National Security Strategy Explained"
-            type="Explainer"
-            desc="Ireland still has no national security strategy. What it would contain, why it matters, and what the delay costs."
-            href="/publications/national-security-strategy"
-            pdfUrl="/pdfs/National_Security_Strategy.pdf"
           />
         </Expandable>
 
