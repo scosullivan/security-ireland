@@ -9,6 +9,7 @@ featured: false
 tags: ["defence", "statistics", "data", "budget"]
 audiences: ["investors", "media", "policymakers"]
 topics: ["defence-capability", "defence-transformation"]
+pdfUrl: "/pdfs/Irish_Defence_Q1_2026_Datasheet.pdf"
 ---
 
 ## Defence Budget and Spending

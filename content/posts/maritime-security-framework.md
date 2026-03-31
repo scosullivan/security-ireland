@@ -9,6 +9,7 @@ featured: true
 tags: ["maritime", "defence", "EU"]
 audiences: ["policymakers", "investors"]
 topics: ["maritime-security", "uk-ireland", "defence-capability"]
+pdfUrl: "/pdfs/Irelands_Maritime_Security_Framework.pdf"
 ---
 
 ## Strategic Context: Ireland's Maritime Domain
