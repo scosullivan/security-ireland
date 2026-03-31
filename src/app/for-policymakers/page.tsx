@@ -171,14 +171,14 @@ export default function ForPolicymakers() {
             pdfUrl="/pdfs/Neutrality_Institutional_Architecture.pdf"
           />
           <PubCard
-            title="National Security Strategy Explained"
+            title="A National Security Strategy for Ireland"
             type="Policy Framework"
             desc="Ireland still has no national security strategy. What it would contain, why it matters, and what the delay costs."
             href="/publications/national-security-strategy"
             pdfUrl="/pdfs/National_Security_Strategy.pdf"
           />
           <PubCard
-            title="Defence Industrial Policy Explained"
+            title="A Defence Industrial Strategy for Ireland"
             type="Policy Framework"
             desc="Enterprise Ireland&rsquo;s dual-use engagement, EDIP eligibility, and what a bounded Irish defence industrial role looks like."
             href="/publications/defence-industrial-policy"
