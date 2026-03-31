@@ -157,7 +157,7 @@ export default function ForPolicymakers() {
         <hr style={{ border: 'none', borderTop: '2px solid var(--color-terracotta)', marginBottom: '32px' }} />
 
         {/* ═══════ SECTION 1: STRATEGIC FOUNDATION ═══════ */}
-        <Expandable num="1" title="Strategic Foundation" readTime="7 papers">
+        <Expandable num="1" title="Strategic Foundation" readTime="8 papers">
           <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '600px', marginBottom: '24px' }}>
             Ireland faces a convergence of security demands without precedent: an EU Council Presidency during the largest defence spending programme in EU history, a bilateral security architecture with the UK being operationalised for the first time, and an institutional system at a fifty-year low.
           </p>
@@ -183,6 +183,13 @@ export default function ForPolicymakers() {
             desc="Enterprise Ireland&rsquo;s dual-use engagement, EDIP eligibility, and what a bounded Irish defence industrial role looks like."
             href="/publications/defence-industrial-policy"
             pdfUrl="/pdfs/Defence_Industrial_Policy.pdf"
+          />
+          <PubCard
+            title="Energy Security as the Sixth Domain"
+            type="Policy Brief"
+            desc="Ireland&rsquo;s fuel crisis reveals the same architectural absence diagnosed across maritime, airspace, subsea, cyber, and intelligence. Six reforms that can be initiated immediately."
+            href="/publications/energy-security-sixth-domain"
+            pdfUrl="/pdfs/Energy_Security_Sixth_Domain.pdf"
           />
 
           <div style={tierLabel}>Context</div>
