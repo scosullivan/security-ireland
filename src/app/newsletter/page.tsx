@@ -77,7 +77,7 @@ export default function Newsletter() {
               fontFamily: 'var(--font-sans)',
             }}
           >
-            You&apos;re on the list. We&apos;ll be in touch when new research is published.
+            Thanks for signing up! You are now on the newsletter mailing list.
           </div>
         ) : error ? (
           <div
