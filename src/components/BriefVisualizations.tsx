@@ -35,11 +35,11 @@ function PrimerViz() {
       </div>
 
       {/* SVG diagram */}
-      <svg viewBox="0 0 700 320" style={{ width: '100%', maxWidth: '700px', height: 'auto' }}>
+      <svg viewBox="0 0 760 320" style={{ width: '100%', maxWidth: '760px', height: 'auto' }}>
         {/* Connection lines */}
         {connections.map(([d, inst], i) => {
-          const dx = 90 + d * 130;
-          const ix = 60 + inst * 170;
+          const dx = 105 + d * 160;
+          const ix = 80 + inst * 170;
           return (
             <line key={i}
               x1={dx} y1={95} x2={ix} y2={195}
@@ -50,16 +50,16 @@ function PrimerViz() {
 
         {/* Domain boxes */}
         {domains.map((d, i) => {
-          const x = 30 + i * 130;
+          const x = 30 + i * 160;
           return (
             <g key={`d-${i}`}>
-              <rect x={x} y={20} width={120} height={70} rx={3}
+              <rect x={x} y={20} width={150} height={70} rx={3}
                 fill="var(--color-parchment)" stroke={d.color} strokeWidth="2" />
               <text x={x + 15} y={48} style={{ fontFamily: 'var(--font-serif)', fontSize: '24px', fontWeight: 700, fill: d.color }}>
                 {d.num}
               </text>
               {d.label.split('\n').map((line, li) => (
-                <text key={li} x={x + 42} y={46 + li * 16}
+                <text key={li} x={x + 45} y={46 + li * 16}
                   style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', letterSpacing: '0.5px', fill: 'var(--color-ink)' }}>
                   {line}
                 </text>
@@ -69,17 +69,17 @@ function PrimerViz() {
         })}
 
         {/* Arrow label */}
-        <text x={350} y={155} textAnchor="middle"
+        <text x={380} y={155} textAnchor="middle"
           style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', letterSpacing: '1.5px', textTransform: 'uppercase' as const, fill: 'var(--color-stone)' }}>
           Shaped through ↓
         </text>
 
         {/* Instrument boxes */}
         {instruments.map((inst, i) => {
-          const x = 5 + i * 170;
+          const x = 10 + i * 185;
           return (
             <g key={`i-${i}`}>
-              <rect x={x} y={190} width={160} height={60} rx={3}
+              <rect x={x} y={190} width={175} height={60} rx={3}
                 fill="var(--color-cream)" stroke={inst.color} strokeWidth="2" />
               <text x={x + 12} y={213}
                 style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', fontWeight: 600, fill: inst.color }}>
@@ -89,7 +89,7 @@ function PrimerViz() {
                 style={{ fontFamily: 'var(--font-serif)', fontSize: '11px', fill: 'var(--color-graphite)' }}>
                 {inst.desc}
               </text>
-              <text x={x + 148} y={213} textAnchor="end"
+              <text x={x + 163} y={213} textAnchor="end"
                 style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', fill: 'var(--color-stone)' }}>
                 Brief {inst.brief}
               </text>
@@ -98,7 +98,7 @@ function PrimerViz() {
         })}
 
         {/* Bottom note */}
-        <text x={350} y={285} textAnchor="middle"
+        <text x={380} y={285} textAnchor="middle"
           style={{ fontFamily: 'var(--font-serif)', fontSize: '13px', fontStyle: 'italic' as const, fill: 'var(--color-graphite)' }}>
           Remove any one and the others lose coherence.
         </text>
