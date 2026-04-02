@@ -262,13 +262,26 @@ body {
   color: var(--color-terracotta);
   margin-bottom: 12px;
 }
+.key-findings ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
 .key-findings li {
   font-family: var(--font-serif);
   font-size: 14px;
   color: var(--color-ink);
   line-height: 1.65;
-  margin-bottom: 8px;
-  margin-left: 16px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+.key-findings li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--color-terracotta);
+  font-weight: 600;
 }
 
 /* Pub actions */
