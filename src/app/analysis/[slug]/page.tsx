@@ -122,38 +122,11 @@ export default async function PublicationPage({
 
         {/* Key Findings (if present) */}
         {post.keyFindings && post.keyFindings.length > 0 && (
-          <div
-            style={{
-              borderLeft: '3px solid var(--color-terracotta)',
-              padding: '24px 28px',
-              marginBottom: '48px',
-              backgroundColor: 'var(--color-cream)',
-            }}
-          >
-            <div
-              style={{
-                fontFamily: 'var(--font-mono)',
-                fontSize: '10px',
-                letterSpacing: '3px',
-                textTransform: 'uppercase',
-                color: 'var(--color-terracotta)',
-                marginBottom: '16px',
-              }}
-            >
-              Key Findings
-            </div>
-            <ul
-              style={{
-                listStyleType: 'disc',
-                paddingLeft: '20px',
-                fontFamily: 'var(--font-sans)',
-                fontSize: '1rem',
-                lineHeight: 1.75,
-                color: 'var(--color-ink)',
-              }}
-            >
+          <div className="key-findings">
+            <div className="kf-title">Key Findings</div>
+            <ul>
               {post.keyFindings.map((finding: string, i: number) => (
-                <li key={i} style={{ marginBottom: '8px' }}>{finding}</li>
+                <li key={i}>{finding}</li>
               ))}
             </ul>
           </div>
