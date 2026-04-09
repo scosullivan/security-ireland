@@ -5,9 +5,42 @@ import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = {
-  title: "Security Ireland — Independent analysis for a changing Ireland",
+  title: {
+    default: "Security Ireland — Independent analysis for a changing Ireland",
+    template: "%s — Security Ireland",
+  },
   description:
-    "Security Ireland is an independent think tank providing rigorous analysis of security and defence policy for Ireland. We examine evolving security challenges and opportunities in the context of Ireland's unique strategic position.",
+    "Security Ireland is an independent think tank providing rigorous analysis of security and defence policy for Ireland.",
+  metadataBase: new URL("https://securityireland.ie"),
+  openGraph: {
+    title: "Security Ireland",
+    description:
+      "Independent analysis of security and defence policy for Ireland. Rigorous research for policymakers, media, and the public.",
+    url: "https://securityireland.ie",
+    siteName: "Security Ireland",
+    locale: "en_IE",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Security Ireland",
+    description:
+      "Independent analysis of security and defence policy for Ireland.",
+  },
+  alternates: {
+    canonical: "https://securityireland.ie",
+  },
+  keywords: [
+    "Security Ireland",
+    "Irish defence policy",
+    "Ireland security",
+    "Irish defence",
+    "defence spending Ireland",
+    "EU Presidency Ireland",
+    "PESCO Ireland",
+    "Irish neutrality",
+    "defence think tank Ireland",
+  ],
 };
 
 export default function RootLayout({
