@@ -311,7 +311,7 @@ export default function Checklist() {
           Ireland&rsquo;s Security &amp; Defence Architecture
         </h1>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '640px', marginBottom: '8px' }}>
-          What every EU state has. What Ireland has. What&rsquo;s missing.
+          What every EU state has, what Ireland has, and what&rsquo;s missing.
         </p>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-stone)', lineHeight: 1.65, maxWidth: '640px', marginBottom: '24px' }}>
           A systematic comparison of the institutional frameworks, strategies, and capabilities that comparable EU member states maintain as standard &mdash; measured against what Ireland has in place, what is partially developed, and what does not exist.
