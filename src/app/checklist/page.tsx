@@ -247,11 +247,11 @@ const sections = [
       { framework: 'Gendarmerie / intermediate public order force', status: 'MISSING', detail: 'Nothing between An Garda S\u00edoch\u00e1na and the Defence Forces. Every comparable EU state has this.', link: { href: '/publications/crisis-management-gap', label: 'The Crisis Management Gap' } },
       { framework: 'Civil protection agency (standing)', status: 'MISSING', detail: 'No equivalent of French S\u00e9curit\u00e9 civile or German THW.', link: { href: '/publications/crisis-management-gap', label: 'The Crisis Management Gap' } },
       { framework: 'National emergency management agency', status: 'MISSING', detail: 'National Emergency Coordination Group is ad hoc. No standing agency.' },
-      { framework: 'Proportionality test for military deployment', status: 'MISSING', detail: 'No statutory test. Defence Act 1954 provides broad authority with no proportionality requirement.', link: { href: '/publications/soldiers-against-tractors', label: 'Soldiers Against Tractors' } },
+      { framework: 'Proportionality test for military deployment', status: 'MISSING', detail: 'No statutory test. Defence Act 1954 provides broad authority with no proportionality requirement.', link: { href: '/publications/proportionality-framework', label: 'Proportionality Framework Proposal' } },
       { framework: 'Graduated escalation protocol', status: 'MISSING', detail: 'No defined escalation sequence from policing to military. Binary switch.', link: { href: '/publications/crisis-management-gap', label: 'The Crisis Management Gap' } },
-      { framework: 'Parliamentary oversight of domestic deployment', status: 'MISSING', detail: 'No D\u00e1il notification or review requirement for aid to the civil power operations.' },
-      { framework: 'Domestic rules of engagement (published)', status: 'MISSING', detail: 'ROE exist for overseas peacekeeping. No published domestic equivalent.', link: { href: '/publications/crisis-management-gap', label: 'The Crisis Management Gap' } },
-      { framework: 'Independent oversight of military conduct', status: 'MISSING', detail: 'GSOC covers Garda conduct. No equivalent body for military during domestic deployment.', link: { href: '/publications/soldiers-against-tractors', label: 'Soldiers Against Tractors' } },
+      { framework: 'Parliamentary oversight of domestic deployment', status: 'MISSING', detail: 'No D\u00e1il notification or review requirement for aid to the civil power operations.', link: { href: '/publications/proportionality-framework', label: 'Proportionality Framework Proposal' } },
+      { framework: 'Domestic rules of engagement (published)', status: 'MISSING', detail: 'ROE exist for overseas peacekeeping. No published domestic equivalent.', link: { href: '/publications/proportionality-framework', label: 'Proportionality Framework Proposal' } },
+      { framework: 'Independent oversight of military conduct', status: 'MISSING', detail: 'GSOC covers Garda conduct. No equivalent body for military during domestic deployment.', link: { href: '/publications/proportionality-framework', label: 'Proportionality Framework Proposal' } },
       { framework: 'Ministerial accountability for crisis mgmt', status: 'MISSING', detail: 'No minister owns crisis management. Falls between Justice and Defence.', link: { href: '/publications/crisis-management-gap', label: 'The Crisis Management Gap' } },
     ],
   },
@@ -311,7 +311,7 @@ export default function Checklist() {
           Ireland&rsquo;s Security &amp; Defence Architecture
         </h1>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '640px', marginBottom: '8px' }}>
-          What every EU state has, what Ireland has, and what&rsquo;s missing.
+          What every EU state has. What Ireland has. What&rsquo;s missing.
         </p>
         <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-stone)', lineHeight: 1.65, maxWidth: '640px', marginBottom: '24px' }}>
           A systematic comparison of the institutional frameworks, strategies, and capabilities that comparable EU member states maintain as standard &mdash; measured against what Ireland has in place, what is partially developed, and what does not exist.
