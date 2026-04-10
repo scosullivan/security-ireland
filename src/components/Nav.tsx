@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 
 const navLinks = [
-  { href: '/checklist', label: 'Checklist' },
+  { href: '/checklist', label: 'Policy Checklist' },
   { href: '/european-defence', label: 'European Defence' },
   { href: '/eu-presidency', label: 'EU Presidency 2026' },
   { href: '/for-policymakers', label: 'For Policymakers' },
