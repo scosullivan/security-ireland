@@ -157,7 +157,7 @@ export default function ForPolicymakers() {
         <hr style={{ border: 'none', borderTop: '2px solid var(--color-terracotta)', marginBottom: '32px' }} />
 
         {/* ═══════ SECTION 1: STRATEGIC FOUNDATION ═══════ */}
-        <Expandable num="1" title="Strategic Foundation" readTime="8 papers">
+        <Expandable num="1" title="Strategic Foundation" readTime="10 papers">
           <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '600px', marginBottom: '24px' }}>
             Ireland faces a convergence of security demands without precedent: an EU Council Presidency during the largest defence spending programme in EU history, a bilateral security architecture with the UK being operationalised for the first time, and an institutional system at a fifty-year low.
           </p>
@@ -190,6 +190,20 @@ export default function ForPolicymakers() {
             desc="Ireland&rsquo;s fuel crisis reveals the same architectural absence diagnosed across maritime, airspace, subsea, cyber, and intelligence. Six reforms that can be initiated immediately."
             href="/publications/energy-security-sixth-domain"
             pdfUrl="/pdfs/Energy_Security_Sixth_Domain.pdf"
+          />
+          <PubCard
+            title="The Crisis Management Gap"
+            type="Policy Brief"
+            desc="Ireland is the only EU member state with no intermediate crisis management architecture. When policing reaches its limit, the next step is soldiers. Seven missing safeguards for domestic military deployment."
+            href="/publications/crisis-management-gap"
+            pdfUrl="/pdfs/Crisis_Management_Gap_Policing.pdf"
+          />
+          <PubCard
+            title="A Proportionality Framework for Military Aid to the Civil Power"
+            type="Policy Proposal"
+            desc="Seven gates that must be passed before and during any domestic military deployment: necessity, proportionality, civilian character distinction, time limitation, parliamentary notification, rules of engagement, and independent oversight."
+            href="/publications/proportionality-framework"
+            pdfUrl="/pdfs/Proportionality_Framework_Proposal.pdf"
           />
 
           <div style={tierLabel}>Context</div>
