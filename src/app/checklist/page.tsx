@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Newsletter from '@/components/Newsletter';
 
 export const metadata = {
-  title: 'Security & Defence Checklist — Security Ireland',
+  title: 'Policy Checklist — Security Ireland',
   description: 'A systematic comparison of what every EU state has, what Ireland has, and what is missing across 49 security and defence frameworks.',
 };
 
@@ -35,7 +35,7 @@ function Badge({ status }: { status: string }) {
 }
 
 /* ── Row ── */
-function Row({ framework, status, detail }: { framework: string; status: string; detail: string }) {
+function Row({ framework, status, detail, link }: { framework: string; status: string; detail: string; link?: { href: string; label: string } }) {
   return (
     <div style={{
       display: 'grid',
@@ -64,6 +64,21 @@ function Row({ framework, status, detail }: { framework: string; status: string;
         }}>
           {detail}
         </p>
+        {link && (
+          <Link href={link.href} style={{
+            display: 'inline-block',
+            fontFamily: 'var(--font-mono)',
+            fontSize: '10px',
+            letterSpacing: '0.5px',
+            color: 'var(--color-fern)',
+            textDecoration: 'none',
+            borderBottom: '1px solid var(--color-fern)',
+            paddingBottom: '1px',
+            marginTop: '6px',
+          }}>
+            SI: {link.label} →
+          </Link>
+        )}
       </div>
       <div style={{ paddingTop: '2px' }}>
         <Badge status={status} />
@@ -76,7 +91,7 @@ function Row({ framework, status, detail }: { framework: string; status: string;
 function Section({ title, description, items }: {
   title: string;
   description: string;
-  items: { framework: string; status: string; detail: string }[];
+  items: { framework: string; status: string; detail: string; link?: { href: string; label: string } }[];
 }) {
   const counts = {
     missing: items.filter(i => i.status === 'MISSING').length,
@@ -157,12 +172,12 @@ const sections = [
     title: 'Strategic Frameworks',
     description: 'The foundational documents and institutional structures that define how a state organises its security and defence.',
     items: [
-      { framework: 'National security strategy', status: 'MISSING', detail: 'In development since 2019. Seven years later, unpublished. Ireland is the only EU member state without one.' },
-      { framework: 'National defence policy / white paper', status: 'PARTIAL', detail: 'White Paper on Defence 2015 exists but is outdated. Commission on Defence Forces (2022) partially updates it.' },
-      { framework: 'Dedicated Minister for Defence', status: 'MISSING', detail: 'Defence is held jointly with Foreign Affairs and Trade. No full-time cabinet minister for defence.' },
+      { framework: 'National security strategy', status: 'MISSING', detail: 'In development since 2019. Seven years later, unpublished. Ireland is the only EU member state without one.', link: { href: '/publications/national-security-strategy', label: 'A National Security Strategy for Ireland' } },
+      { framework: 'National defence policy / white paper', status: 'PARTIAL', detail: 'White Paper on Defence 2015 exists but is outdated. Commission on Defence Forces (2022) partially updates it.', link: { href: '/publications/building-institutional-infrastructure', label: 'Building the Institutional Infrastructure' } },
+      { framework: 'Dedicated Minister for Defence', status: 'MISSING', detail: 'Defence is held jointly with Foreign Affairs and Trade. No full-time cabinet minister for defence.', link: { href: '/publications/neutrality-institutional-architecture', label: 'Ireland\u2019s Defence Problem Isn\u2019t Neutrality' } },
       { framework: 'National Security Committee (standing)', status: 'PARTIAL', detail: 'Exists but meets irregularly. No permanent secretariat. No published terms of reference.' },
       { framework: 'National Security Analysis Centre', status: 'PARTIAL', detail: 'NSAC established 2019 under Dept of Taoiseach. Understaffed and underpowered compared to equivalents.' },
-      { framework: 'Defence industrial policy', status: 'MISSING', detail: 'No framework for Irish industry participation in European defence production (EDIP, EDIRPA, ASAP).' },
+      { framework: 'Defence industrial policy', status: 'MISSING', detail: 'No framework for Irish industry participation in European defence production (EDIP, EDIRPA, ASAP).', link: { href: '/publications/defence-industrial-policy', label: 'Defence Industrial Policy Explained' } },
       { framework: 'Security clearance system', status: 'NEW 2025+', detail: 'Interim system introduced 2025/2026 to allow Irish officials to access EU classified material.' },
       { framework: 'Defence attach\u00e9 network', status: 'NEW 2025+', detail: 'Pilot programme 2026: London, Paris, Washington. Most EU states have had networks for decades.' },
     ],
@@ -171,7 +186,7 @@ const sections = [
     title: 'Intelligence & Threat Assessment',
     description: 'The institutional architecture for gathering, analysing, and disseminating security intelligence.',
     items: [
-      { framework: 'Unified national intelligence agency', status: 'MISSING', detail: 'Intelligence split between military (J2/IMIS), police (Garda CSB), and cyber (NCSC). No unified structure.' },
+      { framework: 'Unified national intelligence agency', status: 'MISSING', detail: 'Intelligence split between military (J2/IMIS), police (Garda CSB), and cyber (NCSC). No unified structure.', link: { href: '/publications/intelligence-architecture-reform', label: 'Intelligence Architecture Reform' } },
       { framework: 'Integrated threat assessment capability', status: 'PARTIAL', detail: 'NSAC produces some assessments but is not a standing intelligence fusion centre.' },
       { framework: 'Foreign intelligence service', status: 'MISSING', detail: 'No equivalent of MI6, DGSE, BND. Ireland has no foreign intelligence collection capability.' },
       { framework: 'Counter-intelligence capability', status: 'PARTIAL', detail: 'Garda CSB performs some functions. No dedicated counter-intelligence agency.' },
@@ -193,11 +208,11 @@ const sections = [
     title: 'Maritime Security',
     description: 'The capability to monitor and protect 880,000 km\u00b2 of maritime zone \u2014 the largest in Western Europe.',
     items: [
-      { framework: 'National maritime security strategy', status: 'NEW 2025+', detail: 'Launched March 2026. 41 objectives to 2030. Implementation architecture still undefined.' },
+      { framework: 'National maritime security strategy', status: 'NEW 2025+', detail: 'Launched March 2026. 41 objectives to 2030. Implementation architecture still undefined.', link: { href: '/publications/maritime-security-framework', label: 'Ireland\u2019s Maritime Security Framework' } },
       { framework: 'Armed naval vessels', status: 'MISSING', detail: 'Naval Service vessels are not armed for combat. No anti-ship missiles, no close-in weapon systems.' },
       { framework: 'Anti-submarine warfare capability', status: 'MISSING', detail: 'None. Towed sonar procurement underway (CAPTAS) but no ASW weapons or doctrine.' },
-      { framework: 'Subsea cable monitoring capability', status: 'MISSING', detail: 'No standing monitoring of cables carrying 90% of transatlantic data through Irish waters.' },
-      { framework: 'Sufficient vessels to patrol EEZ', status: 'MISSING', detail: 'Eight vessels, typically four operational. Cannot cover 880,000 km\u00b2.' },
+      { framework: 'Subsea cable monitoring capability', status: 'MISSING', detail: 'No standing monitoring of cables carrying 90% of transatlantic data through Irish waters.', link: { href: '/publications/maritime-surveillance-gap', label: 'Ireland\u2019s Maritime Surveillance Gap' } },
+      { framework: 'Sufficient vessels to patrol EEZ', status: 'MISSING', detail: 'Eight vessels, typically four operational. Cannot cover 880,000 km\u00b2.', link: { href: '/publications/maritime-surveillance-gap', label: 'Ireland\u2019s Maritime Surveillance Gap' } },
       { framework: 'Naval Service at establishment strength', status: 'MISSING', detail: '807 personnel against establishment. Recruitment and retention crisis ongoing.' },
     ],
   },
@@ -205,23 +220,23 @@ const sections = [
     title: 'Cyber Security',
     description: 'The institutional capability to defend against cyber threats to state, critical infrastructure, and economy.',
     items: [
-      { framework: 'National cyber security strategy (current)', status: 'MISSING', detail: '2019\u20132024 strategy expired. No published replacement as of April 2026.' },
+      { framework: 'National cyber security strategy (current)', status: 'MISSING', detail: '2019\u20132024 strategy expired. No published replacement as of April 2026.', link: { href: '/publications/hybrid-threats-cyber-defence-brief', label: 'Hybrid Threats & Cyber Defence' } },
       { framework: 'Resourced national cyber security centre', status: 'PARTIAL', detail: 'NCSC exists but widely assessed as under-resourced relative to threat level.' },
       { framework: 'Offensive cyber capability', status: 'MISSING', detail: 'No capability. Netherlands, France, Germany, and others maintain offensive cyber units.' },
       { framework: 'Cyber resilience certification framework', status: 'PARTIAL', detail: 'Ireland participates in EU ECCF but national implementation is incomplete.' },
-      { framework: 'PESCO cyber project participation', status: 'IN PLACE', detail: 'Ireland participates in Cyber Threats and Incident Response Information Sharing Platform (CTIRISP).' },
+      { framework: 'PESCO cyber project participation', status: 'IN PLACE', detail: 'Ireland participates in Cyber Threats and Incident Response Information Sharing Platform (CTIRISP).', link: { href: '/publications/pesco-and-ireland', label: 'PESCO and Ireland' } },
     ],
   },
   {
     title: 'Energy Security',
     description: 'The institutional architecture to ensure energy supply resilience during disruption.',
     items: [
-      { framework: 'Energy security strategy', status: 'MISSING', detail: 'None. Government responds reactively to each crisis without a standing framework.' },
+      { framework: 'Energy security strategy', status: 'MISSING', detail: 'None. Government responds reactively to each crisis without a standing framework.', link: { href: '/publications/energy-security-sixth-domain', label: 'Energy Security as the Sixth Domain' } },
       { framework: 'Gas storage', status: 'MISSING', detail: 'Zero. Only EU member state with no gas storage. Corrib production declining toward zero by 2027.' },
       { framework: 'LNG terminal', status: 'MISSING', detail: 'No operational terminal. FSRU approved March 2025 but not yet contracted or deployed.' },
       { framework: 'Oil refining capacity', status: 'MISSING', detail: 'Whitegate ceased independent operations. Ireland imports 100% of refined product.' },
-      { framework: 'Standing energy crisis management unit', status: 'MISSING', detail: 'Ad hoc Oil Security of Supply Group. No permanent institutional capability.' },
-      { framework: 'Modern fuel crisis legislation', status: 'MISSING', detail: 'Fuels (Control of Supplies) Act 1971, amended 1982. Pre-dates the internet and EU membership.' },
+      { framework: 'Standing energy crisis management unit', status: 'MISSING', detail: 'Ad hoc Oil Security of Supply Group. No permanent institutional capability.', link: { href: '/publications/energy-security-sixth-domain', label: 'Energy Security as the Sixth Domain' } },
+      { framework: 'Modern fuel crisis legislation', status: 'MISSING', detail: 'Fuels (Control of Supplies) Act 1971, amended 1982. Pre-dates the internet and EU membership.', link: { href: '/publications/energy-security-sixth-domain', label: 'Energy Security as the Sixth Domain' } },
       { framework: 'Strategic reserve repatriation', status: 'PARTIAL', detail: '28% of NORA stocks held abroad. Policy to repatriate announced but timeline unclear.' },
     ],
   },
@@ -229,47 +244,47 @@ const sections = [
     title: 'Civil Crisis Management & Public Order',
     description: 'The institutional capability to manage domestic crises without resorting to military deployment.',
     items: [
-      { framework: 'Gendarmerie / intermediate public order force', status: 'MISSING', detail: 'Nothing between An Garda S\u00edoch\u00e1na and the Defence Forces. Every comparable EU state has this.' },
-      { framework: 'Civil protection agency (standing)', status: 'MISSING', detail: 'No equivalent of French S\u00e9curit\u00e9 civile or German THW.' },
+      { framework: 'Gendarmerie / intermediate public order force', status: 'MISSING', detail: 'Nothing between An Garda S\u00edoch\u00e1na and the Defence Forces. Every comparable EU state has this.', link: { href: '/publications/crisis-management-gap', label: 'The Crisis Management Gap' } },
+      { framework: 'Civil protection agency (standing)', status: 'MISSING', detail: 'No equivalent of French S\u00e9curit\u00e9 civile or German THW.', link: { href: '/publications/crisis-management-gap', label: 'The Crisis Management Gap' } },
       { framework: 'National emergency management agency', status: 'MISSING', detail: 'National Emergency Coordination Group is ad hoc. No standing agency.' },
-      { framework: 'Proportionality test for military deployment', status: 'MISSING', detail: 'No statutory test. Defence Act 1954 provides broad authority with no proportionality requirement.' },
-      { framework: 'Graduated escalation protocol', status: 'MISSING', detail: 'No defined escalation sequence from policing to military. Binary switch.' },
+      { framework: 'Proportionality test for military deployment', status: 'MISSING', detail: 'No statutory test. Defence Act 1954 provides broad authority with no proportionality requirement.', link: { href: '/publications/soldiers-against-tractors', label: 'Soldiers Against Tractors' } },
+      { framework: 'Graduated escalation protocol', status: 'MISSING', detail: 'No defined escalation sequence from policing to military. Binary switch.', link: { href: '/publications/crisis-management-gap', label: 'The Crisis Management Gap' } },
       { framework: 'Parliamentary oversight of domestic deployment', status: 'MISSING', detail: 'No D\u00e1il notification or review requirement for aid to the civil power operations.' },
-      { framework: 'Domestic rules of engagement (published)', status: 'MISSING', detail: 'ROE exist for overseas peacekeeping. No published domestic equivalent.' },
-      { framework: 'Independent oversight of military conduct', status: 'MISSING', detail: 'GSOC covers Garda conduct. No equivalent body for military during domestic deployment.' },
-      { framework: 'Ministerial accountability for crisis mgmt', status: 'MISSING', detail: 'No minister owns crisis management. Falls between Justice and Defence.' },
+      { framework: 'Domestic rules of engagement (published)', status: 'MISSING', detail: 'ROE exist for overseas peacekeeping. No published domestic equivalent.', link: { href: '/publications/crisis-management-gap', label: 'The Crisis Management Gap' } },
+      { framework: 'Independent oversight of military conduct', status: 'MISSING', detail: 'GSOC covers Garda conduct. No equivalent body for military during domestic deployment.', link: { href: '/publications/soldiers-against-tractors', label: 'Soldiers Against Tractors' } },
+      { framework: 'Ministerial accountability for crisis mgmt', status: 'MISSING', detail: 'No minister owns crisis management. Falls between Justice and Defence.', link: { href: '/publications/crisis-management-gap', label: 'The Crisis Management Gap' } },
     ],
   },
   {
     title: 'Critical Infrastructure Protection',
     description: 'The framework for identifying, protecting, and ensuring resilience of critical national infrastructure.',
     items: [
-      { framework: 'Critical infrastructure protection legislation', status: 'PARTIAL', detail: 'CER Directive transposition underway. National framework not yet operational.' },
+      { framework: 'Critical infrastructure protection legislation', status: 'PARTIAL', detail: 'CER Directive transposition underway. National framework not yet operational.', link: { href: '/publications/critical-infrastructure-resilience-brief', label: 'Critical Infrastructure Resilience' } },
       { framework: 'Critical infrastructure registry', status: 'PARTIAL', detail: 'Being developed under CER. No comprehensive registry exists yet.' },
       { framework: 'Standing infrastructure protection capability', status: 'MISSING', detail: 'No dedicated force or unit. Ad hoc military deployment when needed.' },
-      { framework: 'Subsea infrastructure protection framework', status: 'PARTIAL', detail: 'Maritime Security Strategy (2026) addresses this. Implementation not yet begun.' },
+      { framework: 'Subsea infrastructure protection framework', status: 'PARTIAL', detail: 'Maritime Security Strategy (2026) addresses this. Implementation not yet begun.', link: { href: '/publications/maritime-security-framework', label: 'Ireland\u2019s Maritime Security Framework' } },
     ],
   },
   {
     title: 'Defence Forces Capability',
     description: 'The state of Ireland\u2019s military capability against the Commission on Defence Forces benchmarks.',
     items: [
-      { framework: 'Personnel at establishment strength', status: 'MISSING', detail: '7,756 against establishment of 9,739. Shortfall of approximately 2,000.' },
-      { framework: 'Commission on Defence Forces implementation', status: 'PARTIAL', detail: '54 of 130 recommendations completed after 4 years. Rate of implementation is slowing.' },
-      { framework: 'LOA 2 capability achieved', status: 'MISSING', detail: 'Government committed to LOA 2 by 2028. Not on track.' },
-      { framework: 'Defence spending at EU average', status: 'MISSING', detail: '0.2% GDP vs EU average 1.3%. Lowest in EU. Record \u20ac1.16bn budget for 2026 still far below peers.' },
-      { framework: 'SAFE loan applications', status: 'MISSING', detail: 'Ireland has not applied for any SAFE loans. 16 member states have.' },
+      { framework: 'Personnel at establishment strength', status: 'MISSING', detail: '7,756 against establishment of 9,739. Shortfall of approximately 2,000.', link: { href: '/publications/defence-at-a-glance-q1-2026', label: 'Irish Defence at a Glance: Q1 2026' } },
+      { framework: 'Commission on Defence Forces implementation', status: 'PARTIAL', detail: '54 of 130 recommendations completed after 4 years. Rate of implementation is slowing.', link: { href: '/publications/loa-transition-architecture', label: 'The LOA Transition Architecture' } },
+      { framework: 'LOA 2 capability achieved', status: 'MISSING', detail: 'Government committed to LOA 2 by 2028. Not on track.', link: { href: '/publications/loa-transition-architecture', label: 'The LOA Transition Architecture' } },
+      { framework: 'Defence spending at EU average', status: 'MISSING', detail: '0.2% GDP vs EU average 1.3%. Lowest in EU. Record \u20ac1.16bn budget for 2026 still far below peers.', link: { href: '/publications/defence-spending-explained', label: 'Ireland\u2019s Defence Spending Explained' } },
+      { framework: 'SAFE loan applications', status: 'MISSING', detail: 'Ireland has not applied for any SAFE loans. 16 member states have.', link: { href: '/publications/rearm-europe-brief', label: 'ReArm Europe: What Ireland Should Lock In' } },
     ],
   },
   {
     title: 'Democratic Governance of Security',
     description: 'The mechanisms that ensure democratic accountability and transparency in security and defence.',
     items: [
-      { framework: 'Constitutional protection of neutrality', status: 'MISSING', detail: 'Neutrality is policy, not constitutional. No constitutional lock unlike Austria.' },
+      { framework: 'Constitutional protection of neutrality', status: 'MISSING', detail: 'Neutrality is policy, not constitutional. No constitutional lock unlike Austria.', link: { href: '/publications/neutrality-institutional-architecture', label: 'Neutrality as Institutional Architecture' } },
       { framework: 'Annual D\u00e1il review of security commitments', status: 'MISSING', detail: 'No annual review mechanism for overseas deployments or security commitments.' },
       { framework: 'Transparency requirement for Shannon', status: 'MISSING', detail: 'No reporting requirement for military transits through Shannon Airport.' },
-      { framework: 'Parliamentary reporting on PESCO', status: 'MISSING', detail: 'No formal reporting mechanism to D\u00e1il on Ireland\u2019s PESCO project participation.' },
-      { framework: 'Published bilateral defence agreements', status: 'PARTIAL', detail: 'Cork MoU (2026) publicly announced. RAF airspace arrangements are not published.' },
+      { framework: 'Parliamentary reporting on PESCO', status: 'MISSING', detail: 'No formal reporting mechanism to D\u00e1il on Ireland\u2019s PESCO project participation.', link: { href: '/publications/pesco-and-ireland', label: 'PESCO and Ireland' } },
+      { framework: 'Published bilateral defence agreements', status: 'PARTIAL', detail: 'Cork MoU (2026) publicly announced. RAF airspace arrangements are not published.', link: { href: '/publications/uk-ireland-security-interface', label: 'The UK\u2013Ireland Security Interface' } },
     ],
   },
 ];
