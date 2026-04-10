@@ -178,7 +178,7 @@ const sections = [
       { framework: 'National Security Committee (standing)', status: 'PARTIAL', detail: 'Exists but meets irregularly. No permanent secretariat. No published terms of reference.' },
       { framework: 'National Security Analysis Centre', status: 'PARTIAL', detail: 'NSAC established 2019 under Dept of Taoiseach. Understaffed and underpowered compared to equivalents.' },
       { framework: 'Defence industrial policy', status: 'MISSING', detail: 'No framework for Irish industry participation in European defence production (EDIP, EDIRPA, ASAP).', link: { href: '/publications/defence-industrial-policy', label: 'Defence Industrial Policy Explained' } },
-      { framework: 'Security clearance system', status: 'NEW 2025+', detail: 'Interim system introduced 2025/2026 to allow Irish officials to access EU classified material.' },
+      { framework: 'Security clearance system', status: 'PARTIAL', detail: 'Administrative vetting only, run through Dept of Justice and Garda\u00ed. Planned NSA legislation to establish statutory clearance authority not yet enacted.' },
       { framework: 'Defence attach\u00e9 network', status: 'NEW 2025+', detail: 'Pilot programme 2026: London, Paris, Washington. Most EU states have had networks for decades.' },
     ],
   },
