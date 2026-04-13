@@ -205,6 +205,13 @@ export default function ForPolicymakers() {
             href="/publications/proportionality-framework"
             pdfUrl="/pdfs/Proportionality_Framework_Proposal.pdf"
           />
+          <PubCard
+            title="The Protest Spectrum"
+            type="Policy Brief"
+            desc="European human rights law distinguishes four levels of protest activity, each requiring a different proportionate response. Ireland collapsed all four into one and responded with the most extreme tools available."
+            href="/publications/protest-spectrum"
+            pdfUrl="/pdfs/Protest_Spectrum_Proposal.pdf"
+          />
 
           <div style={tierLabel}>Context</div>
           <PubCard
