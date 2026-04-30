@@ -383,7 +383,7 @@ export default function ForThePublic() {
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0', marginBottom: '20px' }}>
             {[
-              { num: '1', label: 'UN Authorisation', desc: 'A UN Security Council resolution, General Assembly resolution, or recognised regional organisation mandate.' },
+              { num: '1', label: 'UN Authorisation', desc: 'A UN Security Council resolution (a proposed amendment would also allow General Assembly or regional organisation mandates, but this has not yet been enacted).' },
               { num: '2', label: 'Government Approval', desc: 'The Cabinet must approve the deployment.' },
               { num: '3', label: 'Dáil Approval', desc: 'The Irish parliament must vote to authorise the deployment.' },
             ].map((item, i) => (
@@ -398,7 +398,7 @@ export default function ForThePublic() {
           </div>
 
           <p style={p}>
-            The 2023 reform expanded the first condition: a UN General Assembly or regional organisation resolution can now substitute for a Security Council mandate, removing the problem of Russian or Chinese vetoes blocking authorisation.
+            In 2023, the government proposed removing the requirement for UN Security Council authorisation, allowing deployment under a UNGA or regional assembly mandate. The amendment has not yet been enacted and is due to be considered in the current D&aacute;il term. There is some debate as to whether the existing language in the Defence (Amendment) Act 1993 already permits UNGA authorisation, but the government&rsquo;s position remains that the current law requires UNSC authorisation only.
           </p>
 
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', marginBottom: '16px' }}>
