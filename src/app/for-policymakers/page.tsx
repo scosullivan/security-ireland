@@ -185,6 +185,13 @@ export default function ForPolicymakers() {
             pdfUrl="/pdfs/Defence_Industrial_Policy.pdf"
           />
           <PubCard
+            title="Removing the Ministerial Veto"
+            type="Policy Brief"
+            desc="The Industrial Development (Amendment) Bill 2026 removes the gate blocking enterprise agencies from supporting DSR firms &mdash; but addresses only one of five institutional prerequisites."
+            href="/publications/industrial-development-amendment"
+            pdfUrl="/pdfs/SI_Industrial_Development_Amendment_Brief.pdf"
+          />
+          <PubCard
             title="Energy Security as the Sixth Domain"
             type="Policy Brief"
             desc="Ireland&rsquo;s fuel crisis reveals the same architectural absence diagnosed across maritime, airspace, subsea, cyber, and intelligence. Six reforms that can be initiated immediately."
