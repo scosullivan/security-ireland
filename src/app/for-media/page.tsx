@@ -125,10 +125,10 @@ export default async function ForMedia() {
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '12px', marginBottom: '24px' }}>
             {[
-              { figure: '7,300', label: 'Defence Forces personnel' },
-              { figure: '0.2%', label: 'of GDP on defence' },
+              { figure: '7,756', label: 'Defence Forces personnel' },
+              { figure: '~0.3%', label: 'of GDP on defence' },
               { figure: '880k km\u00b2', label: 'EEZ to patrol' },
-              { figure: '7', label: 'PESCO projects' },
+              { figure: '6', label: 'PESCO projects' },
             ].map((s, i) => (
               <div key={i} style={{ padding: '16px', borderLeft: '3px solid var(--color-fern)', backgroundColor: 'rgba(61,107,79,0.05)' }}>
                 <div style={{ fontFamily: 'var(--font-serif)', fontSize: '22px', fontWeight: 700, color: 'var(--color-forest)' }}>{s.figure}</div>
