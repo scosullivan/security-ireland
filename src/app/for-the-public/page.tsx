@@ -134,8 +134,8 @@ export default function ForThePublic() {
             The Defence Forces have a proud peacekeeping tradition stretching back to 1958, with over 70,000 individual deployments on international missions. But peacekeeping and territorial defence are different capabilities. The Defence Forces are experienced at the former and have almost no capacity for the latter.
           </p>
 
-          <Link href="/publications/defence-at-a-glance-q1-2026" style={readMore}>
-            Read more: Ireland&apos;s Defence Problem Isn&apos;t Neutrality →
+          <Link href="/publications/defence-at-a-glance-q2-2026" style={readMore}>
+            Read more: Irish Defence at a Glance: Q2 2026 →
           </Link>
         </Expandable>
 
