@@ -345,7 +345,7 @@ export default function EuropeanDefence() {
           <InstrumentCard
             abbr="PESCO"
             name="Permanent Structured Cooperation"
-            desc="Launched 2017. 26 participating member states. 68 projects across six categories. Binding commitments under strategic review during 2026. Ireland participates in 7 projects, all in maritime, cyber, and logistics. The revised framework will determine whether PESCO rewards broad military contribution or recognises domain-specific excellence."
+            desc="Launched 2017. 26 participating member states. 75 projects across six categories. Binding commitments under strategic review during 2026. Ireland participates in 6 projects, all in maritime, cyber, and logistics. The revised framework will determine whether PESCO rewards broad military contribution or recognises domain-specific excellence."
             link="/publications/pesco-strategic-review-brief"
             linkLabel="See: PESCO Strategic Review brief"
             color="var(--color-forest)"
