@@ -444,7 +444,7 @@ export default function EuropeanDefence() {
             type="Research Paper"
             status="Complete"
             desc="Ireland's institutional system is architecturally configured for the absence of military capability — not because of neutrality, but because of a century of self-reinforcing institutional design. Switzerland, Austria, and Finland demonstrate that non-alignment historically required more defence capability, not less."
-            slug="defence-at-a-glance-q1-2026"
+            slug="neutrality-institutional-architecture"
           />
           <PubCard
             title="Ireland&rsquo;s Layered Security Cooperation Model"
