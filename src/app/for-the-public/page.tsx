@@ -283,7 +283,7 @@ export default function ForThePublic() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '20px' }}>
             {[
               'Participates in EU Common Security and Defence Policy missions',
-              'Member of PESCO — 7 defence cooperation projects',
+              'Member of PESCO — 6 defence cooperation projects',
               'Bound by Article 42.7 TEU — mutual assistance clause',
               'Committed €350m to European Peace Facility (incl. Ukraine)',
               'Joined NATO\'s Individually Tailored Partnership Programme (2024)',
@@ -456,16 +456,15 @@ export default function ForThePublic() {
           </p>
 
           <DonutChart
-            label="7/68"
+            label="6/75"
             segments={[
-              { value: 7, color: 'var(--color-fern)', label: 'Irish projects (7)' },
-              { value: 61, color: 'var(--color-parchment)', label: 'Other PESCO projects (61)' },
+              { value: 6, color: 'var(--color-fern)', label: 'Irish projects (6)' },
+              { value: 69, color: 'var(--color-parchment)', label: 'Other PESCO projects (69)' },
             ]}
           />
 
           <div style={{ marginTop: '20px', marginBottom: '16px' }}>
             {[
-              { name: 'Maritime Surveillance', domain: 'Maritime', color: 'var(--color-forest)' },
               { name: 'Upgrade of Maritime Surveillance', domain: 'Maritime', color: 'var(--color-forest)' },
               { name: 'Critical Seabed Infrastructure Protection', domain: 'Subsea', color: 'var(--color-forest)' },
               { name: 'Cyber Threats & Incident Response', domain: 'Cyber', color: 'var(--color-terracotta)' },
@@ -675,7 +674,7 @@ export default function ForThePublic() {
             </div>
             <div style={{ padding: '18px', backgroundColor: 'var(--color-parchment)', borderLeft: '3px solid var(--color-fern)', borderRadius: '2px' }}>
               <div style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', fontWeight: 700, color: 'var(--color-fern)', marginBottom: '8px' }}>THE CONTRIBUTION CASE</div>
-              <p style={{ fontFamily: 'var(--font-serif)', fontSize: '12px', color: 'var(--color-graphite)', lineHeight: 1.5, margin: 0 }}>70,000+ peacekeeping deployments. 7 PESCO projects. €350m to European Peace Facility. ITPP membership. Cork MoU. EU data infrastructure host. Record €1.5bn budget.</p>
+              <p style={{ fontFamily: 'var(--font-serif)', fontSize: '12px', color: 'var(--color-graphite)', lineHeight: 1.5, margin: 0 }}>70,000+ peacekeeping deployments. 6 PESCO projects. €350m to European Peace Facility. ITPP membership. Cork MoU. EU data infrastructure host. Record €1.5bn budget.</p>
             </div>
           </div>
 
