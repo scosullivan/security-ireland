@@ -166,7 +166,7 @@ export default async function EUPresidency() {
               num: '02',
               title: 'PESCO Strategic Review',
               subtitle: 'What Ireland Should Lock In',
-              body: 'The strategic review is rewriting PESCO\u2019s binding commitments, how compliance is assessed, and how PESCO connects to EU funding. Ireland\u2019s 7 projects \u2014 all targeting maritime, subsea, cyber, and logistics \u2014 are the institutional evidence of its contribution. The revised framework either formalises Ireland\u2019s model or penalises it.',
+              body: 'The strategic review is rewriting PESCO\u2019s binding commitments, how compliance is assessed, and how PESCO connects to EU funding. Ireland\u2019s 6 projects \u2014 all targeting maritime, subsea, cyber, and logistics \u2014 are the institutional evidence of its contribution. The revised framework either formalises Ireland\u2019s model or penalises it.',
               slug: 'pesco-strategic-review-brief',
               accent: 'var(--color-terracotta)',
             },
@@ -323,13 +323,13 @@ export default async function EUPresidency() {
             PESCO participation
           </h3>
           <p style={{ fontFamily: 'var(--font-serif)', fontSize: '14px', color: 'var(--color-graphite)', lineHeight: 1.65, marginBottom: '20px', maxWidth: '480px' }}>
-            Ireland participates in 7 of 68 active PESCO projects — all concentrated in maritime, cyber, and logistics. The strategic review will determine whether this domain-specific model is recognised as a strategy or assessed as a limitation.
+            Ireland participates in 6 of 75 active PESCO projects — all concentrated in maritime, cyber, and logistics. The strategic review will determine whether this domain-specific model is recognised as a strategy or assessed as a limitation.
           </p>
           <DonutChart
-            label="7/68"
+            label="6/75"
             segments={[
-              { value: 7, color: 'var(--color-fern)', label: 'Irish participation (7 projects)' },
-              { value: 61, color: 'var(--color-parchment)', label: 'Other PESCO projects (61)' },
+              { value: 6, color: 'var(--color-fern)', label: 'Irish participation (6 projects)' },
+              { value: 69, color: 'var(--color-parchment)', label: 'Other PESCO projects (69)' },
             ]}
           />
         </div>
