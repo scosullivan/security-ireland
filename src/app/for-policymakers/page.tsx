@@ -262,11 +262,18 @@ export default function ForPolicymakers() {
         </Expandable>
 
         {/* ═══════ SECTION 3: BUILDING DOMESTIC CAPABILITY ═══════ */}
-        <Expandable num="3" title="Building Domestic Capability" readTime="4 papers">
+        <Expandable num="3" title="Building Domestic Capability" readTime="5 papers">
           <p style={{ fontFamily: 'var(--font-serif)', fontSize: '15px', color: 'var(--color-graphite)', lineHeight: 1.75, maxWidth: '600px', marginBottom: '24px' }}>
             Ireland has committed to reaching Level of Ambition 2 by 2028: primary radar, improved naval capacity, a counter-drone system, and a reformed reserve. The constraint is not budget &mdash; Ireland could fund LOA 3 from a single year&rsquo;s surplus. The constraint is institutional bandwidth.
           </p>
 
+          <PubCard
+            title="The Procurement Apparatus"
+            type="Research Paper"
+            desc="Ireland is committing billions to defence without the institutions that convert spending into capability. Designs the full apparatus: a Defence Procurement and Capability Agency, a statutory investment floor, shared state functions, and an independent assurance line."
+            href="/publications/procurement-apparatus"
+            pdfUrl="/pdfs/The_Procurement_Apparatus.pdf"
+          />
           <PubCard
             title="Building the Institutional Infrastructure"
             type="Policy Framework"
