@@ -283,7 +283,7 @@ const sections = [
       { framework: 'Constitutional protection of neutrality', status: 'MISSING', detail: 'Neutrality is policy, not constitutional. No constitutional provision. Seville Declaration attached to Lisbon Treaty.', link: { href: '/publications/neutrality-institutional-architecture', label: 'Neutrality as Institutional Architecture' } },
       { framework: 'Annual D\u00e1il review of security commitments', status: 'MISSING', detail: 'No annual review mechanism for overseas deployments, PESCO commitments, or bilateral arrangements.' },
       { framework: 'Transparency requirement for Shannon', status: 'MISSING', detail: 'No reporting requirement for military transits through Shannon Airport. Usage documented by campaigners, not state.' },
-      { framework: 'Parliamentary reporting on PESCO', status: 'MISSING', detail: 'No formal reporting mechanism to D\u00e1il on Ireland\u2019s 7 PESCO projects or binding commitments.', link: { href: '/publications/pesco-and-ireland', label: 'PESCO and Ireland' } },
+      { framework: 'Parliamentary reporting on PESCO', status: 'MISSING', detail: 'No formal reporting mechanism to D\u00e1il on Ireland\u2019s 6 PESCO projects or binding commitments.', link: { href: '/publications/pesco-and-ireland', label: 'PESCO and Ireland' } },
       { framework: 'Published bilateral defence agreements', status: 'PARTIAL', detail: 'Cork MoU (2026) publicly announced. RAF airspace arrangement remains unpublished.', link: { href: '/publications/uk-ireland-security-interface', label: 'The UK\u2013Ireland Security Interface' } },
     ],
   },
