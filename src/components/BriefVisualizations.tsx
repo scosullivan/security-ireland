@@ -221,11 +221,10 @@ function ReArmViz() {
 
 /* ============================
    BRIEF 02 — PESCO Strategic Review
-   Ireland's 7 projects by domain
+   Ireland's 6 projects by domain
    ============================ */
 function PESCOViz() {
   const projects = [
-    { name: 'Maritime Surveillance', domain: 'Maritime', color: 'var(--color-forest)' },
     { name: 'Upgrade of Maritime Surveillance', domain: 'Maritime', color: 'var(--color-forest)' },
     { name: 'Cyber Rapid Response Teams', domain: 'Cyber', color: 'var(--color-terracotta)' },
     { name: 'Cyber & Info Domain Coordination Centre', domain: 'Cyber', color: 'var(--color-terracotta)' },
@@ -235,7 +234,7 @@ function PESCOViz() {
   ];
 
   const domainCounts = [
-    { domain: 'Maritime', count: 2, color: 'var(--color-forest)' },
+    { domain: 'Maritime', count: 1, color: 'var(--color-forest)' },
     { domain: 'Cyber', count: 2, color: 'var(--color-terracotta)' },
     { domain: 'Logistics', count: 2, color: 'var(--color-copper)' },
     { domain: 'Infrastructure', count: 1, color: 'var(--color-fern)' },
@@ -247,19 +246,19 @@ function PESCOViz() {
         Ireland&apos;s PESCO footprint
       </div>
 
-      {/* Donut: 7 / 68 */}
+      {/* Donut: 6 / 75 */}
       <div style={{ display: 'flex', alignItems: 'flex-start', gap: '32px', flexWrap: 'wrap', marginBottom: '28px' }}>
         <div>
           <svg width={140} height={140} viewBox="0 0 140 140">
             {/* Background ring */}
             <circle cx={70} cy={70} r={50} fill="none" stroke="var(--color-parchment)" strokeWidth="14" />
-            {/* Ireland's share: 7/68 ≈ 10.3% */}
+            {/* Ireland's share: 6/75 = 8% */}
             <circle cx={70} cy={70} r={50} fill="none" stroke="var(--color-fern)" strokeWidth="14"
-              strokeDasharray={`${2 * Math.PI * 50 * (7/68)} ${2 * Math.PI * 50 * (61/68)}`}
+              strokeDasharray={`${2 * Math.PI * 50 * (6/75)} ${2 * Math.PI * 50 * (69/75)}`}
               strokeDashoffset={0} transform="rotate(-90 70 70)" strokeLinecap="round" />
             <text x={70} y={70} textAnchor="middle" dominantBaseline="central"
               style={{ fontFamily: 'var(--font-serif)', fontSize: '22px', fontWeight: 700, fill: 'var(--color-forest)' }}>
-              7/68
+              6/75
             </text>
           </svg>
           <p style={{ fontFamily: 'var(--font-mono)', fontSize: '9px', color: 'var(--color-stone)', textAlign: 'center', marginTop: '4px' }}>
