@@ -9,8 +9,8 @@ featured: false
 tags: ["pesco", "eu-presidency", "defence", "cooperation"]
 pdfUrl: "/pdfs/PESCO_Explained.pdf"
 keyFindings:
-  - "PESCO has two pillars: 20 binding political commitments and 74 practical projects across six domains."
-  - "Ireland participates in seven projects — all in maritime, subsea, and cyber. None in tanks, fighters, or ground combat."
+  - "PESCO has two pillars: 20 binding political commitments and 75 practical projects across six domains."
+  - "Ireland participates in six projects — all in maritime, subsea, and cyber. None in tanks, fighters, or ground combat."
   - "PESCO is transitioning from a political framework to a financial qualification — participation may earn preferential access to EDIP (€1.5bn), SAFE (€150bn), and EDF (€8bn)."
   - "Ireland chairs the Council where the PESCO-to-funding gateway rules are decided during its 2026 Presidency."
 ---
@@ -19,7 +19,7 @@ keyFindings:
 
 PESCO — the Permanent Structured Cooperation — is the EU's framework for defence cooperation. Written into the Lisbon Treaty in 2009, dormant for eight years, activated in December 2017. Twenty-six of 27 EU member states participate. Ireland joined at activation.
 
-PESCO has two pillars: binding political commitments (what states promise to do on spending, capability, and cooperation) and practical projects (what states actually build together). There are currently 74 projects. Ireland participates in seven as a full member — all in maritime, subsea, and cyber.
+PESCO has two pillars: binding political commitments (what states promise to do on spending, capability, and cooperation) and practical projects (what states actually build together). There are currently 75 projects. Ireland participates in six as a full participant — all in maritime, subsea, and cyber.
 
 ## Why PESCO matters now
 

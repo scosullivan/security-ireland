@@ -21,7 +21,7 @@ PESCO differs from NATO (which includes North America and is binding on all memb
 
 ## The Legal Foundation and How It Works
 
-PESCO is established in the Lisbon Treaty, the foundational document for modern EU operations. The treaty provides member states the option to participate in "permanent structured cooperation" on defence. Participation is voluntary: not all EU members participate. As of 2026, 26 of 27 EU member states participate in PESCO. Denmark, due to its special opt-out on defence matters, does not participate.
+PESCO is established in the Lisbon Treaty, the foundational document for modern EU operations. The treaty provides member states the option to participate in "permanent structured cooperation" on defence. Participation is voluntary: not all EU members participate. As of 2026, 26 of 27 EU member states participate in PESCO. Malta is the sole exception and does not participate.
 
 Participation in PESCO involves a binding commitment: states that join commit to increasing defence expenditure, improving military capability, and making forces available for EU military operations. However, they retain sovereignty over specific military deployments—no state can be forced to participate in a particular operation.
 
@@ -29,9 +29,9 @@ Operationally, PESCO functions through projects. Member states propose defence c
 
 The European Commission and the European External Action Service (EEAS) provide administrative support to PESCO projects but do not direct them. Decision-making power rests with participating member states through steering committees.
 
-## Current State: 26 Member States, 60+ Projects
+## Current State: 26 Member States, 75 Projects
 
-As of March 2026, PESCO encompasses 26 EU member states and includes approximately 60 active projects across multiple capability areas. Projects are grouped into categories:
+As of March 2026, PESCO encompasses 26 EU member states and includes 75 active projects across multiple capability areas. Projects are grouped into categories:
 
 ### Maritime Security and Operations
 - Maritime surveillance and monitoring
@@ -69,7 +69,7 @@ Each project is led by one or more member states and involves participating coun
 
 ## Ireland's Role in PESCO
 
-Ireland participated in the 2017 PESCO establishment decision and has progressively deepened participation. As of 2026, Ireland participates in approximately 10 PESCO projects, primarily in maritime and cyber domains where Irish capabilities are strongest or where participation aligns with strategic interests.
+Ireland participated in the 2017 PESCO establishment decision and has progressively deepened participation. As of 2026, Ireland participates in 6 PESCO projects, primarily in maritime and cyber domains where Irish capabilities are strongest or where participation aligns with strategic interests.
 
 Ireland's participation includes:
 
@@ -153,6 +153,6 @@ Despite these limitations, PESCO represents meaningful progress on European defe
 
 ## Conclusion
 
-PESCO is a voluntary EU framework enabling member states to cooperate on defence capability development and military operations. It brings 26 EU member states together on approximately 60 active projects addressing maritime, cyber, air, and land domain capabilities. Ireland participates in approximately 10 projects and gains access to European-level defence development while contributing Irish expertise.
+PESCO is a voluntary EU framework enabling member states to cooperate on defence capability development and military operations. It brings 26 EU member states together on 75 active projects addressing maritime, cyber, air, and land domain capabilities. Ireland participates in 6 projects and gains access to European-level defence development while contributing Irish expertise.
 
 PESCO is not a replacement for NATO or a path to EU military autonomy. It is a mechanism for deepening European defence cooperation and enabling burden-sharing on capability development. For Ireland, PESCO is strategically valuable: it enables participation in European defence without requiring the fiscal commitment of independent defence development. As Ireland deepens defence ambitions and takes on the EU Presidency, PESCO becomes an increasingly important component of strategic positioning.

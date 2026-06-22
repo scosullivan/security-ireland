@@ -32,7 +32,7 @@ What it cannot fund: the institutional transformation required to absorb the equ
 
 ### 2. EU Instruments
 
-PESCO: Ireland participates in 7 projects as a full member: Maritime Surveillance Upgrade, Maritime Mine Countermeasures, Critical Seabed Infrastructure Protection, Cyber Threats and Incident Response, and Network of Logistic Hubs. PESCO is the only EU framework where Ireland's defence contribution is formally recognised.
+PESCO: Ireland participates in 6 projects as a full participant: Maritime Surveillance Upgrade, Maritime Mine Countermeasures, Critical Seabed Infrastructure Protection, Cyber Threats and Incident Response, and Network of Logistic Hubs. PESCO is the only EU framework where Ireland's defence contribution is formally recognised.
 
 SAFE (€150bn loans): Ireland is eligible for SAFE loans for maritime and cyber procurement. Preferential terms for joint procurement could reduce costs. Phase 2 terms, negotiated during Ireland's Presidency, determine whether domain-specific procurement qualifies.
 

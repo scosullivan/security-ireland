@@ -3,7 +3,7 @@ title: "PESCO Strategic Review: What Ireland Should Lock In"
 type: "Policy Brief"
 date: "2026-03-23"
 author: "Security Ireland"
-excerpt: "The third strategic review of PESCO will rewrite binding commitments, assessment mechanisms, and the connection between PESCO participation and EU funding. Ireland's 7 projects are the institutional evidence of its contribution. The revised framework either formalises Ireland's model or penalises it."
+excerpt: "The third strategic review of PESCO will rewrite binding commitments, assessment mechanisms, and the connection between PESCO participation and EU funding. Ireland's 6 projects are the institutional evidence of its contribution. The revised framework either formalises Ireland's model or penalises it."
 readTime: "8 min read"
 featured: false
 tags: ["pesco", "strategic-review", "defence-cooperation", "presidency-desk-series"]
@@ -12,7 +12,7 @@ topics: ["eu-presidency", "pesco", "european-defence"]
 pdfUrl: "/pdfs/PESCO_Strategic_Review.pdf"
 keyFindings:
   - "PESCO's third strategic review falls during Ireland's Presidency. Ireland chairs the discussions on binding commitments, compliance assessment, and project consolidation."
-  - "Ireland participates in 7 of 68 PESCO projects — all concentrated in maritime, subsea, cyber, and logistics domains. This is a deliberate strategy, not a limitation."
+  - "Ireland participates in 6 of 75 PESCO projects — all concentrated in maritime, subsea, cyber, and logistics domains. This is a deliberate strategy, not a limitation."
   - "The revised assessment mechanism will determine whether domain-focused participation is recognised as a strategy or penalised as insufficient breadth."
   - "PESCO participation is becoming a gateway to EU defence funding (EDIP, SAFE). The review's outcome directly affects Ireland's eligibility."
 ---
@@ -25,7 +25,7 @@ This is not a routine administrative exercise. The review will shape the institu
 
 ## Ireland's PESCO Portfolio
 
-Ireland participates in 7 of 68 active PESCO projects. All seven are concentrated in domains that align with Ireland's strategic thesis: maritime surveillance, subsea infrastructure, cyber resilience, and military logistics.
+Ireland participates in 6 of 75 active PESCO projects. All six are concentrated in domains that align with Ireland's strategic thesis: maritime surveillance, subsea infrastructure, cyber resilience, and military logistics.
 
 This concentration is deliberate. Ireland's PESCO portfolio represents the institutional evidence of its contribution to European security in the domains where its geography is irreplaceable. The strategic review will determine whether this domain-focused model is recognised as a coherent strategy — or assessed as insufficient breadth of participation.
 
@@ -43,7 +43,7 @@ Ireland should seek three outcomes from the strategic review:
 
 2. **PESCO-EDIP-SAFE alignment.** Explicit language connecting PESCO project participation to eligibility for EU defence funding instruments, with domain-specific contribution qualifying alongside traditional military capability.
 
-3. **Project consolidation around delivery.** The 68-project portfolio includes many that have delivered little. Ireland should chair consolidation discussions that concentrate resources on projects with demonstrated capability delivery — including Ireland's own maritime and cyber projects.
+3. **Project consolidation around delivery.** The 75-project portfolio includes many that have delivered little. Ireland should chair consolidation discussions that concentrate resources on projects with demonstrated capability delivery — including Ireland's own maritime and cyber projects.
 
 ## Ukraine Dimension
 

@@ -25,7 +25,7 @@ What PESCO is, why Ireland’s project selections reveal a strategic logic, and 
 
 PESCO was established under the Lisbon Treaty and activated in December 2017. Today 26 of 27 EU member states participate — Malta is the sole exception. Member states accept binding commitments on defence investment, capability development, and operational readiness, then collaborate through specific projects across land, maritime, air, space, and cyber domains.
 
-From 2018 to 2025, PESCO generated 83 collaborative projects across six waves. Seventy-five remain ongoing, with nearly half having reached the execution phase. The European Defence Agency, the European External Action Service, and the EU Military Staff form the PESCO Secretariat. Projects are incentivised by the European Defence Fund, which co-finances multinational defence initiatives from the EU budget.
+From 2018 to 2025, PESCO generated 83 collaborative projects across six waves. Seventy-five remain active, with nearly half having reached the execution phase. The European Defence Agency, the European External Action Service, and the EU Military Staff form the PESCO Secretariat. Projects are incentivised by the European Defence Fund, which co-finances multinational defence initiatives from the EU budget.
 
 Since November 2020, third countries can participate. Canada, Norway, the United States, and the United Kingdom have joined the Military Mobility project. In 2025, Switzerland — a non-aligned, non-EU state — was invited to join the same project, establishing a precedent directly relevant to Ireland’s position.
 
@@ -67,7 +67,7 @@ PESCO participation provides the concrete evidence. Ireland can point to domain-
 
 ## The Honest Limitation
 
-The genuine risk is not that PESCO competes with bilateral cooperation — Paper 1 establishes that the tracks complement. The risk is that neither generates sufficient institutional depth alone. Ireland’s PESCO projects are modest. Observer status on 17 projects is not the same as full participation. Full participation in five projects does not itself create the maritime surveillance capability, the subsea monitoring infrastructure, or the cyber resilience that the projects are designed to develop.
+The genuine risk is not that PESCO competes with bilateral cooperation — Paper 1 establishes that the tracks complement. The risk is that neither generates sufficient institutional depth alone. Ireland’s PESCO projects are modest. Observer status on 17 projects is not the same as full participation. Full participation in six projects does not itself create the maritime surveillance capability, the subsea monitoring infrastructure, or the cyber resilience that the projects are designed to develop.
 
 The architecture lag pattern is consistent: governance frameworks (PESCO, Cork MoU) develop faster than the operational capabilities they are designed to coordinate. Ireland has joined the right projects. It has built the right layered cooperation model. It has the right narrative for the Presidency. What it does not yet have is the domestic institutional capacity to convert participation into contribution.
 

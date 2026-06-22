@@ -118,7 +118,7 @@ The binding constraint on European defence is not the spending target. It is the
 
 Ireland's defence spending is 0.2 per cent of GDP—the lowest in the EU. In a debate framed entirely around GDP percentages, Ireland has no credible position. But the coordination architecture argument—that Europe's problem is not whether it spends enough but whether twenty-seven procurement systems can convert spending into capability—is uniquely powerful coming from the lowest-spending member state, because it shifts the debate from metrics Ireland cannot win to structural analysis where Ireland's contribution is relevant.
 
-Ireland's PESCO participation in seven domain-specific projects (maritime surveillance, subsea protection, cyber resilience) demonstrates the architecture approach in practice: contributing to European security in the domains where Ireland's geographic and institutional position is irreplaceable.
+Ireland's PESCO participation in six domain-specific projects (maritime surveillance, subsea protection, cyber resilience) demonstrates the architecture approach in practice: contributing to European security in the domains where Ireland's geographic and institutional position is irreplaceable.
 
 During the EU Council Presidency (July–December 2026), Ireland chairs defence budget discussions. The coordination architecture framework gives Ireland an intellectually credible position from which to do so.
 
