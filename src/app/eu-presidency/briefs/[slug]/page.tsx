@@ -30,7 +30,7 @@ const briefs: Record<string, {
     num: '02',
     title: 'PESCO Strategic Review',
     subtitle: 'What Ireland Should Lock In',
-    summary: 'The strategic review is rewriting PESCO\u2019s binding commitments, how compliance is assessed, and how PESCO connects to EU funding. Ireland\u2019s 7 projects \u2014 all targeting maritime, subsea, cyber, and logistics \u2014 are the institutional evidence of its contribution. The revised framework either formalises Ireland\u2019s model or penalises it.',
+    summary: 'The strategic review is rewriting PESCO\u2019s binding commitments, how compliance is assessed, and how PESCO connects to EU funding. Ireland\u2019s 6 projects \u2014 all targeting maritime, subsea, cyber, and logistics \u2014 are the institutional evidence of its contribution. The revised framework either formalises Ireland\u2019s model or penalises it.',
     pdf: '/pdfs/PESCO_Strategic_Review.pdf',
     color: 'var(--color-terracotta)',
   },
