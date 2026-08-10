@@ -71,7 +71,7 @@ export default async function PublicationPage({ params }: { params: Promise<{ sl
                 <polyline points="7 10 12 15 17 10" />
                 <line x1="12" y1="15" x2="12" y2="3" />
               </svg>
-              Download PDF
+              Read The Full Paper Here
             </a>
           </div>
         )}
@@ -109,7 +109,7 @@ export default async function PublicationPage({ params }: { params: Promise<{ sl
                 <polyline points="7 10 12 15 17 10" />
                 <line x1="12" y1="15" x2="12" y2="3" />
               </svg>
-              Download PDF
+              Read The Full Paper Here
             </a>
           )}
           <a
