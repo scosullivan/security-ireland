@@ -20,12 +20,21 @@ export const metadata: Metadata = {
     siteName: "Security Ireland",
     locale: "en_IE",
     type: "website",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Security Ireland — Independent analysis for a changing Ireland",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Security Ireland",
     description:
       "Independent analysis of security and defence policy for Ireland.",
+    images: ["/images/og-image.png"],
   },
   alternates: {
     canonical: "https://securityireland.ie",
