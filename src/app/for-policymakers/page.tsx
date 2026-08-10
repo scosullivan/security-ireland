@@ -268,11 +268,11 @@ export default function ForPolicymakers() {
           </p>
 
           <PubCard
-            title="The Procurement Apparatus"
+            title="Ireland&rsquo;s Defence Procurement Architecture"
             type="Research Paper"
-            desc="Ireland is committing billions to defence without the institutions that convert spending into capability. Designs the full apparatus: a Defence Procurement and Capability Agency, a statutory investment floor, shared state functions, and an independent assurance line."
-            href="/publications/procurement-apparatus"
-            pdfUrl="/pdfs/The_Procurement_Apparatus.pdf"
+            desc="Ireland has never written a defence acquisition strategy &mdash; execution is outsourced to France&rsquo;s procurement machinery, supplier policy is improvised contract by contract, and no major award since 2024 has faced a competing bid. Prices the arrangement at &euro;300&ndash;700 million over the programme and sets out the bounded institution that would fix it."
+            href="/publications/defence-procurement-architecture"
+            pdfUrl="/pdfs/Ireland_Defence_Procurement_Architecture.pdf"
           />
           <PubCard
             title="Building the Institutional Infrastructure"
